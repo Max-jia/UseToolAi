@@ -4,6 +4,7 @@ import { getAllTools, getToolBySlug, getToolsByCategory } from "@/lib/tools";
 import type { Metadata } from "next";
 import ReactMarkdown from "./MarkdownContent";
 import AdSlot from "@/components/AdSlot";
+import ToolIcon from "@/components/ToolIcon";
 
 export function generateStaticParams() {
   return getAllTools().map((tool) => ({ slug: tool.slug }));
@@ -61,9 +62,10 @@ export default async function ToolPage({
 
       {/* Hero */}
       <div className="bg-gradient-to-br from-[var(--color-surface)] to-[var(--color-card)] text-white rounded-2xl p-8 md:p-10 mb-8">
-        <span className="inline-block text-xs font-medium px-3 py-1 rounded-full bg-[var(--color-card)]/20 text-white mb-4">
-          {tool.category}
-        </span>
+        <div className="flex items-center gap-4 mb-4">
+          <ToolIcon url={tool.url} name={tool.name} size={56} />
+          <span className="text-xs font-medium px-3 py-1 rounded-full bg-[var(--color-card)]/20 text-white">{tool.category}</span>
+        </div>
         <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
           {tool.name} Review 2026
         </h1>

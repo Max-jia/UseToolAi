@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllCategories, getToolsByCategory, getAllTools } from "@/lib/tools";
+import ToolIcon from "@/components/ToolIcon";
 
 export function generateStaticParams() {
   const cats = getAllCategories();
@@ -66,20 +67,23 @@ export default async function CategoryPage({
           <Link
             key={tool.slug}
             href={`/tools/${tool.slug}`}
-            className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-lg transition-all group"
+            className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
           >
-            <div className="flex items-start justify-between mb-3">
-              <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)] text-[var(--color-primary)]">
-                {tool.category}
-              </span>
-              <span className="stars text-sm tracking-wider">
-                {"★".repeat(Math.floor(tool.rating))}
-                {"☆".repeat(5 - Math.floor(tool.rating))}
-              </span>
+            <div className="flex items-center gap-3 mb-3">
+              <ToolIcon url={tool.url} name={tool.name} size={36} />
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between mb-1">
+                  <h3 className="font-bold text-sm truncate group-hover:text-[var(--color-primary)] transition-colors">
+                    {tool.name}
+                  </h3>
+                  <span className="stars text-xs tracking-wider flex-shrink-0 ml-2">
+                    {"★".repeat(Math.floor(tool.rating))}
+                    {"☆".repeat(5 - Math.floor(tool.rating))}
+                  </span>
+                </div>
+                <span className="text-xs text-[var(--color-text-dim)]">{tool.category}</span>
+              </div>
             </div>
-            <h3 className="font-bold text-lg mb-1 group-hover:text-[var(--color-primary)] transition-colors">
-              {tool.name}
-            </h3>
             <p className="text-sm text-[var(--color-text-muted)] line-clamp-2 mb-3">
               {tool.description}
             </p>

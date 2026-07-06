@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllCategories, getToolsByCategory } from "@/lib/tools";
+import ToolIcon from "@/components/ToolIcon";
 
 const categoryIcons: Record<string, string> = {
   "Writing & Text": "✍️",

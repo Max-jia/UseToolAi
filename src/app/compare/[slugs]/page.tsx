@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllTools, getToolBySlug } from "@/lib/tools";
 import type { Metadata } from "next";
+import ToolIcon from "@/components/ToolIcon";
 
 // Generate ALL 1,485 pairs at build time
 export function generateStaticParams() {
