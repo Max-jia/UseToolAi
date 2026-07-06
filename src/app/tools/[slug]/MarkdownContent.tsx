@@ -69,6 +69,51 @@ export default function MarkdownContent({ content }: { content: string }) {
       continue;
     }
 
+    // Markdown table: starts with | and second line is separator like |---|---|
+    if (line.startsWith("|") && i + 2 < lines.length && lines[i + 1]?.match(/^\|[\s\-:|]+\|$/)) {
+      const headerLine = line;
+      const bodyLines: string[] = [];
+      i += 2; // skip separator
+      while (i < lines.length && lines[i].startsWith("|")) {
+        bodyLines.push(lines[i]);
+        i++;
+      }
+      const parseRow = (row: string) =>
+        row
+          .split("|")
+          .slice(1, -1)
+          .map((c) => c.trim());
+      const headers = parseRow(headerLine);
+
+      elements.push(
+        <div key={i} className="overflow-x-auto my-4 rounded-xl border border-[var(--color-border)]">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-[var(--color-border)] bg-[var(--color-surface)]">
+                {headers.map((h, j) => (
+                  <th key={j} className="text-left p-3 font-semibold text-[var(--color-text)]">
+                    {renderInline(h)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {bodyLines.map((row, ri) => (
+                <tr key={ri} className="border-b border-[var(--color-border)] last:border-0">
+                  {parseRow(row).map((cell, ci) => (
+                    <td key={ci} className="p-3 text-[var(--color-text-muted)]">
+                      {renderInline(cell)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      continue;
+    }
+
     // Regular paragraph
     elements.push(
       <p key={i} className="text-[var(--color-text-muted)] leading-relaxed mb-3 text-sm">
