@@ -3,9 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllTools, getToolBySlug, getToolsByCategory } from "@/lib/tools";
 import type { Metadata } from "next";
 import ReactMarkdown from "./MarkdownContent";
-import dynamic from "next/dynamic";
-
-const AdSlot = dynamic(() => import("@/components/AdSlot"), { ssr: false });
+import AdSlot from "@/components/AdSlot";
 
 export function generateStaticParams() {
   return getAllTools().map((tool) => ({ slug: tool.slug }));
