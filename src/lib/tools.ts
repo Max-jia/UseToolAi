@@ -2,6 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+export interface Alternative {
+  name: string;
+  slug: string;
+}
+
 export interface Tool {
   slug: string;
   name: string;
@@ -11,6 +16,14 @@ export interface Tool {
   url: string;
   rating: number;
   tags: string[];
+  features?: string[];
+  pros?: string[];
+  cons?: string[];
+  bestFor?: string;
+  coreStrength?: string;
+  pricingDetails?: string;
+  alternatives?: Alternative[];
+  content?: string;
 }
 
 const toolsDirectory = path.join(process.cwd(), 'content/tools');
@@ -23,18 +36,19 @@ export function getAllTools(): Tool[] {
       const slug = filename.replace(/\.md$/, '');
       const fullPath = path.join(toolsDirectory, filename);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const { data } = matter(fileContents);
-      return { slug, ...data } as Tool;
+      const { data, content } = matter(fileContents);
+      const excerpt = content.trim().slice(0, 400);
+      return { slug, ...data, content: excerpt } as Tool;
     });
   return tools.sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export function getToolBySlug(slug: string): Tool | null {
+export function getToolBySlug(slug: string): (Tool & { content: string }) | null {
   try {
     const fullPath = path.join(toolsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data } = matter(fileContents);
-    return { slug, ...data } as Tool;
+    const { data, content } = matter(fileContents);
+    return { slug, ...data, content: content.trim() } as Tool & { content: string };
   } catch {
     return null;
   }

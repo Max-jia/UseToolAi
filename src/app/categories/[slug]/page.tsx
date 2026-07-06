@@ -66,10 +66,10 @@ export default async function CategoryPage({
           <Link
             key={tool.slug}
             href={`/tools/${tool.slug}`}
-            className="bg-white rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-lg transition-all group"
+            className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-lg transition-all group"
           >
             <div className="flex items-start justify-between mb-3">
-              <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-600">
+              <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)] text-[var(--color-primary)]">
                 {tool.category}
               </span>
               <span className="stars text-sm tracking-wider">

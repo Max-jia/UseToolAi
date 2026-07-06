@@ -36,7 +36,7 @@ export default function CategoriesPage() {
             <Link
               key={cat}
               href={`/categories/${slug}`}
-              className="bg-white rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group flex items-start gap-5"
+              className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group flex items-start gap-5"
             >
               <div className="text-4xl flex-shrink-0 mt-1">{categoryIcons[cat] || "🔧"}</div>
               <div>
@@ -48,7 +48,7 @@ export default function CategoriesPage() {
                 </p>
                 <div className="flex flex-wrap gap-1">
                   {tools.slice(0, 3).map((t) => (
-                    <span key={t.slug} className="text-xs bg-gray-50 px-2 py-0.5 rounded text-[var(--color-text-muted)]">
+                    <span key={t.slug} className="text-xs bg-[var(--color-surface)] px-2 py-0.5 rounded text-[var(--color-text-muted)]">
                       {t.name}
                     </span>
                   ))}

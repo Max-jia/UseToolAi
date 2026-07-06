@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllTools, getAllCategories, getToolsByCategory } from "@/lib/tools";
+import SearchFilter from "@/components/SearchFilter";
 
 export default function HomePage() {
   const tools = getAllTools();
@@ -20,38 +21,48 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero section */}
-      <section className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 text-white">
-        <div className="max-w-5xl mx-auto px-4 py-20 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-            Find the Best AI Tools<br />
-            <span className="text-yellow-300">for Every Task</span>
-          </h1>
-          <p className="text-lg md:text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
-            Hand-picked directory of {tools.length}+ AI tools. Compare features,
-            pricing, and ratings to find the perfect tool for your workflow.
+      {/* Hero — editorial, not gradient */}
+      <section className="border-b border-[var(--color-border)]">
+        <div className="max-w-4xl mx-auto px-6 py-24 md:py-32">
+          <p className="text-xs font-medium tracking-widest uppercase text-[var(--color-text-dim)] mb-6">
+            Hand-picked AI tools directory
           </p>
-          <div className="flex justify-center gap-4 flex-wrap">
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
+            Find the <span className="text-gradient">right AI tools</span>
+            <br />
+            <span className="text-[var(--color-text-dim)]">without the hype.</span>
+          </h1>
+          <p className="text-lg text-[var(--color-text-muted)] max-w-2xl leading-relaxed">
+            {tools.length}+ tools across {categories.length} categories. Real reviews, verified pricing,
+            honest pros and cons — not another generic SaaS directory.
+          </p>
+          <div className="flex gap-3 mt-8">
             <Link
-              href="/categories"
-              className="bg-white text-indigo-600 font-semibold px-8 py-3 rounded-full hover:bg-indigo-50 transition shadow-lg"
+              href="#search"
+              className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-black font-semibold px-6 py-3 rounded-lg hover:bg-amber-300 transition-colors text-sm"
             >
-              Browse Categories
+              Browse tools
+              <span className="text-xs opacity-60">↓</span>
             </Link>
-            <a
-              href="#featured"
-              className="border-2 border-white/40 text-white font-semibold px-8 py-3 rounded-full hover:bg-white/10 transition"
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 border border-[var(--color-border)] text-[var(--color-text)] font-medium px-6 py-3 rounded-lg hover:border-[var(--color-text-dim)] transition-colors text-sm"
             >
-              Top Rated Tools ↓
-            </a>
+              Read comparisons
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Category Grid */}
-      <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-2xl font-bold mb-8 text-center">Browse by Category</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {/* Category row */}
+      <section className="max-w-7xl mx-auto px-6 py-12">
+        <div className="flex items-center gap-3 mb-6">
+          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)]">
+            Browse by category
+          </h2>
+          <div className="flex-1 h-px bg-[var(--color-border)]" />
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {categories.map((cat) => {
             const catTools = getToolsByCategory(cat);
             const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
@@ -59,73 +70,29 @@ export default function HomePage() {
               <Link
                 key={cat}
                 href={`/categories/${slug}`}
-                className="bg-white rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group"
+                className="group bg-[var(--color-card)] rounded-xl p-5 border border-[var(--color-border)] hover:border-amber-500/30 hover:bg-[var(--color-card-hover)] transition-all"
               >
-                <div className="text-3xl mb-3">{categoryIcons[cat] || "🔧"}</div>
-                <h3 className="font-semibold group-hover:text-[var(--color-primary)] transition-colors">
+                <div className="text-2xl mb-3">{categoryIcons[cat] || "🔧"}</div>
+                <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--color-primary)] transition-colors">
                   {cat}
                 </h3>
-                <p className="text-sm text-[var(--color-text-muted)] mt-1">
-                  {catTools.length} tools
-                </p>
+                <p className="text-xs text-[var(--color-text-dim)]">{catTools.length} tools</p>
               </Link>
             );
           })}
         </div>
       </section>
 
-      {/* Top Rated */}
-      <section id="featured" className="max-w-6xl mx-auto px-4 py-8 pb-16">
-        <h2 className="text-2xl font-bold mb-8 text-center">⭐ Top Rated AI Tools</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {topTools.map((tool) => (
-            <Link
-              key={tool.slug}
-              href={`/tools/${tool.slug}`}
-              className="bg-white rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-lg transition-all group"
-            >
-              <div className="flex items-start justify-between mb-3">
-                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-600">
-                  {tool.category}
-                </span>
-                <span className="stars text-sm tracking-wider">
-                  {"★".repeat(Math.floor(tool.rating))}
-                  {"☆".repeat(5 - Math.floor(tool.rating))}
-                </span>
-              </div>
-              <h3 className="font-bold text-lg mb-1 group-hover:text-[var(--color-primary)] transition-colors">
-                {tool.name}
-              </h3>
-              <p className="text-sm text-[var(--color-text-muted)] line-clamp-2 mb-3">
-                {tool.description}
-              </p>
-              <div className="flex items-center justify-between text-xs font-medium">
-                <span className="text-[var(--color-text-muted)]">
-                  {tool.pricing.split(" / ")[0]}
-                </span>
-                <span className="text-[var(--color-primary)] group-hover:translate-x-1 transition-transform">
-                  View details →
-                </span>
-              </div>
-            </Link>
-          ))}
+      {/* Search section */}
+      <section id="search" className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="flex items-center gap-3 mb-6">
+          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)]">
+            All tools
+          </h2>
+          <div className="flex-1 h-px bg-[var(--color-border)]" />
+          <span className="text-xs text-[var(--color-text-dim)]">{tools.length} listed</span>
         </div>
-      </section>
-
-      {/* CTA */}
-      <section className="max-w-4xl mx-auto px-4 pb-20 text-center">
-        <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-3xl p-12 border border-indigo-100">
-          <h2 className="text-2xl font-bold mb-3">Can&apos;t find what you need?</h2>
-          <p className="text-[var(--color-text-muted)] mb-6">
-            Browse all {tools.length} tools across {categories.length} categories
-          </p>
-          <Link
-            href="/categories"
-            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white font-semibold px-8 py-3 rounded-full hover:bg-[var(--color-primary-dark)] transition shadow-lg"
-          >
-            Explore All Categories →
-          </Link>
-        </div>
+        <SearchFilter tools={tools} categories={categories} />
       </section>
     </div>
   );
