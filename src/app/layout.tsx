@@ -28,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{
           __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}');`
         }} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]">
         {/* Top accent bar */}
@@ -69,7 +70,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-7xl mx-auto px-6 text-center text-sm text-[var(--color-text-dim)]">
             <p className="text-[var(--color-text-muted)] font-medium mb-1">UseToolAI</p>
             <p>&copy; 2026 — Helping you find the right AI tools.</p>
-            <p className="mt-1">We may earn affiliate commissions from some links.</p>
+            <p className="mt-1">
+              <Link href="/privacy" className="hover:text-[var(--color-text-muted)] transition-colors">Privacy Policy</Link>
+              {" · "}We may earn affiliate commissions from some links.
+            </p>
           </div>
         </footer>
       </body>
