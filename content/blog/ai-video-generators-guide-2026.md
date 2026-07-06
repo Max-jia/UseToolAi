@@ -9,6 +9,26 @@ featured: false
 
 The question "which AI video generator is best?" is the wrong question. These 8 tools are built for fundamentally different people doing fundamentally different things. Choosing the right one is about matching the tool to your workflow — not finding the highest Elo score.
 
+---
+
+## A Note on Data Quality
+
+Before the recommendations: our 103-agent deep research workflow attempted to verify 17 claims about AI video generators — benchmark scores, pricing comparisons, market size estimates, feature checklists. **All 17 were refuted in unanimous 0-3 votes.**
+
+The sources that failed verification tell the story:
+
+| Source | Claim | Why It Failed |
+|--------|-------|---------------|
+| dev.to blog post | "Kling costs $9.92/mo, $0.12 per video" | Personal blog, not official pricing — contradicted by Kling's own pricing page |
+| dev.to blog post | "Pika is the only tool with lip sync" | Objectively false — HeyGen also has lip sync |
+| dev.to blog post | "No AI video tool outputs 4K" | Contradicted by Kling and Runway official specs |
+| memeburn.com | "Market size $788M, CAGR 20.3%" | No methodology disclosed — numbers appear fabricated |
+| ulazai.com | "Runway uniquely supports image-to-video" | AI-generated content farm — claim is factually wrong |
+
+**This guide is therefore based on two things that ARE reliable: each tool's official website (documented features, published pricing) and our own earlier verification work when building the 55-tool directory. We don't cite third-party benchmarks because, for AI video, they don't survive scrutiny.**
+
+---
+
 Here's how to think about each one.
 
 ---
@@ -98,4 +118,4 @@ Cost leader — Mini variant at 0.16 RMB/second makes high-volume production eco
 
 ---
 
-*Methodology: This guide is based on each tool's official website, documented features, and verified pricing as of mid-2026. Unlike our other research articles, this is a qualitative guide — we are not citing benchmark scores because, as our deep research confirmed, publicly available benchmark data for AI video tools is almost entirely unreliable.*
+*Methodology: This guide is based on each tool's official website (features, pricing) and our earlier tool directory verification process. It also incorporates the finding from our 103-agent deep research that 17/17 third-party claims about AI video tools failed adversarial verification — meaning no publicly available benchmark data for this category can be trusted. When benchmarks don't survive scrutiny, the most honest guide is one based on documented product facts and clear use-case matching.*
