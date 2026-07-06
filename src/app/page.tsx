@@ -39,7 +39,7 @@ export default function HomePage() {
           <div className="flex gap-3 mt-8">
             <Link
               href="#search"
-              className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-black font-semibold px-6 py-3 rounded-lg hover:bg-amber-300 transition-colors text-sm"
+              className="inline-flex items-center gap-2 bg-indigo-500 text-white font-semibold hover:bg-indigo-400 px-6 py-3 rounded-lg hover:bg-amber-300 transition-colors text-sm"
             >
               Browse tools
               <span className="text-xs opacity-60">↓</span>

@@ -32,12 +32,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]">
         {/* Top accent bar */}
-        <div className="h-[2px] bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500" />
+        <div className="h-[2px] bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-500" />
 
         <header className="bg-[var(--color-surface)]/80 backdrop-blur-xl border-b border-[var(--color-border)] sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <Link href="/" className="font-bold text-lg tracking-tight flex items-center gap-2">
-              <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-sm font-extrabold text-black">U</span>
+              <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-400 to-cyan-400 flex items-center justify-center text-sm font-extrabold text-black">U</span>
               <span className="text-[var(--color-text)]">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
             </Link>
             <nav className="hidden md:flex gap-0.5 text-sm">

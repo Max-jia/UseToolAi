@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Tool } from "@/lib/tools";
+import ToolIcon from "./ToolIcon";
 
 interface Props {
   tools: Tool[];
@@ -174,20 +175,23 @@ export default function SearchFilter({ tools, categories }: Props) {
             <Link
               key={tool.slug}
               href={`/tools/${tool.slug}`}
-              className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-lg transition-all group"
+              className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 hover:shadow-lg transition-all group"
             >
-              <div className="flex items-start justify-between mb-2">
-                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)]">
-                  {tool.category}
-                </span>
-                <span className="stars text-xs tracking-wider">
-                  {"★".repeat(Math.floor(tool.rating))}
-                  {"☆".repeat(5 - Math.floor(tool.rating))}
-                </span>
+              <div className="flex items-center gap-3 mb-3">
+                <ToolIcon url={tool.url} name={tool.name} size={36} />
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center justify-between mb-1">
+                    <h3 className="font-bold text-sm truncate group-hover:text-[var(--color-primary)] transition-colors">
+                      {tool.name}
+                    </h3>
+                    <span className="stars text-xs tracking-wider flex-shrink-0 ml-2">
+                      {"★".repeat(Math.floor(tool.rating))}
+                      {"☆".repeat(5 - Math.floor(tool.rating))}
+                    </span>
+                  </div>
+                  <span className="text-xs text-[var(--color-text-dim)]">{tool.category}</span>
+                </div>
               </div>
-              <h3 className="font-bold mb-1 group-hover:text-[var(--color-primary)] transition-colors">
-                {tool.name}
-              </h3>
               <p className="text-xs text-[var(--color-text-muted)] line-clamp-2 mb-2">
                 {tool.description}
               </p>
