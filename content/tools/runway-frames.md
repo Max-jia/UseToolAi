@@ -3,7 +3,7 @@ name: "Runway Frames"
 description: "Specialized Image & Design solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Image & Design"
 pricing: "Included with Runway (/mo+)"
-url: "https://runway-frames.com"
+url: "https://runwayml.com/frames"
 rating: 5
 tags: ["ai", "tool", "2026"]
 features:

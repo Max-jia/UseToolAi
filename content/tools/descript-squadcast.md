@@ -3,7 +3,7 @@ name: "SquadCast by Descript"
 description: "Specialized Audio & Voice solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Audio & Voice"
 pricing: "Included with Descript (/mo)"
-url: "https://descript-squadcast.com"
+url: "https://descript.com/squadcast"
 rating: 4
 tags: ["ai", "tool", "2026"]
 features:

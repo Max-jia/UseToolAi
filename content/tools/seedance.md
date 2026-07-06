@@ -3,7 +3,7 @@ name: "Seedance (即梦)"
 description: "ByteDance's AI video generator — #1 on VideoBench & VBench. Native audio, lip-sync, multi-shot storytelling. Mini variant at 0.16 RMB/sec makes it the cost leader in AI video."
 category: "Video & Animation"
 pricing: "Free daily credits / ~0.16-0.80 RMB/sec (Jimeng) / API from 0.023 RMB/1K tokens"
-url: "https://jimeng.ai"
+url: "https://jimeng.jianying.com"
 rating: 4
 tags: ["video-generation", "chinese-ai", "bytedance", "cost-leader", "audio"]
 features:

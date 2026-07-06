@@ -3,7 +3,7 @@ name: "Gemini for Workspace"
 description: "AI-powered Productivity solution with modern features and intuitive design. Helps professionals work smarter and faster."
 category: "Productivity"
 pricing: "/mo Gemini Business / /mo Enterprise"
-url: "https://gemini-gmail.com"
+url: "https://workspace.google.com/solutions/ai/"
 rating: 4
 tags: ["ai", "tool", "2026"]
 features:

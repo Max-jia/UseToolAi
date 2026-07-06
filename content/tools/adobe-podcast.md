@@ -3,7 +3,7 @@ name: "Adobe Podcast AI"
 description: "Specialized Audio & Voice solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Audio & Voice"
 pricing: "Free"
-url: "https://adobe-podcast.com"
+url: "https://podcast.adobe.com"
 rating: 4
 tags: ["ai", "tool", "2026"]
 features:

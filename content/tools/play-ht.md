@@ -3,7 +3,7 @@ name: "PlayHT"
 description: "AI text-to-speech with 900+ voices across 142 languages and low-latency API (<300ms). Best for long-form content, audiobooks, and real-time voice agents."
 category: "Audio & Voice"
 pricing: "Free / $31/mo Creator / $79/mo Pro / $199/mo Unlimited"
-url: "https://play.ht"
+url: "https://play.ai"
 rating: 4
 tags: ["text-to-speech", "voice", "audio", "agents", "api"]
 features: ["900+ voices in 142 languages with natural prosody", "Low-latency API (<300ms) for real-time voice agents", "Voice cloning from short audio samples", "Expressive emotional range and conversational pacing", "API-first design with developer SDKs"]
