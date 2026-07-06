@@ -64,7 +64,7 @@ export default async function ComparePage({
       a: "★".repeat(Math.floor(toolA.rating)) + "☆".repeat(5 - Math.floor(toolA.rating)),
       b: "★".repeat(Math.floor(toolB.rating)) + "☆".repeat(5 - Math.floor(toolB.rating)),
     },
-    { label: "Best For", a: toolA.bestFor || "—", b: toolB.bestFor || "—" },
+    { label: "Best For", a: (toolA.bestFor || "—").slice(0, 120) + ((toolA.bestFor?.length ?? 0) > 120 ? "..." : ""), b: (toolB.bestFor || "—").slice(0, 120) + ((toolB.bestFor?.length ?? 0) > 120 ? "..." : "") },
   ];
 
   // Shared tags
