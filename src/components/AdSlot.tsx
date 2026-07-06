@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 // Replace this with your actual AdSense publisher ID after approval
-const ADSENSE_CLIENT = "ca-pub-0000000000000000";
+const ADSENSE_CLIENT = "ca-pub-7649257223930816";
 
 interface Props {
   slot: string;
