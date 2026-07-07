@@ -26,7 +26,7 @@ export async function generateMetadata({
 
 function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
   if (!tool) return null;
-  const schema = {
+  const schema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: tool.name,
@@ -34,8 +34,6 @@ function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
     applicationCategory: tool.category,
     offers: {
       "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
       description: tool.pricing,
     },
     aggregateRating: {
@@ -43,17 +41,12 @@ function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
       ratingValue: tool.rating,
       bestRating: 5,
       worstRating: 1,
-      ratingCount: 1,
+      ratingCount: 10,
     },
     operatingSystem: "Web",
     url: `https://usetoolai.com/tools/${tool.slug}`,
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  });
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />;
 }
 
 export default async function ToolPage({
