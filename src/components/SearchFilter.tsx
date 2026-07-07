@@ -162,7 +162,7 @@ export default function SearchFilter({ tools, categories }: Props) {
         </span>
       </div>
 
-      {/* Results grid */}
+      {/* Results */}
       {filtered.length === 0 ? (
         <div className="text-center py-16 text-[var(--color-text-muted)]">
           <p className="text-5xl mb-4">🔍</p>
@@ -170,44 +170,121 @@ export default function SearchFilter({ tools, categories }: Props) {
           <p className="text-sm">Try adjusting your search or removing some filters</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((tool) => (
-            <Link
-              key={tool.slug}
-              href={`/tools/${tool.slug}`}
-              className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 hover:shadow-lg transition-all group"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <ToolIcon url={tool.url} name={tool.name} size={36} />
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center justify-between mb-1">
-                    <h3 className="font-bold text-sm truncate group-hover:text-[var(--color-primary)] transition-colors">
-                      {tool.name}
-                    </h3>
-                    <span className="stars text-xs tracking-wider flex-shrink-0 ml-2">
-                      {"★".repeat(Math.floor(tool.rating))}
-                      {"☆".repeat(5 - Math.floor(tool.rating))}
-                    </span>
-                  </div>
-                  <span className="text-xs text-[var(--color-text-dim)]">{tool.category}</span>
+        <>
+          {!search && category === "All" && pricing === "All" && rating === 0 && sort === "name" ? (
+            <>
+              {/* Featured row — larger, 2-column, with descriptions */}
+              <div className="mb-3">
+                <p className="text-xs font-semibold tracking-widest uppercase text-[var(--color-text-dim)] mb-3">
+                  ⭐ Featured & Top Rated
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {filtered.filter(t => t.rating >= 4.5).slice(0, 6).map((tool) => (
+                    <Link
+                      key={tool.slug}
+                      href={`/tools/${tool.slug}`}
+                      className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-indigo-500/20 hover:bg-[var(--color-card-hover)] transition-all group"
+                    >
+                      <div className="flex items-start gap-4">
+                        <ToolIcon url={tool.url} name={tool.name} size={48} />
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between mb-1">
+                            <h3 className="font-bold text-base group-hover:text-[var(--color-primary)] transition-colors">
+                              {tool.name}
+                            </h3>
+                            <span className="stars text-xs tracking-wider flex-shrink-0 ml-2">
+                              {"★".repeat(Math.floor(tool.rating))}
+                              {"☆".repeat(5 - Math.floor(tool.rating))}
+                            </span>
+                          </div>
+                          <span className="text-xs text-[var(--color-text-dim)]">{tool.category}</span>
+                          <p className="text-xs text-[var(--color-text-muted)] mt-2 line-clamp-2 leading-relaxed">
+                            {tool.description}
+                          </p>
+                          <div className="flex items-center gap-2 mt-3">
+                            <span className="text-xs text-[var(--color-text-dim)]">{tool.pricing.split(" / ")[0]}</span>
+                            {tool.pricing.toLowerCase().startsWith("free") && (
+                              <span className="text-xs text-green-500 font-medium bg-green-500/10 px-2 py-0.5 rounded-full">Free</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
               </div>
-              <p className="text-xs text-[var(--color-text-muted)] line-clamp-2 mb-2">
-                {tool.description}
+
+              {/* All tools — denser 3-col grid */}
+              <p className="text-xs font-semibold tracking-widest uppercase text-[var(--color-text-dim)] mb-3 mt-8">
+                All {filtered.length} tools
               </p>
-              <div className="flex items-center gap-2 text-xs">
-                <span className="text-[var(--color-text-muted)]">
-                  {tool.pricing.split(" / ")[0]}
-                </span>
-                {tool.pricing.toLowerCase().startsWith("free") && (
-                  <span className="text-green-600 font-medium bg-green-50 px-2 py-0.5 rounded-full">
-                    Free
-                  </span>
-                )}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {filtered.map((tool) => (
+                  <Link
+                    key={tool.slug}
+                    href={`/tools/${tool.slug}`}
+                    className="bg-[var(--color-card)] rounded-xl p-4 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <ToolIcon url={tool.url} name={tool.name} size={28} />
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-semibold text-xs truncate group-hover:text-[var(--color-primary)] transition-colors">
+                          {tool.name}
+                        </h3>
+                        <div className="flex items-center gap-2 mt-0.5">
+                          <span className="stars text-[10px] tracking-wider">
+                            {"★".repeat(Math.floor(tool.rating))}
+                            {"☆".repeat(5 - Math.floor(tool.rating))}
+                          </span>
+                          <span className="text-[10px] text-[var(--color-text-dim)]">{tool.category.split(" & ")[0]}</span>
+                          {tool.pricing.toLowerCase().startsWith("free") && (
+                            <span className="text-[10px] text-green-500 font-medium">Free</span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
               </div>
-            </Link>
-          ))}
-        </div>
+            </>
+          ) : (
+            /* Filtered/search results — uniform grid */
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {filtered.map((tool) => (
+                <Link
+                  key={tool.slug}
+                  href={`/tools/${tool.slug}`}
+                  className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <ToolIcon url={tool.url} name={tool.name} size={36} />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between mb-1">
+                        <h3 className="font-bold text-sm truncate group-hover:text-[var(--color-primary)] transition-colors">
+                          {tool.name}
+                        </h3>
+                        <span className="stars text-xs tracking-wider flex-shrink-0 ml-2">
+                          {"★".repeat(Math.floor(tool.rating))}
+                          {"☆".repeat(5 - Math.floor(tool.rating))}
+                        </span>
+                      </div>
+                      <span className="text-xs text-[var(--color-text-dim)]">{tool.category}</span>
+                    </div>
+                  </div>
+                  <p className="text-xs text-[var(--color-text-muted)] line-clamp-2 mb-2">
+                    {tool.description}
+                  </p>
+                  <div className="flex items-center gap-2 text-xs">
+                    <span className="text-[var(--color-text-muted)]">{tool.pricing.split(" / ")[0]}</span>
+                    {tool.pricing.toLowerCase().startsWith("free") && (
+                      <span className="text-xs text-green-500 font-medium bg-green-500/10 px-2 py-0.5 rounded-full">Free</span>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
+        </>
       )}
     </div>
   );
