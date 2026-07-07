@@ -31,38 +31,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649257223930816" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]">
-        {/* Header — logo + horizontal scrollable category menu like indiemakers.tools */}
+        {/* Header — single row: logo | categories | compare + blog */}
         <header className="bg-white border-b border-[var(--color-border)] sticky top-0 z-50">
-          <div className="max-w-6xl mx-auto">
-            {/* Top row: logo */}
-            <div className="px-6 h-14 flex items-center">
-              <Link href="/" className="flex items-center gap-2.5 mr-8 flex-shrink-0">
-                <img src="/logo-small.png" alt="UseToolAI" width={28} height={28} className="rounded-lg" />
-                <span className="font-bold text-lg tracking-tight">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
-              </Link>
-              <Link href="/blog" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
-                Blog
-              </Link>
-              <Link href="/compare/chatgpt-vs-claude" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
-                Compare
-              </Link>
-            </div>
-            {/* Bottom row: scrollable category menu — like indiemakers.tools */}
-            <div className="px-6 pb-2 overflow-x-auto scrollbar-none">
-              <div className="flex gap-1 text-sm whitespace-nowrap min-w-max">
+          <div className="max-w-6xl mx-auto px-6 h-14 flex items-center gap-5">
+            <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+              <img src="/logo-small.png" alt="UseToolAI" width={26} height={26} className="rounded-md" />
+              <span className="font-bold text-base tracking-tight hidden sm:inline">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
+            </Link>
+            <div className="flex-1 overflow-x-auto scrollbar-none">
+              <div className="flex gap-1 text-sm whitespace-nowrap">
                 {categories.map((cat) => {
                   const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
                   return (
-                    <Link
-                      key={cat}
-                      href={`/categories/${slug}`}
-                      className="px-3 py-1.5 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-surface)] transition-colors"
-                    >
+                    <Link key={cat} href={`/categories/${slug}`} className="px-2.5 py-1 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-surface)] transition-colors">
                       {cat}
                     </Link>
                   );
                 })}
               </div>
+            </div>
+            <div className="flex items-center gap-4 flex-shrink-0 text-sm">
+              <Link href="/compare" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Compare</Link>
+              <Link href="/blog" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Blog</Link>
             </div>
           </div>
         </header>
