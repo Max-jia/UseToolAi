@@ -87,10 +87,10 @@ export default async function ToolPage({
       </nav>
 
       {/* Hero */}
-      <div className="bg-gradient-to-br from-[var(--color-surface)] to-[var(--color-card)] text-white rounded-2xl p-8 md:p-10 mb-8">
+      <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-8 md:p-10 mb-8 border border-indigo-100">
         <div className="flex items-center gap-4 mb-4">
           <ToolIcon url={tool.url} name={tool.name} size={56} />
-          <span className="text-xs font-medium px-3 py-1 rounded-full bg-[var(--color-card)]/20 text-white">{tool.category}</span>
+          <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-100 text-indigo-700">{tool.category}</span>
         </div>
         <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
           {tool.name} Review 2026

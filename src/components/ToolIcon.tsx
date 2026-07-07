@@ -6,10 +6,11 @@ function getFaviconUrls(url: string): string[] {
   try {
     const u = new URL(url);
     const domain = u.hostname;
+    // Request larger sizes for sharper rendering
     return [
+      `https://www.google.com/s2/favicons?domain=${domain}&sz=128`,
+      `https://icon.horse/icon/${domain}`,
       `https://icons.duckduckgo.com/ip3/${domain}.ico`,
-      `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
-      `${u.origin}/favicon.ico`,
     ];
   } catch {
     return [];
