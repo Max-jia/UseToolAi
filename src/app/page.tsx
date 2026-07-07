@@ -56,8 +56,8 @@ export default function HomePage() {
 
       {/* Category row */}
       <section className="max-w-7xl mx-auto px-6 py-12">
-        <div className="flex items-center gap-3 mb-6">
-          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)]">
+        <div className="flex items-center gap-4 mb-8">
+          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)] whitespace-nowrap">
             Browse by category
           </h2>
           <div className="flex-1 h-px bg-[var(--color-border)]" />
@@ -85,12 +85,12 @@ export default function HomePage() {
 
       {/* Search section */}
       <section id="search" className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="flex items-center gap-3 mb-6">
-          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)]">
+        <div className="flex items-center gap-4 mb-8">
+          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)] whitespace-nowrap">
             All tools
           </h2>
           <div className="flex-1 h-px bg-[var(--color-border)]" />
-          <span className="text-xs text-[var(--color-text-dim)]">{tools.length} listed</span>
+          <span className="text-xs text-[var(--color-text-dim)] whitespace-nowrap">{tools.length} listed</span>
         </div>
         <SearchFilter tools={tools} categories={categories} />
       </section>

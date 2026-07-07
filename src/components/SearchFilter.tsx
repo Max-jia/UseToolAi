@@ -176,7 +176,7 @@ export default function SearchFilter({ tools, categories }: Props) {
               {/* Featured row — larger, 2-column, with descriptions */}
               <div className="mb-3">
                 <p className="text-xs font-semibold tracking-widest uppercase text-[var(--color-text-dim)] mb-3">
-                  ⭐ Featured & Top Rated
+                  Featured
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {filtered.filter(t => t.rating >= 4.5).slice(0, 6).map((tool) => (
