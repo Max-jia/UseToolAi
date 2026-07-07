@@ -68,7 +68,7 @@ export default function SearchFilter({ tools, categories }: Props) {
   return (
     <div>
       {/* Search & Filter Bar */}
-      <div className="bg-[var(--color-card)] rounded-2xl p-4 md:p-6 border border-[var(--color-border)] shadow-sm mb-6">
+      <div className="bg-white rounded-2xl p-4 md:p-6 border border-[var(--color-border)] shadow-sm mb-6">
         {/* Search input */}
         <div className="relative mb-4">
           <input
@@ -95,7 +95,7 @@ export default function SearchFilter({ tools, categories }: Props) {
           <select
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
+            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-white text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
           >
             <option value="All">📂 All Categories</option>
             {categories.map((cat) => (
@@ -107,7 +107,7 @@ export default function SearchFilter({ tools, categories }: Props) {
           <select
             value={pricing}
             onChange={(e) => setPricing(e.target.value)}
-            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
+            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-white text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
           >
             <option value="All">💰 All Pricing</option>
             <option value="Free">🆓 Free / Freemium</option>
@@ -118,7 +118,7 @@ export default function SearchFilter({ tools, categories }: Props) {
           <select
             value={rating}
             onChange={(e) => setRating(Number(e.target.value))}
-            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
+            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-white text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
           >
             <option value="0">⭐ All Ratings</option>
             <option value="4">★★★★+ (4.0+)</option>
@@ -129,7 +129,7 @@ export default function SearchFilter({ tools, categories }: Props) {
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value)}
-            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
+            className="px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-white text-[var(--color-text)] focus:outline-none focus:border-[var(--color-primary)] cursor-pointer"
           >
             <option value="name">🔤 Sort: A-Z</option>
             <option value="rating">⭐ Sort: Rating</option>
@@ -183,7 +183,7 @@ export default function SearchFilter({ tools, categories }: Props) {
                     <Link
                       key={tool.slug}
                       href={`/tools/${tool.slug}`}
-                      className="bg-[var(--color-card)] rounded-xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)]/30 transition-colors group"
+                      className="bg-white rounded-xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)]/30 transition-colors group"
                     >
                       <div className="flex items-start gap-4">
                         <ToolIcon url={tool.url} name={tool.name} size={48} />
@@ -223,7 +223,7 @@ export default function SearchFilter({ tools, categories }: Props) {
                   <Link
                     key={tool.slug}
                     href={`/tools/${tool.slug}`}
-                    className="bg-[var(--color-card)] rounded-xl p-4 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
+                    className="bg-white rounded-xl p-4 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
                   >
                     <div className="flex items-center gap-2.5">
                       <ToolIcon url={tool.url} name={tool.name} size={28} />
@@ -254,7 +254,7 @@ export default function SearchFilter({ tools, categories }: Props) {
                 <Link
                   key={tool.slug}
                   href={`/tools/${tool.slug}`}
-                  className="bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
+                  className="bg-white rounded-2xl p-5 border border-[var(--color-border)] hover:border-indigo-500/20 transition-all group"
                 >
                   <div className="flex items-center gap-3 mb-3">
                     <ToolIcon url={tool.url} name={tool.name} size={36} />

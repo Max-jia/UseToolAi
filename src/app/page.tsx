@@ -1,92 +1,81 @@
 import Link from "next/link";
 import { getAllTools, getAllCategories, getToolsByCategory } from "@/lib/tools";
 import SearchFilter from "@/components/SearchFilter";
+import ToolIcon from "@/components/ToolIcon";
 
 export default function HomePage() {
   const tools = getAllTools();
   const categories = getAllCategories();
-
-  const categoryIcons: Record<string, string> = {
-    "Writing & Text": "✍️",
-    "Image & Design": "🎨",
-    "Video & Animation": "🎬",
-    "Productivity": "⚡",
-    "Code & Development": "💻",
-    "Audio & Voice": "🎵",
-    "Marketing & SEO": "📈",
-    "Data & Analysis": "📊",
-  };
-
-  const topTools = tools.filter((t) => t.rating >= 4.5).slice(0, 6);
+  const topTools = tools.filter((t) => t.rating >= 4.5).slice(0, 9);
 
   return (
     <div>
-      {/* Hero — clean editorial */}
-      <section className="border-b border-[var(--color-border)] bg-white">
-        <div className="max-w-4xl mx-auto px-6 py-20 md:py-28">
-          <h1 className="text-3xl md:text-5xl font-bold leading-[1.15] tracking-tight mb-4">
-            Find the right AI tools<br />
-            <span className="text-[var(--color-text-dim)]">for every task.</span>
+      {/* Hero — minimal, like indiemakers.tools */}
+      <section className="bg-white border-b border-[var(--color-border)]">
+        <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight tracking-tight mb-3">
+            All in One Tools<br />for AI Builders
           </h1>
-          <p className="text-base text-[var(--color-text-muted)] max-w-xl leading-relaxed">
-            {tools.length}+ tools across {categories.length} categories. Real reviews, honest pricing.
+          <p className="text-base text-[var(--color-text-muted)] max-w-lg mb-6">
+            A curated directory of {tools.length}+ AI tools and resources.
+            Honest reviews, real pricing. Let&apos;s find the right one for you.
           </p>
-          <div className="flex gap-3 mt-8">
-            <Link
-              href="#search"
-              className="inline-flex items-center gap-2 bg-indigo-500 text-white font-semibold hover:bg-indigo-400 px-6 py-3 rounded-lg hover:bg-amber-300 transition-colors text-sm"
-            >
-              Browse tools
-              <span className="text-xs opacity-60">↓</span>
-            </Link>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 border border-[var(--color-border)] text-[var(--color-text)] font-medium px-6 py-3 rounded-lg hover:border-[var(--color-text-dim)] transition-colors text-sm"
-            >
-              Read comparisons
-            </Link>
+          <Link
+            href="#all-tools"
+            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white font-medium px-6 py-3 rounded-lg hover:bg-[var(--color-primary-dark)] transition-colors text-sm"
+          >
+            Browse tools ↓
+          </Link>
+        </div>
+      </section>
+
+      {/* Categories — horizontal text links like indiemakers.tools */}
+      <section className="bg-white border-b border-[var(--color-border)]">
+        <div className="max-w-6xl mx-auto px-6 py-4 overflow-x-auto">
+          <div className="flex gap-1 text-sm whitespace-nowrap">
+            {categories.map((cat) => {
+              const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
+              return (
+                <Link
+                  key={cat}
+                  href={`/categories/${slug}`}
+                  className="px-3 py-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-surface)] transition-colors"
+                >
+                  {cat}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      {/* Category row */}
-      <section className="max-w-7xl mx-auto px-6 py-12">
-        <div className="flex items-center gap-4 mb-8">
-          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)] whitespace-nowrap">
-            Browse by category
-          </h2>
-          <div className="flex-1 h-px bg-[var(--color-border)]" />
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {categories.map((cat) => {
-            const catTools = getToolsByCategory(cat);
-            const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
-            return (
-              <Link
-                key={cat}
-                href={`/categories/${slug}`}
-                className="group bg-[var(--color-card)] rounded-xl p-5 border border-[var(--color-border)] hover:border-amber-500/30 hover:bg-[var(--color-card-hover)] transition-all"
-              >
-                <div className="text-2xl mb-3">{categoryIcons[cat] || "🔧"}</div>
-                <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--color-primary)] transition-colors">
-                  {cat}
+      {/* Feature Products — like indiemakers.tools "Feature Products" */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <h2 className="text-lg font-bold mb-6">Feature Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {topTools.map((tool) => (
+            <Link
+              key={tool.slug}
+              href={`/tools/${tool.slug}`}
+              className="group bg-white rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary)]/30 transition-colors"
+            >
+              <div className="flex items-center gap-3 mb-2">
+                <ToolIcon url={tool.url} name={tool.name} size={32} />
+                <h3 className="font-semibold text-sm group-hover:text-[var(--color-primary)] transition-colors">
+                  {tool.name}
                 </h3>
-                <p className="text-xs text-[var(--color-text-dim)]">{catTools.length} tools</p>
-              </Link>
-            );
-          })}
+              </div>
+              <p className="text-xs text-[var(--color-text-muted)] leading-relaxed line-clamp-2">
+                {tool.description}
+              </p>
+            </Link>
+          ))}
         </div>
       </section>
 
-      {/* Search section */}
-      <section id="search" className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="flex items-center gap-4 mb-8">
-          <h2 className="text-sm font-semibold tracking-widest uppercase text-[var(--color-text-dim)] whitespace-nowrap">
-            All tools
-          </h2>
-          <div className="flex-1 h-px bg-[var(--color-border)]" />
-          <span className="text-xs text-[var(--color-text-dim)] whitespace-nowrap">{tools.length} listed</span>
-        </div>
+      {/* All tools — with search */}
+      <section id="all-tools" className="max-w-6xl mx-auto px-6 pb-20">
+        <h2 className="text-lg font-bold mb-6">All Tools</h2>
         <SearchFilter tools={tools} categories={categories} />
       </section>
     </div>
