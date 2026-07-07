@@ -43,6 +43,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/blog" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
                 Blog
               </Link>
+              <Link href="/compare/chatgpt-vs-claude" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
+                Compare
+              </Link>
             </div>
             {/* Bottom row: scrollable category menu — like indiemakers.tools */}
             <div className="px-6 pb-2 overflow-x-auto scrollbar-none">
