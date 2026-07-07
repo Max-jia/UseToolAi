@@ -183,7 +183,7 @@ export default function SearchFilter({ tools, categories }: Props) {
                     <Link
                       key={tool.slug}
                       href={`/tools/${tool.slug}`}
-                      className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-indigo-500/20 hover:bg-[var(--color-card-hover)] transition-all group"
+                      className="bg-[var(--color-card)] rounded-xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)]/30 transition-colors group"
                     >
                       <div className="flex items-start gap-4">
                         <ToolIcon url={tool.url} name={tool.name} size={48} />
