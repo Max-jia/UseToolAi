@@ -36,8 +36,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-6xl mx-auto">
             {/* Top row: logo */}
             <div className="px-6 h-14 flex items-center">
-              <Link href="/" className="font-bold text-lg tracking-tight mr-8 flex-shrink-0">
-                UseTool<span className="text-[var(--color-primary)]">AI</span>
+              <Link href="/" className="flex items-center gap-2.5 mr-8 flex-shrink-0">
+                <img src="/logo-small.png" alt="UseToolAI" width={28} height={28} className="rounded-lg" />
+                <span className="font-bold text-lg tracking-tight">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
               </Link>
               <Link href="/blog" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
                 Blog
