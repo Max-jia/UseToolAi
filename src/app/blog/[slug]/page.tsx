@@ -31,6 +31,16 @@ export default async function BlogPostPage({
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    author: { "@type": "Organization", name: "UseToolAI" },
+    publisher: { "@type": "Organization", name: "UseToolAI" },
+  };
+
   const relatedPosts = getAllPosts()
     .filter((p) => p.slug !== post.slug)
     .slice(0, 3);
@@ -45,6 +55,7 @@ export default async function BlogPostPage({
         <span className="text-[var(--color-text)] font-medium truncate">{post.title.slice(0, 40)}...</span>
       </nav>
 
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <article>
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-3">

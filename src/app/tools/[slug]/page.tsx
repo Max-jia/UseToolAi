@@ -24,6 +24,38 @@ export async function generateMetadata({
   };
 }
 
+function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
+  if (!tool) return null;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: tool.description,
+    applicationCategory: tool.category,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      description: tool.pricing,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: tool.rating,
+      bestRating: 5,
+      worstRating: 1,
+      ratingCount: 1,
+    },
+    operatingSystem: "Web",
+    url: `https://usetoolai.com/tools/${tool.slug}`,
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export default async function ToolPage({
   params,
 }: {
@@ -49,6 +81,7 @@ export default async function ToolPage({
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
+      <ProductSchema tool={tool} />
       {/* Breadcrumb */}
       <nav className="text-sm text-[var(--color-text-muted)] mb-6">
         <Link href="/" className="hover:text-[var(--color-primary)]">Home</Link>
