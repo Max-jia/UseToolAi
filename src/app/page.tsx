@@ -21,20 +21,15 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero — editorial, not gradient */}
-      <section className="border-b border-[var(--color-border)]">
-        <div className="max-w-4xl mx-auto px-6 py-24 md:py-32">
-          <p className="text-xs font-medium tracking-widest uppercase text-[var(--color-text-dim)] mb-6">
-            Hand-picked AI tools directory
-          </p>
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
-            Find the <span className="text-gradient">right AI tools</span>
-            <br />
-            <span className="text-[var(--color-text-dim)]">without the hype.</span>
+      {/* Hero — clean editorial */}
+      <section className="border-b border-[var(--color-border)] bg-white">
+        <div className="max-w-4xl mx-auto px-6 py-20 md:py-28">
+          <h1 className="text-3xl md:text-5xl font-bold leading-[1.15] tracking-tight mb-4">
+            Find the right AI tools<br />
+            <span className="text-[var(--color-text-dim)]">for every task.</span>
           </h1>
-          <p className="text-lg text-[var(--color-text-muted)] max-w-2xl leading-relaxed">
-            {tools.length}+ tools across {categories.length} categories. Real reviews, verified pricing,
-            honest pros and cons — not another generic SaaS directory.
+          <p className="text-base text-[var(--color-text-muted)] max-w-xl leading-relaxed">
+            {tools.length}+ tools across {categories.length} categories. Real reviews, honest pricing.
           </p>
           <div className="flex gap-3 mt-8">
             <Link
