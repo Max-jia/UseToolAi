@@ -81,7 +81,7 @@ export default async function ToolPage({
 
       {/* Core Strength — What Makes It Unique */}
       {tool.coreStrength && (
-        <div className="bg-[var(--color-card)] rounded-2xl p-6 md:p-8 border border-amber-500/20 mb-8">
+        <div className="bg-[var(--color-card)] rounded-2xl p-6 md:p-8 border border-[var(--color-primary)]/20 mb-8">
           <div className="flex items-start gap-3">
             <span className="text-2xl flex-shrink-0">💎</span>
             <div>

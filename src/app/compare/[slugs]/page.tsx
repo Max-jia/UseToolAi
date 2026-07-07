@@ -149,7 +149,7 @@ export default async function ComparePage({
           <Link
             key={tool.slug}
             href={`/tools/${tool.slug}`}
-            className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-amber-500/20 transition-all group"
+            className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)]/30 transition-all group"
           >
             <h3 className="font-bold text-lg mb-2 group-hover:text-[var(--color-primary)] transition-colors">
               {tool.name}
@@ -177,7 +177,7 @@ export default async function ComparePage({
           <div className="mb-3">
             <span className="text-xs text-[var(--color-text-dim)] mr-2">Shared:</span>
             {sharedTags.map((t) => (
-              <span key={t} className="text-xs bg-amber-500/10 text-amber-400 px-2 py-0.5 rounded-full mr-1">
+              <span key={t} className="text-xs bg-amber-500/10 text-[var(--color-primary)] px-2 py-0.5 rounded-full mr-1">
                 {t}
               </span>
             ))}
@@ -272,13 +272,13 @@ export default async function ComparePage({
         <div className="flex justify-center gap-4 flex-wrap">
           <Link
             href={`/tools/${toolA.slug}`}
-            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-black font-semibold px-5 py-2.5 rounded-lg hover:bg-amber-300 transition-colors text-sm"
+            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-[var(--color-primary-dark)] transition-colors text-sm"
           >
             {toolA.name} Full Review →
           </Link>
           <Link
             href={`/tools/${toolB.slug}`}
-            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-black font-semibold px-5 py-2.5 rounded-lg hover:bg-amber-300 transition-colors text-sm"
+            className="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-[var(--color-primary-dark)] transition-colors text-sm"
           >
             {toolB.name} Full Review →
           </Link>
