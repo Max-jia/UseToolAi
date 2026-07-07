@@ -31,42 +31,42 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649257223930816" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]">
-        {/* Top accent bar */}
-        <div className="h-[2px] bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-500" />
-
-        <header className="bg-white/90 backdrop-blur-md border-b border-[var(--color-border)] sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <Link href="/" className="font-bold text-lg tracking-tight flex items-center gap-2">
-              <span className="text-[var(--color-text)] font-bold text-lg tracking-tight">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
-            </Link>
-            <nav className="hidden md:flex gap-0.5 text-sm">
-              {categories.slice(0, 5).map((cat) => (
-                <Link
-                  key={cat}
-                  href={`/categories/${cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and")}`}
-                  className="px-3 py-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-card)] transition-colors"
-                >
-                  {cat.split(" & ")[0]}
-                </Link>
-              ))}
-              <Link
-                href="/blog"
-                className="px-3 py-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-card)] transition-colors font-medium ml-2"
-              >
+        {/* Header — logo + horizontal scrollable category menu like indiemakers.tools */}
+        <header className="bg-white border-b border-[var(--color-border)] sticky top-0 z-50">
+          <div className="max-w-6xl mx-auto">
+            {/* Top row: logo */}
+            <div className="px-6 h-14 flex items-center">
+              <Link href="/" className="font-bold text-lg tracking-tight mr-8 flex-shrink-0">
+                UseTool<span className="text-[var(--color-primary)]">AI</span>
+              </Link>
+              <Link href="/blog" className="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors flex-shrink-0">
                 Blog
               </Link>
-              <Link
-                href="/categories"
-                className="px-3 py-2 rounded-md text-[var(--color-text-dim)] hover:text-[var(--color-text-muted)] hover:bg-[var(--color-card)] transition-colors ml-1"
-              >
-                All categories →
-              </Link>
-            </nav>
+            </div>
+            {/* Bottom row: scrollable category menu — like indiemakers.tools */}
+            <div className="px-6 pb-2 overflow-x-auto scrollbar-none">
+              <div className="flex gap-1 text-sm whitespace-nowrap min-w-max">
+                {categories.map((cat) => {
+                  const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
+                  return (
+                    <Link
+                      key={cat}
+                      href={`/categories/${slug}`}
+                      className="px-3 py-1.5 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-surface)] transition-colors"
+                    >
+                      {cat}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </header>
+
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-[var(--color-border)] py-12 mt-24">
-          <div className="max-w-7xl mx-auto px-6 text-center text-sm text-[var(--color-text-dim)]">
+
+        <footer className="border-t border-[var(--color-border)] py-12 mt-24 bg-white">
+          <div className="max-w-6xl mx-auto px-6 text-center text-sm text-[var(--color-text-dim)]">
             <p className="text-[var(--color-text-muted)] font-medium mb-1">UseToolAI</p>
             <p>&copy; 2026 — Helping you find the right AI tools.</p>
             <p className="mt-1">
