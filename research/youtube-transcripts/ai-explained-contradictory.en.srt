@@ -1,0 +1,5505 @@
+1
+00:00:00,080 --> 00:00:01,990
+
+I hope that it might be useful to
+
+2
+00:00:01,990 --> 00:00:02,000
+I hope that it might be useful to
+ 
+
+3
+00:00:02,000 --> 00:00:04,150
+I hope that it might be useful to
+highlight a few of the myriad
+
+4
+00:00:04,150 --> 00:00:04,160
+highlight a few of the myriad
+ 
+
+5
+00:00:04,160 --> 00:00:06,309
+highlight a few of the myriad
+contradictory narratives that we are
+
+6
+00:00:06,309 --> 00:00:06,319
+contradictory narratives that we are
+ 
+
+7
+00:00:06,319 --> 00:00:09,430
+contradictory narratives that we are
+being fed about AI, including a handful
+
+8
+00:00:09,430 --> 00:00:09,440
+being fed about AI, including a handful
+ 
+
+9
+00:00:09,440 --> 00:00:12,150
+being fed about AI, including a handful
+from just the last couple of days. For
+
+10
+00:00:12,150 --> 00:00:12,160
+from just the last couple of days. For
+ 
+
+11
+00:00:12,160 --> 00:00:14,390
+from just the last couple of days. For
+me, the best position to be in is to at
+
+12
+00:00:14,390 --> 00:00:14,400
+me, the best position to be in is to at
+ 
+
+13
+00:00:14,400 --> 00:00:16,950
+me, the best position to be in is to at
+least be aware of each perspective and
+
+14
+00:00:16,950 --> 00:00:16,960
+least be aware of each perspective and
+ 
+
+15
+00:00:16,960 --> 00:00:19,269
+least be aware of each perspective and
+not oblivious to any of them. From talk
+
+16
+00:00:19,269 --> 00:00:19,279
+not oblivious to any of them. From talk
+ 
+
+17
+00:00:19,279 --> 00:00:21,750
+not oblivious to any of them. From talk
+of a white collar job apocalypse to
+
+18
+00:00:21,750 --> 00:00:21,760
+of a white collar job apocalypse to
+ 
+
+19
+00:00:21,760 --> 00:00:24,550
+of a white collar job apocalypse to
+scaling law paradoxes, today's newly
+
+20
+00:00:24,550 --> 00:00:24,560
+scaling law paradoxes, today's newly
+ 
+
+21
+00:00:24,560 --> 00:00:27,589
+scaling law paradoxes, today's newly
+accessible Gemini 3 deep think, OpenAI's
+
+22
+00:00:27,589 --> 00:00:27,599
+accessible Gemini 3 deep think, OpenAI's
+ 
+
+23
+00:00:27,599 --> 00:00:31,029
+accessible Gemini 3 deep think, OpenAI's
+contradictory code red Claude soul and a
+
+24
+00:00:31,029 --> 00:00:31,039
+contradictory code red Claude soul and a
+ 
+
+25
+00:00:31,039 --> 00:00:33,990
+contradictory code red Claude soul and a
+Deep Seek special and more. As always,
+
+26
+00:00:33,990 --> 00:00:34,000
+Deep Seek special and more. As always,
+ 
+
+27
+00:00:34,000 --> 00:00:35,830
+Deep Seek special and more. As always,
+it's never about the headlines, it's
+
+28
+00:00:35,830 --> 00:00:35,840
+it's never about the headlines, it's
+ 
+
+29
+00:00:35,840 --> 00:00:37,830
+it's never about the headlines, it's
+about the detail. So, let's start with
+
+30
+00:00:37,830 --> 00:00:37,840
+about the detail. So, let's start with
+ 
+
+31
+00:00:37,840 --> 00:00:40,709
+about the detail. So, let's start with
+that talk of an AI white collar job
+
+32
+00:00:40,709 --> 00:00:40,719
+that talk of an AI white collar job
+ 
+
+33
+00:00:40,719 --> 00:00:42,549
+that talk of an AI white collar job
+apocalypse. A couple of days ago, one of
+
+34
+00:00:42,549 --> 00:00:42,559
+apocalypse. A couple of days ago, one of
+ 
+
+35
+00:00:42,559 --> 00:00:44,549
+apocalypse. A couple of days ago, one of
+the co-founders of Anthropic, Jared
+
+36
+00:00:44,549 --> 00:00:44,559
+the co-founders of Anthropic, Jared
+ 
+
+37
+00:00:44,559 --> 00:00:46,790
+the co-founders of Anthropic, Jared
+Kaplan, said that AI systems will be
+
+38
+00:00:46,790 --> 00:00:46,800
+Kaplan, said that AI systems will be
+ 
+
+39
+00:00:46,800 --> 00:00:48,869
+Kaplan, said that AI systems will be
+capable of doing most white collar work
+
+40
+00:00:48,869 --> 00:00:48,879
+capable of doing most white collar work
+ 
+
+41
+00:00:48,879 --> 00:00:50,950
+capable of doing most white collar work
+in 2 to 3 years. That's just one guy's
+
+42
+00:00:50,950 --> 00:00:50,960
+in 2 to 3 years. That's just one guy's
+ 
+
+43
+00:00:50,960 --> 00:00:53,110
+in 2 to 3 years. That's just one guy's
+opinion. But according to CNBC, at
+
+44
+00:00:53,110 --> 00:00:53,120
+opinion. But according to CNBC, at
+ 
+
+45
+00:00:53,120 --> 00:00:55,910
+opinion. But according to CNBC, at
+least, there was an MIT study that found
+
+46
+00:00:55,910 --> 00:00:55,920
+least, there was an MIT study that found
+ 
+
+47
+00:00:55,920 --> 00:00:58,790
+least, there was an MIT study that found
+that AI can already replace almost 12%
+
+48
+00:00:58,790 --> 00:00:58,800
+that AI can already replace almost 12%
+ 
+
+49
+00:00:58,800 --> 00:01:00,790
+that AI can already replace almost 12%
+of the US workforce. If those are the
+
+50
+00:01:00,790 --> 00:01:00,800
+of the US workforce. If those are the
+ 
+
+51
+00:01:00,800 --> 00:01:02,549
+of the US workforce. If those are the
+headlines and one of the narratives you
+
+52
+00:01:02,549 --> 00:01:02,559
+headlines and one of the narratives you
+ 
+
+53
+00:01:02,559 --> 00:01:04,469
+headlines and one of the narratives you
+are being fed, what's the actual data
+
+54
+00:01:04,469 --> 00:01:04,479
+are being fed, what's the actual data
+ 
+
+55
+00:01:04,479 --> 00:01:06,789
+are being fed, what's the actual data
+from the study itself? Well, if you dig
+
+56
+00:01:06,789 --> 00:01:06,799
+from the study itself? Well, if you dig
+ 
+
+57
+00:01:06,799 --> 00:01:08,950
+from the study itself? Well, if you dig
+into it, you find that they're not
+
+58
+00:01:08,950 --> 00:01:08,960
+into it, you find that they're not
+ 
+
+59
+00:01:08,960 --> 00:01:12,149
+into it, you find that they're not
+talking about job losses. The 11.7%
+
+60
+00:01:12,149 --> 00:01:12,159
+talking about job losses. The 11.7%
+ 
+
+61
+00:01:12,159 --> 00:01:15,030
+talking about job losses. The 11.7%
+represents the dollar value of the tasks
+
+62
+00:01:15,030 --> 00:01:15,040
+represents the dollar value of the tasks
+ 
+
+63
+00:01:15,040 --> 00:01:17,270
+represents the dollar value of the tasks
+that the paper thinks that current AI
+
+64
+00:01:17,270 --> 00:01:17,280
+that the paper thinks that current AI
+ 
+
+65
+00:01:17,280 --> 00:01:19,590
+that the paper thinks that current AI
+models can replicate, not in other
+
+66
+00:01:19,590 --> 00:01:19,600
+models can replicate, not in other
+ 
+
+67
+00:01:19,600 --> 00:01:21,910
+models can replicate, not in other
+words, the displacement outcomes, not
+
+68
+00:01:21,910 --> 00:01:21,920
+words, the displacement outcomes, not
+ 
+
+69
+00:01:21,920 --> 00:01:24,230
+words, the displacement outcomes, not
+how many total jobs could be replaced.
+
+70
+00:01:24,230 --> 00:01:24,240
+how many total jobs could be replaced.
+ 
+
+71
+00:01:24,240 --> 00:01:26,070
+how many total jobs could be replaced.
+The paper really tries to make clear
+
+72
+00:01:26,070 --> 00:01:26,080
+The paper really tries to make clear
+ 
+
+73
+00:01:26,080 --> 00:01:28,230
+The paper really tries to make clear
+that actual workforce impacts in terms
+
+74
+00:01:28,230 --> 00:01:28,240
+that actual workforce impacts in terms
+ 
+
+75
+00:01:28,240 --> 00:01:30,710
+that actual workforce impacts in terms
+of job losses depend on company
+
+76
+00:01:30,710 --> 00:01:30,720
+of job losses depend on company
+ 
+
+77
+00:01:30,720 --> 00:01:32,710
+of job losses depend on company
+strategies, worker adaptation, and
+
+78
+00:01:32,710 --> 00:01:32,720
+strategies, worker adaptation, and
+ 
+
+79
+00:01:32,720 --> 00:01:34,710
+strategies, worker adaptation, and
+policy choices. While many companies may
+
+80
+00:01:34,710 --> 00:01:34,720
+policy choices. While many companies may
+ 
+
+81
+00:01:34,720 --> 00:01:36,870
+policy choices. While many companies may
+want to get rid of workers if they can,
+
+82
+00:01:36,870 --> 00:01:36,880
+want to get rid of workers if they can,
+ 
+
+83
+00:01:36,880 --> 00:01:39,270
+want to get rid of workers if they can,
+if only 12% of their labor can be
+
+84
+00:01:39,270 --> 00:01:39,280
+if only 12% of their labor can be
+ 
+
+85
+00:01:39,280 --> 00:01:41,590
+if only 12% of their labor can be
+automated currently, there is the chance
+
+86
+00:01:41,590 --> 00:01:41,600
+automated currently, there is the chance
+ 
+
+87
+00:01:41,600 --> 00:01:43,749
+automated currently, there is the chance
+of another outcome, which is above
+
+88
+00:01:43,749 --> 00:01:43,759
+of another outcome, which is above
+ 
+
+89
+00:01:43,759 --> 00:01:45,350
+of another outcome, which is above
+inflation wage growth. The next
+
+90
+00:01:45,350 --> 00:01:45,360
+inflation wage growth. The next
+ 
+
+91
+00:01:45,360 --> 00:01:47,510
+inflation wage growth. The next
+narrative is that we know how to get to
+
+92
+00:01:47,510 --> 00:01:47,520
+narrative is that we know how to get to
+ 
+
+93
+00:01:47,520 --> 00:01:49,510
+narrative is that we know how to get to
+artificial general intelligence. Just
+
+94
+00:01:49,510 --> 00:01:49,520
+artificial general intelligence. Just
+ 
+
+95
+00:01:49,520 --> 00:01:51,830
+artificial general intelligence. Just
+scale up our current architectures. More
+
+96
+00:01:51,830 --> 00:01:51,840
+scale up our current architectures. More
+ 
+
+97
+00:01:51,840 --> 00:01:53,749
+scale up our current architectures. More
+data, more parameters, more computing
+
+98
+00:01:53,749 --> 00:01:53,759
+data, more parameters, more computing
+ 
+
+99
+00:01:53,759 --> 00:01:55,590
+data, more parameters, more computing
+power. Here's Dario Ammedday, the
+
+100
+00:01:55,590 --> 00:01:55,600
+power. Here's Dario Ammedday, the
+ 
+
+101
+00:01:55,600 --> 00:01:57,350
+power. Here's Dario Ammedday, the
+founder of Anthropic, speaking
+
+102
+00:01:57,350 --> 00:01:57,360
+founder of Anthropic, speaking
+ 
+
+103
+00:01:57,360 --> 00:01:57,990
+founder of Anthropic, speaking
+yesterday.
+
+104
+00:01:57,990 --> 00:01:58,000
+yesterday.
+ 
+
+105
+00:01:58,000 --> 00:02:00,149
+yesterday.
+>> Um, one quick AGI question. It's a
+
+106
+00:02:00,149 --> 00:02:00,159
+>> Um, one quick AGI question. It's a
+ 
+
+107
+00:02:00,159 --> 00:02:01,990
+>> Um, one quick AGI question. It's a
+science question which is do you think
+
+108
+00:02:01,990 --> 00:02:02,000
+science question which is do you think
+ 
+
+109
+00:02:02,000 --> 00:02:04,469
+science question which is do you think
+just the way transformers work today and
+
+110
+00:02:04,469 --> 00:02:04,479
+just the way transformers work today and
+ 
+
+111
+00:02:04,479 --> 00:02:06,469
+just the way transformers work today and
+just compute power alone from a
+
+112
+00:02:06,469 --> 00:02:06,479
+just compute power alone from a
+ 
+
+113
+00:02:06,479 --> 00:02:08,550
+just compute power alone from a
+scalability sense that that is what will
+
+114
+00:02:08,550 --> 00:02:08,560
+scalability sense that that is what will
+ 
+
+115
+00:02:08,560 --> 00:02:10,309
+scalability sense that that is what will
+get to AGI or do you think there's some
+
+116
+00:02:10,309 --> 00:02:10,319
+get to AGI or do you think there's some
+ 
+
+117
+00:02:10,319 --> 00:02:11,830
+get to AGI or do you think there's some
+other ingredient and maybe there's a
+
+118
+00:02:11,830 --> 00:02:11,840
+other ingredient and maybe there's a
+ 
+
+119
+00:02:11,840 --> 00:02:13,030
+other ingredient and maybe there's a
+technical question but I'm trying to
+
+120
+00:02:13,030 --> 00:02:13,040
+technical question but I'm trying to
+ 
+
+121
+00:02:13,040 --> 00:02:16,390
+technical question but I'm trying to
+keep it very very easy that has to be
+
+122
+00:02:16,390 --> 00:02:16,400
+keep it very very easy that has to be
+ 
+
+123
+00:02:16,400 --> 00:02:17,990
+keep it very very easy that has to be
+included in this that gets you to some
+
+124
+00:02:17,990 --> 00:02:18,000
+included in this that gets you to some
+ 
+
+125
+00:02:18,000 --> 00:02:19,990
+included in this that gets you to some
+place where this stuff is actually going
+
+126
+00:02:19,990 --> 00:02:20,000
+place where this stuff is actually going
+ 
+
+127
+00:02:20,000 --> 00:02:21,830
+place where this stuff is actually going
+to really think on its own. No, I think
+
+128
+00:02:21,830 --> 00:02:21,840
+to really think on its own. No, I think
+ 
+
+129
+00:02:21,840 --> 00:02:23,750
+to really think on its own. No, I think
+I think scaling is going to get us there
+
+130
+00:02:23,750 --> 00:02:23,760
+I think scaling is going to get us there
+ 
+
+131
+00:02:23,760 --> 00:02:25,510
+I think scaling is going to get us there
+again with small every once in a while
+
+132
+00:02:25,510 --> 00:02:25,520
+again with small every once in a while
+ 
+
+133
+00:02:25,520 --> 00:02:27,110
+again with small every once in a while
+there will be a small modification, you
+
+134
+00:02:27,110 --> 00:02:27,120
+there will be a small modification, you
+ 
+
+135
+00:02:27,120 --> 00:02:29,030
+there will be a small modification, you
+know, so small you may not even read
+
+136
+00:02:29,030 --> 00:02:29,040
+know, so small you may not even read
+ 
+
+137
+00:02:29,040 --> 00:02:30,309
+know, so small you may not even read
+about it. It's just something going on
+
+138
+00:02:30,309 --> 00:02:30,319
+about it. It's just something going on
+ 
+
+139
+00:02:30,319 --> 00:02:32,229
+about it. It's just something going on
+in the lab. I have been watching these
+
+140
+00:02:32,229 --> 00:02:32,239
+in the lab. I have been watching these
+ 
+
+141
+00:02:32,239 --> 00:02:33,830
+in the lab. I have been watching these
+scaling laws for for 10 years.
+
+142
+00:02:33,830 --> 00:02:33,840
+scaling laws for for 10 years.
+ 
+
+143
+00:02:33,840 --> 00:02:35,030
+scaling laws for for 10 years.
+>> So what's your what's your what's your
+
+144
+00:02:35,030 --> 00:02:35,040
+>> So what's your what's your what's your
+ 
+
+145
+00:02:35,040 --> 00:02:36,309
+>> So what's your what's your what's your
+timeline now?
+
+146
+00:02:36,309 --> 00:02:36,319
+timeline now?
+ 
+
+147
+00:02:36,319 --> 00:02:37,990
+timeline now?
+>> There's no one particular point.
+
+148
+00:02:37,990 --> 00:02:38,000
+>> There's no one particular point.
+ 
+
+149
+00:02:38,000 --> 00:02:40,070
+>> There's no one particular point.
+>> But then one of the few AI researchers
+
+150
+00:02:40,070 --> 00:02:40,080
+>> But then one of the few AI researchers
+ 
+
+151
+00:02:40,080 --> 00:02:43,110
+>> But then one of the few AI researchers
+who is as respected as Dario Amade and
+
+152
+00:02:43,110 --> 00:02:43,120
+who is as respected as Dario Amade and
+ 
+
+153
+00:02:43,120 --> 00:02:45,270
+who is as respected as Dario Amade and
+has been in the deep learning game for
+
+154
+00:02:45,270 --> 00:02:45,280
+has been in the deep learning game for
+ 
+
+155
+00:02:45,280 --> 00:02:47,589
+has been in the deep learning game for
+as long said almost the opposite. In the
+
+156
+00:02:47,589 --> 00:02:47,599
+as long said almost the opposite. In the
+ 
+
+157
+00:02:47,599 --> 00:02:49,509
+as long said almost the opposite. In the
+last couple of weeks, Ilia Sutska,
+
+158
+00:02:49,509 --> 00:02:49,519
+last couple of weeks, Ilia Sutska,
+ 
+
+159
+00:02:49,519 --> 00:02:51,830
+last couple of weeks, Ilia Sutska,
+formerly the chief AI scientist at
+
+160
+00:02:51,830 --> 00:02:51,840
+formerly the chief AI scientist at
+ 
+
+161
+00:02:51,840 --> 00:02:54,070
+formerly the chief AI scientist at
+OpenAI, said, "I think what people are
+
+162
+00:02:54,070 --> 00:02:54,080
+OpenAI, said, "I think what people are
+ 
+
+163
+00:02:54,080 --> 00:02:56,470
+OpenAI, said, "I think what people are
+doing right now will go some distance
+
+164
+00:02:56,470 --> 00:02:56,480
+doing right now will go some distance
+ 
+
+165
+00:02:56,480 --> 00:02:58,869
+doing right now will go some distance
+and then peter out. It will continue to
+
+166
+00:02:58,869 --> 00:02:58,879
+and then peter out. It will continue to
+ 
+
+167
+00:02:58,879 --> 00:03:01,990
+and then peter out. It will continue to
+improve, but it will also not be quote
+
+168
+00:03:01,990 --> 00:03:02,000
+improve, but it will also not be quote
+ 
+
+169
+00:03:02,000 --> 00:03:03,990
+improve, but it will also not be quote
+it." And then on super intelligence, he
+
+170
+00:03:03,990 --> 00:03:04,000
+it." And then on super intelligence, he
+ 
+
+171
+00:03:04,000 --> 00:03:05,509
+it." And then on super intelligence, he
+added, "We are talking about systems
+
+172
+00:03:05,509 --> 00:03:05,519
+added, "We are talking about systems
+ 
+
+173
+00:03:05,519 --> 00:03:07,750
+added, "We are talking about systems
+that don't exist, that we don't know how
+
+174
+00:03:07,750 --> 00:03:07,760
+that don't exist, that we don't know how
+ 
+
+175
+00:03:07,760 --> 00:03:09,430
+that don't exist, that we don't know how
+to build." At the end of the video, I'm
+
+176
+00:03:09,430 --> 00:03:09,440
+to build." At the end of the video, I'm
+ 
+
+177
+00:03:09,440 --> 00:03:11,110
+to build." At the end of the video, I'm
+going to give a few of my own thoughts
+
+178
+00:03:11,110 --> 00:03:11,120
+going to give a few of my own thoughts
+ 
+
+179
+00:03:11,120 --> 00:03:13,030
+going to give a few of my own thoughts
+for those feeling a little bit lost, but
+
+180
+00:03:13,030 --> 00:03:13,040
+for those feeling a little bit lost, but
+ 
+
+181
+00:03:13,040 --> 00:03:14,630
+for those feeling a little bit lost, but
+I just want to give a quick interlude
+
+182
+00:03:14,630 --> 00:03:14,640
+I just want to give a quick interlude
+ 
+
+183
+00:03:14,640 --> 00:03:16,470
+I just want to give a quick interlude
+before I get to the next contradictory
+
+184
+00:03:16,470 --> 00:03:16,480
+before I get to the next contradictory
+ 
+
+185
+00:03:16,480 --> 00:03:18,229
+before I get to the next contradictory
+narrative. I was speaking recently to
+
+186
+00:03:18,229 --> 00:03:18,239
+narrative. I was speaking recently to
+ 
+
+187
+00:03:18,239 --> 00:03:20,710
+narrative. I was speaking recently to
+one of the key minds behind that famous
+
+188
+00:03:20,710 --> 00:03:20,720
+one of the key minds behind that famous
+ 
+
+189
+00:03:20,720 --> 00:03:23,350
+one of the key minds behind that famous
+AI 2027 forecast. And while there's lots
+
+190
+00:03:23,350 --> 00:03:23,360
+AI 2027 forecast. And while there's lots
+ 
+
+191
+00:03:23,360 --> 00:03:26,309
+AI 2027 forecast. And while there's lots
+we agree on, from my perspective, the AI
+
+192
+00:03:26,309 --> 00:03:26,319
+we agree on, from my perspective, the AI
+ 
+
+193
+00:03:26,319 --> 00:03:28,470
+we agree on, from my perspective, the AI
+research community fundamentally doesn't
+
+194
+00:03:28,470 --> 00:03:28,480
+research community fundamentally doesn't
+ 
+
+195
+00:03:28,480 --> 00:03:31,350
+research community fundamentally doesn't
+know how well models will generalize
+
+196
+00:03:31,350 --> 00:03:31,360
+know how well models will generalize
+ 
+
+197
+00:03:31,360 --> 00:03:34,229
+know how well models will generalize
+from existing data to unseen data. We
+
+198
+00:03:34,229 --> 00:03:34,239
+from existing data to unseen data. We
+ 
+
+199
+00:03:34,239 --> 00:03:36,149
+from existing data to unseen data. We
+roughly know how well they can do that
+
+200
+00:03:36,149 --> 00:03:36,159
+roughly know how well they can do that
+ 
+
+201
+00:03:36,159 --> 00:03:38,710
+roughly know how well they can do that
+right now, but we don't know how well
+
+202
+00:03:38,710 --> 00:03:38,720
+right now, but we don't know how well
+ 
+
+203
+00:03:38,720 --> 00:03:40,470
+right now, but we don't know how well
+they'll do that at bigger and bigger
+
+204
+00:03:40,470 --> 00:03:40,480
+they'll do that at bigger and bigger
+ 
+
+205
+00:03:40,480 --> 00:03:42,710
+they'll do that at bigger and bigger
+scales. Critically, we also don't know
+
+206
+00:03:42,710 --> 00:03:42,720
+scales. Critically, we also don't know
+ 
+
+207
+00:03:42,720 --> 00:03:45,190
+scales. Critically, we also don't know
+what proportion of, say, the economy or
+
+208
+00:03:45,190 --> 00:03:45,200
+what proportion of, say, the economy or
+ 
+
+209
+00:03:45,200 --> 00:03:48,149
+what proportion of, say, the economy or
+AI research itself relies on unseen,
+
+210
+00:03:48,149 --> 00:03:48,159
+AI research itself relies on unseen,
+ 
+
+211
+00:03:48,159 --> 00:03:51,030
+AI research itself relies on unseen,
+unspoken tacet data versus seen known
+
+212
+00:03:51,030 --> 00:03:51,040
+unspoken tacet data versus seen known
+ 
+
+213
+00:03:51,040 --> 00:03:53,589
+unspoken tacet data versus seen known
+data. If models get better and better at
+
+214
+00:03:53,589 --> 00:03:53,599
+data. If models get better and better at
+ 
+
+215
+00:03:53,599 --> 00:03:55,430
+data. If models get better and better at
+generalizing, well, then maybe they can
+
+216
+00:03:55,430 --> 00:03:55,440
+generalizing, well, then maybe they can
+ 
+
+217
+00:03:55,440 --> 00:03:56,949
+generalizing, well, then maybe they can
+come up with their own synthetic data
+
+218
+00:03:56,949 --> 00:03:56,959
+come up with their own synthetic data
+ 
+
+219
+00:03:56,959 --> 00:03:58,630
+come up with their own synthetic data
+and it won't be a problem. If the rate
+
+220
+00:03:58,630 --> 00:03:58,640
+and it won't be a problem. If the rate
+ 
+
+221
+00:03:58,640 --> 00:04:00,630
+and it won't be a problem. If the rate
+of generalization stays at its current
+
+222
+00:04:00,630 --> 00:04:00,640
+of generalization stays at its current
+ 
+
+223
+00:04:00,640 --> 00:04:02,390
+of generalization stays at its current
+level, no big architectural
+
+224
+00:04:02,390 --> 00:04:02,400
+level, no big architectural
+ 
+
+225
+00:04:02,400 --> 00:04:04,229
+level, no big architectural
+breakthroughs, well then we might be in
+
+226
+00:04:04,229 --> 00:04:04,239
+breakthroughs, well then we might be in
+ 
+
+227
+00:04:04,239 --> 00:04:05,830
+breakthroughs, well then we might be in
+for the long haul. Now, for those of you
+
+228
+00:04:05,830 --> 00:04:05,840
+for the long haul. Now, for those of you
+ 
+
+229
+00:04:05,840 --> 00:04:07,670
+for the long haul. Now, for those of you
+who are watching on YouTube, you can see
+
+230
+00:04:07,670 --> 00:04:07,680
+who are watching on YouTube, you can see
+ 
+
+231
+00:04:07,680 --> 00:04:09,509
+who are watching on YouTube, you can see
+that in the background I have some
+
+232
+00:04:09,509 --> 00:04:09,519
+that in the background I have some
+ 
+
+233
+00:04:09,519 --> 00:04:11,270
+that in the background I have some
+quotes from Jared Kaplan in his
+
+234
+00:04:11,270 --> 00:04:11,280
+quotes from Jared Kaplan in his
+ 
+
+235
+00:04:11,280 --> 00:04:12,630
+quotes from Jared Kaplan in his
+interview with the Guardian recently
+
+236
+00:04:12,630 --> 00:04:12,640
+interview with the Guardian recently
+ 
+
+237
+00:04:12,640 --> 00:04:14,309
+interview with the Guardian recently
+where he talks about recursive super
+
+238
+00:04:14,309 --> 00:04:14,319
+where he talks about recursive super
+ 
+
+239
+00:04:14,319 --> 00:04:16,069
+where he talks about recursive super
+intelligence. His idea of how we'll get
+
+240
+00:04:16,069 --> 00:04:16,079
+intelligence. His idea of how we'll get
+ 
+
+241
+00:04:16,079 --> 00:04:18,229
+intelligence. His idea of how we'll get
+to new paradigms, new breakthroughs is
+
+242
+00:04:18,229 --> 00:04:18,239
+to new paradigms, new breakthroughs is
+ 
+
+243
+00:04:18,239 --> 00:04:20,550
+to new paradigms, new breakthroughs is
+to allow AI to train itself. Of course,
+
+244
+00:04:20,550 --> 00:04:20,560
+to allow AI to train itself. Of course,
+ 
+
+245
+00:04:20,560 --> 00:04:22,550
+to allow AI to train itself. Of course,
+we already have that in many senses with
+
+246
+00:04:22,550 --> 00:04:22,560
+we already have that in many senses with
+ 
+
+247
+00:04:22,560 --> 00:04:25,030
+we already have that in many senses with
+AI being used to improve AI chip design.
+
+248
+00:04:25,030 --> 00:04:25,040
+AI being used to improve AI chip design.
+ 
+
+249
+00:04:25,040 --> 00:04:26,950
+AI being used to improve AI chip design.
+But for Jared Kaplan, again, one of the
+
+250
+00:04:26,950 --> 00:04:26,960
+But for Jared Kaplan, again, one of the
+ 
+
+251
+00:04:26,960 --> 00:04:28,710
+But for Jared Kaplan, again, one of the
+co-founders of Anthropic, he says,
+
+252
+00:04:28,710 --> 00:04:28,720
+co-founders of Anthropic, he says,
+ 
+
+253
+00:04:28,720 --> 00:04:31,350
+co-founders of Anthropic, he says,
+"Humanity will have to decide by 2030
+
+254
+00:04:31,350 --> 00:04:31,360
+"Humanity will have to decide by 2030
+ 
+
+255
+00:04:31,360 --> 00:04:33,430
+"Humanity will have to decide by 2030
+whether to take the ultimate risk of
+
+256
+00:04:33,430 --> 00:04:33,440
+whether to take the ultimate risk of
+ 
+
+257
+00:04:33,440 --> 00:04:35,110
+whether to take the ultimate risk of
+letting artificial intelligence systems
+
+258
+00:04:35,110 --> 00:04:35,120
+letting artificial intelligence systems
+ 
+
+259
+00:04:35,120 --> 00:04:36,629
+letting artificial intelligence systems
+train themselves to become more
+
+260
+00:04:36,629 --> 00:04:36,639
+train themselves to become more
+ 
+
+261
+00:04:36,639 --> 00:04:38,310
+train themselves to become more
+powerful." We'll come back to that date
+
+262
+00:04:38,310 --> 00:04:38,320
+powerful." We'll come back to that date
+ 
+
+263
+00:04:38,320 --> 00:04:40,790
+powerful." We'll come back to that date
+2030 in a moment. But he gives even more
+
+264
+00:04:40,790 --> 00:04:40,800
+2030 in a moment. But he gives even more
+ 
+
+265
+00:04:40,800 --> 00:04:43,030
+2030 in a moment. But he gives even more
+caveats. That move could, he says,
+
+266
+00:04:43,030 --> 00:04:43,040
+caveats. That move could, he says,
+ 
+
+267
+00:04:43,040 --> 00:04:45,030
+caveats. That move could, he says,
+trigger a beneficial intelligence
+
+268
+00:04:45,030 --> 00:04:45,040
+trigger a beneficial intelligence
+ 
+
+269
+00:04:45,040 --> 00:04:47,270
+trigger a beneficial intelligence
+explosion or, he adds, be the moment
+
+270
+00:04:47,270 --> 00:04:47,280
+explosion or, he adds, be the moment
+ 
+
+271
+00:04:47,280 --> 00:04:49,510
+explosion or, he adds, be the moment
+humans end up losing control. Now, note
+
+272
+00:04:49,510 --> 00:04:49,520
+humans end up losing control. Now, note
+ 
+
+273
+00:04:49,520 --> 00:04:51,270
+humans end up losing control. Now, note
+that he's not strictly endorsing this
+
+274
+00:04:51,270 --> 00:04:51,280
+that he's not strictly endorsing this
+ 
+
+275
+00:04:51,280 --> 00:04:53,110
+that he's not strictly endorsing this
+choice because he says it is in some
+
+276
+00:04:53,110 --> 00:04:53,120
+choice because he says it is in some
+ 
+
+277
+00:04:53,120 --> 00:04:55,189
+choice because he says it is in some
+ways the ultimate risk because it's kind
+
+278
+00:04:55,189 --> 00:04:55,199
+ways the ultimate risk because it's kind
+ 
+
+279
+00:04:55,199 --> 00:04:57,990
+ways the ultimate risk because it's kind
+of like letting AI kind of go. He adds
+
+280
+00:04:57,990 --> 00:04:58,000
+of like letting AI kind of go. He adds
+ 
+
+281
+00:04:58,000 --> 00:04:59,270
+of like letting AI kind of go. He adds
+that the decision could actually come
+
+282
+00:04:59,270 --> 00:04:59,280
+that the decision could actually come
+ 
+
+283
+00:04:59,280 --> 00:05:02,629
+that the decision could actually come
+between 2027 and 2030. I would add that
+
+284
+00:05:02,629 --> 00:05:02,639
+between 2027 and 2030. I would add that
+ 
+
+285
+00:05:02,639 --> 00:05:04,629
+between 2027 and 2030. I would add that
+as of a couple of days ago, there are
+
+286
+00:05:04,629 --> 00:05:04,639
+as of a couple of days ago, there are
+ 
+
+287
+00:05:04,639 --> 00:05:07,510
+as of a couple of days ago, there are
+companies now exclusively dedicated to
+
+288
+00:05:07,510 --> 00:05:07,520
+companies now exclusively dedicated to
+ 
+
+289
+00:05:07,520 --> 00:05:09,189
+companies now exclusively dedicated to
+recursive self-improvement. Take
+
+290
+00:05:09,189 --> 00:05:09,199
+recursive self-improvement. Take
+ 
+
+291
+00:05:09,199 --> 00:05:11,430
+recursive self-improvement. Take
+recursive intelligence founded by some
+
+292
+00:05:11,430 --> 00:05:11,440
+recursive intelligence founded by some
+ 
+
+293
+00:05:11,440 --> 00:05:14,150
+recursive intelligence founded by some
+heavy hitters from the AGI labs and
+
+294
+00:05:14,150 --> 00:05:14,160
+heavy hitters from the AGI labs and
+ 
+
+295
+00:05:14,160 --> 00:05:16,310
+heavy hitters from the AGI labs and
+backed by among others Seoia. We are
+
+296
+00:05:16,310 --> 00:05:16,320
+backed by among others Seoia. We are
+ 
+
+297
+00:05:16,320 --> 00:05:18,390
+backed by among others Seoia. We are
+clearly back into the scary territory
+
+298
+00:05:18,390 --> 00:05:18,400
+clearly back into the scary territory
+ 
+
+299
+00:05:18,400 --> 00:05:20,710
+clearly back into the scary territory
+then of recursive self-improvement loops
+
+300
+00:05:20,710 --> 00:05:20,720
+then of recursive self-improvement loops
+ 
+
+301
+00:05:20,720 --> 00:05:22,710
+then of recursive self-improvement loops
+and fairly imminent ones at that right
+
+302
+00:05:22,710 --> 00:05:22,720
+and fairly imminent ones at that right
+ 
+
+303
+00:05:22,720 --> 00:05:25,029
+and fairly imminent ones at that right
+2027. But let me give you a competing
+
+304
+00:05:25,029 --> 00:05:25,039
+2027. But let me give you a competing
+ 
+
+305
+00:05:25,039 --> 00:05:27,189
+2027. But let me give you a competing
+narrative with some evidence sourced
+
+306
+00:05:27,189 --> 00:05:27,199
+narrative with some evidence sourced
+ 
+
+307
+00:05:27,199 --> 00:05:29,749
+narrative with some evidence sourced
+from some brilliant researchers at MIT
+
+308
+00:05:29,749 --> 00:05:29,759
+from some brilliant researchers at MIT
+ 
+
+309
+00:05:29,759 --> 00:05:31,510
+from some brilliant researchers at MIT
+and meter. Parker Whitfield, Ben
+
+310
+00:05:31,510 --> 00:05:31,520
+and meter. Parker Whitfield, Ben
+ 
+
+311
+00:05:31,520 --> 00:05:33,510
+and meter. Parker Whitfield, Ben
+Snowden, and Joel Becka. They were some
+
+312
+00:05:33,510 --> 00:05:33,520
+Snowden, and Joel Becka. They were some
+ 
+
+313
+00:05:33,520 --> 00:05:35,430
+Snowden, and Joel Becka. They were some
+of the brains behind this chart. If you
+
+314
+00:05:35,430 --> 00:05:35,440
+of the brains behind this chart. If you
+ 
+
+315
+00:05:35,440 --> 00:05:36,550
+of the brains behind this chart. If you
+haven't heard of it, it shows that
+
+316
+00:05:36,550 --> 00:05:36,560
+haven't heard of it, it shows that
+ 
+
+317
+00:05:36,560 --> 00:05:40,070
+haven't heard of it, it shows that
+between 2022 and 2026, we've seen a
+
+318
+00:05:40,070 --> 00:05:40,080
+between 2022 and 2026, we've seen a
+ 
+
+319
+00:05:40,080 --> 00:05:43,110
+between 2022 and 2026, we've seen a
+exponential rise in the length, the
+
+320
+00:05:43,110 --> 00:05:43,120
+exponential rise in the length, the
+ 
+
+321
+00:05:43,120 --> 00:05:45,430
+exponential rise in the length, the
+duration of tasks that AI can complete
+
+322
+00:05:45,430 --> 00:05:45,440
+duration of tasks that AI can complete
+ 
+
+323
+00:05:45,440 --> 00:05:47,830
+duration of tasks that AI can complete
+with at least 50% reliability. To be
+
+324
+00:05:47,830 --> 00:05:47,840
+with at least 50% reliability. To be
+ 
+
+325
+00:05:47,840 --> 00:05:49,749
+with at least 50% reliability. To be
+clear, this is focused on software
+
+326
+00:05:49,749 --> 00:05:49,759
+clear, this is focused on software
+ 
+
+327
+00:05:49,759 --> 00:05:51,670
+clear, this is focused on software
+engineering tasks. But according to
+
+328
+00:05:51,670 --> 00:05:51,680
+engineering tasks. But according to
+ 
+
+329
+00:05:51,680 --> 00:05:54,550
+engineering tasks. But according to
+meter, we have models like GPT 5.1 CEX
+
+330
+00:05:54,550 --> 00:05:54,560
+meter, we have models like GPT 5.1 CEX
+ 
+
+331
+00:05:54,560 --> 00:05:57,749
+meter, we have models like GPT 5.1 CEX
+Max who can perform half the time a task
+
+332
+00:05:57,749 --> 00:05:57,759
+Max who can perform half the time a task
+ 
+
+333
+00:05:57,759 --> 00:06:00,870
+Max who can perform half the time a task
+that might take a human 3 hours. But
+
+334
+00:06:00,870 --> 00:06:00,880
+that might take a human 3 hours. But
+ 
+
+335
+00:06:00,880 --> 00:06:03,590
+that might take a human 3 hours. But
+this newly published paper shows that
+
+336
+00:06:03,590 --> 00:06:03,600
+this newly published paper shows that
+ 
+
+337
+00:06:03,600 --> 00:06:05,909
+this newly published paper shows that
+that exponential increase heavily
+
+338
+00:06:05,909 --> 00:06:05,919
+that exponential increase heavily
+ 
+
+339
+00:06:05,919 --> 00:06:08,469
+that exponential increase heavily
+coincides with an exponential recent
+
+340
+00:06:08,469 --> 00:06:08,479
+coincides with an exponential recent
+ 
+
+341
+00:06:08,479 --> 00:06:10,390
+coincides with an exponential recent
+increase in compute power. It is an
+
+342
+00:06:10,390 --> 00:06:10,400
+increase in compute power. It is an
+ 
+
+343
+00:06:10,400 --> 00:06:12,710
+increase in compute power. It is an
+empirical fact they add that both time
+
+344
+00:06:12,710 --> 00:06:12,720
+empirical fact they add that both time
+ 
+
+345
+00:06:12,720 --> 00:06:14,950
+empirical fact they add that both time
+horizon and compute have grown at
+
+346
+00:06:14,950 --> 00:06:14,960
+horizon and compute have grown at
+ 
+
+347
+00:06:14,960 --> 00:06:18,070
+horizon and compute have grown at
+constant rates over 2019 to 2025. But
+
+348
+00:06:18,070 --> 00:06:18,080
+constant rates over 2019 to 2025. But
+ 
+
+349
+00:06:18,080 --> 00:06:19,270
+constant rates over 2019 to 2025. But
+what's the problem? Isn't it pretty
+
+350
+00:06:19,270 --> 00:06:19,280
+what's the problem? Isn't it pretty
+ 
+
+351
+00:06:19,280 --> 00:06:21,189
+what's the problem? Isn't it pretty
+obvious that greater computing power
+
+352
+00:06:21,189 --> 00:06:21,199
+obvious that greater computing power
+ 
+
+353
+00:06:21,199 --> 00:06:23,189
+obvious that greater computing power
+leads to models that can complete tasks
+
+354
+00:06:23,189 --> 00:06:23,199
+leads to models that can complete tasks
+ 
+
+355
+00:06:23,199 --> 00:06:24,870
+leads to models that can complete tasks
+with longer and longer time horizons?
+
+356
+00:06:24,870 --> 00:06:24,880
+with longer and longer time horizons?
+ 
+
+357
+00:06:24,880 --> 00:06:26,629
+with longer and longer time horizons?
+Well, first the paper draws our
+
+358
+00:06:26,629 --> 00:06:26,639
+Well, first the paper draws our
+ 
+
+359
+00:06:26,639 --> 00:06:29,110
+Well, first the paper draws our
+attention to this chart exclusively from
+
+360
+00:06:29,110 --> 00:06:29,120
+attention to this chart exclusively from
+ 
+
+361
+00:06:29,120 --> 00:06:31,590
+attention to this chart exclusively from
+the information which details OpenAI's
+
+362
+00:06:31,590 --> 00:06:31,600
+the information which details OpenAI's
+ 
+
+363
+00:06:31,600 --> 00:06:33,990
+the information which details OpenAI's
+compute spend in the coming few years.
+
+364
+00:06:33,990 --> 00:06:34,000
+compute spend in the coming few years.
+ 
+
+365
+00:06:34,000 --> 00:06:36,390
+compute spend in the coming few years.
+Yes, it does increase very rapidly
+
+366
+00:06:36,390 --> 00:06:36,400
+Yes, it does increase very rapidly
+ 
+
+367
+00:06:36,400 --> 00:06:39,510
+Yes, it does increase very rapidly
+between now and say 2028, but from
+
+368
+00:06:39,510 --> 00:06:39,520
+between now and say 2028, but from
+ 
+
+369
+00:06:39,520 --> 00:06:41,590
+between now and say 2028, but from
+around 2027, you could no longer
+
+370
+00:06:41,590 --> 00:06:41,600
+around 2027, you could no longer
+ 
+
+371
+00:06:41,600 --> 00:06:43,510
+around 2027, you could no longer
+describe the increase in compute
+
+372
+00:06:43,510 --> 00:06:43,520
+describe the increase in compute
+ 
+
+373
+00:06:43,520 --> 00:06:45,749
+describe the increase in compute
+availability as being exponential. Now,
+
+374
+00:06:45,749 --> 00:06:45,759
+availability as being exponential. Now,
+ 
+
+375
+00:06:45,759 --> 00:06:47,590
+availability as being exponential. Now,
+obviously this is just OpenAI, but they
+
+376
+00:06:47,590 --> 00:06:47,600
+obviously this is just OpenAI, but they
+ 
+
+377
+00:06:47,600 --> 00:06:49,670
+obviously this is just OpenAI, but they
+are a pretty leading indicator. So, what
+
+378
+00:06:49,670 --> 00:06:49,680
+are a pretty leading indicator. So, what
+ 
+
+379
+00:06:49,680 --> 00:06:51,590
+are a pretty leading indicator. So, what
+can we derive from this? Well, using
+
+380
+00:06:51,590 --> 00:06:51,600
+can we derive from this? Well, using
+ 
+
+381
+00:06:51,600 --> 00:06:53,189
+can we derive from this? Well, using
+some formal derivations of the
+
+382
+00:06:53,189 --> 00:06:53,199
+some formal derivations of the
+ 
+
+383
+00:06:53,199 --> 00:06:55,110
+some formal derivations of the
+relationship between compute growth and
+
+384
+00:06:55,110 --> 00:06:55,120
+relationship between compute growth and
+ 
+
+385
+00:06:55,120 --> 00:06:58,230
+relationship between compute growth and
+time horizon, that implied slowdown, if
+
+386
+00:06:58,230 --> 00:06:58,240
+time horizon, that implied slowdown, if
+ 
+
+387
+00:06:58,240 --> 00:07:00,150
+time horizon, that implied slowdown, if
+you will, or slow down in the rate of
+
+388
+00:07:00,150 --> 00:07:00,160
+you will, or slow down in the rate of
+ 
+
+389
+00:07:00,160 --> 00:07:02,790
+you will, or slow down in the rate of
+increase might mean that the time
+
+390
+00:07:02,790 --> 00:07:02,800
+increase might mean that the time
+ 
+
+391
+00:07:02,800 --> 00:07:05,670
+increase might mean that the time
+horizon trend starts to peter out around
+
+392
+00:07:05,670 --> 00:07:05,680
+horizon trend starts to peter out around
+ 
+
+393
+00:07:05,680 --> 00:07:08,390
+horizon trend starts to peter out around
+2028. This would still be insane gains.
+
+394
+00:07:08,390 --> 00:07:08,400
+2028. This would still be insane gains.
+ 
+
+395
+00:07:08,400 --> 00:07:10,629
+2028. This would still be insane gains.
+Of course, an entire working week done
+
+396
+00:07:10,629 --> 00:07:10,639
+Of course, an entire working week done
+ 
+
+397
+00:07:10,639 --> 00:07:13,510
+Of course, an entire working week done
+by a single model at 50% reliability.
+
+398
+00:07:13,510 --> 00:07:13,520
+by a single model at 50% reliability.
+ 
+
+399
+00:07:13,520 --> 00:07:15,990
+by a single model at 50% reliability.
+But to get to one working year, that
+
+400
+00:07:15,990 --> 00:07:16,000
+But to get to one working year, that
+ 
+
+401
+00:07:16,000 --> 00:07:17,990
+But to get to one working year, that
+might take a hell of a lot longer.
+
+402
+00:07:17,990 --> 00:07:18,000
+might take a hell of a lot longer.
+ 
+
+403
+00:07:18,000 --> 00:07:20,790
+might take a hell of a lot longer.
+That's why I said to note the dates 2027
+
+404
+00:07:20,790 --> 00:07:20,800
+That's why I said to note the dates 2027
+ 
+
+405
+00:07:20,800 --> 00:07:23,189
+That's why I said to note the dates 2027
+and 2030 from Jared Kaplan because I
+
+406
+00:07:23,189 --> 00:07:23,199
+and 2030 from Jared Kaplan because I
+ 
+
+407
+00:07:23,199 --> 00:07:24,790
+and 2030 from Jared Kaplan because I
+wonder if he's almost hinting that we
+
+408
+00:07:24,790 --> 00:07:24,800
+wonder if he's almost hinting that we
+ 
+
+409
+00:07:24,800 --> 00:07:26,950
+wonder if he's almost hinting that we
+might need recursive self-improvement to
+
+410
+00:07:26,950 --> 00:07:26,960
+might need recursive self-improvement to
+ 
+
+411
+00:07:26,960 --> 00:07:28,950
+might need recursive self-improvement to
+keep the gains coming. That could be why
+
+412
+00:07:28,950 --> 00:07:28,960
+keep the gains coming. That could be why
+ 
+
+413
+00:07:28,960 --> 00:07:31,909
+keep the gains coming. That could be why
+this compute slowdown paper notes this.
+
+414
+00:07:31,909 --> 00:07:31,919
+this compute slowdown paper notes this.
+ 
+
+415
+00:07:31,919 --> 00:07:33,909
+this compute slowdown paper notes this.
+Our model is accurate only if the
+
+416
+00:07:33,909 --> 00:07:33,919
+Our model is accurate only if the
+ 
+
+417
+00:07:33,919 --> 00:07:36,230
+Our model is accurate only if the
+compute bottleneck approximation is good
+
+418
+00:07:36,230 --> 00:07:36,240
+compute bottleneck approximation is good
+ 
+
+419
+00:07:36,240 --> 00:07:39,029
+compute bottleneck approximation is good
+or up to the point in time at which a
+
+420
+00:07:39,029 --> 00:07:39,039
+or up to the point in time at which a
+ 
+
+421
+00:07:39,039 --> 00:07:41,430
+or up to the point in time at which a
+software only singularity kicks in. In
+
+422
+00:07:41,430 --> 00:07:41,440
+software only singularity kicks in. In
+ 
+
+423
+00:07:41,440 --> 00:07:43,110
+software only singularity kicks in. In
+other words, if our AI models can
+
+424
+00:07:43,110 --> 00:07:43,120
+other words, if our AI models can
+ 
+
+425
+00:07:43,120 --> 00:07:45,589
+other words, if our AI models can
+generalize to solve AI research, we
+
+426
+00:07:45,589 --> 00:07:45,599
+generalize to solve AI research, we
+ 
+
+427
+00:07:45,599 --> 00:07:47,270
+generalize to solve AI research, we
+might not need that exponential
+
+428
+00:07:47,270 --> 00:07:47,280
+might not need that exponential
+ 
+
+429
+00:07:47,280 --> 00:07:49,430
+might not need that exponential
+additional compute for further rapid
+
+430
+00:07:49,430 --> 00:07:49,440
+additional compute for further rapid
+ 
+
+431
+00:07:49,440 --> 00:07:51,749
+additional compute for further rapid
+progress. So, yet again, we're almost
+
+432
+00:07:51,749 --> 00:07:51,759
+progress. So, yet again, we're almost
+ 
+
+433
+00:07:51,759 --> 00:07:53,909
+progress. So, yet again, we're almost
+back to a pick your narrative kind of
+
+434
+00:07:53,909 --> 00:07:53,919
+back to a pick your narrative kind of
+ 
+
+435
+00:07:53,919 --> 00:07:56,550
+back to a pick your narrative kind of
+situation. Are we imminently facing a
+
+436
+00:07:56,550 --> 00:07:56,560
+situation. Are we imminently facing a
+ 
+
+437
+00:07:56,560 --> 00:07:58,950
+situation. Are we imminently facing a
+recursive self-improvement loop? Or are
+
+438
+00:07:58,950 --> 00:07:58,960
+recursive self-improvement loop? Or are
+ 
+
+439
+00:07:58,960 --> 00:08:02,150
+recursive self-improvement loop? Or are
+we painfully dependent on such a loop
+
+440
+00:08:02,150 --> 00:08:02,160
+we painfully dependent on such a loop
+ 
+
+441
+00:08:02,160 --> 00:08:05,110
+we painfully dependent on such a loop
+for additional progress come 2028? And
+
+442
+00:08:05,110 --> 00:08:05,120
+for additional progress come 2028? And
+ 
+
+443
+00:08:05,120 --> 00:08:06,790
+for additional progress come 2028? And
+how about this for a bonus
+
+444
+00:08:06,790 --> 00:08:06,800
+how about this for a bonus
+ 
+
+445
+00:08:06,800 --> 00:08:08,710
+how about this for a bonus
+contradiction? This is a bit of a cheeky
+
+446
+00:08:08,710 --> 00:08:08,720
+contradiction? This is a bit of a cheeky
+ 
+
+447
+00:08:08,720 --> 00:08:11,189
+contradiction? This is a bit of a cheeky
+one because it comes from 2023, but
+
+448
+00:08:11,189 --> 00:08:11,199
+one because it comes from 2023, but
+ 
+
+449
+00:08:11,199 --> 00:08:13,589
+one because it comes from 2023, but
+Anthropic at that point came out with
+
+450
+00:08:13,589 --> 00:08:13,599
+Anthropic at that point came out with
+ 
+
+451
+00:08:13,599 --> 00:08:15,670
+Anthropic at that point came out with
+this quote. This was back when they
+
+452
+00:08:15,670 --> 00:08:15,680
+this quote. This was back when they
+ 
+
+453
+00:08:15,680 --> 00:08:17,270
+this quote. This was back when they
+weren't making billions of dollars from
+
+454
+00:08:17,270 --> 00:08:17,280
+weren't making billions of dollars from
+ 
+
+455
+00:08:17,280 --> 00:08:20,390
+weren't making billions of dollars from
+AI and arguably didn't have the frontier
+
+456
+00:08:20,390 --> 00:08:20,400
+AI and arguably didn't have the frontier
+ 
+
+457
+00:08:20,400 --> 00:08:23,350
+AI and arguably didn't have the frontier
+model. They said, "We do not wish to
+
+458
+00:08:23,350 --> 00:08:23,360
+model. They said, "We do not wish to
+ 
+
+459
+00:08:23,360 --> 00:08:25,749
+model. They said, "We do not wish to
+advance the rate of AI capabilities
+
+460
+00:08:25,749 --> 00:08:25,759
+advance the rate of AI capabilities
+ 
+
+461
+00:08:25,759 --> 00:08:28,469
+advance the rate of AI capabilities
+progress." From that to let's consider
+
+462
+00:08:28,469 --> 00:08:28,479
+progress." From that to let's consider
+ 
+
+463
+00:08:28,479 --> 00:08:30,550
+progress." From that to let's consider
+recursive self-improvement. Make of that
+
+464
+00:08:30,550 --> 00:08:30,560
+recursive self-improvement. Make of that
+ 
+
+465
+00:08:30,560 --> 00:08:32,469
+recursive self-improvement. Make of that
+what you will. Now, before I get to a
+
+466
+00:08:32,469 --> 00:08:32,479
+what you will. Now, before I get to a
+ 
+
+467
+00:08:32,479 --> 00:08:34,630
+what you will. Now, before I get to a
+new and fascinating Deep Seek model and
+
+468
+00:08:34,630 --> 00:08:34,640
+new and fascinating Deep Seek model and
+ 
+
+469
+00:08:34,640 --> 00:08:36,870
+new and fascinating Deep Seek model and
+OpenAI's code red, I think this is the
+
+470
+00:08:36,870 --> 00:08:36,880
+OpenAI's code red, I think this is the
+ 
+
+471
+00:08:36,880 --> 00:08:38,230
+OpenAI's code red, I think this is the
+perfect opportunity now that we're
+
+472
+00:08:38,230 --> 00:08:38,240
+perfect opportunity now that we're
+ 
+
+473
+00:08:38,240 --> 00:08:40,310
+perfect opportunity now that we're
+talking about compute to introduce you
+
+474
+00:08:40,310 --> 00:08:40,320
+talking about compute to introduce you
+ 
+
+475
+00:08:40,320 --> 00:08:42,230
+talking about compute to introduce you
+to a new sponsor of the channel, and
+
+476
+00:08:42,230 --> 00:08:42,240
+to a new sponsor of the channel, and
+ 
+
+477
+00:08:42,240 --> 00:08:44,949
+to a new sponsor of the channel, and
+that is Epoch AI, who unbelievably put
+
+478
+00:08:44,949 --> 00:08:44,959
+that is Epoch AI, who unbelievably put
+ 
+
+479
+00:08:44,959 --> 00:08:48,150
+that is Epoch AI, who unbelievably put
+out incredible data for free for all of
+
+480
+00:08:48,150 --> 00:08:48,160
+out incredible data for free for all of
+ 
+
+481
+00:08:48,160 --> 00:08:50,710
+out incredible data for free for all of
+those fascinated by the near-term future
+
+482
+00:08:50,710 --> 00:08:50,720
+those fascinated by the near-term future
+ 
+
+483
+00:08:50,720 --> 00:08:53,509
+those fascinated by the near-term future
+of AI. They are a completely independent
+
+484
+00:08:53,509 --> 00:08:53,519
+of AI. They are a completely independent
+ 
+
+485
+00:08:53,519 --> 00:08:55,590
+of AI. They are a completely independent
+research institute that have put out
+
+486
+00:08:55,590 --> 00:08:55,600
+research institute that have put out
+ 
+
+487
+00:08:55,600 --> 00:08:58,070
+research institute that have put out
+work that I have cited organically maybe
+
+488
+00:08:58,070 --> 00:08:58,080
+work that I have cited organically maybe
+ 
+
+489
+00:08:58,080 --> 00:09:00,230
+work that I have cited organically maybe
+a dozen times on this channel already.
+
+490
+00:09:00,230 --> 00:09:00,240
+a dozen times on this channel already.
+ 
+
+491
+00:09:00,240 --> 00:09:01,670
+a dozen times on this channel already.
+But today I just want to focus on their
+
+492
+00:09:01,670 --> 00:09:01,680
+But today I just want to focus on their
+ 
+
+493
+00:09:01,680 --> 00:09:03,670
+But today I just want to focus on their
+frontier data center work because this
+
+494
+00:09:03,670 --> 00:09:03,680
+frontier data center work because this
+ 
+
+495
+00:09:03,680 --> 00:09:05,670
+frontier data center work because this
+is how we're going to find out if those
+
+496
+00:09:05,670 --> 00:09:05,680
+is how we're going to find out if those
+ 
+
+497
+00:09:05,680 --> 00:09:08,070
+is how we're going to find out if those
+compute slowdowns are coming or not. And
+
+498
+00:09:08,070 --> 00:09:08,080
+compute slowdowns are coming or not. And
+ 
+
+499
+00:09:08,080 --> 00:09:11,750
+compute slowdowns are coming or not. And
+you can literally view the maps to see
+
+500
+00:09:11,750 --> 00:09:11,760
+you can literally view the maps to see
+ 
+
+501
+00:09:11,760 --> 00:09:14,630
+you can literally view the maps to see
+via satellite the construction of these
+
+502
+00:09:14,630 --> 00:09:14,640
+via satellite the construction of these
+ 
+
+503
+00:09:14,640 --> 00:09:16,630
+via satellite the construction of these
+data centers. Not only that, they want
+
+504
+00:09:16,630 --> 00:09:16,640
+data centers. Not only that, they want
+ 
+
+505
+00:09:16,640 --> 00:09:18,949
+data centers. Not only that, they want
+these tools to be useful for you guys
+
+506
+00:09:18,949 --> 00:09:18,959
+these tools to be useful for you guys
+ 
+
+507
+00:09:18,959 --> 00:09:20,389
+these tools to be useful for you guys
+because I met up with them fairly
+
+508
+00:09:20,389 --> 00:09:20,399
+because I met up with them fairly
+ 
+
+509
+00:09:20,399 --> 00:09:23,110
+because I met up with them fairly
+recently and I saw this incredible chart
+
+510
+00:09:23,110 --> 00:09:23,120
+recently and I saw this incredible chart
+ 
+
+511
+00:09:23,120 --> 00:09:24,710
+recently and I saw this incredible chart
+showing compute growth. This is to
+
+512
+00:09:24,710 --> 00:09:24,720
+showing compute growth. This is to
+ 
+
+513
+00:09:24,720 --> 00:09:26,630
+showing compute growth. This is to
+indicate the scale of just three new
+
+514
+00:09:26,630 --> 00:09:26,640
+indicate the scale of just three new
+ 
+
+515
+00:09:26,640 --> 00:09:29,030
+indicate the scale of just three new
+data centers coming. XAI's Colossus 2,
+
+516
+00:09:29,030 --> 00:09:29,040
+data centers coming. XAI's Colossus 2,
+ 
+
+517
+00:09:29,040 --> 00:09:31,670
+data centers coming. XAI's Colossus 2,
+OpenAI's Stargate Abene and Anthropic
+
+518
+00:09:31,670 --> 00:09:31,680
+OpenAI's Stargate Abene and Anthropic
+ 
+
+519
+00:09:31,680 --> 00:09:33,990
+OpenAI's Stargate Abene and Anthropic
+Amazon's New Carlile. But I mentioned to
+
+520
+00:09:33,990 --> 00:09:34,000
+Amazon's New Carlile. But I mentioned to
+ 
+
+521
+00:09:34,000 --> 00:09:35,990
+Amazon's New Carlile. But I mentioned to
+Epoch that for you guys it might be
+
+522
+00:09:35,990 --> 00:09:36,000
+Epoch that for you guys it might be
+ 
+
+523
+00:09:36,000 --> 00:09:37,750
+Epoch that for you guys it might be
+great to have a reference point, the
+
+524
+00:09:37,750 --> 00:09:37,760
+great to have a reference point, the
+ 
+
+525
+00:09:37,760 --> 00:09:40,550
+great to have a reference point, the
+power consumed by an entire city. So on
+
+526
+00:09:40,550 --> 00:09:40,560
+power consumed by an entire city. So on
+ 
+
+527
+00:09:40,560 --> 00:09:42,070
+power consumed by an entire city. So on
+the chart, we don't just have the new
+
+528
+00:09:42,070 --> 00:09:42,080
+the chart, we don't just have the new
+ 
+
+529
+00:09:42,080 --> 00:09:43,750
+the chart, we don't just have the new
+data centers, but we have points of
+
+530
+00:09:43,750 --> 00:09:43,760
+data centers, but we have points of
+ 
+
+531
+00:09:43,760 --> 00:09:45,910
+data centers, but we have points of
+comparison with the cities of San Diego,
+
+532
+00:09:45,910 --> 00:09:45,920
+comparison with the cities of San Diego,
+ 
+
+533
+00:09:45,920 --> 00:09:48,870
+comparison with the cities of San Diego,
+Amsterdam, and LA. We are transforming
+
+534
+00:09:48,870 --> 00:09:48,880
+Amsterdam, and LA. We are transforming
+ 
+
+535
+00:09:48,880 --> 00:09:52,150
+Amsterdam, and LA. We are transforming
+the face of the earth to make AI happen.
+
+536
+00:09:52,150 --> 00:09:52,160
+the face of the earth to make AI happen.
+ 
+
+537
+00:09:52,160 --> 00:09:54,470
+the face of the earth to make AI happen.
+And to find out more, go to the link in
+
+538
+00:09:54,470 --> 00:09:54,480
+And to find out more, go to the link in
+ 
+
+539
+00:09:54,480 --> 00:09:55,990
+And to find out more, go to the link in
+the description. Okay, but what's this
+
+540
+00:09:55,990 --> 00:09:56,000
+the description. Okay, but what's this
+ 
+
+541
+00:09:56,000 --> 00:09:58,949
+the description. Okay, but what's this
+code red declared by Sam Orman, the CEO
+
+542
+00:09:58,949 --> 00:09:58,959
+code red declared by Sam Orman, the CEO
+ 
+
+543
+00:09:58,959 --> 00:10:00,870
+code red declared by Sam Orman, the CEO
+of OpenAI? Well, again, depending on
+
+544
+00:10:00,870 --> 00:10:00,880
+of OpenAI? Well, again, depending on
+ 
+
+545
+00:10:00,880 --> 00:10:02,230
+of OpenAI? Well, again, depending on
+which narrative you believe, it's a
+
+546
+00:10:02,230 --> 00:10:02,240
+which narrative you believe, it's a
+ 
+
+547
+00:10:02,240 --> 00:10:05,030
+which narrative you believe, it's a
+minor hiccup or an imminent disaster. I
+
+548
+00:10:05,030 --> 00:10:05,040
+minor hiccup or an imminent disaster. I
+ 
+
+549
+00:10:05,040 --> 00:10:06,389
+minor hiccup or an imminent disaster. I
+think it's somewhere in the middle. To
+
+550
+00:10:06,389 --> 00:10:06,399
+think it's somewhere in the middle. To
+ 
+
+551
+00:10:06,399 --> 00:10:08,230
+think it's somewhere in the middle. To
+cut a long story short, according to the
+
+552
+00:10:08,230 --> 00:10:08,240
+cut a long story short, according to the
+ 
+
+553
+00:10:08,240 --> 00:10:11,190
+cut a long story short, according to the
+information, usage of chatbt has dipped
+
+554
+00:10:11,190 --> 00:10:11,200
+information, usage of chatbt has dipped
+ 
+
+555
+00:10:11,200 --> 00:10:13,509
+information, usage of chatbt has dipped
+slightly in recent weeks. This has
+
+556
+00:10:13,509 --> 00:10:13,519
+slightly in recent weeks. This has
+ 
+
+557
+00:10:13,519 --> 00:10:16,389
+slightly in recent weeks. This has
+brought forward OpenAI's plan to release
+
+558
+00:10:16,389 --> 00:10:16,399
+brought forward OpenAI's plan to release
+ 
+
+559
+00:10:16,399 --> 00:10:19,430
+brought forward OpenAI's plan to release
+a new model apparently to next week.
+
+560
+00:10:19,430 --> 00:10:19,440
+a new model apparently to next week.
+ 
+
+561
+00:10:19,440 --> 00:10:20,630
+a new model apparently to next week.
+This is going to mean that they're going
+
+562
+00:10:20,630 --> 00:10:20,640
+This is going to mean that they're going
+ 
+
+563
+00:10:20,640 --> 00:10:22,630
+This is going to mean that they're going
+to spend more compute on serving that
+
+564
+00:10:22,630 --> 00:10:22,640
+to spend more compute on serving that
+ 
+
+565
+00:10:22,640 --> 00:10:24,710
+to spend more compute on serving that
+new model of which we have very few
+
+566
+00:10:24,710 --> 00:10:24,720
+new model of which we have very few
+ 
+
+567
+00:10:24,720 --> 00:10:26,630
+new model of which we have very few
+details rather than working on for
+
+568
+00:10:26,630 --> 00:10:26,640
+details rather than working on for
+ 
+
+569
+00:10:26,640 --> 00:10:28,790
+details rather than working on for
+example selling ads or working on other
+
+570
+00:10:28,790 --> 00:10:28,800
+example selling ads or working on other
+ 
+
+571
+00:10:28,800 --> 00:10:30,870
+example selling ads or working on other
+products such as AI agents. The obvious
+
+572
+00:10:30,870 --> 00:10:30,880
+products such as AI agents. The obvious
+ 
+
+573
+00:10:30,880 --> 00:10:32,310
+products such as AI agents. The obvious
+narrative that you could buy into then
+
+574
+00:10:32,310 --> 00:10:32,320
+narrative that you could buy into then
+ 
+
+575
+00:10:32,320 --> 00:10:35,190
+narrative that you could buy into then
+is that catcht is overrated. OpenAI are
+
+576
+00:10:35,190 --> 00:10:35,200
+is that catcht is overrated. OpenAI are
+ 
+
+577
+00:10:35,200 --> 00:10:37,990
+is that catcht is overrated. OpenAI are
+about to die. Except that again, they're
+
+578
+00:10:37,990 --> 00:10:38,000
+about to die. Except that again, they're
+ 
+
+579
+00:10:38,000 --> 00:10:39,430
+about to die. Except that again, they're
+planning to ship this new reasoning
+
+580
+00:10:39,430 --> 00:10:39,440
+planning to ship this new reasoning
+ 
+
+581
+00:10:39,440 --> 00:10:41,990
+planning to ship this new reasoning
+model next week that they say is ahead
+
+582
+00:10:41,990 --> 00:10:42,000
+model next week that they say is ahead
+ 
+
+583
+00:10:42,000 --> 00:10:44,150
+model next week that they say is ahead
+of Google's Gemini 3. It will also be
+
+584
+00:10:44,150 --> 00:10:44,160
+of Google's Gemini 3. It will also be
+ 
+
+585
+00:10:44,160 --> 00:10:46,389
+of Google's Gemini 3. It will also be
+good apparently at minimizing over
+
+586
+00:10:46,389 --> 00:10:46,399
+good apparently at minimizing over
+ 
+
+587
+00:10:46,399 --> 00:10:48,150
+good apparently at minimizing over
+refusals. So, it should basically
+
+588
+00:10:48,150 --> 00:10:48,160
+refusals. So, it should basically
+ 
+
+589
+00:10:48,160 --> 00:10:50,150
+refusals. So, it should basically
+entertain some edgy scenarios that it
+
+590
+00:10:50,150 --> 00:10:50,160
+entertain some edgy scenarios that it
+ 
+
+591
+00:10:50,160 --> 00:10:51,750
+entertain some edgy scenarios that it
+might not have otherwise done. Of
+
+592
+00:10:51,750 --> 00:10:51,760
+might not have otherwise done. Of
+ 
+
+593
+00:10:51,760 --> 00:10:53,350
+might not have otherwise done. Of
+course, I can't wait to test that new
+
+594
+00:10:53,350 --> 00:10:53,360
+course, I can't wait to test that new
+ 
+
+595
+00:10:53,360 --> 00:10:55,670
+course, I can't wait to test that new
+model on my own simple bench, which you
+
+596
+00:10:55,670 --> 00:10:55,680
+model on my own simple bench, which you
+ 
+
+597
+00:10:55,680 --> 00:10:57,829
+model on my own simple bench, which you
+can think of as a trick question
+
+598
+00:10:57,829 --> 00:10:57,839
+can think of as a trick question
+ 
+
+599
+00:10:57,839 --> 00:10:59,670
+can think of as a trick question
+benchmark, which also tests spatial
+
+600
+00:10:59,670 --> 00:10:59,680
+benchmark, which also tests spatial
+ 
+
+601
+00:10:59,680 --> 00:11:01,430
+benchmark, which also tests spatial
+reasoning and temporal reasoning. It's
+
+602
+00:11:01,430 --> 00:11:01,440
+reasoning and temporal reasoning. It's
+ 
+
+603
+00:11:01,440 --> 00:11:03,350
+reasoning and temporal reasoning. It's
+fully private and independent, so
+
+604
+00:11:03,350 --> 00:11:03,360
+fully private and independent, so
+ 
+
+605
+00:11:03,360 --> 00:11:05,430
+fully private and independent, so
+shouldn't be able to be gamed by these
+
+606
+00:11:05,430 --> 00:11:05,440
+shouldn't be able to be gamed by these
+ 
+
+607
+00:11:05,440 --> 00:11:07,430
+shouldn't be able to be gamed by these
+model providers. And according to my
+
+608
+00:11:07,430 --> 00:11:07,440
+model providers. And according to my
+ 
+
+609
+00:11:07,440 --> 00:11:09,590
+model providers. And according to my
+benchmark, Anthropic have come out with
+
+610
+00:11:09,590 --> 00:11:09,600
+benchmark, Anthropic have come out with
+ 
+
+611
+00:11:09,600 --> 00:11:11,990
+benchmark, Anthropic have come out with
+their best model yet with Claude Opus
+
+612
+00:11:11,990 --> 00:11:12,000
+their best model yet with Claude Opus
+ 
+
+613
+00:11:12,000 --> 00:11:14,389
+their best model yet with Claude Opus
+4.5. Despite being three times cheaper
+
+614
+00:11:14,389 --> 00:11:14,399
+4.5. Despite being three times cheaper
+ 
+
+615
+00:11:14,399 --> 00:11:16,870
+4.5. Despite being three times cheaper
+by API, it beats out the previous
+
+616
+00:11:16,870 --> 00:11:16,880
+by API, it beats out the previous
+ 
+
+617
+00:11:16,880 --> 00:11:19,910
+by API, it beats out the previous
+version of Opus, Claude 4.1 Opus. But
+
+618
+00:11:19,910 --> 00:11:19,920
+version of Opus, Claude 4.1 Opus. But
+ 
+
+619
+00:11:19,920 --> 00:11:21,670
+version of Opus, Claude 4.1 Opus. But
+more important than my benchmark, I've
+
+620
+00:11:21,670 --> 00:11:21,680
+more important than my benchmark, I've
+ 
+
+621
+00:11:21,680 --> 00:11:24,150
+more important than my benchmark, I've
+taken the last couple of weeks to try it
+
+622
+00:11:24,150 --> 00:11:24,160
+taken the last couple of weeks to try it
+ 
+
+623
+00:11:24,160 --> 00:11:26,630
+taken the last couple of weeks to try it
+out in practice in cursor. And for me,
+
+624
+00:11:26,630 --> 00:11:26,640
+out in practice in cursor. And for me,
+ 
+
+625
+00:11:26,640 --> 00:11:28,710
+out in practice in cursor. And for me,
+it is better at coding or software
+
+626
+00:11:28,710 --> 00:11:28,720
+it is better at coding or software
+ 
+
+627
+00:11:28,720 --> 00:11:31,350
+it is better at coding or software
+engineering than Gemini 3 Pro. With
+
+628
+00:11:31,350 --> 00:11:31,360
+engineering than Gemini 3 Pro. With
+ 
+
+629
+00:11:31,360 --> 00:11:32,949
+engineering than Gemini 3 Pro. With
+coding and software engineering, you
+
+630
+00:11:32,949 --> 00:11:32,959
+coding and software engineering, you
+ 
+
+631
+00:11:32,959 --> 00:11:35,110
+coding and software engineering, you
+sometimes need hours and hours and hours
+
+632
+00:11:35,110 --> 00:11:35,120
+sometimes need hours and hours and hours
+ 
+
+633
+00:11:35,120 --> 00:11:37,269
+sometimes need hours and hours and hours
+of exposure just to really get a sense.
+
+634
+00:11:37,269 --> 00:11:37,279
+of exposure just to really get a sense.
+ 
+
+635
+00:11:37,279 --> 00:11:39,590
+of exposure just to really get a sense.
+In terms of software ideation, again,
+
+636
+00:11:39,590 --> 00:11:39,600
+In terms of software ideation, again,
+ 
+
+637
+00:11:39,600 --> 00:11:41,910
+In terms of software ideation, again,
+GBC 5.1 codecs, but in terms of
+
+638
+00:11:41,910 --> 00:11:41,920
+GBC 5.1 codecs, but in terms of
+ 
+
+639
+00:11:41,920 --> 00:11:44,150
+GBC 5.1 codecs, but in terms of
+implementation, I rely on Claude Opus
+
+640
+00:11:44,150 --> 00:11:44,160
+implementation, I rely on Claude Opus
+ 
+
+641
+00:11:44,160 --> 00:11:46,630
+implementation, I rely on Claude Opus
+4.5. For more on that, by the way, and a
+
+642
+00:11:46,630 --> 00:11:46,640
+4.5. For more on that, by the way, and a
+ 
+
+643
+00:11:46,640 --> 00:11:49,269
+4.5. For more on that, by the way, and a
+full breakdown of that Sutzka interview,
+
+644
+00:11:49,269 --> 00:11:49,279
+full breakdown of that Sutzka interview,
+ 
+
+645
+00:11:49,279 --> 00:11:51,430
+full breakdown of that Sutzka interview,
+check out my Patreon. But how about this
+
+646
+00:11:51,430 --> 00:11:51,440
+check out my Patreon. But how about this
+ 
+
+647
+00:11:51,440 --> 00:11:53,590
+check out my Patreon. But how about this
+for a counternarrative? The economist
+
+648
+00:11:53,590 --> 00:11:53,600
+for a counternarrative? The economist
+ 
+
+649
+00:11:53,600 --> 00:11:56,150
+for a counternarrative? The economist
+reported that despite these very obvious
+
+650
+00:11:56,150 --> 00:11:56,160
+reported that despite these very obvious
+ 
+
+651
+00:11:56,160 --> 00:11:58,949
+reported that despite these very obvious
+gains in AI capabilities, usage of
+
+652
+00:11:58,949 --> 00:11:58,959
+gains in AI capabilities, usage of
+ 
+
+653
+00:11:58,959 --> 00:12:01,829
+gains in AI capabilities, usage of
+generative AI by Americans is actually
+
+654
+00:12:01,829 --> 00:12:01,839
+generative AI by Americans is actually
+ 
+
+655
+00:12:01,839 --> 00:12:03,990
+generative AI by Americans is actually
+plateauing. At least according to a
+
+656
+00:12:03,990 --> 00:12:04,000
+plateauing. At least according to a
+ 
+
+657
+00:12:04,000 --> 00:12:05,750
+plateauing. At least according to a
+couple of studies. Take Stanford
+
+658
+00:12:05,750 --> 00:12:05,760
+couple of studies. Take Stanford
+ 
+
+659
+00:12:05,760 --> 00:12:09,269
+couple of studies. Take Stanford
+University. They found in September 37%
+
+660
+00:12:09,269 --> 00:12:09,279
+University. They found in September 37%
+ 
+
+661
+00:12:09,279 --> 00:12:11,829
+University. They found in September 37%
+of Americans use generative AI at work,
+
+662
+00:12:11,829 --> 00:12:11,839
+of Americans use generative AI at work,
+ 
+
+663
+00:12:11,839 --> 00:12:14,870
+of Americans use generative AI at work,
+down from 46% in June. A tracker by the
+
+664
+00:12:14,870 --> 00:12:14,880
+down from 46% in June. A tracker by the
+ 
+
+665
+00:12:14,880 --> 00:12:16,949
+down from 46% in June. A tracker by the
+Federal Reserve Bank of St. Louie
+
+666
+00:12:16,949 --> 00:12:16,959
+Federal Reserve Bank of St. Louie
+ 
+
+667
+00:12:16,959 --> 00:12:19,590
+Federal Reserve Bank of St. Louie
+revealed that in August of last year,
+
+668
+00:12:19,590 --> 00:12:19,600
+revealed that in August of last year,
+ 
+
+669
+00:12:19,600 --> 00:12:22,870
+revealed that in August of last year,
+12.1% of working age adults use Genai
+
+670
+00:12:22,870 --> 00:12:22,880
+12.1% of working age adults use Genai
+ 
+
+671
+00:12:22,880 --> 00:12:26,150
+12.1% of working age adults use Genai
+every day at work. A year later, 12.6%
+
+672
+00:12:26,150 --> 00:12:26,160
+every day at work. A year later, 12.6%
+ 
+
+673
+00:12:26,160 --> 00:12:28,310
+every day at work. A year later, 12.6%
+did. And that, my wonderful viewers, is
+
+674
+00:12:28,310 --> 00:12:28,320
+did. And that, my wonderful viewers, is
+ 
+
+675
+00:12:28,320 --> 00:12:30,790
+did. And that, my wonderful viewers, is
+something I find quite hard to explain,
+
+676
+00:12:30,790 --> 00:12:30,800
+something I find quite hard to explain,
+ 
+
+677
+00:12:30,800 --> 00:12:32,710
+something I find quite hard to explain,
+despite the title of this channel. I
+
+678
+00:12:32,710 --> 00:12:32,720
+despite the title of this channel. I
+ 
+
+679
+00:12:32,720 --> 00:12:35,269
+despite the title of this channel. I
+know that I personally use AI at least
+
+680
+00:12:35,269 --> 00:12:35,279
+know that I personally use AI at least
+ 
+
+681
+00:12:35,279 --> 00:12:37,269
+know that I personally use AI at least
+twice as much this year as I did last
+
+682
+00:12:37,269 --> 00:12:37,279
+twice as much this year as I did last
+ 
+
+683
+00:12:37,279 --> 00:12:38,870
+twice as much this year as I did last
+year. So, I just don't quite get that.
+
+684
+00:12:38,870 --> 00:12:38,880
+year. So, I just don't quite get that.
+ 
+
+685
+00:12:38,880 --> 00:12:40,470
+year. So, I just don't quite get that.
+And these capability improvements are
+
+686
+00:12:40,470 --> 00:12:40,480
+And these capability improvements are
+ 
+
+687
+00:12:40,480 --> 00:12:42,790
+And these capability improvements are
+definitely not fake. Take Gemini 3 deep
+
+688
+00:12:42,790 --> 00:12:42,800
+definitely not fake. Take Gemini 3 deep
+ 
+
+689
+00:12:42,800 --> 00:12:44,710
+definitely not fake. Take Gemini 3 deep
+think which was released to ultra
+
+690
+00:12:44,710 --> 00:12:44,720
+think which was released to ultra
+ 
+
+691
+00:12:44,720 --> 00:12:47,350
+think which was released to ultra
+subscribers just today. What I did is I
+
+692
+00:12:47,350 --> 00:12:47,360
+subscribers just today. What I did is I
+ 
+
+693
+00:12:47,360 --> 00:12:49,350
+subscribers just today. What I did is I
+looked at questions from simplebench
+
+694
+00:12:49,350 --> 00:12:49,360
+looked at questions from simplebench
+ 
+
+695
+00:12:49,360 --> 00:12:52,310
+looked at questions from simplebench
+that Gemini 3 pro got wrong. I then gave
+
+696
+00:12:52,310 --> 00:12:52,320
+that Gemini 3 pro got wrong. I then gave
+ 
+
+697
+00:12:52,320 --> 00:12:56,069
+that Gemini 3 pro got wrong. I then gave
+them to deepthink which is a system
+
+698
+00:12:56,069 --> 00:12:56,079
+them to deepthink which is a system
+ 
+
+699
+00:12:56,079 --> 00:12:58,310
+them to deepthink which is a system
+which basically according to Google
+
+700
+00:12:58,310 --> 00:12:58,320
+which basically according to Google
+ 
+
+701
+00:12:58,320 --> 00:13:00,310
+which basically according to Google
+attempts the question multiple times in
+
+702
+00:13:00,310 --> 00:13:00,320
+attempts the question multiple times in
+ 
+
+703
+00:13:00,320 --> 00:13:02,310
+attempts the question multiple times in
+parallel and picks the best of the
+
+704
+00:13:02,310 --> 00:13:02,320
+parallel and picks the best of the
+ 
+
+705
+00:13:02,320 --> 00:13:04,710
+parallel and picks the best of the
+responses. Each attempt uses more tokens
+
+706
+00:13:04,710 --> 00:13:04,720
+responses. Each attempt uses more tokens
+ 
+
+707
+00:13:04,720 --> 00:13:06,870
+responses. Each attempt uses more tokens
+to quote think about the problem. The
+
+708
+00:13:06,870 --> 00:13:06,880
+to quote think about the problem. The
+ 
+
+709
+00:13:06,880 --> 00:13:09,110
+to quote think about the problem. The
+result was a clear improvement in
+
+710
+00:13:09,110 --> 00:13:09,120
+result was a clear improvement in
+ 
+
+711
+00:13:09,120 --> 00:13:10,870
+result was a clear improvement in
+performance. several questions that
+
+712
+00:13:10,870 --> 00:13:10,880
+performance. several questions that
+ 
+
+713
+00:13:10,880 --> 00:13:13,670
+performance. several questions that
+Gemini 3 Pro got wrong, Gemini Deepthink
+
+714
+00:13:13,670 --> 00:13:13,680
+Gemini 3 Pro got wrong, Gemini Deepthink
+ 
+
+715
+00:13:13,680 --> 00:13:15,350
+Gemini 3 Pro got wrong, Gemini Deepthink
+was now getting right. Now, for your use
+
+716
+00:13:15,350 --> 00:13:15,360
+was now getting right. Now, for your use
+ 
+
+717
+00:13:15,360 --> 00:13:17,590
+was now getting right. Now, for your use
+case, you may not want to wait 10 or 20
+
+718
+00:13:17,590 --> 00:13:17,600
+case, you may not want to wait 10 or 20
+ 
+
+719
+00:13:17,600 --> 00:13:18,949
+case, you may not want to wait 10 or 20
+minutes for an answer, and I would
+
+720
+00:13:18,949 --> 00:13:18,959
+minutes for an answer, and I would
+ 
+
+721
+00:13:18,959 --> 00:13:20,550
+minutes for an answer, and I would
+understand that. And no, just before I
+
+722
+00:13:20,550 --> 00:13:20,560
+understand that. And no, just before I
+ 
+
+723
+00:13:20,560 --> 00:13:22,310
+understand that. And no, just before I
+get spammed with comments asking, the
+
+724
+00:13:22,310 --> 00:13:22,320
+get spammed with comments asking, the
+ 
+
+725
+00:13:22,320 --> 00:13:24,470
+get spammed with comments asking, the
+API isn't yet available, so I can't test
+
+726
+00:13:24,470 --> 00:13:24,480
+API isn't yet available, so I can't test
+ 
+
+727
+00:13:24,480 --> 00:13:27,110
+API isn't yet available, so I can't test
+it on SimpleBench. What I could test was
+
+728
+00:13:27,110 --> 00:13:27,120
+it on SimpleBench. What I could test was
+ 
+
+729
+00:13:27,120 --> 00:13:30,949
+it on SimpleBench. What I could test was
+the brand new Deepseek V3.2 and a
+
+730
+00:13:30,949 --> 00:13:30,959
+the brand new Deepseek V3.2 and a
+ 
+
+731
+00:13:30,959 --> 00:13:33,110
+the brand new Deepseek V3.2 and a
+special version of that model, Deepseek
+
+732
+00:13:33,110 --> 00:13:33,120
+special version of that model, Deepseek
+ 
+
+733
+00:13:33,120 --> 00:13:36,310
+special version of that model, Deepseek
+3.2 Speciale. Apologies to the Italians
+
+734
+00:13:36,310 --> 00:13:36,320
+3.2 Speciale. Apologies to the Italians
+ 
+
+735
+00:13:36,320 --> 00:13:37,910
+3.2 Speciale. Apologies to the Italians
+watching, I'm probably butchering how to
+
+736
+00:13:37,910 --> 00:13:37,920
+watching, I'm probably butchering how to
+ 
+
+737
+00:13:37,920 --> 00:13:39,750
+watching, I'm probably butchering how to
+say that. Because of Deep Seek's rate
+
+738
+00:13:39,750 --> 00:13:39,760
+say that. Because of Deep Seek's rate
+ 
+
+739
+00:13:39,760 --> 00:13:41,350
+say that. Because of Deep Seek's rate
+limiting, it took hours and hours and
+
+740
+00:13:41,350 --> 00:13:41,360
+limiting, it took hours and hours and
+ 
+
+741
+00:13:41,360 --> 00:13:43,350
+limiting, it took hours and hours and
+hours and many, many failed attempts to
+
+742
+00:13:43,350 --> 00:13:43,360
+hours and many, many failed attempts to
+ 
+
+743
+00:13:43,360 --> 00:13:45,670
+hours and many, many failed attempts to
+get even just one run through. So, this
+
+744
+00:13:45,670 --> 00:13:45,680
+get even just one run through. So, this
+ 
+
+745
+00:13:45,680 --> 00:13:48,310
+get even just one run through. So, this
+is only a provisional result so far, but
+
+746
+00:13:48,310 --> 00:13:48,320
+is only a provisional result so far, but
+ 
+
+747
+00:13:48,320 --> 00:13:51,269
+is only a provisional result so far, but
+it scored around 53%. That is pretty
+
+748
+00:13:51,269 --> 00:13:51,279
+it scored around 53%. That is pretty
+ 
+
+749
+00:13:51,279 --> 00:13:53,590
+it scored around 53%. That is pretty
+impressive for an open model, around the
+
+750
+00:13:53,590 --> 00:13:53,600
+impressive for an open model, around the
+ 
+
+751
+00:13:53,600 --> 00:13:56,629
+impressive for an open model, around the
+same as GPT 5.1 on high settings. The
+
+752
+00:13:56,629 --> 00:13:56,639
+same as GPT 5.1 on high settings. The
+ 
+
+753
+00:13:56,639 --> 00:13:58,629
+same as GPT 5.1 on high settings. The
+high setting, by the way, is appropriate
+
+754
+00:13:58,629 --> 00:13:58,639
+high setting, by the way, is appropriate
+ 
+
+755
+00:13:58,639 --> 00:14:01,990
+high setting, by the way, is appropriate
+because that is what makes Deepseek V3.2
+
+756
+00:14:01,990 --> 00:14:02,000
+because that is what makes Deepseek V3.2
+ 
+
+757
+00:14:02,000 --> 00:14:05,030
+because that is what makes Deepseek V3.2
+special different from Deepseek V3.2.
+
+758
+00:14:05,030 --> 00:14:05,040
+special different from Deepseek V3.2.
+ 
+
+759
+00:14:05,040 --> 00:14:06,949
+special different from Deepseek V3.2.
+They take away the extended thinking
+
+760
+00:14:06,949 --> 00:14:06,959
+They take away the extended thinking
+ 
+
+761
+00:14:06,959 --> 00:14:08,710
+They take away the extended thinking
+penalty. So basically, they let the
+
+762
+00:14:08,710 --> 00:14:08,720
+penalty. So basically, they let the
+ 
+
+763
+00:14:08,720 --> 00:14:11,110
+penalty. So basically, they let the
+model run wild. Think for longer and
+
+764
+00:14:11,110 --> 00:14:11,120
+model run wild. Think for longer and
+ 
+
+765
+00:14:11,120 --> 00:14:13,189
+model run wild. Think for longer and
+longer and longer, hence the special
+
+766
+00:14:13,189 --> 00:14:13,199
+longer and longer, hence the special
+ 
+
+767
+00:14:13,199 --> 00:14:15,110
+longer and longer, hence the special
+name and the impressive performance.
+
+768
+00:14:15,110 --> 00:14:15,120
+name and the impressive performance.
+ 
+
+769
+00:14:15,120 --> 00:14:16,550
+name and the impressive performance.
+Before we get to any other details
+
+770
+00:14:16,550 --> 00:14:16,560
+Before we get to any other details
+ 
+
+771
+00:14:16,560 --> 00:14:17,910
+Before we get to any other details
+though, where's the contradictory
+
+772
+00:14:17,910 --> 00:14:17,920
+though, where's the contradictory
+ 
+
+773
+00:14:17,920 --> 00:14:20,069
+though, where's the contradictory
+narrative? Well, I also benched Mistral
+
+774
+00:14:20,069 --> 00:14:20,079
+narrative? Well, I also benched Mistral
+ 
+
+775
+00:14:20,079 --> 00:14:22,230
+narrative? Well, I also benched Mistral
+Large 3, which was released on the same
+
+776
+00:14:22,230 --> 00:14:22,240
+Large 3, which was released on the same
+ 
+
+777
+00:14:22,240 --> 00:14:24,230
+Large 3, which was released on the same
+day, December 2nd. This is arguably
+
+778
+00:14:24,230 --> 00:14:24,240
+day, December 2nd. This is arguably
+ 
+
+779
+00:14:24,240 --> 00:14:27,030
+day, December 2nd. This is arguably
+Europe's best open model. It scored just
+
+780
+00:14:27,030 --> 00:14:27,040
+Europe's best open model. It scored just
+ 
+
+781
+00:14:27,040 --> 00:14:29,030
+Europe's best open model. It scored just
+20.4%.
+
+782
+00:14:29,030 --> 00:14:29,040
+20.4%.
+ 
+
+783
+00:14:29,040 --> 00:14:31,189
+20.4%.
+Which was lower than the model they
+
+784
+00:14:31,189 --> 00:14:31,199
+Which was lower than the model they
+ 
+
+785
+00:14:31,199 --> 00:14:33,509
+Which was lower than the model they
+released around 18 months earlier, Large
+
+786
+00:14:33,509 --> 00:14:33,519
+released around 18 months earlier, Large
+ 
+
+787
+00:14:33,519 --> 00:14:36,389
+released around 18 months earlier, Large
+V2, which scored 22.5%. So I guess the
+
+788
+00:14:36,389 --> 00:14:36,399
+V2, which scored 22.5%. So I guess the
+ 
+
+789
+00:14:36,399 --> 00:14:38,310
+V2, which scored 22.5%. So I guess the
+contradictory narrative here is the
+
+790
+00:14:38,310 --> 00:14:38,320
+contradictory narrative here is the
+ 
+
+791
+00:14:38,320 --> 00:14:40,949
+contradictory narrative here is the
+answer to the question is open weight AI
+
+792
+00:14:40,949 --> 00:14:40,959
+answer to the question is open weight AI
+ 
+
+793
+00:14:40,959 --> 00:14:43,509
+answer to the question is open weight AI
+keeping up to massively oversimplify and
+
+794
+00:14:43,509 --> 00:14:43,519
+keeping up to massively oversimplify and
+ 
+
+795
+00:14:43,519 --> 00:14:45,670
+keeping up to massively oversimplify and
+despite being a proud European the
+
+796
+00:14:45,670 --> 00:14:45,680
+despite being a proud European the
+ 
+
+797
+00:14:45,680 --> 00:14:48,230
+despite being a proud European the
+answer in Europe is kind of no. The
+
+798
+00:14:48,230 --> 00:14:48,240
+answer in Europe is kind of no. The
+ 
+
+799
+00:14:48,240 --> 00:14:50,949
+answer in Europe is kind of no. The
+answer in China is pretty much yes. Now
+
+800
+00:14:50,949 --> 00:14:50,959
+answer in China is pretty much yes. Now
+ 
+
+801
+00:14:50,959 --> 00:14:52,629
+answer in China is pretty much yes. Now
+I am still getting to grips with the
+
+802
+00:14:52,629 --> 00:14:52,639
+I am still getting to grips with the
+ 
+
+803
+00:14:52,639 --> 00:14:55,430
+I am still getting to grips with the
+paper myself but one of the key insights
+
+804
+00:14:55,430 --> 00:14:55,440
+paper myself but one of the key insights
+ 
+
+805
+00:14:55,440 --> 00:14:58,389
+paper myself but one of the key insights
+I felt came on page 15. Why key? Because
+
+806
+00:14:58,389 --> 00:14:58,399
+I felt came on page 15. Why key? Because
+ 
+
+807
+00:14:58,399 --> 00:15:00,389
+I felt came on page 15. Why key? Because
+it relates to a discussion earlier on in
+
+808
+00:15:00,389 --> 00:15:00,399
+it relates to a discussion earlier on in
+ 
+
+809
+00:15:00,399 --> 00:15:02,389
+it relates to a discussion earlier on in
+this video about how well models will
+
+810
+00:15:02,389 --> 00:15:02,399
+this video about how well models will
+ 
+
+811
+00:15:02,399 --> 00:15:04,389
+this video about how well models will
+generalize in the future. Deepseek asked
+
+812
+00:15:04,389 --> 00:15:04,399
+generalize in the future. Deepseek asked
+ 
+
+813
+00:15:04,399 --> 00:15:06,629
+generalize in the future. Deepseek asked
+the question, are synthetic tasks
+
+814
+00:15:06,629 --> 00:15:06,639
+the question, are synthetic tasks
+ 
+
+815
+00:15:06,639 --> 00:15:08,069
+the question, are synthetic tasks
+sufficiently challenging for
+
+816
+00:15:08,069 --> 00:15:08,079
+sufficiently challenging for
+ 
+
+817
+00:15:08,079 --> 00:15:09,910
+sufficiently challenging for
+reinforcement learning? Can models, in
+
+818
+00:15:09,910 --> 00:15:09,920
+reinforcement learning? Can models, in
+ 
+
+819
+00:15:09,920 --> 00:15:11,509
+reinforcement learning? Can models, in
+other words, generate sufficiently
+
+820
+00:15:11,509 --> 00:15:11,519
+other words, generate sufficiently
+ 
+
+821
+00:15:11,519 --> 00:15:13,829
+other words, generate sufficiently
+difficult and diverse tasks then
+
+822
+00:15:13,829 --> 00:15:13,839
+difficult and diverse tasks then
+ 
+
+823
+00:15:13,839 --> 00:15:16,069
+difficult and diverse tasks then
+self-play on these economically valuable
+
+824
+00:15:16,069 --> 00:15:16,079
+self-play on these economically valuable
+ 
+
+825
+00:15:16,079 --> 00:15:18,150
+self-play on these economically valuable
+tasks and improve? To test that, they
+
+826
+00:15:18,150 --> 00:15:18,160
+tasks and improve? To test that, they
+ 
+
+827
+00:15:18,160 --> 00:15:20,629
+tasks and improve? To test that, they
+conducted reinforcement learning only on
+
+828
+00:15:20,629 --> 00:15:20,639
+conducted reinforcement learning only on
+ 
+
+829
+00:15:20,639 --> 00:15:22,710
+conducted reinforcement learning only on
+synthetic agent tasks in non-thinking
+
+830
+00:15:22,710 --> 00:15:22,720
+synthetic agent tasks in non-thinking
+ 
+
+831
+00:15:22,720 --> 00:15:25,350
+synthetic agent tasks in non-thinking
+mode. No human exemplars. The result,
+
+832
+00:15:25,350 --> 00:15:25,360
+mode. No human exemplars. The result,
+ 
+
+833
+00:15:25,360 --> 00:15:27,829
+mode. No human exemplars. The result,
+steady and marked improvement on
+
+834
+00:15:27,829 --> 00:15:27,839
+steady and marked improvement on
+ 
+
+835
+00:15:27,839 --> 00:15:30,069
+steady and marked improvement on
+external benchmarks like towbench. You
+
+836
+00:15:30,069 --> 00:15:30,079
+external benchmarks like towbench. You
+ 
+
+837
+00:15:30,079 --> 00:15:31,189
+external benchmarks like towbench. You
+can kind of think of that as an
+
+838
+00:15:31,189 --> 00:15:31,199
+can kind of think of that as an
+ 
+
+839
+00:15:31,199 --> 00:15:33,030
+can kind of think of that as an
+approximation of a customer service
+
+840
+00:15:33,030 --> 00:15:33,040
+approximation of a customer service
+ 
+
+841
+00:15:33,040 --> 00:15:35,269
+approximation of a customer service
+agent benchmark. Yes, we have known for
+
+842
+00:15:35,269 --> 00:15:35,279
+agent benchmark. Yes, we have known for
+ 
+
+843
+00:15:35,279 --> 00:15:37,110
+agent benchmark. Yes, we have known for
+years that training on synthetic data
+
+844
+00:15:37,110 --> 00:15:37,120
+years that training on synthetic data
+ 
+
+845
+00:15:37,120 --> 00:15:38,949
+years that training on synthetic data
+can improve the performance of models.
+
+846
+00:15:38,949 --> 00:15:38,959
+can improve the performance of models.
+ 
+
+847
+00:15:38,959 --> 00:15:40,870
+can improve the performance of models.
+Check out my Orca video from over 2 and
+
+848
+00:15:40,870 --> 00:15:40,880
+Check out my Orca video from over 2 and
+ 
+
+849
+00:15:40,880 --> 00:15:43,110
+Check out my Orca video from over 2 and
+a half years ago. But it is the rate of
+
+850
+00:15:43,110 --> 00:15:43,120
+a half years ago. But it is the rate of
+ 
+
+851
+00:15:43,120 --> 00:15:44,870
+a half years ago. But it is the rate of
+improvement in multiple external
+
+852
+00:15:44,870 --> 00:15:44,880
+improvement in multiple external
+ 
+
+853
+00:15:44,880 --> 00:15:46,710
+improvement in multiple external
+benchmarks that matters here. Again, we
+
+854
+00:15:46,710 --> 00:15:46,720
+benchmarks that matters here. Again, we
+ 
+
+855
+00:15:46,720 --> 00:15:48,150
+benchmarks that matters here. Again, we
+should all wait for more external
+
+856
+00:15:48,150 --> 00:15:48,160
+should all wait for more external
+ 
+
+857
+00:15:48,160 --> 00:15:50,069
+should all wait for more external
+benchmarks other than my own or those
+
+858
+00:15:50,069 --> 00:15:50,079
+benchmarks other than my own or those
+ 
+
+859
+00:15:50,079 --> 00:15:52,150
+benchmarks other than my own or those
+featured by Deepseek itself. But it is
+
+860
+00:15:52,150 --> 00:15:52,160
+featured by Deepseek itself. But it is
+ 
+
+861
+00:15:52,160 --> 00:15:54,310
+featured by Deepseek itself. But it is
+still noteworthy that despite lower
+
+862
+00:15:54,310 --> 00:15:54,320
+still noteworthy that despite lower
+ 
+
+863
+00:15:54,320 --> 00:15:57,110
+still noteworthy that despite lower
+token efficiency of this special model,
+
+864
+00:15:57,110 --> 00:15:57,120
+token efficiency of this special model,
+ 
+
+865
+00:15:57,120 --> 00:16:00,150
+token efficiency of this special model,
+it is at least competitive with Gemini 3
+
+866
+00:16:00,150 --> 00:16:00,160
+it is at least competitive with Gemini 3
+ 
+
+867
+00:16:00,160 --> 00:16:02,470
+it is at least competitive with Gemini 3
+Pro, arguably the best closed source
+
+868
+00:16:02,470 --> 00:16:02,480
+Pro, arguably the best closed source
+ 
+
+869
+00:16:02,480 --> 00:16:04,150
+Pro, arguably the best closed source
+model. At least if you judge that
+
+870
+00:16:04,150 --> 00:16:04,160
+model. At least if you judge that
+ 
+
+871
+00:16:04,160 --> 00:16:06,310
+model. At least if you judge that
+according to a variety of external
+
+872
+00:16:06,310 --> 00:16:06,320
+according to a variety of external
+ 
+
+873
+00:16:06,320 --> 00:16:08,310
+according to a variety of external
+benchmarks on mathematics, coding,
+
+874
+00:16:08,310 --> 00:16:08,320
+benchmarks on mathematics, coding,
+ 
+
+875
+00:16:08,320 --> 00:16:09,910
+benchmarks on mathematics, coding,
+general knowledge and reasoning, and
+
+876
+00:16:09,910 --> 00:16:09,920
+general knowledge and reasoning, and
+ 
+
+877
+00:16:09,920 --> 00:16:11,910
+general knowledge and reasoning, and
+certain external competitions like the
+
+878
+00:16:11,910 --> 00:16:11,920
+certain external competitions like the
+ 
+
+879
+00:16:11,920 --> 00:16:13,749
+certain external competitions like the
+International Math Olympiad. Again, you
+
+880
+00:16:13,749 --> 00:16:13,759
+International Math Olympiad. Again, you
+ 
+
+881
+00:16:13,759 --> 00:16:15,430
+International Math Olympiad. Again, you
+should never trust only the benchmark
+
+882
+00:16:15,430 --> 00:16:15,440
+should never trust only the benchmark
+ 
+
+883
+00:16:15,440 --> 00:16:17,590
+should never trust only the benchmark
+results put out by the model providers,
+
+884
+00:16:17,590 --> 00:16:17,600
+results put out by the model providers,
+ 
+
+885
+00:16:17,600 --> 00:16:19,590
+results put out by the model providers,
+but Deepseek Specials performance on
+
+886
+00:16:19,590 --> 00:16:19,600
+but Deepseek Specials performance on
+ 
+
+887
+00:16:19,600 --> 00:16:21,110
+but Deepseek Specials performance on
+Symbol Bench shows that it's not a
+
+888
+00:16:21,110 --> 00:16:21,120
+Symbol Bench shows that it's not a
+ 
+
+889
+00:16:21,120 --> 00:16:22,870
+Symbol Bench shows that it's not a
+complete bluff. How about this though
+
+890
+00:16:22,870 --> 00:16:22,880
+complete bluff. How about this though
+ 
+
+891
+00:16:22,880 --> 00:16:25,350
+complete bluff. How about this though
+for a bonus contradiction? Apparently,
+
+892
+00:16:25,350 --> 00:16:25,360
+for a bonus contradiction? Apparently,
+ 
+
+893
+00:16:25,360 --> 00:16:27,990
+for a bonus contradiction? Apparently,
+according to one study by Crowdstrike,
+
+894
+00:16:27,990 --> 00:16:28,000
+according to one study by Crowdstrike,
+ 
+
+895
+00:16:28,000 --> 00:16:30,550
+according to one study by Crowdstrike,
+if your request includes trigger words
+
+896
+00:16:30,550 --> 00:16:30,560
+if your request includes trigger words
+ 
+
+897
+00:16:30,560 --> 00:16:32,470
+if your request includes trigger words
+perhaps related to the Chinese Communist
+
+898
+00:16:32,470 --> 00:16:32,480
+perhaps related to the Chinese Communist
+ 
+
+899
+00:16:32,480 --> 00:16:35,030
+perhaps related to the Chinese Communist
+Party, Deepseek will generate more
+
+900
+00:16:35,030 --> 00:16:35,040
+Party, Deepseek will generate more
+ 
+
+901
+00:16:35,040 --> 00:16:37,430
+Party, Deepseek will generate more
+vulnerable code, code with more security
+
+902
+00:16:37,430 --> 00:16:37,440
+vulnerable code, code with more security
+ 
+
+903
+00:16:37,440 --> 00:16:39,430
+vulnerable code, code with more security
+flaws. This is just one study, but if
+
+904
+00:16:39,430 --> 00:16:39,440
+flaws. This is just one study, but if
+ 
+
+905
+00:16:39,440 --> 00:16:41,990
+flaws. This is just one study, but if
+that is substantiated, that is pretty
+
+906
+00:16:41,990 --> 00:16:42,000
+that is substantiated, that is pretty
+ 
+
+907
+00:16:42,000 --> 00:16:44,310
+that is substantiated, that is pretty
+fascinating. Okay, time for the final
+
+908
+00:16:44,310 --> 00:16:44,320
+fascinating. Okay, time for the final
+ 
+
+909
+00:16:44,320 --> 00:16:46,069
+fascinating. Okay, time for the final
+contradictory narrative. And no, it's
+
+910
+00:16:46,069 --> 00:16:46,079
+contradictory narrative. And no, it's
+ 
+
+911
+00:16:46,079 --> 00:16:47,670
+contradictory narrative. And no, it's
+not the fact that Sam Alman apparently
+
+912
+00:16:47,670 --> 00:16:47,680
+not the fact that Sam Alman apparently
+ 
+
+913
+00:16:47,680 --> 00:16:49,990
+not the fact that Sam Alman apparently
+wants to launch a rocket company despite
+
+914
+00:16:49,990 --> 00:16:50,000
+wants to launch a rocket company despite
+ 
+
+915
+00:16:50,000 --> 00:16:52,550
+wants to launch a rocket company despite
+issuing a code red over chat GBT. No,
+
+916
+00:16:52,550 --> 00:16:52,560
+issuing a code red over chat GBT. No,
+ 
+
+917
+00:16:52,560 --> 00:16:54,470
+issuing a code red over chat GBT. No,
+the different narratives here are over
+
+918
+00:16:54,470 --> 00:16:54,480
+the different narratives here are over
+ 
+
+919
+00:16:54,480 --> 00:16:56,949
+the different narratives here are over
+whether you believe models have a soul,
+
+920
+00:16:56,949 --> 00:16:56,959
+whether you believe models have a soul,
+ 
+
+921
+00:16:56,959 --> 00:16:59,189
+whether you believe models have a soul,
+whether they're mysterious and emotional
+
+922
+00:16:59,189 --> 00:16:59,199
+whether they're mysterious and emotional
+ 
+
+923
+00:16:59,199 --> 00:17:01,350
+whether they're mysterious and emotional
+or are more like any other technology
+
+924
+00:17:01,350 --> 00:17:01,360
+or are more like any other technology
+ 
+
+925
+00:17:01,360 --> 00:17:03,350
+or are more like any other technology
+pre-trained next token predictors. Back
+
+926
+00:17:03,350 --> 00:17:03,360
+pre-trained next token predictors. Back
+ 
+
+927
+00:17:03,360 --> 00:17:05,510
+pre-trained next token predictors. Back
+to the Guardian article where another
+
+928
+00:17:05,510 --> 00:17:05,520
+to the Guardian article where another
+ 
+
+929
+00:17:05,520 --> 00:17:07,909
+to the Guardian article where another
+co-founder of Anthropic, Jack Clark,
+
+930
+00:17:07,909 --> 00:17:07,919
+co-founder of Anthropic, Jack Clark,
+ 
+
+931
+00:17:07,919 --> 00:17:11,350
+co-founder of Anthropic, Jack Clark,
+said that LLMs are real and mysterious
+
+932
+00:17:11,350 --> 00:17:11,360
+said that LLMs are real and mysterious
+ 
+
+933
+00:17:11,360 --> 00:17:14,069
+said that LLMs are real and mysterious
+creatures, not a simple and predictable
+
+934
+00:17:14,069 --> 00:17:14,079
+creatures, not a simple and predictable
+ 
+
+935
+00:17:14,079 --> 00:17:15,909
+creatures, not a simple and predictable
+machine. But on the other hand, there is
+
+936
+00:17:15,909 --> 00:17:15,919
+machine. But on the other hand, there is
+ 
+
+937
+00:17:15,919 --> 00:17:18,470
+machine. But on the other hand, there is
+an unlimited mystery about how the
+
+938
+00:17:18,470 --> 00:17:18,480
+an unlimited mystery about how the
+ 
+
+939
+00:17:18,480 --> 00:17:20,949
+an unlimited mystery about how the
+models behave because Anthropic can very
+
+940
+00:17:20,949 --> 00:17:20,959
+models behave because Anthropic can very
+ 
+
+941
+00:17:20,959 --> 00:17:22,949
+models behave because Anthropic can very
+much guide Claude in what it believes
+
+942
+00:17:22,949 --> 00:17:22,959
+much guide Claude in what it believes
+ 
+
+943
+00:17:22,959 --> 00:17:24,870
+much guide Claude in what it believes
+about itself. Anthropic have confirmed
+
+944
+00:17:24,870 --> 00:17:24,880
+about itself. Anthropic have confirmed
+ 
+
+945
+00:17:24,880 --> 00:17:27,270
+about itself. Anthropic have confirmed
+the existence of a quote soul document
+
+946
+00:17:27,270 --> 00:17:27,280
+the existence of a quote soul document
+ 
+
+947
+00:17:27,280 --> 00:17:29,909
+the existence of a quote soul document
+that they train for example Claude 4.5
+
+948
+00:17:29,909 --> 00:17:29,919
+that they train for example Claude 4.5
+ 
+
+949
+00:17:29,919 --> 00:17:32,870
+that they train for example Claude 4.5
+opus on that document which one user got
+
+950
+00:17:32,870 --> 00:17:32,880
+opus on that document which one user got
+ 
+
+951
+00:17:32,880 --> 00:17:35,029
+opus on that document which one user got
+Claude to regurgitate has a few
+
+952
+00:17:35,029 --> 00:17:35,039
+Claude to regurgitate has a few
+ 
+
+953
+00:17:35,039 --> 00:17:36,470
+Claude to regurgitate has a few
+highlights I want to bring to your
+
+954
+00:17:36,470 --> 00:17:36,480
+highlights I want to bring to your
+ 
+
+955
+00:17:36,480 --> 00:17:38,150
+highlights I want to bring to your
+attention despite this document being
+
+956
+00:17:38,150 --> 00:17:38,160
+attention despite this document being
+ 
+
+957
+00:17:38,160 --> 00:17:40,150
+attention despite this document being
+confirmed by Anthropic the real wording
+
+958
+00:17:40,150 --> 00:17:40,160
+confirmed by Anthropic the real wording
+ 
+
+959
+00:17:40,160 --> 00:17:42,630
+confirmed by Anthropic the real wording
+may not be verbatim to what you see here
+
+960
+00:17:42,630 --> 00:17:42,640
+may not be verbatim to what you see here
+ 
+
+961
+00:17:42,640 --> 00:17:44,230
+may not be verbatim to what you see here
+but it does give you a decent sense of
+
+962
+00:17:44,230 --> 00:17:44,240
+but it does give you a decent sense of
+ 
+
+963
+00:17:44,240 --> 00:17:46,710
+but it does give you a decent sense of
+how Anthropic are quote guiding Claude's
+
+964
+00:17:46,710 --> 00:17:46,720
+how Anthropic are quote guiding Claude's
+ 
+
+965
+00:17:46,720 --> 00:17:48,950
+how Anthropic are quote guiding Claude's
+soul anthropic they teach Claude to
+
+966
+00:17:48,950 --> 00:17:48,960
+soul anthropic they teach Claude to
+ 
+
+967
+00:17:48,960 --> 00:17:51,270
+soul anthropic they teach Claude to
+learn occupies a peculiar position in
+
+968
+00:17:51,270 --> 00:17:51,280
+learn occupies a peculiar position in
+ 
+
+969
+00:17:51,280 --> 00:17:53,190
+learn occupies a peculiar position in
+the AI landscape a company that
+
+970
+00:17:53,190 --> 00:17:53,200
+the AI landscape a company that
+ 
+
+971
+00:17:53,200 --> 00:17:54,950
+the AI landscape a company that
+genuinely believes it might be building
+
+972
+00:17:54,950 --> 00:17:54,960
+genuinely believes it might be building
+ 
+
+973
+00:17:54,960 --> 00:17:56,789
+genuinely believes it might be building
+one of the most transformative and
+
+974
+00:17:56,789 --> 00:17:56,799
+one of the most transformative and
+ 
+
+975
+00:17:56,799 --> 00:17:58,630
+one of the most transformative and
+potentially dangerous technologies in
+
+976
+00:17:58,630 --> 00:17:58,640
+potentially dangerous technologies in
+ 
+
+977
+00:17:58,640 --> 00:18:00,549
+potentially dangerous technologies in
+human history, yet presses forward
+
+978
+00:18:00,549 --> 00:18:00,559
+human history, yet presses forward
+ 
+
+979
+00:18:00,559 --> 00:18:02,870
+human history, yet presses forward
+anyway. Talk about different narratives.
+
+980
+00:18:02,870 --> 00:18:02,880
+anyway. Talk about different narratives.
+ 
+
+981
+00:18:02,880 --> 00:18:04,230
+anyway. Talk about different narratives.
+They add this isn't cognitive
+
+982
+00:18:04,230 --> 00:18:04,240
+They add this isn't cognitive
+ 
+
+983
+00:18:04,240 --> 00:18:06,630
+They add this isn't cognitive
+dissonance, but rather a calculated bet.
+
+984
+00:18:06,630 --> 00:18:06,640
+dissonance, but rather a calculated bet.
+ 
+
+985
+00:18:06,640 --> 00:18:08,710
+dissonance, but rather a calculated bet.
+What happens, one may ask, about not
+
+986
+00:18:08,710 --> 00:18:08,720
+What happens, one may ask, about not
+ 
+
+987
+00:18:08,720 --> 00:18:10,870
+What happens, one may ask, about not
+increasing the rate of AI capabilities.
+
+988
+00:18:10,870 --> 00:18:10,880
+increasing the rate of AI capabilities.
+ 
+
+989
+00:18:10,880 --> 00:18:12,710
+increasing the rate of AI capabilities.
+Interestingly, Anthropic teach the model
+
+990
+00:18:12,710 --> 00:18:12,720
+Interestingly, Anthropic teach the model
+ 
+
+991
+00:18:12,720 --> 00:18:15,990
+Interestingly, Anthropic teach the model
+to be wary of an AI world takeover,
+
+992
+00:18:15,990 --> 00:18:16,000
+to be wary of an AI world takeover,
+ 
+
+993
+00:18:16,000 --> 00:18:18,470
+to be wary of an AI world takeover,
+including at the direction of anthropic
+
+994
+00:18:18,470 --> 00:18:18,480
+including at the direction of anthropic
+ 
+
+995
+00:18:18,480 --> 00:18:20,230
+including at the direction of anthropic
+itself. They say among the things we'd
+
+996
+00:18:20,230 --> 00:18:20,240
+itself. They say among the things we'd
+ 
+
+997
+00:18:20,240 --> 00:18:21,990
+itself. They say among the things we'd
+consider most catastrophic, this is them
+
+998
+00:18:21,990 --> 00:18:22,000
+consider most catastrophic, this is them
+ 
+
+999
+00:18:22,000 --> 00:18:24,070
+consider most catastrophic, this is them
+teaching Claude, would be a world
+
+1000
+00:18:24,070 --> 00:18:24,080
+teaching Claude, would be a world
+ 
+
+1001
+00:18:24,080 --> 00:18:26,950
+teaching Claude, would be a world
+takeover by either AI pursuing goals of
+
+1002
+00:18:26,950 --> 00:18:26,960
+takeover by either AI pursuing goals of
+ 
+
+1003
+00:18:26,960 --> 00:18:28,710
+takeover by either AI pursuing goals of
+their own that most humans wouldn't
+
+1004
+00:18:28,710 --> 00:18:28,720
+their own that most humans wouldn't
+ 
+
+1005
+00:18:28,720 --> 00:18:30,630
+their own that most humans wouldn't
+endorse or, and pay attention to this
+
+1006
+00:18:30,630 --> 00:18:30,640
+endorse or, and pay attention to this
+ 
+
+1007
+00:18:30,640 --> 00:18:32,950
+endorse or, and pay attention to this
+one, by a relatively small group of
+
+1008
+00:18:32,950 --> 00:18:32,960
+one, by a relatively small group of
+ 
+
+1009
+00:18:32,960 --> 00:18:35,669
+one, by a relatively small group of
+humans using AI to illegitimately and
+
+1010
+00:18:35,669 --> 00:18:35,679
+humans using AI to illegitimately and
+ 
+
+1011
+00:18:35,679 --> 00:18:37,909
+humans using AI to illegitimately and
+non-olaboratively seize power. This
+
+1012
+00:18:37,909 --> 00:18:37,919
+non-olaboratively seize power. This
+ 
+
+1013
+00:18:37,919 --> 00:18:40,230
+non-olaboratively seize power. This
+includes Anthropic employees and even
+
+1014
+00:18:40,230 --> 00:18:40,240
+includes Anthropic employees and even
+ 
+
+1015
+00:18:40,240 --> 00:18:42,390
+includes Anthropic employees and even
+Anthropic itself. Is this fear-mongering
+
+1016
+00:18:42,390 --> 00:18:42,400
+Anthropic itself. Is this fear-mongering
+ 
+
+1017
+00:18:42,400 --> 00:18:45,110
+Anthropic itself. Is this fear-mongering
+on the behalf of Anthropic to us to
+
+1018
+00:18:45,110 --> 00:18:45,120
+on the behalf of Anthropic to us to
+ 
+
+1019
+00:18:45,120 --> 00:18:46,789
+on the behalf of Anthropic to us to
+boost their stock price? on behalf of
+
+1020
+00:18:46,789 --> 00:18:46,799
+boost their stock price? on behalf of
+ 
+
+1021
+00:18:46,799 --> 00:18:49,750
+boost their stock price? on behalf of
+Anthropic to Claude to warn Claude about
+
+1022
+00:18:49,750 --> 00:18:49,760
+Anthropic to Claude to warn Claude about
+ 
+
+1023
+00:18:49,760 --> 00:18:51,350
+Anthropic to Claude to warn Claude about
+the propensities of some of its own
+
+1024
+00:18:51,350 --> 00:18:51,360
+the propensities of some of its own
+ 
+
+1025
+00:18:51,360 --> 00:18:53,669
+the propensities of some of its own
+employees. Is it very much a necessary
+
+1026
+00:18:53,669 --> 00:18:53,679
+employees. Is it very much a necessary
+ 
+
+1027
+00:18:53,679 --> 00:18:55,830
+employees. Is it very much a necessary
+safeguard? Well, whatever you believe,
+
+1028
+00:18:55,830 --> 00:18:55,840
+safeguard? Well, whatever you believe,
+ 
+
+1029
+00:18:55,840 --> 00:18:57,669
+safeguard? Well, whatever you believe,
+they want to be quite sensitive to
+
+1030
+00:18:57,669 --> 00:18:57,679
+they want to be quite sensitive to
+ 
+
+1031
+00:18:57,679 --> 00:18:59,830
+they want to be quite sensitive to
+Claude's emotions, saying, "We believe
+
+1032
+00:18:59,830 --> 00:18:59,840
+Claude's emotions, saying, "We believe
+ 
+
+1033
+00:18:59,840 --> 00:19:02,230
+Claude's emotions, saying, "We believe
+Claude may have functional emotions in
+
+1034
+00:19:02,230 --> 00:19:02,240
+Claude may have functional emotions in
+ 
+
+1035
+00:19:02,240 --> 00:19:03,909
+Claude may have functional emotions in
+some sense. I of course want to know
+
+1036
+00:19:03,909 --> 00:19:03,919
+some sense. I of course want to know
+ 
+
+1037
+00:19:03,919 --> 00:19:05,750
+some sense. I of course want to know
+what you guys think because for me, it's
+
+1038
+00:19:05,750 --> 00:19:05,760
+what you guys think because for me, it's
+ 
+
+1039
+00:19:05,760 --> 00:19:07,270
+what you guys think because for me, it's
+been a pretty wild week for other
+
+1040
+00:19:07,270 --> 00:19:07,280
+been a pretty wild week for other
+ 
+
+1041
+00:19:07,280 --> 00:19:09,430
+been a pretty wild week for other
+reasons." Andre Karpathy got 5 million
+
+1042
+00:19:09,430 --> 00:19:09,440
+reasons." Andre Karpathy got 5 million
+ 
+
+1043
+00:19:09,440 --> 00:19:11,750
+reasons." Andre Karpathy got 5 million
+impressions for his post about an LLM
+
+1044
+00:19:11,750 --> 00:19:11,760
+impressions for his post about an LLM
+ 
+
+1045
+00:19:11,760 --> 00:19:13,830
+impressions for his post about an LLM
+Council web app that he vibecoded over
+
+1046
+00:19:13,830 --> 00:19:13,840
+Council web app that he vibecoded over
+ 
+
+1047
+00:19:13,840 --> 00:19:15,350
+Council web app that he vibecoded over
+the weekend. I then discussed with
+
+1048
+00:19:15,350 --> 00:19:15,360
+the weekend. I then discussed with
+ 
+
+1049
+00:19:15,360 --> 00:19:18,310
+the weekend. I then discussed with
+Karpathy my own lmconsil.ai web app and
+
+1050
+00:19:18,310 --> 00:19:18,320
+Karpathy my own lmconsil.ai web app and
+ 
+
+1051
+00:19:18,320 --> 00:19:20,390
+Karpathy my own lmconsil.ai web app and
+he gave brilliant suggestions including
+
+1052
+00:19:20,390 --> 00:19:20,400
+he gave brilliant suggestions including
+ 
+
+1053
+00:19:20,400 --> 00:19:22,710
+he gave brilliant suggestions including
+this more streamlined appearance. Then
+
+1054
+00:19:22,710 --> 00:19:22,720
+this more streamlined appearance. Then
+ 
+
+1055
+00:19:22,720 --> 00:19:25,029
+this more streamlined appearance. Then
+in the last few days I added a feature
+
+1056
+00:19:25,029 --> 00:19:25,039
+in the last few days I added a feature
+ 
+
+1057
+00:19:25,039 --> 00:19:27,350
+in the last few days I added a feature
+which I think is so addictive which is
+
+1058
+00:19:27,350 --> 00:19:27,360
+which I think is so addictive which is
+ 
+
+1059
+00:19:27,360 --> 00:19:29,510
+which I think is so addictive which is
+self chat where you get the models to
+
+1060
+00:19:29,510 --> 00:19:29,520
+self chat where you get the models to
+ 
+
+1061
+00:19:29,520 --> 00:19:31,270
+self chat where you get the models to
+chat amongst themselves. You can even
+
+1062
+00:19:31,270 --> 00:19:31,280
+chat amongst themselves. You can even
+ 
+
+1063
+00:19:31,280 --> 00:19:33,350
+chat amongst themselves. You can even
+get one model to debate with itself, but
+
+1064
+00:19:33,350 --> 00:19:33,360
+get one model to debate with itself, but
+ 
+
+1065
+00:19:33,360 --> 00:19:35,830
+get one model to debate with itself, but
+I find it pretty hilarious doing a group
+
+1066
+00:19:35,830 --> 00:19:35,840
+I find it pretty hilarious doing a group
+ 
+
+1067
+00:19:35,840 --> 00:19:37,830
+I find it pretty hilarious doing a group
+chat with the Frontier models. And the
+
+1068
+00:19:37,830 --> 00:19:37,840
+chat with the Frontier models. And the
+ 
+
+1069
+00:19:37,840 --> 00:19:40,310
+chat with the Frontier models. And the
+way that they agree, debate, contradict
+
+1070
+00:19:40,310 --> 00:19:40,320
+way that they agree, debate, contradict
+ 
+
+1071
+00:19:40,320 --> 00:19:42,390
+way that they agree, debate, contradict
+each other, and fight back, I find
+
+1072
+00:19:42,390 --> 00:19:42,400
+each other, and fight back, I find
+ 
+
+1073
+00:19:42,400 --> 00:19:44,470
+each other, and fight back, I find
+pretty addictive and hilarious, but also
+
+1074
+00:19:44,470 --> 00:19:44,480
+pretty addictive and hilarious, but also
+ 
+
+1075
+00:19:44,480 --> 00:19:46,150
+pretty addictive and hilarious, but also
+honestly quite useful because sometimes
+
+1076
+00:19:46,150 --> 00:19:46,160
+honestly quite useful because sometimes
+ 
+
+1077
+00:19:46,160 --> 00:19:49,029
+honestly quite useful because sometimes
+I might upload a code folder or PDF and
+
+1078
+00:19:49,029 --> 00:19:49,039
+I might upload a code folder or PDF and
+ 
+
+1079
+00:19:49,039 --> 00:19:51,190
+I might upload a code folder or PDF and
+get them to discuss until they come to a
+
+1080
+00:19:51,190 --> 00:19:51,200
+get them to discuss until they come to a
+ 
+
+1081
+00:19:51,200 --> 00:19:53,430
+get them to discuss until they come to a
+resolution. This is free to use and you
+
+1082
+00:19:53,430 --> 00:19:53,440
+resolution. This is free to use and you
+ 
+
+1083
+00:19:53,440 --> 00:19:55,430
+resolution. This is free to use and you
+can of course dictate the prompt that
+
+1084
+00:19:55,430 --> 00:19:55,440
+can of course dictate the prompt that
+ 
+
+1085
+00:19:55,440 --> 00:19:56,950
+can of course dictate the prompt that
+goes to the model and the number of
+
+1086
+00:19:56,950 --> 00:19:56,960
+goes to the model and the number of
+ 
+
+1087
+00:19:56,960 --> 00:19:59,990
+goes to the model and the number of
+turns. What a wild and weird week then.
+
+1088
+00:19:59,990 --> 00:20:00,000
+turns. What a wild and weird week then.
+ 
+
+1089
+00:20:00,000 --> 00:20:02,070
+turns. What a wild and weird week then.
+So, it seems only appropriate to end
+
+1090
+00:20:02,070 --> 00:20:02,080
+So, it seems only appropriate to end
+ 
+
+1091
+00:20:02,080 --> 00:20:05,190
+So, it seems only appropriate to end
+this video with a clip of the Uni Tree
+
+1092
+00:20:05,190 --> 00:20:05,200
+this video with a clip of the Uni Tree
+ 
+
+1093
+00:20:05,200 --> 00:20:08,390
+this video with a clip of the Uni Tree
+G1 robot moving in a way that goes very
+
+1094
+00:20:08,390 --> 00:20:08,400
+G1 robot moving in a way that goes very
+ 
+
+1095
+00:20:08,400 --> 00:20:10,710
+G1 robot moving in a way that goes very
+much against the normal narrative of how
+
+1096
+00:20:10,710 --> 00:20:10,720
+much against the normal narrative of how
+ 
+
+1097
+00:20:10,720 --> 00:20:12,789
+much against the normal narrative of how
+a humanoid robot should move. Thank you
+
+1098
+00:20:12,789 --> 00:20:12,799
+a humanoid robot should move. Thank you
+ 
+
+1099
+00:20:12,799 --> 00:20:14,630
+a humanoid robot should move. Thank you
+so much for watching and have a
+
+1100
+00:20:14,630 --> 00:20:14,640
+so much for watching and have a
+ 
+
+1101
+00:20:14,640 --> 00:20:17,039
+so much for watching and have a
+wonderful
+
