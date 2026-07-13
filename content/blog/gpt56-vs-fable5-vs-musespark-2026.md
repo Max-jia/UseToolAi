@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 vs Claude Fable 5 vs Meta Muse Spark 1.1: Three Models Dropped in 48 Hours. Here's What Actually Matters"
 description: "OpenAI, Anthropic, and Meta all shipped major models between July 8-10, 2026. Each won different benchmarks. Here's the real story behind the numbers."
-date: "2026-07-10"
+date: "2026-07-11"
 category: "AI Assistants"
 tags: ["gpt-5.6", "claude-fable-5", "meta-muse-spark", "benchmarks", "ai-models"]
 featured: true

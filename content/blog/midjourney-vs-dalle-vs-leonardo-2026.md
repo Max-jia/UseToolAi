@@ -1,7 +1,7 @@
 ---
 title: "Midjourney vs DALL-E 4 vs Leonardo AI 2026: Pick Based on Workflow, Not Benchmarks"
 description: "Three AI image generators, three different philosophies. Midjourney for art. DALL-E for text. Leonardo for versatility. Here's which one matches how you work."
-date: "2026-07-06"
+date: "2026-07-07"
 category: "Image Generation"
 tags: ["midjourney", "dall-e", "leonardo", "comparison", "ai-image"]
 featured: true

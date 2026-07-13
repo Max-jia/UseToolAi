@@ -1,7 +1,7 @@
 ---
 title: "AI Image Generators 2026: Most Benchmark Claims Are Fake. Here's What We Actually Verified"
 description: "104-agent deep research on 7 AI image tools. 19 of 23 claims failed verification. Only 4 survived. Here is what the data actually confirms about Midjourney, DALL-E, Firefly, and the rest."
-date: "2026-07-07"
+date: "2026-07-09"
 category: "Image Generation"
 tags: ["midjourney", "dall-e", "firefly", "ai-image", "comparison", "research"]
 featured: true
