@@ -22,7 +22,7 @@ const categories = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
         <script dangerouslySetInnerHTML={{
@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         }} />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649257223930816" crossOrigin="anonymous"></script>
       </head>
-      <body className="min-h-screen flex flex-col bg-[var(--color-bg)]">
+      <body className="min-h-screen flex flex-col bg-[var(--color-bg)]" suppressHydrationWarning>
         {/* Header — single row: logo | categories | compare + blog */}
         <header className="bg-white border-b border-[var(--color-border)] sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-6 h-14 flex items-center gap-5">
