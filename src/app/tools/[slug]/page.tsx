@@ -307,6 +307,13 @@ export default async function ToolPage({
                 <span className="text-[var(--color-text-muted)] ml-1">{tool.rating}/5</span>
               </div>
 
+              {tool.updated && (
+                <div>
+                  <span className="text-xs text-[var(--color-text-muted)] block mb-1">Last Updated</span>
+                  <span className="text-xs text-[var(--color-text-dim)]">{tool.updated}</span>
+                </div>
+              )}
+
               <div>
                 <span className="text-xs text-[var(--color-text-muted)] block mb-2">Tags</span>
                 <div className="flex flex-wrap gap-1.5">

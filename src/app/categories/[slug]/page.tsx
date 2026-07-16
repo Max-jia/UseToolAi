@@ -61,6 +61,46 @@ export default async function CategoryPage({
           })}
       </div>
 
+      {/* Comparison Matrix */}
+      <section className="mb-10">
+        <h2 className="text-lg font-bold mb-4">Quick Comparison</h2>
+        <div className="overflow-x-auto rounded-2xl border border-[var(--color-border)] bg-[var(--color-card)]">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-[var(--color-border)] bg-[var(--color-surface)]">
+                <th className="text-left p-4 font-semibold text-[var(--color-text)]">Tool</th>
+                <th className="text-left p-4 font-semibold text-[var(--color-text)] hidden md:table-cell">Pricing</th>
+                <th className="text-center p-4 font-semibold text-[var(--color-text)] w-20">Rating</th>
+                <th className="text-left p-4 font-semibold text-[var(--color-text)] hidden lg:table-cell">Best For</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tools.map((tool, i) => (
+                <tr key={tool.slug} className={`border-b border-[var(--color-border)] last:border-0 hover:bg-[var(--color-surface)]/50 transition-colors ${i % 2 === 0 ? "bg-white/30" : ""}`}>
+                  <td className="p-4">
+                    <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 group/link">
+                      <ToolIcon url={tool.url} name={tool.name} size={28} />
+                      <span className="font-semibold group-hover/link:text-[var(--color-primary)] transition-colors">{tool.name}</span>
+                    </Link>
+                  </td>
+                  <td className="p-4 text-[var(--color-text-muted)] hidden md:table-cell text-xs">{tool.pricing}</td>
+                  <td className="p-4 text-center">
+                    <span className="stars text-xs tracking-wider">
+                      {"★".repeat(Math.floor(tool.rating))}
+                      {"☆".repeat(5 - Math.floor(tool.rating))}
+                    </span>
+                    <span className="text-xs text-[var(--color-text-dim)] ml-1">{tool.rating}</span>
+                  </td>
+                  <td className="p-4 text-[var(--color-text-muted)] hidden lg:table-cell text-xs max-w-48 truncate" title={tool.bestFor || ""}>
+                    {tool.bestFor?.slice(0, 100) || "—"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       {/* Tools list */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {tools.map((tool) => (

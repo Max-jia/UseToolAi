@@ -24,6 +24,7 @@ export interface Tool {
   pricingDetails?: string;
   alternatives?: Alternative[];
   content?: string;
+  updated?: string;
 }
 
 const toolsDirectory = path.join(process.cwd(), 'content/tools');
@@ -38,7 +39,9 @@ export function getAllTools(): Tool[] {
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const { data, content } = matter(fileContents);
       const excerpt = content.trim().slice(0, 400);
-      return { slug, ...data, content: excerpt } as Tool;
+      const stat = fs.statSync(fullPath);
+      const updated = stat.mtime.toISOString().slice(0, 10); // YYYY-MM-DD
+      return { slug, ...data, updated, content: excerpt } as Tool;
     });
   return tools.sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -48,7 +51,9 @@ export function getToolBySlug(slug: string): (Tool & { content: string }) | null
     const fullPath = path.join(toolsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
-    return { slug, ...data, content: content.trim() } as Tool & { content: string };
+    const stat = fs.statSync(fullPath);
+    const updated = stat.mtime.toISOString().slice(0, 10);
+    return { slug, ...data, updated, content: content.trim() } as Tool & { content: string };
   } catch {
     return null;
   }
