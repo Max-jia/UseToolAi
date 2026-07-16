@@ -25,9 +25,14 @@ export async function generateMetadata({
   const parts = slugs.split("-vs-");
   const [t1, t2] = [getToolBySlug(parts[0]), getToolBySlug(parts[1])];
   if (!t1 || !t2) return {};
+
+  // Only meaningful comparisons: same category → indexable
+  const isSameCategory = t1.category === t2.category;
+
   return {
     title: `${t1.name} vs ${t2.name} 2026 — Which Should You Choose?`,
     description: `Compare ${t1.name} and ${t2.name} side by side: pricing, features, pros & cons, ratings, and best use cases. Find out which AI tool is right for your workflow.`,
+    robots: isSameCategory ? undefined : "noindex",
   };
 }
 
