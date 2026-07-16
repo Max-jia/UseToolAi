@@ -24,7 +24,9 @@ const categories = [
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-      <head />
+      <head>
+        <meta name="impact-site-verification" content="b5b276a2-1c78-4976-9d24-3bbd8d689428" />
+      </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]" suppressHydrationWarning>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
