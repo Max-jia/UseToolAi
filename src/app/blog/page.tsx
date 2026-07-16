@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
+import BlogList from "@/components/BlogList";
+
+export const dynamic = "force-static";
 
 export default function BlogIndex() {
   const posts = getAllPosts();
@@ -23,35 +26,7 @@ export default function BlogIndex() {
           <p>We're writing in-depth comparison guides to help you choose the right AI tools.</p>
         </div>
       ) : (
-        <div className="space-y-6">
-          {posts.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}`}
-              className="block bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group"
-            >
-              <div className="flex items-start justify-between mb-2">
-                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)] text-[var(--color-primary)]">
-                  {post.category}
-                </span>
-                <span className="text-xs text-[var(--color-text-muted)]">{post.date}</span>
-              </div>
-              <h2 className="text-xl font-bold mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                {post.title}
-              </h2>
-              <p className="text-[var(--color-text-muted)] text-sm line-clamp-2 mb-3">
-                {post.description}
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {post.tags.map((tag) => (
-                  <span key={tag} className="text-xs bg-gray-100 text-[var(--color-text-muted)] px-2 py-0.5 rounded-full">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </Link>
-          ))}
-        </div>
+        <BlogList posts={posts} />
       )}
     </div>
   );

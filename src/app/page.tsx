@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAllTools, getAllCategories, getToolsByCategory } from "@/lib/tools";
 import SearchFilter from "@/components/SearchFilter";
 import ToolIcon from "@/components/ToolIcon";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 export default function HomePage() {
   const tools = getAllTools();
@@ -46,6 +47,9 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Newsletter */}
+      <NewsletterSignup />
 
       {/* Browse by Category — horizontal layout like indiemakers.tools nav */}
       <section className="max-w-6xl mx-auto px-6 pb-12">

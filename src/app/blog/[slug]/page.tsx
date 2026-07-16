@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, extractFAQ } from "@/lib/blog";
 import type { Metadata } from "next";
 import ReactMarkdown from "@/app/tools/[slug]/MarkdownContent";
 
@@ -41,6 +41,20 @@ export default async function BlogPostPage({
     publisher: { "@type": "Organization", name: "UseToolAI" },
   };
 
+  const faqs = extractFAQ(post.content);
+  const faqSchema = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   const relatedPosts = getAllPosts()
     .filter((p) => p.slug !== post.slug)
     .slice(0, 3);
@@ -56,6 +70,7 @@ export default async function BlogPostPage({
       </nav>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <article>
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-3">

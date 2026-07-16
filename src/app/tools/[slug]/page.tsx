@@ -49,6 +49,42 @@ function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />;
 }
 
+function ToolFAQSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
+  if (!tool) return null;
+  // Auto-generate FAQ from tool data
+  const faqs: { q: string; a: string }[] = [
+    { q: `What is ${tool.name}?`, a: tool.description },
+    { q: `How much does ${tool.name} cost?`, a: tool.pricingDetails || tool.pricing },
+  ];
+  if (tool.bestFor) {
+    faqs.push({ q: `Who is ${tool.name} best for?`, a: tool.bestFor });
+  }
+  const altNames = tool.alternatives?.map((a) => a.name).join(", ");
+  if (altNames) {
+    faqs.push({ q: `What are the best alternatives to ${tool.name}?`, a: `Top alternatives include ${altNames}. Click through for full comparisons on each.` });
+  }
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  });
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />;
+}
+
+/** Extract a short "Best for" label from the bestFor text */
+function bestForShort(bestFor?: string): string | null {
+  if (!bestFor) return null;
+  // Try to grab the first sentence before "Best for:" or the first sentence
+  const match = bestFor.match(/Best for:\s*(.+?)(?:\.|$)/);
+  if (match) return match[1].trim();
+  // Otherwise take first 80 chars
+  return bestFor.length > 80 ? bestFor.slice(0, 80) + "…" : bestFor;
+}
+
 export default async function ToolPage({
   params,
 }: {
@@ -75,6 +111,7 @@ export default async function ToolPage({
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
       <ProductSchema tool={tool} />
+      <ToolFAQSchema tool={tool} />
       {/* Breadcrumb */}
       <nav className="text-sm text-[var(--color-text-muted)] mb-6">
         <Link href="/" className="hover:text-[var(--color-primary)]">Home</Link>
@@ -90,7 +127,16 @@ export default async function ToolPage({
       <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-8 md:p-10 mb-8 border border-indigo-100">
         <div className="flex items-center gap-4 mb-4">
           <ToolIcon url={tool.url} name={tool.name} size={56} />
-          <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-100 text-indigo-700">{tool.category}</span>
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-100 text-indigo-700">{tool.category}</span>
+              {bestForShort(tool.bestFor) && (
+                <span className="text-xs px-3 py-1 rounded-full bg-amber-100 text-amber-700" title={tool.bestFor}>
+                  🎯 {bestForShort(tool.bestFor)}
+                </span>
+              )}
+            </div>
+          </div>
         </div>
         <h1 className="text-3xl md:text-4xl font-extrabold mb-3">
           {tool.name} Review 2026
