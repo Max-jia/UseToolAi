@@ -25,6 +25,7 @@ export interface Tool {
   alternatives?: Alternative[];
   content?: string;
   updated?: string;
+  affiliateUrl?: string;
 }
 
 const toolsDirectory = path.join(process.cwd(), 'content/tools');

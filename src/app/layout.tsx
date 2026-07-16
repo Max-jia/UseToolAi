@@ -64,9 +64,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p className="text-[var(--color-text-muted)] font-medium mb-1">UseToolAI</p>
             <p>&copy; 2026 — Helping you find the right AI tools.</p>
             <p className="mt-1">
+              <Link href="/about" className="hover:text-[var(--color-text-muted)] transition-colors">About</Link>
+              {" · "}
+              <Link href="/contact" className="hover:text-[var(--color-text-muted)] transition-colors">Contact</Link>
+              {" · "}
               <Link href="/privacy" className="hover:text-[var(--color-text-muted)] transition-colors">Privacy Policy</Link>
-              {" · "}We may earn affiliate commissions from some links.
             </p>
+            <p className="text-xs mt-1">We may earn affiliate commissions from some links.</p>
           </div>
         </footer>
       </body>

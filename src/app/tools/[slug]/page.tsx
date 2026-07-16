@@ -327,9 +327,9 @@ export default async function ToolPage({
             </div>
 
             <a
-              href={tool.url}
+              href={tool.affiliateUrl || tool.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel={tool.affiliateUrl ? "sponsored noopener noreferrer" : "noopener noreferrer"}
               className="block text-center w-full mt-6 bg-[var(--color-primary)] text-white font-semibold px-6 py-3 rounded-xl hover:bg-[var(--color-primary-dark)] transition shadow-md"
             >
               Visit {tool.name} →
