@@ -14,4 +14,8 @@ bestFor: "Otter.ai is perfect for English-speaking teams who want real-time capt
 pricingDetails: "Free: 300 min/mo, 30 min/meeting cap. Pro ($8-10/seat/mo annual): Live captions, collaborative notes. Business ($20/seat/mo): 6,000 min/mo, admin features. Enterprise: custom."
 alternatives: [{name: "Fireflies.ai", slug: "fireflies"}]
 ---
-Otter.ai pioneered real-time AI transcription and remains the best at it. Its killer feature is live captions during meetings — you can read what's being said as it happens, making meetings more accessible and productive.
+Otter.ai pioneered real-time AI transcription and remains the best at it. Live captions appear as words are spoken — you can read what's being said during the meeting, highlight key moments, and assign action items in real time. Unlike Fireflies (a post-meeting bot), Otter is a live notepad.
+
+## Who Should Use It
+
+Journalists conducting interviews, students in lectures, and professionals who want to stay engaged in meetings while capturing everything. Free tier: 300 minutes/month, 30-minute session limit. Upgrade to Pro ($8/seat/month) for longer sessions and higher limits. For automated post-meeting summaries, Fireflies is the better fit.

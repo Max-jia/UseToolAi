@@ -31,4 +31,8 @@ alternatives:
     slug: "udio"
 ---
 
-Suno has democratized music creation in a way that feels almost magical. Type "upbeat lo-fi hip hop with female vocals about studying late at night" and within seconds you have a complete song — with surprisingly good production quality. While professional musicians may find it limiting, for the 99% of people who can't compose music, it's revolutionary.
+Suno has democratized music creation. Type "upbeat lo-fi hip hop with female vocals about studying late at night" and within seconds you have a complete song with surprisingly good production quality. For the 99% of people who can't compose music, it's revolutionary.
+
+## The Copyright Question
+
+Suno is embroiled in ongoing copyright litigation with major record labels over its training data. For personal and non-commercial use, this doesn't matter. For commercial projects (YouTube videos, podcasts, ads), the legal status of AI-generated music is unsettled. Udio's Universal Music partnership offers legitimate commercial licensing as a safer alternative.

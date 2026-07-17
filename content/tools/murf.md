@@ -15,4 +15,8 @@ pricingDetails: "Free: 10 min voice gen (test only). Basic ($19/mo annual): 60 v
 alternatives: [{name: "ElevenLabs", slug: "elevenlabs"}, {name: "PlayHT", slug: "play-ht"}]
 ---
 
-Murf AI fills the gap between consumer TTS tools and professional voiceover production. Its built-in audio-video editor means you can create a complete training video or marketing presentation without leaving the platform — record voiceover, sync to slides, adjust timing, and export in one workflow.
+Murf AI fills the gap between consumer text-to-speech and professional voiceover production. Its built-in audio-video editor means you can create a complete training video — voiceover, slide sync, timing, export — without leaving the platform.
+
+## Murf vs ElevenLabs
+
+ElevenLabs wins on voice quality and developer tools. Murf wins on workflow — its all-in-one editor replaces 2-3 separate tools for teams producing training content, marketing videos, and e-learning. For narration-only use cases, ElevenLabs is better. For complete video projects with voiceover, Murf is the integrated solution.

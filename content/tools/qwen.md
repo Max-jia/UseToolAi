@@ -39,4 +39,12 @@ alternatives:
     slug: "deepseek"
 ---
 
-Qwen (通义千问), developed by Alibaba Cloud, has reshaped the AI pricing landscape in 2026. Its Qwen3.7-Max model ties Claude Opus 4.7 on the Artificial Analysis Intelligence Index while being 3-60x cheaper via API. Like DeepSeek, Qwen is fully open-source with open weights, but adds native multimodal capabilities (vision + 2-hour video input) that DeepSeek lacks.
+Qwen (通义千问), developed by Alibaba Cloud, has reshaped AI pricing in 2026. Qwen3.7-Max ties Claude Opus 4.7 on the Artificial Analysis Intelligence Index while being 3-60x cheaper via API. Fully open-source with open weights, plus native multimodal capabilities (vision, 2-hour video input) that DeepSeek lacks.
+
+## Qwen vs DeepSeek
+
+Both are Chinese open-source models with aggressive pricing. DeepSeek leads on coding benchmarks and has the larger open-weight model (1.6T parameters). Qwen leads on multimodal — it can process 2-hour videos, images, and text in one prompt. For text-only work, DeepSeek. For multimodal, Qwen.
+
+## Who Should Use It
+
+Developers building multimodal AI applications on a budget. Qwen's API pricing (3-60x cheaper than GPT/Claude equivalents) makes it viable for production at scale. Skip it if you only need text generation — DeepSeek is cheaper and stronger on coding.

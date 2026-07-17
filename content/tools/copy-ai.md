@@ -14,4 +14,16 @@ bestFor: "Copy.ai is ideal for sales teams running personalized outreach at scal
 pricingDetails: "Free: 2,000 words/mo, 1 seat. Starter ($49/mo): Unlimited words, brand voice, 5 seats. Advanced ($99-249/mo): More workflow credits. GTM Platform ($1,000+/mo): 75-200 seats, 20K-75K workflow credits. Annual billing saves ~25%."
 alternatives: [{name: "Jasper", slug: "jasper"}, {name: "Writesonic", slug: "writesonic"}, {name: "ChatGPT", slug: "chatgpt"}]
 ---
-Copy.ai has pivoted from a simple AI copywriter into a full GTM (go-to-market) platform. Its killer feature is workflow automation — building multi-step content pipelines that automatically generate, distribute, and track content across channels. The massive pricing gap between $49/mo and $1,000/mo is the most common complaint.
+Copy.ai has evolved from a simple AI copywriter into a full GTM (go-to-market) workflow platform. Its standout feature is workflow automation — building multi-step pipelines that generate content, distribute it across channels, and track performance automatically.
+
+## From Copywriter to GTM Platform
+
+The 2024-2026 pivot transformed Copy.ai from a writing tool into a marketing operating system. You don't just generate a blog post — you build a pipeline that generates the post, creates social snippets, drafts email subject lines, publishes to your CMS, and reports on engagement. For small marketing teams, this replaces 3-4 point solutions.
+
+## The Pricing Gap
+
+The free tier (2,000 words/month) is a generous test drive. But the jump from free to Pro ($49/month) is steep. There's no $20 middle tier. For solo creators, ChatGPT or Claude at $20/month covers most writing needs. Copy.ai becomes worth it when you use the workflow automation — not just the AI writing.
+
+## Who Should Use It
+
+Small marketing teams (2-5 people) who currently use separate tools for writing, scheduling, and analytics. Copy.ai consolidates them. Solo creators should start with ChatGPT free or Claude free and only upgrade to Copy.ai when they need workflow automation.

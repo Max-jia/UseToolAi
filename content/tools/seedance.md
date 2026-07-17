@@ -39,4 +39,8 @@ alternatives:
     slug: "pika"
 ---
 
-Seedance (即梦), developed by ByteDance (TikTok's parent company), has rapidly become the #1 AI video model on international benchmarks while maintaining the most aggressive pricing in the industry. Its deep integration with CapCut — one of the world's most popular video editors — gives it a distribution advantage no competitor can match.
+Seedance (即梦), developed by ByteDance (TikTok's parent company), leads international AI video benchmarks with the most aggressive pricing in the industry. Deep integration with CapCut — one of the world's most popular video editors — gives it a distribution advantage no competitor can match.
+
+## Who Should Use It
+
+TikTok and Reels creators who already use CapCut. Seedance inside CapCut means AI video generation and editing in one workflow. The pricing is the cheapest in AI video. Skip it if you need cinematic, long-form video — Runway and Kling are stronger for those use cases.

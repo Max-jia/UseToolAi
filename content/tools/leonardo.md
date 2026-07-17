@@ -40,4 +40,12 @@ alternatives:
     slug: "canva-ai"
 ---
 
-Leonardo AI distinguishes itself through breadth: 80+ models, custom LoRA training, 3D texture generation, and the most generous free tier in AI image generation (150 tokens/day). Acquired by Canva in 2024, it's positioned as the creative professional's Swiss Army knife — less artistically focused than Midjourney but far more versatile for production workflows.
+Leonardo AI has the most generous free tier in AI image generation — 150 credits refreshed every single day. That's roughly 30-50 images daily, for free. Acquired by Canva in 2024, it's positioned as the creative professional's Swiss Army knife: 80+ specialized models, custom LoRA training, 3D texture generation, and character consistency features that Midjourney lacks.
+
+## Leonardo vs Midjourney
+
+Midjourney produces more beautiful images. Leonardo does more things. If you need one stunning hero image, use Midjourney. If you need 30 variations of a character for a game, or consistent product shots for a store, or a custom model trained on your art style — Leonardo is the better tool. The free tier generosity is unmatched.
+
+## Who Should Use It
+
+Game developers (3D texture generation is unique), D&D dungeon masters (character consistency across scenes), and anyone who needs high-volume image generation without paying. The daily credit refresh means you can experiment endlessly. Skip it if you need the absolute best single-image quality — Midjourney still wins on photorealism.

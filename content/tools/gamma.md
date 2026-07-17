@@ -14,4 +14,8 @@ bestFor: "Gamma is ideal for anyone who needs professional presentations fast wi
 pricingDetails: "Free: 400 one-time AI credits, Gamma branding. Plus ($8-10/mo annual): Unlimited AI, no watermark, advanced models. Pro ($15-20/mo): Premium models, custom domains, analytics. Business ($40/user/mo)."
 alternatives: [{name: "Beautiful.ai", slug: "beautiful-ai"}, {name: "Decktopus", slug: "decktopus"}]
 ---
-Gamma has the fastest "prompt to polished presentation" workflow in the AI space. Type your topic and get a complete, well-designed deck in under a minute. The generous free tier (400 credits) makes it the best entry point for AI presentations.
+Gamma has the fastest prompt-to-presentation workflow in AI. Type a topic, get a complete designed deck in under a minute. 400 free AI credits (~10 presentations) make it the best free entry point for AI presentations.
+
+## Who Should Use It
+
+Anyone who makes presentations regularly and hates every minute of it. Gamma turns a 2-hour design task into a 2-minute generation plus 15 minutes of content refinement. The free tier is public — upgrade to Plus ($8/month) for private decks and custom branding. Skip it if you need pixel-perfect, brand-controlled slides — Canva or PowerPoint offer more control.

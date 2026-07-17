@@ -14,4 +14,12 @@ bestFor: "Microsoft Copilot is essential for organizations deeply invested in Mi
 pricingDetails: "Free: Basic AI features. Pro ($20/mo): Priority access, advanced features. Microsoft 365 Copilot ($30/user/mo annual): Full AI integration across all Office apps."
 alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Notion AI", slug: "notion-ai"}]
 ---
-Microsoft Copilot's killer advantage is Microsoft Graph — it can access your emails, documents, meetings, and contacts to provide contextual AI assistance that no standalone chatbot can match. For enterprises already on Microsoft 365, it's the obvious choice.
+Microsoft Copilot's killer advantage is Microsoft Graph — it accesses your emails, documents, meetings, and contacts for contextual AI that no standalone chatbot can match. For enterprises on Microsoft 365, it's the default choice.
+
+## Free vs Paid
+
+Free tier covers web chat with the latest models. Full Office integration (Copilot in Excel, Word, Teams) requires Microsoft 365 Copilot at $30/user/month. The Excel integration alone — generating formulas and pivot tables from natural language — can justify the cost for finance and operations teams.
+
+## Who Should Use It
+
+Microsoft 365 enterprises. Copilot is woven into the tools your team already uses. Skip it if you're on Google Workspace — Gemini is your equivalent. Skip the paid tier if you only need AI chat, not Office integration.

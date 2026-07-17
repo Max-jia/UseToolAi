@@ -14,4 +14,12 @@ bestFor: "Notion AI is essential for teams already using Notion as their primary
 pricingDetails: "Free/Plus: 20 lifetime AI uses only. Business ($20/user/mo annual): Full AI suite included. Enterprise: Custom + admin controls. Custom Agents: $10/1,000 credits (separate billing). Old AI add-on ($10/mo) grandfathered for pre-May 2025 subscribers."
 alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Claude", slug: "claude"}, {name: "Microsoft Copilot", slug: "microsoft-copilot"}]
 ---
-Notion AI's killer feature is workspace-wide Q&A — ask a question and it searches across every page, database, and document in your workspace. For teams already using Notion as their knowledge hub, this context awareness makes it more useful than standalone AI tools for work-specific queries.
+Notion AI's killer feature is workspace-wide Q&A — ask a question and it searches every page, database, and document in your workspace. For teams using Notion as their knowledge hub, this contextual awareness beats standalone AI tools for work-specific queries.
+
+## The Cost Reality
+
+Notion AI is not free — $10/month add-on on top of Notion. The free AI tier is a limited trial, not an ongoing benefit. For users who don't already live in Notion, there's no reason to adopt it just for the AI. ChatGPT or Claude offer comparable writing and Q&A capabilities at lower cost.
+
+## Who Should Use It
+
+Heavy Notion users with large workspaces. If you have 500+ pages of company knowledge, Notion AI becomes a search engine for your brain. Skip it if you're not already committed to Notion as your primary workspace.

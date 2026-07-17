@@ -15,4 +15,12 @@ pricingDetails: "Free: Basic access. Basic ($8/mo): More generations, priority q
 alternatives: [{name: "Midjourney", slug: "midjourney"}, {name: "DALL-E 4", slug: "dall-e"}, {name: "Canva AI", slug: "canva-ai"}]
 ---
 
-Ideogram has carved out a unique niche: AI image generation where text actually works. While Midjourney's text rendering succeeds roughly 10% of the time, Ideogram reliably produces readable text in logos, posters, and social graphics — making it an essential complement to other AI image tools in a professional workflow.
+Ideogram has carved out a unique niche: AI image generation where text actually works. While Midjourney renders readable text roughly 10% of the time, Ideogram achieves ~78% first-generation text accuracy. For logos, posters, greeting cards, and social media graphics — anything where words need to appear correctly on an image — Ideogram is the best option available.
+
+## The Text-in-Image Problem
+
+Most AI image generators treat text as visual noise. Ideogram treats it as a first-class feature. The difference is night and day: a logo generated in DALL-E says "Welcmoe to our Stroe." The same prompt in Ideogram says "Welcome to our Store." For anyone making graphics with text, this alone justifies using Ideogram.
+
+## Who Should Use It
+
+Social media managers, event organizers, and small business owners who need graphics with readable text. The free tier (10 slow generations/day) is sufficient for casual use. Professional designers should upgrade to Plus ($20/month) for faster generation and private output.

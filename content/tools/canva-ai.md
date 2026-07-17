@@ -39,4 +39,16 @@ alternatives:
     slug: "adobe-podcast"
 ---
 
-Canva AI (Magic Studio) has been used over 5 billion times, making it arguably the most widely used AI design tool. Its strength is accessibility — someone with zero design experience can generate professional social media graphics, presentations, and marketing materials in minutes using AI prompts.
+Canva AI (Magic Studio) has been used over 7 billion times, making it the most widely adopted AI design tool in the world. Its strength is accessibility — someone with zero design experience can generate professional social media graphics, presentations, and marketing materials in minutes using natural language prompts.
+
+## AI Features Inside Canva
+
+Magic Media generates images and short videos from text. Magic Write drafts and rewrites copy. Magic Eraser removes objects from photos. Magic Edit replaces elements with AI-generated alternatives. These features live inside Canva's editor — you don't open a separate AI tool, you use AI as part of your existing design workflow.
+
+## The Free Tier Reality
+
+50 lifetime AI credits total — not per month, total. This is a tasting menu, not a meal. Canva's AI features are a bonus for existing Canva users, not a reason to sign up for Canva. For high-volume AI image generation, use Leonardo or ChatGPT instead.
+
+## Who Should Use It
+
+The 200 million people who already use Canva. AI features are a natural extension of the Canva workflow. If you don't use Canva, don't sign up just for the AI — dedicated tools offer better AI capabilities at lower cost.

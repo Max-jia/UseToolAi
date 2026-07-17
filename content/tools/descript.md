@@ -37,4 +37,8 @@ alternatives:
     slug: "adobe-podcast"
 ---
 
-Descript's core innovation is treating video like text. You edit the transcript, and the video edits itself. For creators who spend hours fiddling with timelines, this is transformative. The Studio Sound AI enhancement and Overdub voice cloning make it particularly valuable for podcasters and solo video creators.
+Descript's core innovation is treating video like text — edit the transcript, and the video edits itself. This one feature replaces hours of timeline scrubbing. Studio Sound AI cleans audio with one click. Overdub voice cloning lets you type new dialogue in your own voice.
+
+## Who Should Use It
+
+Podcasters, YouTubers, and tutorial creators who edit talking-head content. The free tier (1 export/month, watermarked) is an evaluation tool — serious users need Hobbyist ($16/month). The time saved by text-based editing typically pays for the subscription within the first project.

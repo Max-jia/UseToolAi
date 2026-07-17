@@ -15,4 +15,8 @@ pricingDetails: "Free: 12,500 chars/mo. Creator ($31/mo): 250K chars. Pro ($79/m
 alternatives: [{name: "ElevenLabs", slug: "elevenlabs"}, {name: "Murf AI", slug: "murf"}]
 ---
 
-PlayHT (now PlayAI) positions itself as the developer-friendly TTS platform with the broadest language coverage (142 languages) and a low-latency API designed for real-time voice applications. While ElevenLabs leads on single-speaker narration quality, PlayHT wins on global scale and API performance.
+PlayHT (now PlayAI) positions itself as the developer-friendly TTS platform with the broadest language coverage (142 languages) and low-latency API for real-time voice applications. ElevenLabs leads on single-speaker narration quality. PlayHT wins on global scale and API performance.
+
+## Who Should Use It
+
+Developers building voice-enabled applications — AI receptionists, real-time translation, interactive voice agents. The API-first approach and language breadth make it the default choice for global deployments. Skip it for creative projects (audiobooks, character voices) where ElevenLabs' quality advantage matters more.

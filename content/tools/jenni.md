@@ -14,4 +14,16 @@ bestFor: "Jenni AI is ideal for students, researchers, and academics who need AI
 pricingDetails: "Free: 200 AI words/day, 10 autocompletes/day. Unlimited Annual ($12/mo, $144/yr): Unlimited AI words, autocomplete, edits, chat, exports. Unlimited Monthly ($30/mo). Pro Annual ($29/mo): Priority access to latest features. Student discount: 50% off with verified .edu email."
 alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Grammarly", slug: "grammarly"}, {name: "Perplexity", slug: "perplexity"}]
 ---
-Jenni AI fills a specific niche: AI writing assistance purpose-built for academic work. Unlike general AI writers, it understands scholarly tone, helps with citations, and integrates into the research workflow. The annual Unlimited plan at $12/month is excellent value for serious academic writers.
+Jenni AI is the only AI writing tool purpose-built for academic work. Unlike general AI writers (ChatGPT, Claude) or marketing tools (Jasper, Copy.ai), Jenni understands scholarly tone, citation formats, and the research workflow. For students and researchers, this specialization matters.
+
+## Academic Integrity by Design
+
+Jenni's autocomplete feature suggests the next phrase when you're stuck — it doesn't write entire papers. This distinguishes it from tools that generate full essays from prompts. The built-in citation management (APA, MLA, Chicago, Harvard) and plagiarism checker reinforce the academic integrity focus. Jenni helps you write your own work, not outsource it.
+
+## The Free Tier Reality
+
+200 words per day on the free tier is tight — fine for daily writing sessions, insufficient for marathon paper-writing. The annual Unlimited plan at $12/month is the best value for serious academic writers. At that price, Jenni costs less than a single textbook.
+
+## Who Should Use It
+
+Graduate students, researchers, and academics who write papers regularly. Jenni's citation management alone saves hours of manual formatting. Skip it if you write blog posts, marketing copy, or creative content — specialized tools exist for those use cases.
