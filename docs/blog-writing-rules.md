@@ -202,6 +202,38 @@ The method doesn't matter — the quality does.
 - [ ] Reads like a human wrote it? (read it out loud to check)
 - [ ] No paragraph longer than 3 sentences?
 - [ ] All pricing is current?
+- [ ] **Humanizer check passed?** (scan for: em dash abuse, AI vocab, title case headings, hedging, filler phrases)
+- [ ] **Publish date spread?** (each article ≥2 days apart, no same-day batch publishing)
+
+---
+
+## AI Humanizer Check
+
+**Every article must pass a humanizer scan before publishing.** Check for:
+
+| Pattern | What to Look For | Fix |
+|---------|-----------------|-----|
+| **AI vocabulary** | delve, unleash, tapestry, crucial, furthermore, game-changer, revolutionary, seamless, cutting-edge, landscape, moreover, pivotal, it is worth noting, in today's | Replace with plain words |
+| **Em dash abuse** | More than 2-3 "—" in body text | Replace with comma or period |
+| **Hedging** | "generally," "typically," "it could be argued that," "potentially" | Delete, state things plainly |
+| **Filler phrases** | "In order to," "Due to the fact that," "It is important to note that" | Cut to: "To," "Because," delete entirely |
+| **Title case in headings** | "How To Build A Store" | "How to build a store" |
+| **Generic conclusions** | "The future looks bright," "Exciting times lie ahead" | Cut entirely, end with specifics |
+| **Signposting** | "Let's dive in," "Here's what you need to know," "Without further ado" | Delete, start with substance |
+
+**Tool:** Use the `humanizer` skill: `/humanizer` on the file before committing.
+
+## Publish Date Rules
+
+**Never batch-publish articles on the same date.** Spread them at least 2 days apart.
+
+| # Articles | Spread | Example |
+|-----------|--------|---------|
+| 5 articles | Every 2 days | 7/15, 7/17, 7/19, 7/21, 7/23 |
+| 3 articles | Every 2-3 days | 7/15, 7/18, 7/21 |
+| 1 article | Any date | 7/15 |
+
+**Why:** Google and readers both penalize obvious batch-publishing. Dates spread naturally signal a real publication cadence.
 
 ---
 
@@ -210,3 +242,5 @@ The method doesn't matter — the quality does.
 1. **They came for an answer, not your prose.** Give it to them immediately.
 2. **Honesty beats comprehensiveness.** Five tools deeply tested is better than 50 names copy-pasted.
 3. **Stale content is negative equity.** Don't publish what you won't maintain.
+4. **Run the humanizer before you ship.** AI-sounding text loses readers in the first paragraph.
+5. **Spread your dates.** Five articles on the same day looks like a content farm.

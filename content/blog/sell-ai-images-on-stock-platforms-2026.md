@@ -1,7 +1,7 @@
 ---
 title: "How to Sell AI-Generated Images on Stock Platforms (2026 Guide)"
 description: "Turn Midjourney prompts into passive income. The exact workflow to generate, upscale, and sell AI images on Adobe Stock, Shutterstock, and more — with real earnings data."
-date: "2026-07-17"
+date: "2026-07-12"
 category: "Monetization"
 tags: ["monetization", "stock-photos", "midjourney", "passive-income", "ai-image", "side-hustle"]
 featured: true
