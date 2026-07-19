@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import HeaderNav from "@/components/HeaderNav";
 import Link from "next/link";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const GA_ID = "G-4DHWWJV4YK";
 
@@ -11,12 +11,6 @@ export const metadata: Metadata = {
   description:
     "Discover and compare 55+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",
 };
-
-const categories = [
-  "Writing & Text", "Image & Design", "Video & Animation",
-  "Productivity", "Code & Development", "Audio & Voice",
-  "Marketing & SEO", "Data & Analysis",
-];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -30,33 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}');`}
         </Script>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649257223930816" crossOrigin="anonymous" strategy="lazyOnload" />
-        {/* Header — single row: logo | categories | compare + blog */}
-        <header className="bg-white border-b border-[var(--color-border)] sticky top-0 z-50">
-          <div className="max-w-6xl mx-auto px-6 h-14 flex items-center gap-5">
-            <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-              <img src="/logo-small.png" alt="UseToolAI" width={26} height={26} className="rounded-md" />
-              <span className="font-bold text-base tracking-tight hidden sm:inline">UseTool<span className="text-[var(--color-primary)]">AI</span></span>
-            </Link>
-            <div className="flex-1 overflow-x-auto scrollbar-none">
-              <div className="flex gap-1 text-sm whitespace-nowrap">
-                {categories.map((cat) => {
-                  const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
-                  return (
-                    <Link key={cat} href={`/categories/${slug}`} className="px-2.5 py-1 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-surface)] transition-colors">
-                      {cat}
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
-            <div className="flex items-center gap-4 flex-shrink-0 text-sm">
-              <Link href="/compare" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Compare</Link>
-              <Link href="/new" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">New</Link>
-              <Link href="/blog" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Blog</Link>
-              <ThemeToggle />
-            </div>
-          </div>
-        </header>
+        <HeaderNav />
 
         <main className="flex-1">{children}</main>
 
