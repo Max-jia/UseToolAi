@@ -26,14 +26,14 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-50/80 via-white to-emerald-50/40" />
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 relative">
           <div className="text-center max-w-2xl mx-auto mb-10">
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight tracking-tight mb-3">
-              Find the right{" "}
-              <span className="text-gradient">AI tool</span>
-              {" "}for the job
+            <h1 className="text-3xl md:text-5xl font-bold leading-snug tracking-tight mb-3">
+              Find the best{" "}
+              <span className="text-gradient">AI tool</span>.
+              <br />
+              <span className="text-[var(--color-text)]">No fluff.</span>
             </h1>
-            <p className="text-base text-[var(--color-text-muted)] max-w-lg mx-auto">
-              {tools.length}+ AI tools, honestly reviewed. No marketing fluff.
-              Just real comparisons to help you choose.
+            <p className="text-base text-[var(--color-text-muted)] max-w-lg mx-auto leading-relaxed mt-4">
+              {tools.length}+ tools, honestly reviewed. Real comparisons to help you choose.
             </p>
           </div>
 
