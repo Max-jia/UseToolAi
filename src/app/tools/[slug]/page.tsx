@@ -124,7 +124,7 @@ export default async function ToolPage({
       </nav>
 
       {/* Hero */}
-      <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-8 md:p-10 mb-8 border border-indigo-100">
+      <div className="bg-gradient-to-br from-indigo-50 via-white to-emerald-50 rounded-2xl p-8 md:p-10 mb-8 border border-indigo-100/60 shadow-sm">
         <div className="flex items-center gap-4 mb-4">
           <ToolIcon url={tool.url} name={tool.name} size={56} />
           <div>
@@ -330,7 +330,7 @@ export default async function ToolPage({
               href={tool.affiliateUrl || tool.url}
               target="_blank"
               rel={tool.affiliateUrl ? "sponsored noopener noreferrer" : "noopener noreferrer"}
-              className="block text-center w-full mt-6 bg-[var(--color-primary)] text-white font-semibold px-6 py-3 rounded-xl hover:bg-[var(--color-primary-dark)] transition shadow-md"
+              className="block text-center w-full mt-6 bg-[var(--color-accent)] text-white font-semibold px-6 py-3 rounded-xl hover:bg-emerald-600 transition shadow-md btn-glow"
             >
               Visit {tool.name} →
             </a>

@@ -1,4 +1,4 @@
-import { getAllTools } from "@/lib/tools";
+import { getAllTools, getAllTags } from "@/lib/tools";
 import { getAllPosts } from "@/lib/blog";
 import type { MetadataRoute } from "next";
 
@@ -32,11 +32,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
   }));
 
+  const allTags = getAllTags();
+  const tagPages = allTags.map((t) => ({
+    url: `${baseUrl}/tag/${t.tag}`,
+    priority: 0.6,
+    changeFrequency: "weekly" as const,
+  }));
+
   const blogPages = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     priority: 0.8,
     changeFrequency: "monthly" as const,
   }));
 
-  return [...staticPages, ...categoryPages, ...toolPages, ...blogPages];
+  return [...staticPages, ...categoryPages, ...tagPages, ...toolPages, ...blogPages];
 }

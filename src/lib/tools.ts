@@ -73,6 +73,34 @@ export function getToolsByCategory(category: string): Tool[] {
   );
 }
 
+export interface TagInfo {
+  tag: string;
+  count: number;
+  label: string;
+}
+
+export function getAllTags(): TagInfo[] {
+  const tools = getAllTools();
+  const tagMap = new Map<string, number>();
+  tools.forEach((t) => {
+    t.tags.forEach((tag) => {
+      tagMap.set(tag, (tagMap.get(tag) || 0) + 1);
+    });
+  });
+  return Array.from(tagMap.entries())
+    .map(([tag, count]) => ({
+      tag,
+      count,
+      label: tag.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getToolsByTag(tag: string): Tool[] {
+  const tools = getAllTools();
+  return tools.filter((t) => t.tags.includes(tag));
+}
+
 export function searchTools(query: string): Tool[] {
   const tools = getAllTools();
   const q = query.toLowerCase();

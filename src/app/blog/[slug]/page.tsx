@@ -31,14 +31,24 @@ export default async function BlogPostPage({
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  // Extract first meaningful paragraph for AI summary
+  const firstParagraph = post.content
+    .split("\n")
+    .find((line) => line.trim().length > 60 && !line.startsWith("#") && !line.startsWith("-") && !line.startsWith(">"))
+    ?.trim() || post.description;
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
+    abstract: firstParagraph.slice(0, 300),
     datePublished: post.date,
-    author: { "@type": "Organization", name: "UseToolAI" },
-    publisher: { "@type": "Organization", name: "UseToolAI" },
+    dateModified: post.date,
+    author: { "@type": "Organization", name: "UseToolAI", url: "https://usetoolai.com/about" },
+    publisher: { "@type": "Organization", name: "UseToolAI", url: "https://usetoolai.com" },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://usetoolai.com/blog/${post.slug}` },
+    isAccessibleForFree: true,
   };
 
   const faqs = extractFAQ(post.content);

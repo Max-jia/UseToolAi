@@ -59,7 +59,7 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="block bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group"
+              className="block bg-[var(--color-card)] rounded-2xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary-light)] card-lift transition-all group"
             >
               <div className="flex items-start justify-between mb-2">
                 <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)] text-[var(--color-primary)]">

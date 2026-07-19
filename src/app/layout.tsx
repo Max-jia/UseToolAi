@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const GA_ID = "G-4DHWWJV4YK";
-
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "UseToolAI — Find the Best AI Tools in 2026",
@@ -23,7 +20,7 @@ const categories = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="impact-site-verification" content="b5b276a2-1c78-4976-9d24-3bbd8d689428" />
       </head>
@@ -54,7 +51,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <div className="flex items-center gap-4 flex-shrink-0 text-sm">
               <Link href="/compare" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Compare</Link>
+              <Link href="/new" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">New</Link>
               <Link href="/blog" className="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Blog</Link>
+              <ThemeToggle />
             </div>
           </div>
         </header>
