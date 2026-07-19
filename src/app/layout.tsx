@@ -9,7 +9,7 @@ const GA_ID = "G-4DHWWJV4YK";
 export const metadata: Metadata = {
   title: "UseToolAI — Find the Best AI Tools in 2026",
   description:
-    "Discover and compare 55+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",
+    "Discover and compare 100+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About UseToolAI — Honest AI Tool Reviews & Comparisons",
-  description: "We test and compare AI tools so you don't have to. 56+ tools reviewed, 26 in-depth comparison articles. No marketing fluff. Just honest, data-driven recommendations.",
+  description: "We test and compare AI tools so you don't have to. 100+ tools reviewed, 36 in-depth comparison articles. No marketing fluff. Just honest, data-driven recommendations.",
 };
 
 export default function AboutPage() {
