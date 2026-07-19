@@ -5,6 +5,7 @@ category: "Marketing & SEO"
 pricing: "$29/mo Starter / $129/mo Lite / $249/mo Standard / $449/mo Advanced"
 url: "https://ahrefs.com"
 rating: 5
+added: "2026-07-17"
 tags: ["seo", "marketing", "backlinks", "keyword-research", "competitive-intelligence", "content"]
 features:
   - "Site Explorer: analyze any website's backlinks, organic traffic, and top pages"

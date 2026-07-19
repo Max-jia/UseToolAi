@@ -5,6 +5,7 @@ category: "Marketing & SEO"
 pricing: "$117/mo Pro / $208/mo Guru / $417/mo Business"
 url: "https://semrush.com"
 rating: 5
+added: "2026-07-17"
 tags: ["seo", "marketing", "analytics", "content", "competitive-intelligence"]
 features: ["55+ tools covering SEO, PPC, content, social media, and competitive research","AI Visibility Toolkit: track brand presence in ChatGPT, Gemini, Perplexity answers","Domain Analytics: analyze any website's traffic, keywords, and backlinks","Content Marketing Toolkit with AI writing and topic research","Position Tracking: daily rank monitoring across all major search engines"]
 pros: ["Most comprehensive SEO suite — replaces 5+ point tools","AI Visibility Toolkit is first-mover in tracking AI search presence","Massive database: 25B+ keywords, 43T+ backlinks","Industry standard used by 10M+ marketers worldwide"]

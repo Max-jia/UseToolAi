@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 
 export default function NewToolsPage() {
   const tools = getAllTools()
-    .filter((t) => t.updated)
-    .sort((a, b) => (b.updated || "").localeCompare(a.updated || ""))
-    .slice(0, 20);
+    .filter((t) => t.added)
+    .sort((a, b) => (b.added || "").localeCompare(a.added || ""))
+    .slice(0, 30);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -23,9 +23,9 @@ export default function NewToolsPage() {
       </nav>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-extrabold mb-2">New & Recently Updated</h1>
+        <h1 className="text-3xl font-extrabold mb-2">Newly Added Tools</h1>
         <p className="text-[var(--color-text-muted)]">
-          Latest AI tool additions and updates. We refresh tool information regularly — pricing, features, and reviews.
+          The latest AI tools added to our directory. Fresh discoveries, honestly reviewed.
         </p>
       </div>
 
@@ -48,8 +48,8 @@ export default function NewToolsPage() {
             <p className="text-xs text-[var(--color-text-muted)] line-clamp-2 mb-2">{tool.description}</p>
             <div className="flex items-center justify-between text-xs">
               <span className="text-[var(--color-text-dim)]">{tool.pricing.split(" / ")[0]}</span>
-              {tool.updated && (
-                <span className="text-[var(--color-accent)] font-medium">Updated {tool.updated}</span>
+              {tool.added && (
+                <span className="text-[var(--color-accent)] font-medium">Added {tool.added}</span>
               )}
             </div>
           </Link>
