@@ -2,9 +2,10 @@
 name: "ElevenLabs"
 description: "Industry-leading AI voice synthesis platform. Generate natural speech in 29+ languages, clone voices with seconds of audio, and create audiobooks at scale."
 category: "Audio & Voice"
-pricing: "Free / $5/mo Starter / $22/mo Creator / $99/mo Pro / $330/mo Scale"
+pricing: "Free / $6/mo Starter / $22/mo Creator / $99/mo Pro / $299/mo Scale / $990/mo Business"
 url: "https://elevenlabs.io"
 rating: 5
+updated: "2026-08-04"
 tags: ["voice", "audio", "text-to-speech", "cloning", "audiobook"]
 features:
   - "Ultra-realistic text-to-speech in 29 languages"
@@ -26,7 +27,7 @@ cons:
   - "Some voices can sound slightly synthetic in tonal languages"
 coreStrength: "The most realistic AI voices in the industry — consistently rated #1 for natural prosody, emotional range, and cloning fidelity. Indistinguishable from human speech in blind tests."
 bestFor: "Content creators producing audiobooks, podcasts, and video voiceovers. Developers building voice AI applications. Localization teams dubbing content into multiple languages. Anyone who needs high-quality synthetic speech at scale."
-pricingDetails: "Free: 10K characters/month. Starter ($5/mo): 30K chars. Creator ($22/mo): 100K chars, professional cloning. Pro ($99/mo): 500K chars. Scale ($330/mo): 2M chars."
+pricingDetails: "Free: 10K credits/mo. Starter ($6/mo): 30K credits, commercial license, instant voice cloning. Creator ($22/mo): 121K credits, professional cloning. Pro ($99/mo): 600K credits. Scale ($299/mo): 1.8M credits, 3 seats. Business ($990/mo): 6M credits, 10 seats."
 alternatives:
   - name: "PlayHT"
     slug: "play-ht"

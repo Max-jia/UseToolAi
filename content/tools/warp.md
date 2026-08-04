@@ -2,9 +2,10 @@
 name: "Warp"
 description: "AI terminal with natural language commands. Type what you want in plain English, Warp generates the correct shell command — with IDE-style editing, team sharing, and a modern Rust-based terminal engine."
 category: "Code & Development"
-pricing: "Free / $18/user Team / $36/user Enterprise"
+pricing: "Free / $20/mo Build / $200/mo Max / $50/user Business / Custom Enterprise"
 url: "https://warp.dev"
 rating: 5
+updated: "2026-08-04"
 tags: ["terminal", "cli", "developer", "ai", "productivity"]
 added: "2026-07-19"
 features:

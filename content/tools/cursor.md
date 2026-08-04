@@ -2,9 +2,10 @@
 name: "Cursor"
 description: "AI-first code editor built on VS Code. Predictive tab completion, multi-file agentic refactoring, and parallel background agents. The gold standard for AI-native IDE integration."
 category: "Code & Development"
-pricing: "Free / $20/mo Pro / $60/mo Pro+ / $200/mo Ultra / $40/user Team"
-url: "https://cursor.sh"
+pricing: "Free / $20/mo Individual / $40/user Team / Custom Enterprise"
+url: "https://cursor.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["coding", "editor", "developer", "ide", "ai", "agent"]
 features:
   - "Predictive tab completion: predicts your next edit across multiple files, not just next token"
@@ -29,7 +30,7 @@ cons:
   - "Geographic restrictions on Claude/GPT models in some countries"
 coreStrength: "The only AI code editor where AI feels woven into the editor, not bolted on — predictive tab completion that anticipates your next edit across multiple files. Feels like pair programming with a senior engineer."
 bestFor: "Professional developers coding 4+ hours/day on multi-file projects who want AI deeply integrated into their editor. Best for those comfortable with VS Code who value predictive completion, agentic refactoring, and the ability to run background tasks in parallel."
-pricingDetails: "Hobby (Free): Limited completions, 50 slow premium requests, 7-day Pro trial. Pro ($20/mo): Unlimited tab completion, $20 API credits, Background Agents. Pro+ ($60/mo): 3x frontier usage, $70 credits. Ultra ($200/mo): 20x frontier usage, $400 credits. Team ($40/user): Shared context, admin controls, SSO."
+pricingDetails: "Hobby (Free): limited agent requests. Pro ($20/mo): cloud agents, Bugbot code review, MCPs, skills. Pro+/Ultra: higher agent limits, pricing via account. Teams ($40/user): Standard/Premium tiers, SSO, pooled usage. Enterprise: custom."
 alternatives:
   - name: "GitHub Copilot"
     slug: "github-copilot"

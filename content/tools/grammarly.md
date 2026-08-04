@@ -2,9 +2,10 @@
 name: "Grammarly"
 description: "AI-powered writing assistant checking grammar, tone, clarity, and plagiarism. Integrates across browser, desktop, mobile, and 500K+ apps. 40M+ daily users."
 category: "Writing & Text"
-pricing: "Free / $12/user/mo Premium / $15/user/mo Business"
+pricing: "Free / $12/user/mo Pro / Custom Enterprise"
 url: "https://grammarly.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["writing", "grammar", "editing", "productivity", "business"]
 features:
   - "Advanced grammar, spelling, and punctuation correction with context-aware suggestions"
@@ -46,7 +47,7 @@ The 2026 generative AI features (rewrite, compose, ideate) bring Grammarly close
 
 Grammarly is essential for anyone who writes professionally in English. The free tier covers grammar, spelling, and basic tone detection — enough for most individual users. Premium ($12/month) adds full-sentence rewrites, plagiarism detection, and brand tone management for teams. Skip it if you only write casually or in languages other than English.
 bestFor: "Grammarly is essential for professionals who write frequently in English — especially non-native speakers, business communicators, and content creators. Best for: emails, reports, academic papers, and any writing where errors damage credibility. Not ideal for: creative fiction or highly technical documentation where style rules should be broken intentionally."
-pricingDetails: "Free: Basic grammar/spelling, 100 AI generations/mo. Premium ($12/user/mo annual, $30/mo monthly): Advanced tone/style, plagiarism, 2,000 AI generations/mo. Business ($15/user/mo annual): Everything + style guides, brand tones, analytics, SAML SSO. Volume discounts for 50+ seats. Educational pricing available at significant discounts."
+pricingDetails: "Free: Basic grammar/spelling, 100 AI prompts/mo. Pro ($12/user/mo): Full-sentence rewrites, tone adjustment, plagiarism & AI detection, 2,000 AI prompts/mo. Enterprise: Custom — SSO, BYOK encryption, DLP, unlimited prompts."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

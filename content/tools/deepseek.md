@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free (no paid tier) / API from $0.14/M input"
 url: "https://chat.deepseek.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["writing", "coding", "assistant", "open-source", "free", "reasoning"]
 features:
   - "V4-Pro: 1.6 trillion parameter MoE model, largest open-weight model in the world"

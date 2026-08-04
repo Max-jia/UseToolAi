@@ -5,6 +5,7 @@ category: "Video & Animation"
 pricing: "Free / $16/mo Hobbyist / $24/mo Creator / $50/mo Business"
 url: "https://descript.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["video-editing", "podcast", "transcription", "voice", "ai-editing"]
 features:
   - "Text-based video editing: edit video by editing the transcript — delete words, video follows"

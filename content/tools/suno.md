@@ -5,6 +5,7 @@ category: "Audio & Voice"
 pricing: "Free / $10/mo Pro / $30/mo Premier"
 url: "https://suno.ai"
 rating: 5
+updated: "2026-08-04"
 tags: ["music", "audio", "creative", "content-creation", "songwriting"]
 features:
   - "Full song generation with vocals, instruments, and production quality"

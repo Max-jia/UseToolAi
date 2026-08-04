@@ -2,9 +2,10 @@
 name: "Runway"
 description: "Professional AI video creation platform. Gen-4 model delivers cinematic quality with text-to-video, image-to-video, and advanced motion control for filmmakers."
 category: "Video & Animation"
-pricing: "Free / $15/mo Standard / $35/mo Pro / $95/mo Unlimited"
-url: "https://runwayml.com"
+pricing: "Free / $15/mo Standard / $35/mo Pro / $95/mo Max"
+url: "https://runway.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["video-generation", "editing", "creative", "filmmaking", "ai-video"]
 features:
   - "Gen-4 model with cinematic quality and improved motion consistency"
@@ -25,7 +26,7 @@ cons:
   - "Character consistency across multiple generations still challenging"
 coreStrength: "The most complete AI video production platform — generate, edit, composite, and export all in one tool. Gen-4.5 holds the #1 spot on AI video quality benchmarks. The only tool combining AI generation with professional editing capabilities."
 bestFor: "Filmmakers and video creators exploring AI-powered production workflows. Marketing teams creating social video content at scale. Visual effects artists augmenting traditional pipelines with AI tools."
-pricingDetails: "Free: 125 credits, 720p, basic features. Standard ($15/mo): 625 credits, Gen-4, 1080p. Pro ($35/mo): 2250 credits, priority generation. Unlimited ($95/mo): Unlimited relaxed generations."
+pricingDetails: "Free: 125 credits, 720p, basic features. Standard ($15/mo): 625 credits, all models, 4K upscaling. Pro ($35/mo): 2250 credits, custom voices for lip sync/TTS. Max ($95/mo): 9500 credits, first access to new models."
 alternatives:
   - name: "Pika"
     slug: "pika"

@@ -2,9 +2,10 @@
 name: "Synthesia"
 description: "Enterprise AI video platform. Create professional videos with AI avatars speaking your script in 140+ languages. No cameras, no studios, no actors."
 category: "Video & Animation"
-pricing: "$22/mo Starter / $67/mo Creator / Custom Enterprise"
+pricing: "Free / $29/mo Starter / $89/mo Creator / Custom Enterprise"
 url: "https://synthesia.io"
 rating: 5
+updated: "2026-08-04"
 tags: ["video", "ai-avatars", "enterprise", "training", "marketing", "localization"]
 added: "2026-07-19"
 features:

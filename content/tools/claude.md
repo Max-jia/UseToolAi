@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free / $20/mo Pro / $100-200/mo Max / $20-125/seat Team"
 url: "https://claude.ai"
 rating: 5
+updated: "2026-08-04"
 tags: ["writing", "coding", "assistant", "analysis", "productivity", "research", "developer"]
 features:
   - "Opus 4.8: 96.7% on USAMO 2026 math, 69.2% SWE-bench Pro for autonomous coding"

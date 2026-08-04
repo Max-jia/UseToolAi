@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "$10/mo Basic / $30/mo Standard / $60/mo Pro / $120/mo Mega"
 url: "https://midjourney.com"
 rating: 5
+updated: "2026-08-04"
 tags: ["image-generation", "design", "art", "creative", "photography", "concept-art"]
 features:
   - "V7 model: complete architecture rebuild, 30-40% fewer bad generations than V6"

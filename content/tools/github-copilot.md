@@ -5,6 +5,7 @@ category: "Code & Development"
 pricing: "Free / $10/mo Pro / $39/mo Pro+ / $100/mo Max / $19-39 Business"
 url: "https://github.com/features/copilot"
 rating: 5
+updated: "2026-08-04"
 tags: ["coding", "developer", "github", "autocomplete", "agent", "multi-model"]
 features:
   - "Multi-model platform: Claude Opus 4.8, GPT-5.5, Gemini 3.1 Pro — choose the best model per task"
