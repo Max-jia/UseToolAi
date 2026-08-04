@@ -21,6 +21,15 @@ export async function generateMetadata({
   return {
     title: `${tool.name} Review 2026 – Pricing, Features & Alternatives`,
     description: `In-depth ${tool.name} review: features, pricing, pros & cons, best use cases, and top alternatives. Find out if ${tool.name} is right for you.`,
+    alternates: { canonical: `/tools/${tool.slug}` },
+    keywords: [...tool.tags, tool.category].join(", "),
+    openGraph: {
+      title: `${tool.name} Review 2026 – Pricing, Features & Alternatives`,
+      description: `In-depth ${tool.name} review: features, pricing, pros & cons, best use cases, and top alternatives.`,
+      url: `/tools/${tool.slug}`,
+      type: "website",
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -35,16 +44,45 @@ function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
     offers: {
       "@type": "Offer",
       description: tool.pricing,
+      priceCurrency: "USD",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: tool.rating,
-      bestRating: 5,
-      worstRating: 1,
-      ratingCount: 10,
+    // Editorial score from the UseToolAI review team — marked up as a Review
+    // (not an AggregateRating) because it is not user-generated.
+    review: {
+      "@type": "Review",
+      author: {
+        "@type": "Organization",
+        name: "UseToolAI",
+        url: "https://usetoolai.com/about",
+      },
+      datePublished: tool.updated || tool.added || undefined,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: tool.rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      reviewBody:
+        tool.coreStrength ||
+        `${tool.name} is rated ${tool.rating}/5 by the UseToolAI review team based on features, pricing, and real user feedback.`,
     },
     operatingSystem: "Web",
     url: `https://usetoolai.com/tools/${tool.slug}`,
+  });
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />;
+}
+
+function ToolBreadcrumbSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
+  if (!tool) return null;
+  const categorySlug = tool.category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://usetoolai.com" },
+      { "@type": "ListItem", position: 2, name: tool.category, item: `https://usetoolai.com/categories/${categorySlug}` },
+      { "@type": "ListItem", position: 3, name: tool.name, item: `https://usetoolai.com/tools/${tool.slug}` },
+    ],
   });
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />;
 }
@@ -111,6 +149,7 @@ export default async function ToolPage({
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
       <ProductSchema tool={tool} />
+      <ToolBreadcrumbSchema tool={tool} />
       <ToolFAQSchema tool={tool} />
       {/* Breadcrumb */}
       <nav className="text-sm text-[var(--color-text-muted)] mb-6">
@@ -307,12 +346,14 @@ export default async function ToolPage({
                 <span className="text-[var(--color-text-muted)] ml-1">{tool.rating}/5</span>
               </div>
 
-              {tool.updated && (
-                <div>
-                  <span className="text-xs text-[var(--color-text-muted)] block mb-1">Last Updated</span>
-                  <span className="text-xs text-[var(--color-text-dim)]">{tool.updated}</span>
-                </div>
-              )}
+              <div>
+                <span className="text-xs text-[var(--color-text-muted)] block mb-1">Last Verified</span>
+                {tool.updated ? (
+                  <span className="text-xs text-emerald-600 font-medium">✓ {tool.updated}</span>
+                ) : (
+                  <span className="text-xs text-[var(--color-text-dim)]">Not yet verified</span>
+                )}
+              </div>
 
               <div>
                 <span className="text-xs text-[var(--color-text-muted)] block mb-2">Tags</span>

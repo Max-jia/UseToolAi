@@ -41,9 +41,7 @@ export function getAllTools(): Tool[] {
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const { data, content } = matter(fileContents);
       const excerpt = content.trim().slice(0, 400);
-      const stat = fs.statSync(fullPath);
-      const updated = stat.mtime.toISOString().slice(0, 10); // YYYY-MM-DD
-      return { slug, ...data, updated, content: excerpt } as Tool;
+      return { slug, ...data, content: excerpt } as Tool;
     });
   return tools.sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -53,9 +51,7 @@ export function getToolBySlug(slug: string): (Tool & { content: string }) | null
     const fullPath = path.join(toolsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
-    const stat = fs.statSync(fullPath);
-    const updated = stat.mtime.toISOString().slice(0, 10);
-    return { slug, ...data, updated, content: content.trim() } as Tool & { content: string };
+    return { slug, ...data, content: content.trim() } as Tool & { content: string };
   } catch {
     return null;
   }
@@ -112,4 +108,8 @@ export function searchTools(query: string): Tool[] {
       t.tags.some((tag) => tag.toLowerCase().includes(q)) ||
       t.category.toLowerCase().includes(q)
   );
+}
+
+export function slugifyCategory(category: string): string {
+  return category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
 }
