@@ -5,6 +5,7 @@ category: "Audio & Voice"
 pricing: "Free / $11.59/mo Premium (annual) / $29/mo Premium (monthly)"
 url: "https://speechify.com"
 rating: 5
+updated: "2026-08-05"
 tags: ["audio", "text-to-speech", "accessibility", "reading", "productivity"]
 added: "2026-07-19"
 features:

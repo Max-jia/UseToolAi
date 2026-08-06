@@ -2,9 +2,10 @@
 name: "Runway Frames"
 description: "Specialized Image & Design solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Image & Design"
-pricing: "Included with Runway (/mo+)"
-url: "https://runwayml.com/frames"
+pricing: "Included with Runway plans"
+url: "https://runway.com"
 rating: 5
+updated: "2026-08-05"
 tags: ["ai", "tool", "2026"]
 features:
   - "Purpose-built AI features for specific professional needs"
@@ -24,7 +25,7 @@ cons:
   - "May require complementary tools for complete workflow"
 coreStrength: "Runway's standalone image generation for cinematic-quality stills with precise camera and lighting control — designed for pre-visualization and concept art within the Runway ecosystem."
 bestFor: "Runway Frames is perfect for professionals who need a specialized Image & Design solution rather than a general-purpose tool. Best for users who value depth over breadth."
-pricingDetails: "Starts at Included with Runway (. Premium plans unlock additional capacity, advanced features, and priority support. Enterprise plans available with custom terms."
+pricingDetails: "Included with Runway plans. Premium plans unlock additional capacity, advanced features, and priority support. Frames was merged into the main Runway product (2026); standalone Frames page retired. Enterprise plans available with custom terms."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

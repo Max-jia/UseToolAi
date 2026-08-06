@@ -2,9 +2,10 @@
 name: "Perplexity"
 description: "AI-powered search engine that provides cited, real-time answers. Best for research with verifiable sources, not creative writing. Pro includes model choice across GPT, Claude, and Gemini."
 category: "Productivity"
-pricing: "Free / $20/mo Pro / $200/mo Max / $34/seat Enterprise"
+pricing: "Free / $20/mo Pro / $200/mo Max / $40/seat Enterprise Pro / $325/seat Enterprise Max"
 url: "https://perplexity.ai"
 rating: 4
+updated: "2026-08-05"
 tags: ["search", "research", "productivity", "fact-checking", "ai-search"]
 features:
   - "Cited answers: every claim links to source — verifiable, not just plausible"
@@ -29,7 +30,7 @@ cons:
   - "Max at $200/month is hard to justify unless you consistently saturate Pro limits"
 coreStrength: "The only AI tool where every claim links to a verifiable source — purpose-built for research, not creative writing. Model Council (Max) runs queries across Claude, GPT, and Gemini simultaneously."
 bestFor: "Perplexity is ideal for researchers, analysts, journalists, and anyone who needs cited, current information. It's not a general-purpose assistant — it replaces your search workflow. Many power users combine Perplexity (for research) + ChatGPT or Claude (for writing and analysis). The $20/mo Pro plan is the sweet spot for regular researchers."
-pricingDetails: "Free: 5 Pro searches/day, unlimited standard. Pro ($20/mo): Unlimited Pro searches, model choice, Deep Research, $5 API credits. Max ($200/mo): Unlimited Labs, Model Council, Comet browser, 10K Computer credits. Education Pro: $9/mo. Enterprise: from $34/seat/mo."
+pricingDetails: "Free: basic searches with citations. Pro ($20/mo): unlimited Pro searches, model choice, Deep Research, image & video generation. Max ($200/mo): Perplexity Computer agent, Model Council, 10K monthly credits. Education Pro: $10/mo. Enterprise Pro: from $40/seat/mo. Enterprise Max: $325/seat/mo."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

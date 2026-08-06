@@ -5,6 +5,7 @@ category: "Video & Animation"
 pricing: "Free / $24/mo Creator / $99/mo Pro / $149/mo Business"
 url: "https://heygen.com"
 rating: 4
+updated: "2026-08-05"
 tags: ["video-generation", "avatar", "translation", "business", "ai-avatar", "digital-human"]
 features:
   - "Avatar IV: ultra-realistic avatars with emotional micro-expressions and natural gesture timing"

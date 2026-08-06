@@ -2,9 +2,10 @@
 name: "ComfyUI"
 description: "Node-based Stable Diffusion interface — the most powerful and flexible AI image generation workflow. Drag-and-drop nodes to build custom image generation pipelines, used by professionals and researchers."
 category: "Image & Design"
-pricing: "Free (open-source) / Runs on your own GPU or cloud"
-url: "https://comfyui.org"
+pricing: "Free (open-source) / Comfy Cloud: Free 400 credits / $20/mo Standard / $35/mo Creator / $100/mo Pro"
+url: "https://www.comfy.org"
 rating: 5
+updated: "2026-08-05"
 tags: ["image", "stable-diffusion", "open-source", "workflow", "generative"]
 added: "2026-07-19"
 features:

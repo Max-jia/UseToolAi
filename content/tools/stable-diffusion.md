@@ -2,9 +2,10 @@
 name: "Stable Diffusion"
 description: "The most popular open-source AI image generation model. Runs locally, no censorship, 50,000+ community models. SD3.5 and SDXL with full ControlNet and LoRA support."
 category: "Image & Design"
-pricing: "Free (open-source) / DreamStudio from $10 / API from $0.002/image"
+pricing: "Free (open-source) / Brand Studio Trial / Core $50/mo / Enterprise custom"
 url: "https://stability.ai"
 rating: 5
+updated: "2026-08-05"
 tags: ["image-generation", "open-source", "free", "design", "ai-image", "local"]
 added: "2026-07-19"
 features:
@@ -29,7 +30,7 @@ cons:
   - "Text rendering is poor — Ideogram beats it significantly on this"
 coreStrength: "The only AI image generator with zero limits, zero censorship, and total control. 50,000+ community models mean there's a fine-tune for every style. Runs on your hardware, not someone else's server."
 bestFor: "Technical users who want total creative control, unlimited free generation, and no content restrictions. Best for: AI researchers, artists who fine-tune custom models, privacy-conscious creators, and anyone who refuses to pay per image. Not ideal for: beginners wanting a one-click experience or mobile-only users."
-pricingDetails: "Stable Diffusion: completely free, open-source. DreamStudio: $10 for 1,000 credits (~5,000 SD3.5 images). API: $0.002/image (SD3.5), $0.0004/image (SDXL). ComfyUI/A1111: free, runs locally."
+pricingDetails: "Stable Diffusion models: free, open-source. Brand Studio Trial: free up to 1,000 credits. Core ($50/mo): 5,000 credits/month, monthly credits do not roll over. Enterprise: custom credit bundles, Brand ID models, SSO. API and self-hosted licensing available separately."
 alternatives:
   - name: "Midjourney"
     slug: "midjourney"

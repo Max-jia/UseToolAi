@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "AI included with Business ($20/user/mo); Free/Plus: limited trial only"
 url: "https://notion.so/product/ai"
 rating: 4
+updated: "2026-08-05"
 tags: ["productivity", "notes", "writing", "collaboration", "knowledge-base"]
 features: ["Workspace Q&A: ask questions across all your Notion pages, databases, and comments","AI writing/editing: inline rewrite, translate, summarize, change tone","Database AI: auto-fill, classify, summarize with custom prompts","AI Connectors (2026): search Slack, Google Drive, GitHub, Jira, Linear from Notion","Meeting notes: auto-record, transcribe, summarize, extract action items","Multi-model choice: GPT-5.2, Claude Opus 4.5, Gemini 3, Claude Sonnet 4","Custom Agents: autonomous multi-step tasks (from $10/1,000 credits)"]
 pros: ["Unique workspace Q&A across your entire knowledge base — no other tool offers this","Deep integration where your work already lives (notes, tasks, wikis, projects)","Multi-model choice: switch between GPT, Claude, and Gemini per task","AI Connectors search external tools (Slack, GitHub, Drive) — reduces 'where's that doc' by 40%","Meeting notes → action items with ~85-90% accuracy"]

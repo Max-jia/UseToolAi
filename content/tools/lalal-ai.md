@@ -2,9 +2,10 @@
 name: "Lalal.ai"
 description: "AI audio separation: split any song into vocals, instruments, drums, bass, and more — in seconds. The go-to stem splitter for DJs, producers, and karaoke creators."
 category: "Audio & Voice"
-pricing: "Free (10 min) / $15 one-time (90 min) / $25 one-time (300 min) / $40 one-time (500 min)"
+pricing: "Free (10 min) / $7.5/mo Lite / $15/mo Pro / One-time packs from $50"
 url: "https://lalal.ai"
 rating: 5
+updated: "2026-08-05"
 tags: ["audio", "stem-splitting", "music", "vocal-removal", "karaoke"]
 added: "2026-07-19"
 features:

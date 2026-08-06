@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free / $8/mo Go / $20/mo Plus / $100-200/mo Pro"
 url: "https://chat.openai.com"
 rating: 5
+updated: "2026-08-05"
 tags: ["writing", "coding", "assistant", "chatbot", "productivity", "research", "image-generation"]
 features:
   - "GPT-5.5 models with advanced reasoning and multimodal input (text, images, files)"

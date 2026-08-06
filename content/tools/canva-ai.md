@@ -2,9 +2,10 @@
 name: "Canva AI"
 description: "Canva's integrated Magic Studio with 10+ AI tools. Democratizes design with AI image/video generation, background removal, text generation, and one-click design resizing."
 category: "Image & Design"
-pricing: "Free / $15/mo Pro / $30/mo Team"
+pricing: "Free / $15/mo Pro / $10/user/mo Teams (annual, 3+ users)"
 url: "https://canva.com"
 rating: 5
+updated: "2026-08-05"
 tags: ["design", "image-generation", "templates", "marketing", "social-media", "video"]
 features:
   - "Magic Media: AI image and video generation from text prompts"
@@ -29,7 +30,7 @@ cons:
   - "Slower performance on complex designs with many AI elements"
 coreStrength: "The most accessible AI design platform — 5B+ Magic Studio uses prove it. Non-designers create professional graphics in minutes. No other tool combines AI image gen, text gen, video editing, and design templates in one free-tier-friendly platform."
 bestFor: "Canva AI is perfect for non-designers who need professional-looking graphics fast — social media managers, small business owners, marketers, educators, and students. Best for: social posts, presentations, posters, logos, and quick marketing materials. Not ideal for: high-end artistic creation (use Midjourney) or print-ready professional design (use Adobe)."
-pricingDetails: "Free: Limited AI usage, basic templates. Pro ($15/mo): Unlimited AI features, 100M+ premium assets, background remover, magic resize, brand kit. Team ($30/user/mo): Collaboration, shared assets, brand control, approval workflows. Enterprise: Custom pricing, advanced security."
+pricingDetails: "Free: limited AI usage, basic templates. Pro ($15/mo): unlimited AI features, 100M+ premium assets, background remover, magic resize, brand kit. Teams ($10/user/mo annual, 3+ users): collaboration, shared assets, brand control, approval workflows. Enterprise: custom pricing, advanced security."
 alternatives:
   - name: "Midjourney"
     slug: "midjourney"

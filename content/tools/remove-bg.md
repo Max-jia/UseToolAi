@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "Free (low-res) / Pay-as-you-go from $0.20/image / $39/mo for 200 credits"
 url: "https://remove.bg"
 rating: 5
+updated: "2026-08-05"
 tags: ["image", "background-removal", "design", "photo", "automation"]
 added: "2026-07-19"
 features:

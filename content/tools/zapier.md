@@ -2,9 +2,10 @@
 name: "Zapier"
 description: "No-code automation connecting 7,000+ apps. The original and largest automation platform — build multi-step workflows (Zaps) that move data between apps without writing code."
 category: "Automation & Productivity"
-pricing: "Free / $19.99/mo Starter / $49/mo Professional / $99/mo Team / Custom Enterprise"
+pricing: "Free / $19.99/mo Starter / $49/mo Professional / $69/mo Team (annual) / Custom Enterprise"
 url: "https://zapier.com"
 rating: 4
+updated: "2026-08-05"
 tags: ["automation", "no-code", "productivity", "integration", "workflow"]
 added: "2026-07-19"
 features:
