@@ -2,9 +2,10 @@
 name: "Clipdrop"
 description: "AI image editing suite by Stability AI. Background removal, image upscaling, relighting, and generative fill — powered by Stable Diffusion, free tier available."
 category: "Image & Design"
-pricing: "Free (watermarked) / $12/mo Pro / $36/mo Teams"
+pricing: "Free / $9/mo Pro / API pay-as-you-go"
 url: "https://clipdrop.co"
 rating: 4
+updated: "2026-08-07"
 tags: ["image", "editing", "background-removal", "upscaling", "generative"]
 added: "2026-07-19"
 features:

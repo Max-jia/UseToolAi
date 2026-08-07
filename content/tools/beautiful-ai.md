@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "$12/user/mo Pro / $40/user/mo Team"
 url: "https://beautiful.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["presentation", "design", "business", "productivity", "brand"]
 features: ["Smart Slides auto-adapt layout as you add content — design rules enforced","DesignerBot: AI generates complete presentations from prompts","60+ smart slide templates with automatic formatting","PPTX export for compatibility with PowerPoint","Brand controls with shared slide libraries (Team)"]
 pros: ["Best auto-layout enforcement keeps decks consistently professional","No design skills needed — AI handles spacing, alignment, typography","PPTX export maintains compatibility with traditional workflows","Team plan includes brand controls for organizational consistency"]

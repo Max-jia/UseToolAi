@@ -2,9 +2,10 @@
 name: "Fliki"
 description: "AI video creation from text with realistic AI voices. Turn blog posts, scripts, and tweets into videos with 2,000+ AI voices in 75+ languages — no recording or editing required."
 category: "Video & Animation"
-pricing: "Free / $28/mo Standard / $66/mo Premium / Custom Enterprise"
+pricing: "Free / $28/mo Standard ($21 annual) / $88/mo Premium ($66 annual) / Custom Enterprise"
 url: "https://fliki.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["video", "text-to-video", "voiceover", "content", "social-media"]
 added: "2026-07-19"
 features:

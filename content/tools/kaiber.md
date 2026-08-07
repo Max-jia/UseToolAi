@@ -2,9 +2,10 @@
 name: "Kaiber"
 description: "AI animation and music visualization platform. Transform music, images, and text into animated music videos with artist-driven AI tools — used by Linkin Park and independent creators alike."
 category: "Video & Animation"
-pricing: "$9.99/mo Explorer / $29.99/mo Pro / Custom Enterprise"
+pricing: "$10/mo Starter / $29/mo Creator / $99/mo Pro / Custom Enterprise"
 url: "https://kaiber.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["video", "animation", "music", "generative", "creative"]
 added: "2026-07-19"
 features:

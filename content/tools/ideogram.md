@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "Free / $8/mo Basic / $20/mo Plus"
 url: "https://ideogram.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["image-generation", "typography", "logo", "design", "text-rendering"]
 features: ["Best-in-class text rendering within AI-generated images", "Multiple design styles: photorealistic, illustration, 3D, poster", "Image-to-image and inpainting capabilities", "Batch generation for rapid iteration"]
 pros: ["Unmatched text rendering — Midjourney's biggest weakness solved", "Ideal for designs where text matters: logos, posters, social graphics", "Competitive pricing with generous free tier", "Clean, intuitive interface with quick learning curve"]

@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "Free / $8-10/seat/mo Pro / $20/seat/mo Business"
 url: "https://otter.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["meetings", "transcription", "productivity", "notes", "real-time"]
 features: ["Best-in-class real-time live transcription during meetings","Auto slide capture alongside meeting notes","Collaborative notes with comments and highlights","AI summaries with action items and timestamps","Unlimited AI features on Business plan (no credit caps)"]
 pros: ["Best real-time transcription accuracy in the industry","Slide capture is a unique and genuinely useful feature","Unlimited AI on Business plan — no credit caps","Clean, intuitive interface — easy for non-technical teams"]

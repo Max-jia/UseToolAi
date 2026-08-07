@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "Free / $8-10/mo Plus / $15-20/mo Pro"
 url: "https://gamma.app"
 rating: 4
+updated: "2026-08-07"
 tags: ["presentation", "documents", "productivity", "design", "ai"]
 features: ["AI generates complete presentations, docs, and webpages from a single prompt","Smart formatting with AI layout and visual suggestions","Real-time collaboration and commenting","Export to PDF and PPTX formats","Custom domains, analytics, and API on Pro plan"]
 pros: ["Fastest AI-to-presentation workflow — type topic, get complete deck","Generous free tier (400 AI credits, no time limit)","Most affordable paid plan at $8-10/mo","Modern, clean designs that don't look AI-generated"]

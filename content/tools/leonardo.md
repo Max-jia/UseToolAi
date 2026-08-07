@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "Free / $12/mo Apprentice / $30/mo Artisan / $60/mo Maestro"
 url: "https://leonardo.ai"
 rating: 4
+updated: "2026-08-07"
 tags: ["image-generation", "gaming", "design", "creative", "3d", "lora"]
 features:
   - "Phoenix 2.0 flagship model with strong photorealism and text rendering"

@@ -2,9 +2,10 @@
 name: "D-ID"
 description: "AI talking avatars from still photos. Upload a face, type or speak a script, and the photo comes to life with realistic facial animation — the technology behind viral 'living portraits.'"
 category: "Video & Animation"
-pricing: "$5.99/mo Lite / $19.99/mo Pro / $49.99/mo Advanced / Custom Enterprise"
+pricing: "Free trial / $5.90/mo Lite / $29/mo Pro / $196/mo Advanced / Custom Enterprise"
 url: "https://d-id.com"
 rating: 4
+updated: "2026-08-07"
 tags: ["video", "avatar", "animation", "face", "creative"]
 added: "2026-07-19"
 features:

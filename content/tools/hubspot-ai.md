@@ -5,6 +5,7 @@ category: "Marketing & SEO"
 pricing: "Free / $15/mo Starter / $90/mo Professional / $150/mo Enterprise (per seat)"
 url: "https://hubspot.com"
 rating: 4
+updated: "2026-08-07"
 tags: ["crm", "marketing", "sales", "ai", "automation"]
 added: "2026-07-19"
 features:
