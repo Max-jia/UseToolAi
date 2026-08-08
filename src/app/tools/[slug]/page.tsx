@@ -41,6 +41,7 @@ function ProductSchema({ tool }: { tool: ReturnType<typeof getToolBySlug> }) {
     name: tool.name,
     description: tool.description,
     applicationCategory: tool.category,
+    sameAs: [tool.url],
     offers: {
       "@type": "Offer",
       description: tool.pricing,

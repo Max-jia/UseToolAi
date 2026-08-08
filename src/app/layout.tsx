@@ -55,6 +55,10 @@ const organizationSchema = {
   logo: "https://usetoolai.com/logo.png",
   description:
     "UseToolAI reviews and compares AI tools for writing, design, video, coding, audio, and productivity.",
+  sameAs: [
+    "https://www.producthunt.com/products/usetoolai/launches/usetoolai",
+    "https://github.com/Max-jia/UseToolAi",
+  ],
   contactPoint: {
     "@type": "ContactPoint",
     url: "https://usetoolai.com/contact",
@@ -89,7 +93,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]" suppressHydrationWarning>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}');`}
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_ID}');
+(function(){
+  try {
+    var ref = document.referrer || "";
+    if (!ref) return;
+    var aiHosts = ["chatgpt.com","perplexity.ai","claude.ai","gemini.google.com","aistudio.google.com","copilot.microsoft.com","grok.com","deepseek.com","poe.com"];
+    var host = new URL(ref).hostname;
+    var match = aiHosts.filter(function(h){ return host === h || host.endsWith("." + h); })[0];
+    if (match) gtag("event", "ai_referral", { ai_engine: match, page_location: location.href });
+  } catch(e) {}
+})();`}
         </Script>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7649257223930816" crossOrigin="anonymous" strategy="lazyOnload" />
         <HeaderNav />

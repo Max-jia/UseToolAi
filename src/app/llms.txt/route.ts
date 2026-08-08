@@ -28,6 +28,15 @@ export function GET() {
   );
   lines.push("");
 
+  lines.push("## What We Do Not Do");
+  lines.push("");
+  lines.push("- UseToolAI does not develop, sell, or host AI tools — it is an independent review and comparison directory.");
+  lines.push("- UseToolAI does not scrape listings from other directories; every tool is verified by hand against its official site.");
+  lines.push("- UseToolAI does not accept paid placements; reviews and ratings are independent. Some pages carry affiliate links, marked as sponsored.");
+  lines.push("- UseToolAI is not affiliated with any of the tools it reviews.");
+  lines.push("- UseToolAI is not itself an AI tool or service.");
+  lines.push("");
+
   // Categories
   lines.push("## AI Tool Categories");
   for (const cat of categories) {
