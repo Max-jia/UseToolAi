@@ -2,9 +2,11 @@
 name: "Sourcegraph Cody"
 description: "AI coding assistant that understands your entire codebase. Unlike Copilot (current file context) or Cursor (open tabs), Cody indexes every repo — answering questions about architecture, finding usage, and generating context-aware code."
 category: "Code & Development"
-pricing: "Free / $9/mo Pro / $19/user Team / Custom Enterprise"
+pricing: "Enterprise only (~$59/user/mo, annual contract)"
 url: "https://sourcegraph.com/cody"
 rating: 4
+pricingDetails: "Cody Free and Pro were discontinued in July 2025 (new sign-ups stopped June 25, 2025). Cody now ships with Sourcegraph Enterprise at ~$59/user/mo on annual contracts. No free tier available."
+updated: "2026-08-08"
 tags: ["coding", "code-search", "codebase", "assistant", "context"]
 added: "2026-07-19"
 features:

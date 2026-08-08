@@ -2,9 +2,10 @@
 name: "MarketMuse"
 description: "AI content planning and strategy platform. Analyze your entire site's content inventory, identify gaps and opportunities, and build data-driven editorial calendars — the CMO's AI for content strategy, not just content writing."
 category: "Marketing & SEO"
-pricing: "$149/mo Standard / $399/mo Team / $999/mo Premium / Custom Enterprise"
+pricing: "Free / $99/mo Optimize / $249/mo Research / $499/mo Strategy / Custom Enterprise"
 url: "https://marketmuse.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["seo", "content-strategy", "planning", "analytics", "enterprise"]
 added: "2026-07-19"
 features:

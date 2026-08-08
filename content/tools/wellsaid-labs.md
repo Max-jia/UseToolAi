@@ -2,9 +2,10 @@
 name: "WellSaid Labs"
 description: "AI voiceover for professional content production. Studio-quality voices built for corporate training, e-learning, and broadcast — the voice AI platform that sounds like it was recorded in a booth."
 category: "Audio & Voice"
-pricing: "$44/mo Maker / $89/mo Creative / $179/mo Business / Custom Enterprise"
+pricing: "Free trial (7 days) / $10/mo Starter / $33/mo Pro / $160/user/mo Business / Custom Enterprise"
 url: "https://wellsaidlabs.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["audio", "voiceover", "professional", "elearning", "corporate"]
 added: "2026-07-19"
 features:

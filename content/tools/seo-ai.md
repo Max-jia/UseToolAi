@@ -2,9 +2,10 @@
 name: "Surfer SEO"
 description: "AI content optimization platform with real-time SERP analysis. Scores content against top-ranking pages and gives live guidance to write content that ranks."
 category: "Marketing & SEO"
-pricing: "$49/mo Discovery / $79/mo Essential / $99/mo Standard / $219/mo Scale AI"
+pricing: "$49-59/mo Discovery / $99-119/mo Standard / $182-219/mo Pro / $299-359/mo Peace of Mind / Enterprise from $999"
 url: "https://surferseo.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["seo", "content", "marketing", "optimization", "serp"]
 features: ["Real-time content scoring against top 50 SERP competitors","NLP-powered topic analysis with keyword density and LSI suggestions","AI writing assistant with SEO-optimized content generation","AI Tracker: monitor brand visibility in AI search results (premium add-on)","WordPress and Google Docs integration for seamless workflow"]
 pros: ["Best-in-class real-time SERP analysis — see exactly what competitors are doing","Content score correlates strongly with ranking improvements","AI Tracker add-on addresses the new AI search visibility challenge","WordPress integration makes optimization part of the publishing workflow"]

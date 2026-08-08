@@ -2,9 +2,10 @@
 name: "Adobe Podcast AI"
 description: "Specialized Audio & Voice solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Audio & Voice"
-pricing: "Free"
+pricing: "Free / $9.99/mo Premium ($99.99/yr)"
 url: "https://podcast.adobe.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["ai", "tool", "2026"]
 features:
   - "Purpose-built AI features for specific professional needs"
@@ -24,7 +25,7 @@ cons:
   - "May require complementary tools for complete workflow"
 coreStrength: "Adobe's free AI audio enhancement tool — removes background noise and enhances speech clarity to studio quality. The best free tool for instantly improving any recording."
 bestFor: "Adobe Podcast AI is perfect for professionals who need a specialized Audio & Voice solution rather than a general-purpose tool. Best for users who value depth over breadth."
-pricingDetails: "Starts at Free. Premium plans unlock additional capacity, advanced features, and priority support. Enterprise plans available with custom terms."
+pricingDetails: "Free: files up to 30 min/500MB, 1 hour/day processing. Premium ($9.99/mo or $99.99/yr): 4 hours/day, files up to 2 hours/1GB, batch uploads, video format support, strength-adjustment slider. Adobe Creative Cloud subscribers get full features at no extra cost."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

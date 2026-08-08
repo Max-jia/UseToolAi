@@ -5,6 +5,7 @@ category: "Automation & Productivity"
 pricing: "Free / $10/mo Pro / $20/mo Premium / Custom Enterprise"
 url: "https://slidesai.io"
 rating: 4
+updated: "2026-08-08"
 tags: ["presentation", "slides", "google-slides", "ai", "productivity"]
 added: "2026-07-19"
 features:

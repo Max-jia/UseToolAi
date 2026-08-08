@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free / $13.99/mo Advanced / $19.99/mo Unlimited / Enterprise"
 url: "https://wordtune.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "editing", "tone", "grammar", "clarity"]
 added: "2026-07-19"
 features:

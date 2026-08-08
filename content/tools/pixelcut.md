@@ -2,9 +2,10 @@
 name: "Pixelcut"
 description: "AI photo editor built for ecommerce sellers. Batch background removal, AI-generated product scenes, and one-tap product photos — the fastest path from product to listing."
 category: "Image & Design"
-pricing: "Free / $14.99/mo Pro / Custom Enterprise"
-url: "https://pixelcut.ai"
+pricing: "Free / $10/mo Pro / $30/mo Business / Custom Enterprise"
+url: "https://pixa.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["image", "ecommerce", "product-photo", "background-removal", "marketing"]
 added: "2026-07-19"
 features:

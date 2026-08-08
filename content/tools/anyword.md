@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "$49/mo Starter / $99/mo Data-Driven / $499/mo Business / Custom Enterprise"
 url: "https://anyword.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "copywriting", "analytics", "marketing", "predictive"]
 added: "2026-07-19"
 features:

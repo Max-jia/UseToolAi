@@ -2,9 +2,10 @@
 name: "Seedance (即梦)"
 description: "ByteDance's AI video generator — #1 on VideoBench & VBench. Native audio, lip-sync, multi-shot storytelling. Mini variant at 0.16 RMB/sec makes it the cost leader in AI video."
 category: "Video & Animation"
-pricing: "Free daily credits / ~0.16-0.80 RMB/sec (Jimeng) / API from 0.023 RMB/1K tokens"
+pricing: "Free daily credits / Jimeng membership from ¥41/mo / API: Seedance 2.0 ¥46/M tokens, mini ¥23/M"
 url: "https://jimeng.jianying.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["video-generation", "chinese-ai", "bytedance", "cost-leader", "audio"]
 features:
   - "Seedance 2.0: ranked #1 on VideoBench & VBench international benchmarks"
@@ -29,7 +30,7 @@ cons:
   - "Multiple platforms (Jimeng, CapCut, Volcengine) with different pricing — confusing for newcomers"
 bestFor: "Seedance is the best choice for cost-conscious video creators who need high volume output. Best for: social media content at scale, short-form video production, CapCut users wanting integrated AI video, and anyone prioritizing budget over absolute maximum quality."
 coreStrength: "The cost leader in AI video — #1 on VideoBench benchmarks while being dramatically cheaper than Western alternatives. Mini variant at 0.16 RMB/sec makes high-volume AI video production economically viable for the first time."
-pricingDetails: "Jimeng (即梦): free daily credits, membership from ~0.16-0.80 RMB/sec. CapCut (剪映): ~0.16-0.25 RMB/sec. Volcengine API: Mini at 0.023 RMB/1K tokens (~0.5 RMB/sec 720P), Standard at ~1 RMB/sec 1080P. Consumer memberships up to 3,999 RMB/quarter for heavy use."
+pricingDetails: "Jimeng (即梦): free daily credits; membership ¥41-499/mo. Seedance 2.0 API: ¥46 per million tokens (generation), ¥28/M (editing) — about ¥1/second. Seedance 2.0 mini (June 2026): ¥23/M tokens, ~50% cheaper. Seedance 2.5 (July 2026): up to 30-second videos, higher credit cost. Prices rose 50-100% during 2026."
 alternatives:
   - name: "Kling AI (可灵)"
     slug: "kling"

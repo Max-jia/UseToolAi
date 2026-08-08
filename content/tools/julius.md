@@ -1,10 +1,11 @@
 ---
 name: "Julius AI"
 description: "AI data analyst that works with spreadsheets, CSVs, and databases. Ask questions in plain English — get charts, insights, and statistical analysis. 50% student discount."
-category: "Data & Analysis"
+category: "Data & Analytics"
 pricing: "Free / $20/mo Plus / $45/mo Pro / $200/mo Max"
 url: "https://julius.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["data", "analytics", "spreadsheets", "charts", "statistics"]
 features: ["Plain English data analysis: ask questions, get charts and statistical insights","Supports CSV, Excel, Google Sheets, and database connectors (PostgreSQL, Snowflake, BigQuery)","Multiple AI models: GPT-4, Claude with 16-64GB RAM depending on plan","Automated visualization generation with export options","Slack agent for team data queries (Business plan)"]
 pros: ["Makes data analysis accessible to non-technical users — ask questions in plain English","Strong free tier (5-15 messages/mo) for evaluation","50% student discount makes Pro ~$22.50/mo","Database connectors on Pro plan for production data analysis","Good for quick exploratory analysis without writing SQL or Python"]

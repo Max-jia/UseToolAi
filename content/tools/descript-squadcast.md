@@ -5,6 +5,7 @@ category: "Audio & Voice"
 pricing: "Included with Descript (/mo)"
 url: "https://descript.com/squadcast"
 rating: 4
+updated: "2026-08-08"
 tags: ["ai", "tool", "2026"]
 features:
   - "Purpose-built AI features for specific professional needs"
@@ -24,7 +25,7 @@ cons:
   - "May require complementary tools for complete workflow"
 coreStrength: "Studio-quality remote podcast recording built into the Descript ecosystem. Separate tracks per speaker plus AI editing — the most seamless recording-to-publishing workflow for podcasters."
 bestFor: "SquadCast by Descript is perfect for professionals who need a specialized Audio & Voice solution rather than a general-purpose tool. Best for users who value depth over breadth."
-pricingDetails: "Starts at Included with Descript (. Premium plans unlock additional capacity, advanced features, and priority support. Enterprise plans available with custom terms."
+pricingDetails: "Included with Descript plans (Hobbyist $16/mo, Creator $24/mo). ⚠️ No longer in active development — Descript plans to eventually replace SquadCast with Descript Rooms (no date set; Rooms must first reach feature parity). Descript promised at least 3 months notice before any sunset."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

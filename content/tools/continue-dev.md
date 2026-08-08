@@ -5,6 +5,8 @@ category: "Code & Development"
 pricing: "Free (open-source) / Custom Enterprise"
 url: "https://continue.dev"
 rating: 4
+pricingDetails: "Free, open-source (Apache 2.0) — bring your own API key. ⚠️ Acquired by Cursor in June 2026: the paid Continue Hub (Team $20/seat/mo) is discontinued and no longer purchasable; the open-source extension remains available but the repo is now read-only."
+updated: "2026-08-08"
 tags: ["coding", "open-source", "self-hosted", "assistant", "customizable"]
 added: "2026-07-19"
 features:

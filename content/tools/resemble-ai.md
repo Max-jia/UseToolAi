@@ -2,9 +2,11 @@
 name: "Resemble AI"
 description: "Enterprise voice cloning with ethical safeguards. Clone any voice, add emotion in real-time, and deploy AI voices with watermarking for content authentication — trusted by major media companies."
 category: "Audio & Voice"
-pricing: "$30/mo Creator / $99/mo Professional / Custom Enterprise"
+pricing: "Flex $0 (pay-as-you-go) / Custom Enterprise"
 url: "https://resemble.ai"
 rating: 4
+pricingDetails: "Flex plan: pay-as-you-go — text-to-speech $0.0005/sec, voice agents $0.001/sec, deepfake detection $0.03-0.07/sec. No monthly subscription tiers since mid-2026. Add-ons: team seats $20/user/mo, professional voice clone $5/voice/mo. Enterprise: from ~$500/mo with SSO, SLAs, on-prem deployment."
+updated: "2026-08-08"
 tags: ["audio", "voice-cloning", "enterprise", "tts", "ethics"]
 added: "2026-07-19"
 features:

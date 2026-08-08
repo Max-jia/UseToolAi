@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "$20 one-time (logo) / $96/yr Brand Kit"
 url: "https://looka.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["design", "logo", "branding", "business", "ai-design", "marketing"]
 added: "2026-07-19"
 features:
