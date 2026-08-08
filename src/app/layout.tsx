@@ -117,6 +117,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p className="mt-1">
               <Link href="/about" className="hover:text-[var(--color-text-muted)] transition-colors">About</Link>
               {" · "}
+              <Link href="/how-we-verify" className="hover:text-[var(--color-text-muted)] transition-colors">How We Verify</Link>
+              {" · "}
               <Link href="/contact" className="hover:text-[var(--color-text-muted)] transition-colors">Contact</Link>
               {" · "}
               <Link href="/privacy" className="hover:text-[var(--color-text-muted)] transition-colors">Privacy Policy</Link>
