@@ -59,10 +59,28 @@ const organizationSchema = {
     "https://www.producthunt.com/products/usetoolai/launches/usetoolai",
     "https://github.com/Max-jia/UseToolAi",
   ],
+  founder: {
+    "@type": "Person",
+    name: "Max Jia",
+    url: "https://x.com/maxjia1988",
+  },
   contactPoint: {
     "@type": "ContactPoint",
     url: "https://usetoolai.com/contact",
     contactType: "customer support",
+  },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Max Jia",
+  url: "https://x.com/maxjia1988",
+  sameAs: ["https://x.com/maxjia1988"],
+  founderOf: {
+    "@type": "Organization",
+    name: "UseToolAI",
+    url: "https://usetoolai.com",
   },
 };
 
@@ -84,6 +102,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
         />
         <script
           type="application/ld+json"
