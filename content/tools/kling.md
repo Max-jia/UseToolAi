@@ -5,6 +5,7 @@ category: "Video & Animation"
 pricing: "Free / $10/mo Standard / $37/mo Pro / $92/mo Premier"
 url: "https://klingai.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["video-generation", "chinese-ai", "4k", "multi-shot", "audio"]
 features:
   - "Multi-shot generation: up to 6 distinct camera shots in a single prompt cycle"

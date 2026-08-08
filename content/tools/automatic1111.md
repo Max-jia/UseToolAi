@@ -5,6 +5,8 @@ category: "Image & Design"
 pricing: "Free (open-source) / Runs on your own GPU or cloud"
 url: "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
 rating: 5
+updated: "2026-08-08"
+pricingDetails: "Free, open-source (GPL). ⚠️ Development stalled: original developer stopped in mid-2024; last release v1.10.1 (Feb 2025). No native FLUX or SD3.5 support. Active maintained forks: Forge, SD.Next — or switch to ComfyUI for new models."
 tags: ["image", "stable-diffusion", "open-source", "web-ui", "generative"]
 added: "2026-07-19"
 features:

@@ -2,9 +2,10 @@
 name: "Frase.io"
 description: "AI SEO content optimization and research platform. Research competitors' top-ranking content, generate optimized briefs, and score your content against what Google rewards — the data-driven approach to SEO writing."
 category: "Marketing & SEO"
-pricing: "$14.99/mo Solo / $44.99/mo Basic / $114.99/mo Team / Custom Enterprise"
+pricing: "$49/mo Starter / $129/mo Professional / $299/mo Scale / Custom Enterprise"
 url: "https://frase.io"
 rating: 4
+updated: "2026-08-08"
 tags: ["seo", "content", "optimization", "research", "writing"]
 added: "2026-07-19"
 features:

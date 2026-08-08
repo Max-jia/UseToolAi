@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "Free (Gemini App) / $19.99/mo Pro / API from $0.034/image"
 url: "https://deepmind.google/nano-banana"
 rating: 4
+updated: "2026-08-08"
 tags: ["image-generation", "google", "gemini", "design", "text-rendering"]
 features:
   - "Real-time web search grounding — generates images with accurate real-world knowledge"

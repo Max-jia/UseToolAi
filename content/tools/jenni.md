@@ -2,9 +2,10 @@
 name: "Jenni AI"
 description: "AI academic writing assistant for students and researchers. Helps with paper writing, citations, and overcoming writer's block. 50% student discount available."
 category: "Writing & Text"
-pricing: "Free / $12/mo Unlimited (annual) / $30/mo Unlimited (monthly)"
+pricing: "Free / $20/mo Unlimited ($12 annual) / $29-30/mo Pro"
 url: "https://jenni.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "academic", "research", "students", "citations"]
 features: ["AI autocomplete: suggests next sentences in your academic writing style","Citation management with automatic formatting","PDF upload and analysis for literature review assistance","Plagiarism-free output with paraphrasing tools","Unlimited AI words, autocomplete, and chat on paid plans"]
 pros: ["Best-value annual Unlimited plan at ~$12/mo (60% savings vs monthly)","Specifically designed for academic writing — understands scholarly tone","Generous free tier (200 AI words/day) for testing","50% student discount on Pro plan","Helps overcome writer's block for thesis and paper writing"]

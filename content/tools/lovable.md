@@ -5,6 +5,7 @@ category: "Code & Development"
 pricing: "Free / $25/mo Pro / $50/mo Business"
 url: "https://lovable.dev"
 rating: 4
+updated: "2026-08-08"
 tags: ["coding", "no-code", "full-stack", "web-app", "mvp"]
 features: ["Prompt-to-app: describe your idea, get full-stack React/TypeScript/Tailwind app", "Built-in Supabase backend: database, auth, storage, real-time", "Native Stripe integration with Edge Functions and UI components", "Three interaction modes: Agent (autonomous), Chat, Visual Edits (click-to-edit)", "Two-way GitHub sync with PR workflows and code export", "Fastest SaaS company to $100M ARR (8 months)"]
 pros: ["Best UI polish among AI app builders — output looks professional", "Full-stack capability: frontend + database + auth + payments in one platform", "GitHub sync with PR workflow enables professional development practices", "Fastest to $100M ARR validates product-market fit"]

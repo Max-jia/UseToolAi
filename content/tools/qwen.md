@@ -2,9 +2,10 @@
 name: "Qwen (通义千问)"
 description: "Alibaba's open-source AI model family. Qwen3.5-Plus rivals GPT-5.2 at 1/6th the cost with 1M context. 3-60x cheaper API than GPT/Claude. Open weights, native multimodal."
 category: "Writing & Text"
-pricing: "Free (Qwen App) / API from $0.10/M input / $50/mo Coding Plan"
+pricing: "Free (Qwen App) / API from $0.033/M input / $50/mo Coding Plan"
 url: "https://qwen.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "coding", "open-source", "multimodal", "chinese-ai", "cheap-api"]
 features:
   - "Qwen3.5-Plus (397B MoE, 17B activated): rivals GPT-5.2 at 1/6th the API cost"

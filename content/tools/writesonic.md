@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free / $49/mo Lite / $79-99/mo Standard / $249/mo Professional"
 url: "https://writesonic.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "seo", "marketing", "content", "ai-search"]
 features: ["AI Article Writer 6.0: generates full 5,000-word SEO blog posts in one click","GEO tracking: monitors brand visibility across ChatGPT, Gemini, Perplexity, Grok","Built-in SEO tools: Ahrefs integration, SERP analysis, auto-optimization","Chatsonic: AI chat with real-time internet search","WordPress one-click publish and Google Analytics/Search Console integration","100+ templates and built-in plagiarism checker"]
 pros: ["Unique GEO feature for AI search visibility — no other AI writing tool offers this","Best for SEO-focused content with built-in Ahrefs and SERP analysis","Highest G2 rating in category: 4.8/5","Generous free tier to test before committing","WordPress integration streamlines publishing workflow"]

@@ -5,6 +5,7 @@ category: "Automation & Productivity"
 pricing: "Free / $9/mo Core / $18/mo Pro / $37/mo Teams / Custom Enterprise"
 url: "https://make.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["automation", "no-code", "visual", "workflow", "integration"]
 added: "2026-07-19"
 features:

@@ -2,9 +2,10 @@
 name: "CivitAI"
 description: "Largest community for sharing AI models and images. 50K+ Stable Diffusion models, LoRAs, and embeddings with ratings, example images, and one-click download — the GitHub of AI image generation."
 category: "Image & Design"
-pricing: "Free / $9/mo Supporter / Custom Enterprise"
+pricing: "Free / $10/mo Bronze / $25/mo Silver / $50/mo Gold / Custom Enterprise"
 url: "https://civitai.com"
 rating: 5
+updated: "2026-08-08"
 tags: ["image", "models", "stable-diffusion", "community", "lora"]
 added: "2026-07-19"
 features:
