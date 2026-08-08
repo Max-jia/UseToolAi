@@ -2,9 +2,10 @@
 name: "Phrase"
 description: "Specialized Marketing & SEO solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Marketing & SEO"
-pricing: "Custom pricing (enterprise)"
+pricing: "$27/mo Freelancer / $525/mo Software UI/UX / Team $1,045+ / Business $4,395+ / Custom Enterprise"
 url: "https://phrase.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["ai", "tool", "2026"]
 features:
   - "Purpose-built AI features for specific professional needs"
@@ -24,7 +25,7 @@ cons:
   - "May require complementary tools for complete workflow"
 coreStrength: "The only AI localization platform purpose-built for enterprises going global — automates multilingual content workflows with translation quality preserving brand voice across 500+ language pairs."
 bestFor: "Phrase is perfect for professionals who need a specialized Marketing & SEO solution rather than a general-purpose tool. Best for users who value depth over breadth."
-pricingDetails: "Starts at Custom pricing (enterprise). Premium plans unlock additional capacity, advanced features, and priority support. Enterprise plans available with custom terms."
+pricingDetails: "Freelancer ($27/mo): 1 TMS seat, self-serve. Software UI/UX ($525/mo): 15 Strings seats, 1M managed words, self-serve. Team ($1,045-1,245/mo): 20 Strings seats, via sales. Business ($4,395/mo): scaling businesses, via sales. Enterprise: custom. Note: Starter plan ($135/mo) was removed from public pricing in late 2025; larger plans now require a sales conversation."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

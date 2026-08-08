@@ -5,6 +5,7 @@ category: "Image & Design"
 pricing: "Free / Pay-as-you-go for HD exports"
 url: "https://upscale.media"
 rating: 4
+updated: "2026-08-08"
 tags: ["image", "upscaling", "enhancement", "free", "resolution"]
 added: "2026-07-19"
 features:

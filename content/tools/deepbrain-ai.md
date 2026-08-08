@@ -5,6 +5,7 @@ category: "Video & Animation"
 pricing: "$30/mo Starter / $80/mo Pro / Custom Enterprise"
 url: "https://deepbrain.io"
 rating: 4
+updated: "2026-08-08"
 tags: ["video", "avatar", "presenter", "enterprise", "chatgpt"]
 added: "2026-07-19"
 features:

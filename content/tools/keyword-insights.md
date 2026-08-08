@@ -2,9 +2,10 @@
 name: "Keyword Insights"
 description: "AI keyword clustering and SERP analysis platform. Group thousands of keywords into topical clusters in minutes, then analyze search intent for each cluster — the fastest path from keyword research to content strategy."
 category: "Marketing & SEO"
-pricing: "$28/mo Basic / $78/mo Pro / $198/mo Agency / $498/mo Enterprise"
+pricing: "$58/mo Basic / $99/mo Professional / $290-495/mo Enterprise"
 url: "https://keywordinsights.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["seo", "keyword-research", "clustering", "serp-analysis", "content-strategy"]
 added: "2026-07-19"
 features:

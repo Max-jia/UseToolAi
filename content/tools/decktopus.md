@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "$10-15/mo Pro AI / $20-35/mo Business"
 url: "https://decktopus.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["presentation", "business", "productivity", "analytics"]
 features: ["AI generates complete decks from a single topic","Built-in forms, Q&A, and audience engagement features","Slide analytics: track which slides viewers spend time on","Presenter coaching with speaker notes and timing","Custom domain and branding (Business plan)"]
 pros: ["Unique audience engagement features (forms, Q&A, analytics)","Presenter coaching helps improve delivery","Budget-friendly at $10-15/mo entry","50% student discount available"]

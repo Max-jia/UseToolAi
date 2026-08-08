@@ -2,9 +2,10 @@
 name: "Audo AI"
 description: "AI audio cleanup and noise removal. Remove background noise, echo, and hum from any recording — one click, no audio engineering degree required."
 category: "Audio & Voice"
-pricing: "Free (10 min/mo) / $12/mo Creator / $24/mo Pro / Custom Enterprise"
+pricing: "Free (20 min/mo) / $20/mo Creator ($12 early bird) / Pay-as-you-go $20/600 min"
 url: "https://audo.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["audio", "noise-removal", "cleanup", "podcasting", "recording"]
 added: "2026-07-19"
 features:

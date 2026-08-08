@@ -2,9 +2,10 @@
 name: "AdCreative.ai"
 description: "Specialized Marketing & SEO solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
 category: "Marketing & SEO"
-pricing: "/mo Starter / /mo Pro / /mo Agency"
+pricing: "$39/mo Starter / $249/mo Professional / $999/mo Ultimate / Custom Enterprise"
 url: "https://adcreative.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["ai", "tool", "2026"]
 features:
   - "Purpose-built AI features for specific professional needs"
@@ -24,7 +25,7 @@ cons:
   - "May require complementary tools for complete workflow"
 coreStrength: "AI that generates and scores ad creatives against millions of performance data points. Claims 90%+ accuracy predicting which ad will perform best before you spend a dollar."
 bestFor: "AdCreative.ai is perfect for professionals who need a specialized Marketing & SEO solution rather than a general-purpose tool. Best for users who value depth over breadth."
-pricingDetails: "Starts at . Premium plans unlock additional capacity, advanced features, and priority support. Enterprise plans available with custom terms."
+pricingDetails: "Starter ($39/mo monthly, ~$20 annual): 10 download credits/mo, 1 brand, static creatives. Professional ($249/mo, ~$125 annual): 50 credits, 10 brands, Creative Scoring, batch creatives, product videos. Ultimate ($999/mo, ~$500 annual): 100 credits, 25 brands, 20 users. Enterprise: custom. 7-day free trial with 10 credits; credits do not roll over."
 alternatives:
   - name: "ChatGPT"
     slug: "chatgpt"

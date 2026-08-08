@@ -5,6 +5,7 @@ category: "Marketing & SEO"
 pricing: "$23/mo Bronze / $45/mo Silver / $69/mo Gold / $99/mo Platinum / Custom Enterprise"
 url: "https://neuronwriter.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["seo", "content", "nlp", "semantic", "optimization"]
 added: "2026-07-19"
 features:

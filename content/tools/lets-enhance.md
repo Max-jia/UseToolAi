@@ -2,9 +2,10 @@
 name: "Let's Enhance"
 description: "AI image upscaling for professional print output. 16x resolution increase, artifact removal, and color correction — the tool you use when the image is going to a printing press."
 category: "Image & Design"
-pricing: "Free (10 images) / $12/mo Business / $34/mo Pro / Custom Enterprise"
+pricing: "Free (10 credits) / $12/mo Starter / $32/mo Pro / $45/mo Max / Business from $72/mo / Custom Enterprise"
 url: "https://letsenhance.io"
 rating: 4
+updated: "2026-08-08"
 tags: ["image", "upscaling", "print", "professional", "enhancement"]
 added: "2026-07-19"
 features:

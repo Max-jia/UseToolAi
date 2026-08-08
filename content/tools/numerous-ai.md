@@ -2,9 +2,11 @@
 name: "Numerous.ai"
 description: "ChatGPT inside Google Sheets. Use =AI() to summarize, classify, generate, and extract data across thousands of cells — the simplest way to bring AI into your spreadsheets."
 category: "Data & Analytics"
-pricing: "Free (100 cells/mo) / $12/mo Pro / $24/mo Team / Custom Enterprise"
+pricing: "Free / ~$10-24/mo Pro / ~$24-39/mo Team / Custom Enterprise"
 url: "https://numerous.ai"
 rating: 4
+pricingDetails: "⚠️ Third-party sources disagree widely on pricing (Pro ranges $10-49/mo across 2026 trackers; possible 2026 price drop). Verify current rates on the official pricing page. Free tier reportedly ~4 AI requests/day."
+updated: "2026-08-08"
 tags: ["spreadsheet", "google-sheets", "ai", "formula", "automation"]
 added: "2026-07-19"
 features:

@@ -2,9 +2,10 @@
 name: "Formula Bot"
 description: "AI spreadsheet assistant for Excel and Google Sheets. Generate formulas, automate data cleaning, and create charts from plain English — the fastest way to stop Googling spreadsheet syntax."
 category: "Data & Analytics"
-pricing: "Free / $9/mo Premium / $18/mo Business / Custom Enterprise"
+pricing: "Free / $25/mo Starter ($18 annual) / $29/seat/mo Max / $149/seat/mo Enterprise"
 url: "https://formulabot.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["spreadsheet", "excel", "google-sheets", "formulas", "automation"]
 added: "2026-07-19"
 features:

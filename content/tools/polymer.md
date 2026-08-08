@@ -5,6 +5,7 @@ category: "Data & Analytics"
 pricing: "Free / $25/mo Starter / $50/mo Pro / $100/mo Teams / Custom Enterprise"
 url: "https://polymerhq.io"
 rating: 4
+updated: "2026-08-08"
 tags: ["analytics", "dashboard", "no-code", "visualization", "data"]
 added: "2026-07-19"
 features:

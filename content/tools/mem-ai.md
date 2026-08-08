@@ -2,9 +2,10 @@
 name: "Mem"
 description: "AI-powered notes that organize themselves. No folders, no tags, no manual filing — Mem automatically connects related notes and surfaces the right information when you need it."
 category: "Automation & Productivity"
-pricing: "Free / $14.99/mo Mem X / Custom Enterprise"
+pricing: "Free / $12/mo Mem Pro / Custom Teams"
 url: "https://mem.ai"
 rating: 4
+updated: "2026-08-08"
 tags: ["notes", "ai", "knowledge-base", "productivity", "self-organizing"]
 added: "2026-07-19"
 features:
