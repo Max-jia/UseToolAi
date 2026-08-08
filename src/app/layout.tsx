@@ -7,9 +7,69 @@ import Link from "next/link";
 const GA_ID = "G-4DHWWJV4YK";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://usetoolai.com"),
   title: "UseToolAI — Find the Best AI Tools in 2026",
   description:
     "Discover and compare 100+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://usetoolai.com",
+    siteName: "UseToolAI",
+    title: "UseToolAI — Find the Best AI Tools in 2026",
+    description:
+      "Discover and compare 100+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UseToolAI — Find the Best AI Tools in 2026",
+    description:
+      "Discover and compare 100+ hand-picked AI tools. Honest reviews, real pricing, and verified comparisons.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo-small.png",
+    apple: "/logo-small.png",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "UseToolAI",
+  url: "https://usetoolai.com",
+  logo: "https://usetoolai.com/logo.png",
+  description:
+    "UseToolAI reviews and compares AI tools for writing, design, video, coding, audio, and productivity.",
+  contactPoint: {
+    "@type": "ContactPoint",
+    url: "https://usetoolai.com/contact",
+    contactType: "customer support",
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "UseToolAI",
+  url: "https://usetoolai.com",
+  description:
+    "Discover and compare 100+ hand-picked AI tools. Honest reviews, real pricing, and verified comparisons.",
+  inLanguage: "en",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -17,6 +77,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="impact-site-verification" content="b5b276a2-1c78-4976-9d24-3bbd8d689428" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)]" suppressHydrationWarning>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />

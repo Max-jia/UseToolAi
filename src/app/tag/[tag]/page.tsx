@@ -16,6 +16,9 @@ export async function generateMetadata({ params }: { params: Promise<{ tag: stri
   return {
     title: `Best ${info.label} AI Tools (2026) — Free & Paid Options`,
     description: `Discover ${info.count} AI tools tagged "${info.label}". Compare features, pricing, and real user reviews to find the right ${info.label.toLowerCase()} tool for your workflow.`,
+    alternates: { canonical: `/tag/${tag}` },
+    // Tags with fewer than 3 tools are too thin to rank — keep them crawlable but out of the index.
+    robots: info.count >= 3 ? undefined : { index: false, follow: true },
   };
 }
 

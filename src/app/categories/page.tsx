@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { getAllCategories, getToolsByCategory } from "@/lib/tools";
-import ToolIcon from "@/components/ToolIcon";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI Tool Categories — UseToolAI",
+  description:
+    "Browse every AI tool category: writing, design, video, coding, audio, productivity, automation, marketing, and data analysis. Compare top tools in each category.",
+  alternates: { canonical: "/categories" },
+};
 
 const categoryIcons: Record<string, string> = {
   "Writing & Text": "✍️",
@@ -10,7 +17,7 @@ const categoryIcons: Record<string, string> = {
   "Code & Development": "💻",
   "Audio & Voice": "🎵",
   "Marketing & SEO": "📈",
-  "Data & Analysis": "📊",
+  "Data & Analytics": "📊",
 };
 
 export default function CategoriesPage() {

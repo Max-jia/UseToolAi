@@ -1,4 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy — UseToolAI",
+  description:
+    "How UseToolAI handles data, cookies, analytics, and advertising. Read our privacy policy before using the site.",
+  alternates: { canonical: "/privacy" },
+};
 
 export default function PrivacyPage() {
   return (
@@ -23,7 +31,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-bold text-[var(--color-text)] mb-3">2. Cookies</h2>
           <p>
-            Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the Internet. You may opt out of personalized advertising by visiting{" "}
+            Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google&apos;s use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the Internet. You may opt out of personalized advertising by visiting{" "}
             <a href="https://www.google.com/settings/ads" className="text-[var(--color-primary)] hover:underline" target="_blank" rel="noopener noreferrer">
               Google Ads Settings
             </a>.
