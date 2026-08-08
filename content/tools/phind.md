@@ -1,10 +1,11 @@
 ---
 name: "Phind"
-description: "AI search engine for developers. Ask technical questions in natural language and get answers with inline code, documentation links, and Stack Overflow references — like Google but with a brain."
+description: "AI search engine for developers. ⚠️ Shut down January 2026 — this page is kept for historical reference."
 category: "Code & Development"
-pricing: "Free / $10/mo Phind Pro (unlimited GPT-4o and Claude queries)"
+pricing: "Closed (shut down January 2026)"
 url: "https://phind.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["coding", "search", "developer", "technical", "troubleshooting"]
 added: "2026-07-19"
 features:
@@ -29,6 +30,8 @@ cons:
 coreStrength: "Google for developers that actually understands your question — not keyword matching but semantic understanding of technical problems, with inline code, citations, and a playground to test the answers."
 bestFor: "Developers troubleshooting bugs, learning new frameworks, and researching technical solutions. Best for: stack-overflow-style Q&A, framework documentation lookup, error message debugging, and comparing technical approaches. Not for: writing production code (use Cursor or Claude Code) or non-technical web search (use Perplexity or Google)."
 ---
+
+⚠️ **Phind shut down on January 16, 2026.** The product is no longer operational. This page is kept for historical reference.
 
 Phind is what happens when you combine a search engine with an LLM optimized for code. Traditional developer workflows involve Googling an error message, opening 5 Stack Overflow tabs, scanning documentation pages, and synthesizing an answer from fragments. Phind does the synthesis for you: ask a question, and it searches the web, reads the relevant pages, and produces a coherent answer with inline code examples, explanations, and citations to the original sources. The time savings are substantial — what used to take 10-15 minutes of tab-hopping becomes a 30-second query.
 

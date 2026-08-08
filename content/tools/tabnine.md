@@ -2,9 +2,10 @@
 name: "Tabnine"
 description: "AI code completion with a privacy-first architecture. Deep code context, multi-line suggestions, and the only major AI coding tool that can run entirely offline — trusted by enterprises with security requirements."
 category: "Code & Development"
-pricing: "Free / $12/mo Pro / $39/mo Enterprise / Custom On-Premises"
+pricing: "Free trial (14 days) / $39/user/mo Code Assistant / $59/user/mo Agentic / Custom Enterprise"
 url: "https://tabnine.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["coding", "code-completion", "privacy", "enterprise", "offline"]
 added: "2026-07-19"
 features:

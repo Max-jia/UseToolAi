@@ -2,9 +2,10 @@
 name: "Claude Code"
 description: "Anthropic's agentic coding tool. Writes multi-file PRs from natural language. Fable 5 model scores 95% on SWE-Bench Verified. The most capable AI coding agent in 2026."
 category: "Code & Development"
-pricing: "Free (limited) / $20/mo Pro / $100-200/mo Max"
+pricing: "Pro $20/mo / Max $100-200/mo / Team Premium $125/seat/mo"
 url: "https://claude.ai"
 rating: 5
+updated: "2026-08-08"
 tags: ["coding", "developer", "agent", "cli", "automation", "open-source"]
 added: "2026-07-19"
 features:
@@ -26,7 +27,7 @@ cons:
   - "Tokenizer inflation on Opus 4.7+ adds up to 35% more tokens for structured data"
 coreStrength: "The most capable autonomous coding agent. Fable 5 at 95.0% SWE-Bench Verified means it can independently complete real-world software engineering tasks that other tools can't."
 bestFor: "Professional developers who code 4+ hours per day and want an AI that handles complex multi-file changes autonomously. Best for: senior engineers, open-source maintainers, and anyone doing heavy refactoring. Not ideal for: beginners, casual coders, or those who prefer IDE-integrated tools."
-pricingDetails: "Free: limited daily usage. Pro ($20/mo): standard capacity. Max 5x ($100/mo): 5x Pro capacity. Max 20x ($200/mo): 20x Pro, heavy Claude Code use. API: Fable 5 $10/$50 per MTok. Prompt caching: up to 90% off."
+pricingDetails: "Free tier does not include Claude Code. Pro ($20/mo, $17 annual): includes Claude Code + Claude.ai chat, 5-hour session window. Max 5x ($100/mo): 5x Pro usage. Max 20x ($200/mo): 20x Pro usage. Team Premium ($125/seat/mo): Claude Code included, admin controls, SSO."
 alternatives:
   - name: "Cursor"
     slug: "cursor"

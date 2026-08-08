@@ -2,9 +2,10 @@
 name: "Quillbot"
 description: "The most popular AI paraphrasing tool. Rewrites text while preserving meaning. Grammar checker, summarizer, and citation generator built in. 50M+ users."
 category: "Writing & Text"
-pricing: "Free / $9.95/mo Premium"
+pricing: "Free / $19.95/mo Premium ($8.33 annual) / Team ($3.75-7.50/user)"
 url: "https://quillbot.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "paraphrasing", "grammar", "editing", "productivity"]
 added: "2026-07-19"
 features:

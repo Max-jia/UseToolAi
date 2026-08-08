@@ -2,9 +2,10 @@
 name: "Pika"
 description: "Fast, creative AI video generator with best-in-class emotional expression and lip sync. 2M+ Discord community. Cheapest entry among major AI video tools."
 category: "Video & Animation"
-pricing: "Free / $8-15/mo Starter / $30-50/mo Pro"
+pricing: "Free / $10/mo Standard ($8 annual) / $35/mo Pro ($28 annual) / $95/mo Fancy ($76 annual)"
 url: "https://pika.art"
 rating: 4
+updated: "2026-08-08"
 tags: ["video-generation", "social-media", "creative", "animation", "lip-sync"]
 features:
   - "Text-to-video and image-to-video generation with 50+ style presets"
@@ -29,7 +30,7 @@ cons:
   - "Subscription-only — no lifetime license option"
 coreStrength: "The fastest AI video generator (12-90 seconds per clip) with unique creative effects (Pikaffects) and lip-sync that works with any audio. The most generous free tier among AI video tools (10 videos/day, no credit card)."
 bestFor: "Pika is ideal for social media creators (TikTok, Reels, Shorts) who need quick, creative, short-form video content. Best for stylized/artistic content rather than photorealistic productions. Budget-conscious solo creators and small teams get the most value from the generous free tier and low entry price."
-pricingDetails: "Free: 10 videos/day, 720p, watermarked. Starter ($8-15/mo): 1080p, up to 30s, no watermark, commercial license. Pro ($30-50/mo): 4K beta, priority rendering, API access (1K req/mo). Enterprise: custom pricing. Annual billing discounts available."
+pricingDetails: "Free: 80 credits/mo, 480p, watermark. Standard ($10/mo, $8 annual): 700 credits, 1080p, no watermark, commercial use. Pro ($35/mo, $28 annual): 2,300 credits, priority queue. Fancy ($95/mo, $76 annual): 6,000 credits, fastest queue, premium priority. Credits do not roll over."
 alternatives:
   - name: "Runway"
     slug: "runway"

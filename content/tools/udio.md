@@ -5,6 +5,7 @@ category: "Audio & Voice"
 pricing: "Free / $10/mo Standard / $30/mo Pro"
 url: "https://udio.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["music", "audio", "creative", "generation", "songwriting"]
 features: ["Full song generation with vocals and instrumentation", "Detailed prompt control over genre, mood, and structure", "High-quality audio output with strong musicality", "Commercial licensing available through Universal Music partnership"]
 pros: ["Excellent musical quality — strong competitor to Suno for audio fidelity", "Detailed prompt control gives more creative precision", "Universal Music partnership provides legitimate commercial licensing path", "Active community of musicians and creators"]

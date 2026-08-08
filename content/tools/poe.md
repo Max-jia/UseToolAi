@@ -5,6 +5,7 @@ category: "Productivity"
 pricing: "Free / $19.99/mo Pro / $199.99/yr Annual"
 url: "https://poe.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["assistant", "chatbot", "multi-model", "comparison", "productivity", "free"]
 added: "2026-07-19"
 features:

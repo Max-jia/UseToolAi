@@ -2,9 +2,10 @@
 name: "Sudowrite"
 description: "AI creative writing tool purpose-built for fiction authors. Story engine with character bibles, plot outlining, and prose polishing — not a generic writing assistant."
 category: "Writing & Text"
-pricing: "$19/mo Hobby / $29/mo Student / $44/mo Professional / Custom Enterprise"
+pricing: "$19/mo Hobby & Student / $29/mo Professional / $59/mo Max / Custom Enterprise"
 url: "https://sudowrite.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "fiction", "creative", "storytelling", "novel"]
 added: "2026-07-19"
 features:

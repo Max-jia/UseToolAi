@@ -5,6 +5,7 @@ category: "Writing & Text"
 pricing: "Free / $9/mo Unlimited / $29/mo Premium"
 url: "https://rytr.me"
 rating: 4
+updated: "2026-08-08"
 tags: ["writing", "copywriting", "blog", "email", "budget"]
 added: "2026-07-19"
 features:

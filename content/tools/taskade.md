@@ -2,9 +2,10 @@
 name: "Taskade"
 description: "AI productivity platform combining mind maps, task lists, notes, and docs in one workspace. AI agents automate research, planning, and content generation across your projects."
 category: "Automation & Productivity"
-pricing: "Free / $8/mo Pro / $16/mo Business / Custom Enterprise"
+pricing: "Free / $6/mo Starter / $16/mo Pro ($20 monthly) / $40/mo Business / $200/mo Max / $400/mo Enterprise"
 url: "https://taskade.com"
 rating: 4
+updated: "2026-08-08"
 tags: ["productivity", "mind-map", "tasks", "ai-agents", "collaboration"]
 added: "2026-07-19"
 features:
