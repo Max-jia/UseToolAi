@@ -4,6 +4,40 @@ import SearchFilter from "@/components/SearchFilter";
 import ToolIcon from "@/components/ToolIcon";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import HeroSearch from "@/components/HeroSearch";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "UseToolAI — Find the Best AI Tools in 2026",
+  description:
+    "Discover and compare 100+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and verified comparisons.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "UseToolAI — Find the Best AI Tools in 2026",
+    description:
+      "Discover and compare 100+ hand-picked AI tools. Honest reviews, real pricing, and verified comparisons.",
+    url: "/",
+    type: "website",
+  },
+};
+
+function HomepageSchemas({ tools }: { tools: { name: string; slug: string; description: string; rating: number }[] }) {
+  const itemListSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Featured AI Tools",
+    numberOfItems: tools.length,
+    itemListElement: tools.map((tool, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: tool.name,
+      url: `https://usetoolai.com/tools/${tool.slug}`,
+      description: tool.description,
+    })),
+  });
+  return (
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: itemListSchema }} />
+  );
+}
 
 const TASKS = [
   { emoji: "✍️", label: "Write content", desc: "AI writing, editing & SEO", href: "/categories/writing-and-text" },
@@ -21,19 +55,20 @@ export default function HomePage() {
 
   return (
     <div>
+      <HomepageSchemas tools={topTools} />
       {/* Hero — task-oriented */}
       <section className="bg-white border-b border-[var(--color-border)] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-50/80 via-white to-emerald-50/40" />
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 relative">
           <div className="text-center max-w-2xl mx-auto mb-10">
             <h1 className="text-3xl md:text-5xl font-bold leading-snug tracking-tight mb-3">
-              Find the best{" "}
-              <span className="text-gradient">AI tool</span>.
+              Find the Best{" "}
+              <span className="text-gradient">AI Tools in 2026</span>
               <br />
-              <span className="text-[var(--color-text)]">No fluff.</span>
+              <span className="text-[var(--color-text)]">— Honestly Reviewed.</span>
             </h1>
             <p className="text-base text-[var(--color-text-muted)] max-w-lg mx-auto leading-relaxed mt-4">
-              {tools.length}+ tools, honestly reviewed. Real comparisons to help you choose.
+              {tools.length}+ hand-picked AI tools, tested and compared on real pricing, real features, and real trade-offs. No fluff.
             </p>
           </div>
 
@@ -78,6 +113,13 @@ export default function HomePage() {
               </div>
               <p className="text-xs text-[var(--color-text-muted)] leading-relaxed line-clamp-2">
                 {tool.description}
+              </p>
+              <p className="mt-1.5 text-xs">
+                {tool.updated ? (
+                  <span className="text-emerald-600 font-medium">✓ Verified {tool.updated}</span>
+                ) : (
+                  <span className="text-[var(--color-text-dim)]">Not yet verified</span>
+                )}
               </p>
             </Link>
           ))}

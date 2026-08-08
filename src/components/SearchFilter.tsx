@@ -125,6 +125,13 @@ export default function SearchFilter({ tools, categories }: Props) {
                   <span className="text-green-600 font-medium bg-green-50 px-2 py-0.5 rounded-full">Free</span>
                 )}
               </div>
+              <div className="mt-1.5 text-xs">
+                {tool.updated ? (
+                  <span className="text-emerald-600 font-medium">✓ Verified {tool.updated}</span>
+                ) : (
+                  <span className="text-[var(--color-text-dim)]">Not yet verified</span>
+                )}
+              </div>
             </Link>
           ))}
         </div>

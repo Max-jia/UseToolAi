@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllTools, getToolBySlug } from "@/lib/tools";
 import type { Metadata } from "next";
-import ToolIcon from "@/components/ToolIcon";
 
 // Generate ALL 1,485 pairs at build time
 export function generateStaticParams() {
@@ -32,7 +31,8 @@ export async function generateMetadata({
   return {
     title: `${t1.name} vs ${t2.name} 2026 — Which Should You Choose?`,
     description: `Compare ${t1.name} and ${t2.name} side by side: pricing, features, pros & cons, ratings, and best use cases. Find out which AI tool is right for your workflow.`,
-    robots: isSameCategory ? undefined : "noindex",
+    alternates: { canonical: `/compare/${slugs}` },
+    robots: isSameCategory ? undefined : { index: false, follow: true },
   };
 }
 
@@ -52,19 +52,11 @@ export default async function ComparePage({
   const [toolA, toolB] = [getToolBySlug(parts[0]), getToolBySlug(parts[1])];
   if (!toolA || !toolB) notFound();
 
-  const catA = toolA.category
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/&/g, "and");
-  const catB = toolB.category
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/&/g, "and");
-
   // Build comparison rows
   const rows = [
     { label: "Category", a: toolA.category, b: toolB.category },
     { label: "Pricing", a: toolA.pricing, b: toolB.pricing },
+    { label: "Last Verified", a: toolA.updated || "Not yet verified", b: toolB.updated || "Not yet verified" },
     {
       label: "Rating",
       a: "★".repeat(Math.floor(toolA.rating)) + "☆".repeat(5 - Math.floor(toolA.rating)),
@@ -89,8 +81,19 @@ export default async function ComparePage({
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 4);
 
+  const breadcrumbSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://usetoolai.com" },
+      { "@type": "ListItem", position: 2, name: "Compare", item: "https://usetoolai.com/categories" },
+      { "@type": "ListItem", position: 3, name: `${toolA.name} vs ${toolB.name}`, item: `https://usetoolai.com/compare/${slugs}` },
+    ],
+  });
+
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: breadcrumbSchema }} />
       <nav className="text-sm text-[var(--color-text-muted)] mb-8">
         <Link href="/" className="hover:text-[var(--color-primary)]">Home</Link>
         {" / "}
