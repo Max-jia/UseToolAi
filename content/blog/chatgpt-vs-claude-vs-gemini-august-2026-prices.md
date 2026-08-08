@@ -7,7 +7,7 @@ tags: ["chatgpt", "claude", "gemini", "comparison", "pricing"]
 featured: false
 ---
 
-If you checked the pricing of ChatGPT, Claude, or Gemini more than a year ago, your information is wrong. All three restructured their plans since then — new tiers, renamed tiers, discontinued tiers. We re-verified every price against the official pricing pages in August 2026. Here is the current state, and who should pay for what.
+If you checked the pricing of ChatGPT, Claude, or Gemini more than a year ago, your information is wrong. All three restructured their plans since then. New tiers appeared, old ones were renamed, and a few were discontinued outright. We re-verified every price against the official pricing pages in August 2026. Here is the current state, and who should pay for what.
 
 ---
 
@@ -86,7 +86,7 @@ If you checked the pricing of ChatGPT, Claude, or Gemini more than a year ago, y
 
 **Get this if:** You live in Google Workspace and want AI inside your existing apps.
 
-**Skip this if:** Your main use is coding — Claude is stronger for the same money.
+**Skip this if:** Your main use is coding: Claude is stronger for the same money.
 
 ## Full Comparison (Verified August 2026)
 
@@ -102,4 +102,4 @@ If you checked the pricing of ChatGPT, Claude, or Gemini more than a year ago, y
 
 ## The Bottom Line
 
-All three are $20/month at the tier that matters — the difference is what you get for it. Pick ChatGPT for breadth, Claude for depth, and Gemini if your life already runs on Google. And since every one of them has restructured plans in the last year, check the pricing page before you commit — and look for a verification date on anything claiming to be current.
+All three are $20/month at the tier that matters. The difference is what you get for it: pick ChatGPT for breadth, Claude for depth, and Gemini if your life already runs on Google. And since every one of them restructured plans in the last year, check the pricing page before you commit, and look for a verification date on anything claiming to be current.

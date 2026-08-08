@@ -130,4 +130,4 @@ Most "best AI tools" lists are recycled marketing copy. Ours isn't: we hand-chec
 
 ## How to Read This List in Six Months
 
-Every one of these prices will drift. That's why every tool page on this site carries a **Last Verified** date — and why this list will be re-checked, not recycled. If a tool directory can't show you when its information was checked, assume it was never checked.
+Six months from now, some of these prices will have moved. We'll re-verify before that happens, and the date on each tool page will show when we did. That's the whole point of the date.

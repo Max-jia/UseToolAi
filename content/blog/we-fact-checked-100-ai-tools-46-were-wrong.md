@@ -7,7 +7,7 @@ tags: ["fact-checking", "directory", "research", "pricing", "verified"]
 featured: true
 ---
 
-In August 2026, we re-verified every single tool on this directory by hand — opening each official pricing page, checking product status, and following moved domains. Of 100 tools, **46 had outdated information**. Nearly half. Three products were dead or acquired, and one listing promoted a model that never existed.
+In August 2026, we re-verified every single tool on this directory by hand. We opened each official pricing page, checked whether the product was still alive, and followed the domains that had moved. Of 100 tools, **46 had outdated information**. Nearly half. Three products were dead or acquired, and one listing promoted a model that never existed.
 
 This article is the receipt. Here is exactly what we found, and why you should stop trusting directories that don't show their work.
 
@@ -52,11 +52,11 @@ Every check was done by hand, one tool at a time. No dates were backfilled.
 
 ## What This Means for You
 
-Every directory claims to be "up to date." Most of them are copy-pasted from each other — same pricing, same mistakes, sometimes the same dead products. The only way to know how fresh a listing is: **check for a date on the listing itself**.
+Every directory claims to be "up to date." Most of them are copy-pasted from each other, mistakes included. The only way to know how fresh a listing is: find a date on the listing itself.
 
 That's why every tool page here now shows a **Last Verified** date — the day someone actually checked the pricing and features at the source. Green checkmark means verified that day. "Not yet verified" means we haven't re-checked it yet, and we say so instead of pretending.
 
-If a directory won't tell you when its information was checked, assume it was checked never.
+If a directory can't tell you when its information was checked, assume it wasn't.
 
 ---
 
