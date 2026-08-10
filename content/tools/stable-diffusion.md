@@ -15,7 +15,7 @@ features:
   - "ControlNet: precise pose, depth, edge, and composition control"
   - "LoRA training: fine-tune on your own images for consistent characters and styles"
   - "Runs locally on GPU (6GB+ VRAM) — no cloud, no censorship, no credit system"
-  - "ComfyUI and Automatic1111 interfaces for node-based and traditional workflows"
+  - "Automatic1111 (stable-diffusion-webui) and ComfyUI: free, open-source interfaces for running the model locally — control panels, not separate models"
 pros:
   - "Completely free and open-source — no credits, no limits, no content filters"
   - "Largest model ecosystem: 50K+ community fine-tunes for every style imaginable"
@@ -41,6 +41,10 @@ alternatives:
 ---
 
 Stable Diffusion is the most important open-source AI image model in 2026. If Midjourney is Apple (polished, controlled, expensive), Stable Diffusion is Linux (free, customizable, requires technical skill). SD3.5 brings improved text rendering and photorealism. The real power is in the ecosystem: 50,000+ community models on CivitAI, ControlNet for precise composition control, and LoRA for training custom styles.
+
+## The Engine vs the Control Panel
+
+Stable Diffusion is an engine, not an app. To run it locally you pick a free, open-source interface: Automatic1111 (the GitHub project stable-diffusion-webui) is the most popular control panel, named after its developer's handle rather than a company. ComfyUI is the node-based alternative. Both are free, run on your own GPU, and are separate pieces from the model itself: the engine generates, the interface steers.
 
 ## Stable Diffusion vs Midjourney
 

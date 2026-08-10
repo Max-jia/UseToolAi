@@ -11,3 +11,12 @@
 - **驗證流程**：Claude 列出工具名單 → 逐個查官方網站（定價、功能、產品狀態）→ 結果給使用者確認 → 才寫入 `updated` 欄位。
 - **技術備註**：`Tool` 介面已有 `updated` 欄位且頁面已支援顯示，僅需調整文案與未驗證狀態。
 - **重要發現（同天）**：`src/lib/tools.ts` 原本用**檔案修改時間（mtime）覆蓋 `updated`**——顯示的日期是「.md 檔何時被改過」，不是真實驗證日期，且任何檔案編輯都會假裝成「今天驗證」。已移除 mtime 覆蓋，`updated` 現在只讀 frontmatter，沒填就是不驗證。schema.org 的 datePublished 改由 `added` 欄位提供。
+
+## 2026-08-10 — 8 月新工具收錄批次（104 個工具）
+
+- **新增 4 個工具**（8/9–8/10 逐個查證官方來源，已標查證日期）：ChatGPT Work（Automation & Productivity）、Muse Code（Code & Development）、Muse Image（Image & Design）、Grok Imagine 2.0（Image & Design）。
+- **收錄政策再次確認：「宣布 ≠ 發布」**。FLUX 3（圖片版／公開 API／開源權重）與 Muse Video 因「未真正發布」未收錄；Grok Imagine 2.0 收錄消費者 app，但 API 狀態（官方文件 vs 發布新聞稿衝突）在條目中標註。
+- **對比文更新策略**：兩篇既有文章（編程工具、圖像生成）以「Update (August 10, 2026)」區塊追加新資訊，**保留原文日期與歷史主張**，不事後竄改。
+- **新文章**：「Announced ≠ Released: 5 Hyped AI Launches We Didn't Add (2026)」，以 Flux 3 為主角展示查證流程。
+- **關於頁文章數**：36 → 40（對齊實際部落格文章數）。
+- **技術備註**：`content/tools/` 新檔案由 `src/lib/tools.ts` 的 `readdirSync` 自動收錄，新增工具無需改程式碼。

@@ -1,9 +1,9 @@
 ---
 title: "AI Image Generators 2026: Most Benchmark Claims Are Fake. Here's What We Actually Verified"
-description: "104-agent deep research on 7 AI image tools. 19 of 23 claims failed verification. Only 4 survived. Here is what the data actually confirms about Midjourney, DALL-E, Firefly, and the rest."
+description: "104-agent deep research on 7 AI image tools. 19 of 23 claims failed verification. Only 4 survived. Here is what the data actually confirms about Midjourney, DALL-E, Firefly, and the rest. Updated Aug 10, 2026: Grok Imagine 2.0 debuts #2 on the public arena; Meta's Muse Image #2 claim is unaudited."
 date: "2026-07-09"
 category: "Image Generation"
-tags: ["midjourney", "dall-e", "firefly", "ai-image", "comparison", "research"]
+tags: ["midjourney", "dall-e", "firefly", "grok-imagine", "muse-image", "ai-image", "comparison", "research"]
 featured: true
 ---
 
@@ -63,4 +63,14 @@ Ideogram renders text better than Firefly. The 90-95% accuracy claim is false. T
 
 ---
 
-*Sources: Artificial Analysis Image Arena methodology; Adobe Known Limitations Help Page (Jan 2026); Capterra verified user reviews (Mar 2026); Apatero independent benchmarks (2026); TrustRadius reviews (Apr 2026); PCMag Best AI Image Generators (2026).*
+## Update (August 10, 2026): Two new entrants, one verified, one claimed
+
+The image-model race gained two big players this summer, and they demonstrate the exact difference this post is about.
+
+**Grok Imagine 2.0 (xAI)** shipped August 7 as the default Quality Mode in Grok apps. It debuts at **#2 on the public Text-to-Image Arena at Elo 1,320 (preliminary)**, behind only GPT Image 2. This is the same human-vote, blind-comparison methodology this post trusts. Two caveats: the rank is preliminary, and the developer API is in limbo: xAI's docs list the model with pricing, while launch materials say access is "coming soon" with the 2.0 model ID unconfirmed.
+
+**Muse Image (Meta)** launched July 7 inside Meta's apps. Meta reports it ranks **#2 on its own text-to-image arena at Elo 1,280**. Those figures are vendor-reported and unaudited, the same category of claim that failed 19 of 23 times in the original run. The model itself is genuinely interesting (web search grounding, self-written prompts, validated QR codes, free with usage caps), but the ranking claim is Meta's, not an independent arena's, and there's no API to test it against.
+
+The pattern holds: one entrant arrives with independently verifiable numbers, the other with a vendor-reported number and no public way to check it. Check the arena, not the press release.
+
+*Sources: Artificial Analysis Image Arena methodology; Adobe Known Limitations Help Page (Jan 2026); Capterra verified user reviews (Mar 2026); Apatero independent benchmarks (2026); TrustRadius reviews (Apr 2026); PCMag Best AI Image Generators (2026); xAI Grok Imagine 2.0 launch coverage (Aug 7, 2026); xAI API docs; Meta Muse Image launch coverage (Jul 7, 2026).*
