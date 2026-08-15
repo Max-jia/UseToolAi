@@ -2,6 +2,7 @@
 title: "ElevenLabs vs PlayHT vs Murf AI 2026: Voice Quality, Price, or Workflow"
 description: "Three AI voice platforms. ElevenLabs wins on quality. PlayHT wins on scale and API pricing. Murf wins on built-in editing. Here's how to pick."
 date: "2026-07-05"
+author: "Max Jia"
 category: "Audio & Voice"
 tags: ["elevenlabs", "playht", "murf", "tts", "voice", "comparison"]
 featured: false

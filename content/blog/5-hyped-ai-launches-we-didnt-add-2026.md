@@ -2,6 +2,7 @@
 title: "Announced ≠ Released: 5 Hyped AI Launches We Didn't Add (2026)"
 description: "We checked 5 hyped AI launches from July-August 2026 against official sources. FLUX 3's image tier, API, and open weights don't exist yet. Muse Video is preview-only. Here's what's real, what we added anyway, and why."
 date: "2026-08-10"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["fact-checking", "research", "verification", "flux-3", "muse-video"]
 featured: false

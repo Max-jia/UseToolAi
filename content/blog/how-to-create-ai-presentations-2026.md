@@ -2,6 +2,7 @@
 title: "How to Create AI Presentations in Minutes (2026 Guide)"
 description: "Stop fighting with PowerPoint alignment. AI tools now generate entire presentations from a one-line prompt. Here's the exact workflow to go from idea to polished deck in under 10 minutes."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Productivity"
 tags: ["tutorial", "ai-presentations", "gamma", "beautiful-ai", "productivity", "how-to"]
 featured: false

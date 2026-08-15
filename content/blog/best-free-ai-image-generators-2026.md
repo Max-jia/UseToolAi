@@ -2,6 +2,7 @@
 title: "10 Best Free AI Image Generators That Don't Look Like AI (2026)"
 description: "We tested 20+ free AI image generators. Most produce plastic-looking results or watermark everything. These 10 actually deliver — and they're genuinely free."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Image Generation"
 tags: ["ai-image", "free-tools", "midjourney", "dall-e", "ideogram", "leonardo", "image-generation"]
 featured: true

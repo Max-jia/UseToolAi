@@ -2,6 +2,7 @@
 title: "How to Make Money With AI Music in 2026"
 description: "Suno generates the song. Synthesizer V adds realistic vocals. You publish to stock audio platforms, YouTube Content ID, or sell custom tracks. Here's the complete monetization workflow."
 date: "2026-07-09"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "ai-music", "suno", "stock-audio", "side-hustle", "content-creation"]
 featured: false

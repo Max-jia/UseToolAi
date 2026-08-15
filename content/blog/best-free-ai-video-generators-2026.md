@@ -2,6 +2,7 @@
 title: "10 Best Free AI Video Generators Worth Your Time (2026)"
 description: "We tested 20+ AI video tools. Most free tiers watermark your output or cap you at 3 seconds. These 10 actually let you create — for free, for real."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Video & Animation"
 tags: ["ai-video", "free-tools", "runway", "pika", "kling", "luma", "video-generation"]
 featured: true

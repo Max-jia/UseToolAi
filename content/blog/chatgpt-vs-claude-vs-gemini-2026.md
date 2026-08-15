@@ -2,6 +2,7 @@
 title: "ChatGPT vs Claude vs Gemini 2026: Pricing, Strategy, and What 52% of Americans Already Know"
 description: "Verified research on the three leading AI assistants: pricing, platform strategy, and market position. Based on 106-agent deep research with adversarial fact-checking."
 date: "2026-07-08"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["chatgpt", "claude", "gemini", "comparison", "research"]
 featured: true

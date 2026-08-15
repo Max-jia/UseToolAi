@@ -2,6 +2,7 @@
 title: "How to Create AI Images That Don't Look Like AI (2026 Guide)"
 description: "Six techniques that make AI-generated images indistinguishable from real photos and human-made art. No technical skills required — just better prompting and the right tools."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Image Generation"
 tags: ["tutorial", "ai-image", "prompting", "midjourney", "dall-e", "how-to"]
 featured: false

@@ -2,6 +2,7 @@
 title: "Lovable vs Bolt.new vs Replit 2026: Pick Based on What You Are Building"
 description: "Lovable makes SaaS fast. Bolt.new is instant in-browser prototyping. Replit handles any language. Three AI app builders. Three different jobs."
 date: "2026-07-12"
+author: "Max Jia"
 category: "Developer Tools"
 tags: ["lovable", "bolt", "replit", "no-code", "app-builder", "comparison"]
 featured: false

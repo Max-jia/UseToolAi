@@ -57,7 +57,7 @@ export default async function BlogPostPage({
     abstract: firstParagraph.slice(0, 300),
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: "UseToolAI", url: "https://usetoolai.com/about" },
+    author: { "@type": "Person", name: "Max Jia", url: "https://usetoolai.com/about" },
     publisher: { "@type": "Organization", name: "UseToolAI", url: "https://usetoolai.com" },
     mainEntityOfPage: { "@type": "WebPage", "@id": `https://usetoolai.com/blog/${post.slug}` },
     isAccessibleForFree: true,
@@ -121,7 +121,7 @@ export default async function BlogPostPage({
             <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-[var(--color-surface)] text-[var(--color-primary)]">
               {post.category}
             </span>
-            <span className="text-xs text-[var(--color-text-muted)]">{post.date}</span>
+            <span className="text-xs text-[var(--color-text-muted)]">By {post.author ?? "UseToolAI"} · {post.date}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-3">{post.title}</h1>
           <p className="text-lg text-[var(--color-text-muted)]">{post.description}</p>

@@ -2,6 +2,7 @@
 title: "ChatGPT vs Claude vs Gemini: Prices Just Changed in August 2026 — We Re-Verified"
 description: "All three assistants restructured their plans in the last 12 months. We re-verified every price against the official pricing pages in August 2026. Here is who costs what, and which is worth it."
 date: "2026-08-09"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["chatgpt", "claude", "gemini", "comparison", "pricing"]
 featured: false

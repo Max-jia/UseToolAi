@@ -2,6 +2,7 @@
 title: "How to Build a Faceless AI TikTok Channel That Makes Money (2026 Guide)"
 description: "No camera. No voice. No editing skills. ChatGPT writes the lyrics. Suno makes the song. CapCut stitches the video. Here's the exact workflow to automate short-form content creation."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "tiktok", "content-creation", "suno", "capcut", "automation"]
 featured: false

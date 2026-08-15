@@ -2,6 +2,7 @@
 title: "How to Build an AI Newsletter That Writes Itself (2026 Guide)"
 description: "RSS feeds go in. AI filters, summarizes, and formats. A newsletter comes out. Set it up once, it runs forever. Here's the exact n8n workflow with code."
 date: "2026-07-17"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "newsletter", "automation", "n8n", "ai", "no-code"]
 featured: false

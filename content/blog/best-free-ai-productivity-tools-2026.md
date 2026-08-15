@@ -2,6 +2,7 @@
 title: "10 Best Free AI Productivity Tools That Actually Save You Hours (2026)"
 description: "We tested 25+ AI productivity tools to find the ones with genuinely useful free tiers. These 10 don't just add features — they delete hours from your workweek."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Productivity"
 tags: ["productivity", "free-tools", "ai-assistant", "meetings", "presentations", "research", "automation"]
 featured: true

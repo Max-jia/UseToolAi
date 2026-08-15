@@ -20,3 +20,12 @@
 - **新文章**：「Announced ≠ Released: 5 Hyped AI Launches We Didn't Add (2026)」，以 Flux 3 為主角展示查證流程。
 - **關於頁文章數**：36 → 40（對齊實際部落格文章數）。
 - **技術備註**：`content/tools/` 新檔案由 `src/lib/tools.ts` 的 `readdirSync` 自動收錄，新增工具無需改程式碼。
+
+## 2026-08-15 — AdSense「低價值內容」修復：建立真人作者信號（第二階段）
+
+- **背景**：Google AdSense 審查將 usetoolai.com（連同 questlog.site、workinanywhere.com）標記為 Low value content。網站未被停用，但廣告申請被拒。第一時間誤判為 Vercel 的檢查，後確認來源是 AdSense 的網站審查。
+- **決策**：分階段修復。第一階段（AdSense 後台綁定 Search Console、累積真實流量）由使用者在後台操作；本階段做內容端的「真人作者信號」。
+- **執行**：40 篇文章 frontmatter 加 `author: "Max Jia"`；文章頁標題下顯示 byline（By Max Jia · 日期）；JSON-LD author 從 Organization 改為 Person 並連結 About 頁；About 頁新增「Who's Behind This」段落。
+- **署名與隱私決策**：使用者選擇英文名「Max Jia」與輕量版個人資訊（名字 + 來歷，不放照片/社群連結）。
+- **範圍外**：工具卡內容品質（第三階段）、買流量、捏造作者或測試記錄——一律不做（與網站查證價值觀一致，Google 對造假懲罰更重）。
+- **技術備註**：BlogPost 介面加選填 `author?: string`，沒填時顯示回退「UseToolAI」。

@@ -2,6 +2,7 @@
 title: "How to Build and Monetize a Custom GPT (2026 Guide)"
 description: "Create an AI assistant that earns money, drives traffic, and builds your authority. No coding required. The exact steps from idea to GPT Store listing."
 date: "2026-07-15"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "chatgpt", "gpt-store", "custom-gpt", "side-hustle", "no-code"]
 featured: false

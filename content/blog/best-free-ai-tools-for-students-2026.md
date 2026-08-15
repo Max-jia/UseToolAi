@@ -2,6 +2,7 @@
 title: "7 Best Free AI Tools for Students in 2026 (That Won't Get You in Trouble)"
 description: "AI tools that actually help you learn — not just cheat. Every tool on this list is genuinely free, academically useful, and won't trigger plagiarism detectors when used correctly."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Productivity"
 tags: ["students", "free-tools", "academic", "research", "writing", "study"]
 featured: true

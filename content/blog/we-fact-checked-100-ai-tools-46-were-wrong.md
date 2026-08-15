@@ -2,6 +2,7 @@
 title: "We Fact-Checked 100 AI Tool Listings — 46 Were Wrong"
 description: "In August 2026 we hand-checked all 100 tools on this directory against their official sites. 46 had outdated pricing, dead plans, or worse. Here is what we found."
 date: "2026-08-09"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["fact-checking", "directory", "research", "pricing", "verified"]
 featured: true

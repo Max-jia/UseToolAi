@@ -2,6 +2,7 @@
 title: "10 Free AI Writing Tools That Actually Work (2026): Stop Paying Before You Need To"
 description: "We tested 20+ AI writing tools to find the ones with genuinely usable free tiers. Most 'free' tools cut you off after two articles. These 10 don't."
 date: "2026-07-15"
+author: "Max Jia"
 category: "Writing"
 tags: ["ai-writing", "free-tools", "chatgpt", "deepseek", "claude", "copywriting", "content-creation"]
 featured: true

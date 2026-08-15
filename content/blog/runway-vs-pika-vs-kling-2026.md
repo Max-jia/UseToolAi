@@ -2,6 +2,7 @@
 title: "Runway vs Pika vs Kling 2026: The AI Video Tool You Pick Changes Everything About Your Workflow"
 description: "Runway is a production studio. Pika is a creative playground. Kling is the value king. Each assumes you work differently. Here's how to pick without wasting money."
 date: "2026-07-14"
+author: "Max Jia"
 category: "Video & Animation"
 tags: ["runway", "pika", "kling", "video-generation", "comparison"]
 featured: false

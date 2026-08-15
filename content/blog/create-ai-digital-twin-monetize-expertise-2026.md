@@ -2,6 +2,7 @@
 title: "How to Create an AI Digital Twin and Monetize Your Expertise (2026)"
 description: "Turn your knowledge into a 24/7 AI consultant. Upload your content, train an AI on your voice, and sell access to your expertise. No coding required."
 date: "2026-07-10"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "ai-agent", "digital-twin", "knowledge-base", "passive-income", "no-code"]
 featured: false

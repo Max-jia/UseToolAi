@@ -2,6 +2,7 @@
 title: "DeepSeek V4 vs Qwen 3.5 2026: The Open-Source AI War Nobody Is Covering Honestly"
 description: "DeepSeek and Qwen dominate global AI token usage. Western media barely covers them. Both are free. Both are open-source. Which one you pick changes everything about cost and capability."
 date: "2026-07-15"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["deepseek", "qwen", "open-source", "comparison", "chinese-ai"]
 featured: true

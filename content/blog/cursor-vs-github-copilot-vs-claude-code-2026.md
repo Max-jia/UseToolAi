@@ -2,6 +2,7 @@
 title: "Claude Code vs Cursor vs GitHub Copilot 2026: Pick Your Coding Workflow First"
 description: "Three AI coding tools. Three different philosophies. Claude Code lives in the terminal. Cursor is a whole editor. Copilot works everywhere. Here's which one fits how you actually code."
 date: "2026-07-13"
+author: "Max Jia"
 category: "Developer Tools"
 tags: ["cursor", "github-copilot", "claude-code", "coding", "comparison"]
 featured: true

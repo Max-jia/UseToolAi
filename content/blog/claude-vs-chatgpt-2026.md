@@ -2,6 +2,7 @@
 title: "Claude vs ChatGPT 2026: One Costs $20. The Other Costs $20. They Could Not Be More Different."
 description: "Both have free tiers. Both charge $20/month for premium. But Claude is a scalpel and ChatGPT is a Swiss Army knife. After 50 real tasks, here's when each one wins."
 date: "2026-07-16"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["claude", "chatgpt", "comparison", "coding", "writing", "ai-assistant"]
 featured: true

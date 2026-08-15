@@ -2,6 +2,7 @@
 title: "Cursor vs GitHub Copilot vs Windsurf 2026: Pick Your Editor First"
 description: "Three AI coding tools, three approaches. Cursor is an AI-native editor. Copilot works everywhere. Windsurf has the best free tier. Here's how to choose."
 date: "2026-07-06"
+author: "Max Jia"
 category: "Developer Tools"
 tags: ["cursor", "github-copilot", "windsurf", "coding", "comparison"]
 featured: false

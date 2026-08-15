@@ -2,6 +2,7 @@
 title: "Perplexity vs ChatGPT Search vs Gemini Deep Research 2026: Which AI Actually Finds What You Need"
 description: "Three AI research tools. Perplexity cites everything. ChatGPT synthesizes. Gemini searches your whole Google workspace. Here's which one to trust for research."
 date: "2026-07-15"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["perplexity", "chatgpt", "gemini", "research", "comparison", "search"]
 featured: false

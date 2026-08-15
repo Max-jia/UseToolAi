@@ -2,6 +2,7 @@
 title: "10 Best AI Tools That Survived Our Fact-Check (2026)"
 description: "We re-verified all 100 tools on this directory in August 2026 and 46 failed. These 10 passed — current pricing, live products, no dead links. Here is who made the cut and why."
 date: "2026-08-09"
+author: "Max Jia"
 category: "Productivity"
 tags: ["best-of", "roundup", "verified", "pricing", "productivity"]
 featured: true

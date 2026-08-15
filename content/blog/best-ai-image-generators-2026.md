@@ -2,6 +2,7 @@
 title: "AI Image Generators 2026: Most Benchmark Claims Are Fake. Here's What We Actually Verified"
 description: "104-agent deep research on 7 AI image tools. 19 of 23 claims failed verification. Only 4 survived. Here is what the data actually confirms about Midjourney, DALL-E, Firefly, and the rest. Updated Aug 10, 2026: Grok Imagine 2.0 debuts #2 on the public arena; Meta's Muse Image #2 claim is unaudited."
 date: "2026-07-09"
+author: "Max Jia"
 category: "Image Generation"
 tags: ["midjourney", "dall-e", "firefly", "grok-imagine", "muse-image", "ai-image", "comparison", "research"]
 featured: true

@@ -2,6 +2,7 @@
 title: "GitHub Copilot vs Cursor 2026: The Only Two AI Coding Tools With Verifiable Numbers"
 description: "103-agent deep research on 8 AI coding tools. Only GitHub Copilot and Cursor had verifiable data. 4.7M Copilot subscribers. Cursor hit $2B ARR in 13 months. Updated Aug 10, 2026: Meta's Muse Code is the third: real pricing, real benchmark, 1M-token context."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Developer Tools"
 tags: ["github-copilot", "cursor", "muse-code", "coding", "ai", "comparison", "research"]
 featured: false

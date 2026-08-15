@@ -2,6 +2,7 @@
 title: "How to Write With AI Without Sounding Like AI (2026 Guide)"
 description: "Five techniques to make AI-generated text sound human. Stop getting flagged by AI detectors. Stop sounding like a robot wrote your blog post."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Writing"
 tags: ["tutorial", "ai-writing", "chatgpt", "claude", "content-creation", "how-to"]
 featured: false

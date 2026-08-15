@@ -2,6 +2,7 @@
 title: "ChatGPT vs DeepSeek 2026: The Free AI Showdown Nobody Asked For But Everyone Needs"
 description: "Two genuinely capable free AI assistants. One with 300M users and an ecosystem. One that's open-source and costs zero dollars forever. We tested both for 50 real tasks. Here's when to use which."
 date: "2026-07-16"
+author: "Max Jia"
 category: "AI Assistants"
 tags: ["chatgpt", "deepseek", "free-ai", "comparison", "writing", "coding"]
 featured: true

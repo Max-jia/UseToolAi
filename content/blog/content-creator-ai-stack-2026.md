@@ -2,6 +2,7 @@
 title: "The Content Creator's AI Stack: 10 Free Tools That Save 10 Hours a Week (2026)"
 description: "Research, writing, thumbnails, captions, editing, music, publishing. Every step of content creation has an AI tool that makes it faster. Here's the complete free tool stack."
 date: "2026-07-18"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "content-creation", "productivity", "free-tools", "youtube", "tiktok"]
 featured: false

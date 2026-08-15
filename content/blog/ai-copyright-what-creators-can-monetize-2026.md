@@ -2,6 +2,7 @@
 title: "AI Copyright 2026: What You Can (and Can't) Monetize"
 description: "The US Copyright Office rules on AI-generated content, explained in plain English. What's protected. What's not. And how to protect your work when using AI tools."
 date: "2026-07-08"
+author: "Max Jia"
 category: "Monetization"
 tags: ["monetization", "copyright", "legal", "ai-image", "ai-music", "content-creation"]
 featured: false

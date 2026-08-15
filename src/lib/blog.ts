@@ -10,6 +10,7 @@ export interface BlogPost {
   category: string;
   tags: string[];
   featured?: boolean;
+  author?: string;
   content: string;
 }
 

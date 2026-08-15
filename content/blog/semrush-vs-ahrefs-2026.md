@@ -2,6 +2,7 @@
 title: "Semrush vs Ahrefs 2026: They Cost the Same. They Are Not the Same Tool."
 description: "Semrush and Ahrefs both dominate SEO. But one is a marketing platform and the other is a backlink research tool. After comparing features, pricing, and real workflows, here's which one to pick."
 date: "2026-07-17"
+author: "Max Jia"
 category: "Marketing & SEO"
 tags: ["semrush", "ahrefs", "seo", "comparison", "marketing", "keyword-research"]
 featured: true

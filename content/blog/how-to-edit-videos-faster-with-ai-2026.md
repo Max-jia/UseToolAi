@@ -2,6 +2,7 @@
 title: "How to Edit Videos 10x Faster With AI (2026 Guide)"
 description: "Stop scrubbing timelines for hours. AI tools can now remove silences, generate captions, clean audio, and even edit by editing text. Here's the exact workflow."
 date: "2026-07-16"
+author: "Max Jia"
 category: "Video & Animation"
 tags: ["tutorial", "ai-video", "descript", "capcut", "video-editing", "how-to"]
 featured: false

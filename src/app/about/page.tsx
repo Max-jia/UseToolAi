@@ -26,6 +26,17 @@ export default function AboutPage() {
           The AI tools market is overwhelming. Thousands of products claim to be "the best." Most comparison articles are written by content farms that have never used the tools they review. We do things differently.
         </p>
 
+        <h2 className="text-xl font-bold text-[var(--color-text)]">Who's Behind This</h2>
+        <p>
+          I'm Max Jia, the person behind UseToolAI. I spent years building products at tech companies, and now I build AI products of my own.
+        </p>
+        <p>
+          UseToolAI started in June 2026 out of a real frustration: too many AI tools, everyone claiming to be the best, and no way to tell who to trust. Most comparison sites copy marketing pages and call it research. I wanted the opposite — a site where every claim is checked, every review shows the flaws, and every page tells you when the information was last verified.
+        </p>
+        <p>
+          It's a one-person project. No content farm, no AI-generated filler. If a tool isn't verified yet, the site says so.
+        </p>
+
         <h2 className="text-xl font-bold text-[var(--color-text)]">What We Do</h2>
         <ul className="list-disc pl-5 space-y-2">
           <li><strong>Honest reviews</strong> — every tool page includes pros, cons, and a "skip this if" section. No tool is perfect, and we tell you why.</li>
