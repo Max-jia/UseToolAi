@@ -40,8 +40,10 @@ alternatives:
     slug: "descript"
 ---
 
-HeyGen leads AI avatar video generation with Avatar IV technology — the most realistic AI talking heads available. Video Agent 2.0 collapses the entire production pipeline (scripting, B-roll, avatar performance, transitions, captions) into a single text prompt. 175+ languages with preserved lip-sync make it unmatched for global teams.
+HeyGen is the tool that finally made AI avatars watchable. Avatar IV, its current model, generates digital humans from two minutes of webcam footage, and the results are good enough that the company calls them "scary real." That is marketing language, but the realism is the point: this is the closest an AI presenter gets to an actual human on screen, which is why G2's avatar realism rankings have it at the top.
 
-## Who Should Use It
+Where it pays off: sales teams filming personalized outreach at scale, training teams producing the same video in 175+ languages with lip sync that holds up. Video Agent 2.0 goes further, turning a single prompt into a finished 1080p video, script and captions included, in a few minutes.
 
-Sales teams doing personalized video outreach, training departments creating multi-language content, and anyone who needs talking-head videos without being on camera. The free tier (1 minute/month) is minimal — serious users need Creator ($24/month). The realism gap is shrinking fast; in 2026, AI avatars are approaching indistinguishability from real video.
+## The fine print
+
+Free tier is 3 videos a month at 720p with a watermark, a demo rather than a trial. Credits expire monthly with no rollover, and heavy users report burning through them in two weeks. Creator runs $24 a month. Pricing checked August 5, 2026.

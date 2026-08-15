@@ -50,6 +50,6 @@ Unlike Cursor (which is an editor) or Claude Code (which is a terminal agent), C
 
 The biggest 2026 story is Copilot's move to usage-based billing. Code completions remain unlimited, but chat, agent mode, and CLI agents now consume AI Credits from a monthly allotment. The new Max tier ($100/month with $200 in credits) targets power users who previously hit rate limits on flat-rate plans. For teams, pooled credits prevent the "Alice used all the credits, Bob got nothing" problem.
 
-## The Bottom Line
+## Who It's For
 
-Copilot is the safe, enterprise-ready choice for AI-assisted development. It may not have the sleekest agent experience (Cursor) or the deepest reasoning (Claude Code standalone), but its multi-model flexibility, GitHub ecosystem integration, and enterprise admin controls make it the default for organizations that need AI at scale.
+Copilot is the safe, enterprise-ready choice for AI-assisted development. It may not have the sleekest agent experience (Cursor) or the deepest reasoning (Claude Code standalone), but its multi-model flexibility, GitHub ecosystem integration, and enterprise admin controls make it the default for organizations that need AI at scale. Pricing checked August 4, 2026.

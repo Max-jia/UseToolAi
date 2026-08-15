@@ -1,6 +1,6 @@
 ---
 name: "Runway Frames"
-description: "Specialized Image & Design solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
+description: "Runway's image generation for cinematic stills with precise camera and lighting control. Built for pre-visualization and concept art. Now part of the main Runway product."
 category: "Image & Design"
 pricing: "Included with Runway plans"
 url: "https://runway.com"
@@ -33,18 +33,8 @@ alternatives:
     slug: "claude"
 ---
 
-## Overview
+Runway Frames was Runway's image generator, aimed at a different job than its video tools: cinematic stills with deliberate camera and lighting control. Think pre-visualization for a film scene, concept art for a product, or a frame you want to match to the video you are about to generate. Where most image tools just respond to a prompt, Frames was built to feel like directing a shot.
 
-Runway Frames fills a specific need in the Image & Design ecosystem with a focused, well-executed product. Rather than competing with broad AI platforms, it provides deep functionality for its target use case, making it an essential tool for professionals in this space.
+One thing worth knowing before you read older reviews of it: in 2026 Runway folded Frames into the main product and retired the standalone page. If you have a Frames URL bookmarked, what you will find now is the merged image features inside the Runway workspace. That consolidation matters mostly for workflows: everything is one subscription, no separate Frames billing.
 
-## What Makes It Different?
-
-The key differentiator is specialization. While general AI tools can handle Image & Design tasks to some degree, Runway Frames is built from the ground up for this specific purpose. This focus results in better output quality, more relevant features, and a more efficient workflow.
-
-## Real-World Use Cases
-
-Professionals who work extensively in Image & Design find that Runway Frames saves hours per week compared to using general-purpose AI tools. The specialized workflow and optimized algorithms produce better results with less manual tweaking.
-
-## The Bottom Line
-
-If Image & Design is a core part of your work, Runway Frames is worth serious consideration. Its specialized approach delivers quality that general tools can't match, and the focused feature set means less time fighting the tool and more time getting results.
+Pricing is therefore whatever Runway plan you are on, no add-on. If you are already in the Runway ecosystem and need stills that match your video style, it is the natural fit. If you only need images, dedicated tools like Midjourney or Ideogram offer more range at lower entry cost. Pricing checked August 5, 2026.

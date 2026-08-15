@@ -39,18 +39,8 @@ alternatives:
     slug: "ideogram"
 ---
 
-## Overview
+GPT Image 2 is the model you actually get in ChatGPT today, and the direct successor to the DALL-E series, which OpenAI has now fully retired. Calling it a successor undersells the change: it's a complete rebuild — autoregressive rather than diffusion-based, with built-in reasoning that plans and checks a layout before drawing. If you landed on this page looking for DALL-E, this is what replaced it.
 
-GPT Image 2 is OpenAI's current flagship image model, released April 2026. It replaces the DALL-E series (which OpenAI fully retired in 2025–2026), and it is a complete rebuild: autoregressive rather than diffusion-based, with built-in reasoning that plans and verifies a layout before rendering. For anyone who has used DALL-E before: this is its successor, and the model you actually get in ChatGPT today.
+The headline capability is text rendering. OpenAI claims roughly 99% accuracy for English text in images and above 90% for Chinese, Japanese, Korean, Hindi, Bengali, and Arabic. Those are vendor claims, but the improvement over earlier models is obvious in practice: logos, posters, and diagrams come out with words that actually read correctly. That is the difference between a useful tool and a toy for marketing teams.
 
-## What Makes It Different?
-
-Two things set GPT Image 2 apart. First, text rendering is production-quality — roughly 99% accurate in English and above 90% in Chinese, Japanese, Korean, Hindi, Bengali, and Arabic. Second, its Thinking mode researches, plans, and checks its own composition before drawing, which cuts down the classic AI-image mistakes. Combined with conversational iteration in ChatGPT ("Make the background darker," "Change her expression"), it gets you to a finished image fast.
-
-## Real-World Use Cases
-
-Marketing teams generate social media graphics with embedded text, eliminating separate design tools. E-commerce businesses create product mockups from simple descriptions. Educators generate diagrams for teaching materials. Developers use the API to add dynamic image generation to applications, with 4K output in beta.
-
-## The Bottom Line
-
-GPT Image 2 is the practical choice for image generation. It may not be the most artistically distinctive (that's still Midjourney's domain), but it's the most useful for real-world tasks — especially anything involving text, complex prompts, or existing ChatGPT workflows. If you land on this page looking for DALL-E: it's gone, and this is what replaced it.
+Thinking mode, the part that researches and verifies before rendering, is restricted to paid ChatGPT tiers, and 4K output is still beta via API. Artistic style remains less distinctive than Midjourney's, and physical-world details like origami or repetitive fine texture still stumble. But for real-world jobs with text, complex multi-element scenes, and iterating inside a chat conversation, it is the most practical image generator available. Pricing checked August 5, 2026.

@@ -44,8 +44,8 @@ Cursor has become the editor of choice for AI-native developers by embedding AI 
 
 ## What Sets It Apart
 
-The tab completion is the differentiator — it predicts entire edits across multiple files, not just the next token. Agent Mode handles complex multi-file refactoring with visual diff review. Background Agents (launched 2026) clone your repo to cloud VMs and work asynchronously, pushing PRs when done. Many developers use Cursor for interactive daily coding + Claude Code for heavy autonomous background tasks.
+The tab completion is the differentiator — it predicts entire edits across multiple files, not just the next token. Agent Mode handles complex multi-file refactoring with visual diff review. Background Agents clone your repo to cloud VMs and work asynchronously, pushing PRs when done. Many developers use Cursor for interactive daily coding + Claude Code for heavy autonomous background tasks.
 
-## The Bottom Line
+## Should You Pay $20 a Month?
 
-Cursor is the gold standard for AI-native IDE integration at $20/month. It's best for developers who code daily on multi-file projects and want AI woven into their editor rather than accessed through a chat sidebar. The main trade-offs are editor lock-in (VS Code fork only) and the credit system for premium models.
+At $20/month, Cursor is the gold standard for AI-native IDE integration. It's best for developers who code daily on multi-file projects and want AI woven into their editor rather than accessed through a chat sidebar. The main trade-offs are editor lock-in (VS Code fork only) and the credit system for premium models. Pricing checked August 4, 2026.

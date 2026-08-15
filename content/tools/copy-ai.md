@@ -23,8 +23,8 @@ The 2024-2026 pivot transformed Copy.ai from a writing tool into a marketing ope
 
 ## The Pricing Gap
 
-The free tier (2,000 words/month) is a generous test drive. But the jump from free to Pro ($49/month) is steep. There's no $20 middle tier. For solo creators, ChatGPT or Claude at $20/month covers most writing needs. Copy.ai becomes worth it when you use the workflow automation — not just the AI writing.
+The free tier (2,000 words/month) is a generous test drive. But the jump from free to the Chat plan ($29/month) to Growth at $1,000/month is steep, with no middle tier in between. For solo creators, ChatGPT or Claude at $20/month covers most writing needs. Copy.ai becomes worth it when you use the workflow automation — not just the AI writing.
 
 ## Who Should Use It
 
-Small marketing teams (2-5 people) who currently use separate tools for writing, scheduling, and analytics. Copy.ai consolidates them. Solo creators should start with ChatGPT free or Claude free and only upgrade to Copy.ai when they need workflow automation.
+Small marketing teams (2-5 people) who currently use separate tools for writing, scheduling, and analytics. Copy.ai consolidates them. Solo creators should start with ChatGPT free or Claude free and only upgrade to Copy.ai when they need workflow automation. Pricing checked August 7, 2026.

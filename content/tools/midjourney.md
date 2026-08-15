@@ -40,7 +40,7 @@ alternatives:
     slug: "ideogram"
 ---
 
-Midjourney remains the artistic gold standard in AI image generation, maintaining its lead through a relentless focus on aesthetic quality rather than feature breadth. The V7 model, released in April 2025, was a ground-up rebuild that improved image quality by 30-40% while adding long-requested features like a web editor and character references.
+Midjourney remains the artistic gold standard in AI image generation, maintaining its lead through a relentless focus on aesthetic quality rather than feature breadth. The V7 model was a ground-up rebuild that improved image quality by 30-40% while adding long-requested features like a web editor and character references.
 
 ## The V7 Difference
 
@@ -52,4 +52,4 @@ Midjourney operates on a GPU-hour credit system rather than per-image pricing. T
 
 ## The Bottom Line
 
-If visual quality and artistic expression are your priorities, Midjourney has no equal. For text-heavy designs, precise prompt following, or budget constraints, consider DALL-E (included with ChatGPT Plus) or Adobe Firefly ($4.99/month).
+If visual quality and artistic expression are your priorities, Midjourney has no equal. For text-heavy designs, precise prompt following, or budget constraints, consider DALL-E (included with ChatGPT Plus) or Adobe Firefly ($4.99/month). Pricing checked August 4, 2026.

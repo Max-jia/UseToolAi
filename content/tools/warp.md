@@ -16,7 +16,7 @@ features:
   - "Modern output handling: collapsible command blocks, click-to-copy, and visual diffs"
   - "Rust-based terminal engine: faster rendering than iTerm2, Hyper, or the default macOS Terminal"
 pros:
-  - "Natural language warrior mode is transformative — eliminates 'what was that flag again?' syndrome"
+  - "Natural language commands are transformative — eliminates 'what was that flag again?' syndrome"
   - "IDE-style editing in terminal is genuinely better than decades-old readline conventions"
   - "Warp Drive eliminates the 'I had that command somewhere' problem — team-shared snippets"
   - "AI agent correctly chains complex multi-step operations (git rebase, docker compose, find + xargs)"
@@ -36,3 +36,5 @@ Warp is doing to the terminal what Cursor did to the code editor: making AI a fi
 The IDE-style editing is the underrated feature. Traditional terminals use readline keybindings designed in the 1980s — Ctrl+A for beginning of line, Ctrl+E for end, no native multi-cursor. Warp brings modern text editing to the terminal: click to position cursor, drag to select, use standard keyboard shortcuts, and edit multiple positions simultaneously. It sounds minor but fundamentally changes your relationship with the command line from "I hope I typed this correctly" to "I can edit this freely." Combined with Warp Drive for saving and sharing commands across teams, it addresses terminal friction points that developers have tolerated for decades.
 
 The controversies are real and some developers will find them deal-breaking. Warp requires a login, which feels antithetical to the anonymous, local-first ethos of the Unix terminal. Telemetry is enabled by default (though disableable). And the rich UI, while functional, adds visual complexity that fans of minimal terminals like Alacritty or kitty will dislike. For developers who value speed and simplicity over AI assistance, iTerm2 + tmux remains the better choice. For everyone else — especially anyone who has ever Googled "bash for loop syntax" for the hundredth time — Warp is a genuine productivity upgrade.
+
+Pricing checked August 4, 2026.

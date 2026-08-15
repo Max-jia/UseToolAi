@@ -39,18 +39,8 @@ alternatives:
     slug: "perplexity"
 ---
 
-## Overview
+Gemini is Google's answer to ChatGPT, and its edge is not the model — it's the plumbing. It's the only major assistant where AI sits inside the tools you already use: ask it to find an email in Gmail, summarize a 2-hour YouTube video, or pull together a deck outline from your Drive files, and it reaches in and does it. For people who live in Google Workspace, that integration saves more time than any benchmark score.
 
-Gemini represents Google's ambitious entry into the AI assistant market, leveraging the company's vast data resources and ecosystem integration. Originally launched as Bard, rebranded to Gemini in early 2024, it has rapidly evolved to become a serious contender alongside ChatGPT and Claude. What sets Gemini apart is not just the model itself, but how deeply it's woven into tools billions of people already use daily.
+It started as Bard in early 2024, and Google has been shipping fast since — it's now a serious competitor with real multimodal ability: text, images, audio, and video in one session. The free tier is genuinely generous, which makes it easy to try before paying.
 
-## What Makes It Different?
-
-While ChatGPT and Claude are standalone platforms, Gemini's killer feature is its integration with the Google universe. You can ask Gemini to find an email in your Gmail, summarize a 2-hour YouTube video, create a presentation outline based on your Drive documents, and check your calendar for available meeting times — all in natural language. The native multimodal capabilities (understanding text, images, audio, and video simultaneously) are also best-in-class.
-
-## Real-World Use Cases
-
-Project managers use Gemini to synthesize information from emails, documents, and meeting recordings into status reports. Students use it to analyze lecture recordings and generate study guides. Content creators use its YouTube integration to research competitor videos and generate content ideas. International teams use the real-time translation and localization features extensively.
-
-## The Bottom Line
-
-Gemini is the obvious choice if you live in Google's ecosystem. The Workspace integration alone saves hours per week for heavy users. As a standalone AI assistant, it's competitive but not dominant — Claude writes better, ChatGPT has more features. But as a productivity layer on top of Google's services, it's unmatched.
+The honest limits: writing quality and nuance still lag Claude and ChatGPT for long-form work, some features need the Chrome browser or Google apps, and the deep data integration means your Google activity is the fuel. If you live in the Google ecosystem, it's the obvious pick; as a standalone assistant, Claude writes better and ChatGPT has more features. Pricing checked August 5, 2026.

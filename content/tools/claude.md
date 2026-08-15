@@ -40,18 +40,10 @@ alternatives:
     slug: "cursor"
 ---
 
-Claude, developed by Anthropic, has emerged as the premier AI platform for developers and knowledge workers who prioritize depth over breadth. Unlike ChatGPT which aims to do everything, Claude focuses on being the best at reasoning, coding, and natural writing — and largely succeeds.
+Claude is Anthropic's answer to a specific question: what happens when you optimize for getting things right instead of doing everything? It focuses on reasoning, coding, and natural writing, and the benchmarks back it up. Opus 4.8 scores 96.7% on the USAMO 2026 math competition and 69.2% on SWE-bench Pro for autonomous coding. Fable 5, the newest tier, leads SWE-bench Verified at 95%. For developers and analysts, that depth is the whole point.
 
-## The Model Family
+The 1M token context window deserves its own paragraph. You can drop an entire codebase or a long document into one session and ask questions about all of it, something most competitors simply cannot do. Claude Code extends the same model into the terminal, where it writes multi-file changes from a natural language description.
 
-Anthropic maintains four model tiers: **Fable 5** (Mythos-class, best coding at 95% SWE-bench), **Opus 4.8** (flagship, massive 27-point USAMO improvement over 4.7), **Sonnet 5** (most agentic Sonnet yet, 63.2% on coding), and **Haiku 4.5** (budget, $1/$5 per million tokens).
+Two practical notes. First, the Opus 4.7+ tokenizer counts structured data like code differently, inflating token counts by up to 35% and surprising teams until they adjust their cost models. Second, API users can lean on prompt caching (90% off) and batch processing (50% off), which together can cut a serious bill. The Max 20x plan at $200 a month sells out among power users, which tells you where the demand is.
 
-A notable quirk: the Opus 4.7+ tokenizer counts tokens differently, inflating counts by up to 35% on structured data like code and JSON. Teams report surprise bills until they adapt their cost models.
-
-## Real-World Impact
-
-Claude Code has become the default AI coding tool for many professional developers, with Max 20x ($200/month) plans selling out among power users. The platform's cost optimization features — prompt caching (90% discount), batch processing (50% off), and intelligent model routing — can reduce API costs by 40-60% compared to naive usage.
-
-## The Bottom Line
-
-If your work involves writing code, analyzing dense documents, or producing nuanced long-form content, Claude is the strongest option available. For general-purpose use with images, web search, and broader feature support, ChatGPT remains more versatile. Many professionals subscribe to both.
+Claude is the strongest pick for coding, dense documents, and long-form writing. If you need image generation, web search, and a broader feature set, ChatGPT is the more versatile choice. Many professionals subscribe to both. Pricing checked August 4, 2026.

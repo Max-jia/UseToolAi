@@ -19,10 +19,10 @@ pros:
   - "Remarkably effective — turns laptop microphone recordings into near-studio quality in one click"
   - "De-reverb feature is best-in-class — removes room echo better than Adobe Podcast or Descript"
   - "Browser-based processing means zero setup — works on any device with a browser"
-  - "Generous free tier: 10 minutes/month of cleaned audio, no credit card required"
+  - "Generous free tier: 20 minutes/month of cleaned audio, no credit card required"
   - "Auto-leveling produces genuinely broadcast-ready output without manual mixing"
 cons:
-  - "10 minutes/month free tier is restrictive — one long podcast episode exceeds it"
+  - "Free tier is restrictive — one long podcast episode exceeds it"
   - "Overly aggressive noise reduction can make voices sound slightly processed or 'telephone-like'"
   - "No desktop app or offline processing — internet connection required"
   - "No multi-track editing or DAW integration — purely a cleanup tool, not a production suite"
@@ -33,6 +33,8 @@ bestFor: "Podcasters, YouTubers, remote workers, and anyone recording audio outs
 
 Audo AI solves the most common audio problem on the internet: bad recording environments. Most people don't have access to a sound-treated studio. They record in kitchens, open-plan offices, coffee shops, and living rooms with hardwood floors. The result is audio with background noise, room echo, and inconsistent volume — listenable, but grating. Audo AI fixes this with one click. Upload a recording, and within seconds you get back cleaned audio where the background hum of the refrigerator, the echo from bare walls, and the hiss of a cheap microphone have all been reduced to near-inaudible levels.
 
-The de-reverb feature is the standout. Room echo is traditionally one of the hardest audio problems to fix — it's baked into the recording, not layered on top like noise. Audo AI's de-reverb algorithm is the best among consumer tools, outperforming Adobe Podcast and Descript in side-by-side tests on recordings made in untreated rooms. The auto-leveling feature (normalization, EQ, compression) is also well-executed — it produces output that meets basic broadcast loudness standards without requiring the user to understand what LUFS means or how a compressor works.
+The de-reverb feature is the standout. Room echo is traditionally one of the hardest audio problems to fix — it's baked into the recording, not layered on top like noise. Audo AI's de-reverb algorithm is among the best in consumer tools for recordings made in untreated rooms. The auto-leveling feature (normalization, EQ, compression) is also well-executed — it produces output that meets basic broadcast loudness standards without requiring the user to understand what LUFS means or how a compressor works.
 
-The free tier (10 minutes/month) is simultaneously generous and frustrating. It's enough to clean up a handful of short recordings and experience the quality firsthand, but one 45-minute podcast episode burns through 4.5 months of free credits. At $12/month for the Creator plan (120 minutes), Audo AI is priced comparably to a streaming subscription, which feels fair for the value it delivers. The main limitation is scope: Audo AI cleans audio, it doesn't edit or produce it. You'll still need a separate tool for cutting, arranging, and mixing. For podcasters already using Descript, the built-in Studio Sound feature may suffice. For everyone else — especially remote workers, YouTubers, and interviewers recording in unpredictable environments — Audo AI is the simplest path to audio that doesn't sound amateur.
+The free tier (10 minutes/month) is simultaneously generous and frustrating. It's enough to clean up a handful of short recordings and experience the quality firsthand, but one 45-minute podcast episode burns through months of free credits. At $20/month for the Creator plan, Audo AI is priced comparably to a streaming subscription, which feels fair for the value it delivers. The main limitation is scope: Audo AI cleans audio, it doesn't edit or produce it. You'll still need a separate tool for cutting, arranging, and mixing. For podcasters already using Descript, the built-in Studio Sound feature may suffice. For everyone else — especially remote workers, YouTubers, and interviewers recording in unpredictable environments — Audo AI is the simplest path to audio that doesn't sound amateur.
+
+Pricing checked August 8, 2026.

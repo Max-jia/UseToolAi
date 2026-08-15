@@ -2,7 +2,7 @@
 name: "Pixelcut"
 description: "AI photo editor built for ecommerce sellers. Batch background removal, AI-generated product scenes, and one-tap product photos — the fastest path from product to listing."
 category: "Image & Design"
-pricing: "Free / $10/mo Pro / $30/mo Business / Custom Enterprise"
+pricing: "Free / $14.99/mo Pro / $30/mo Business / Custom Enterprise"
 url: "https://pixa.com"
 rating: 4
 updated: "2026-08-08"
@@ -33,6 +33,6 @@ bestFor: "Ecommerce sellers on Amazon, Shopify, Etsy, and eBay who need to proce
 
 Pixelcut is the anti-Photoshop: it doesn't try to do everything, it does exactly what ecommerce sellers need, and it does it in seconds rather than hours. The core workflow is: upload a product photo, remove the background (AI handles it automatically), place the product in a generated scene (studio, lifestyle, or custom), add text overlay, and export. For a seller listing 50 products on Amazon, that's the difference between a week of photo editing and an afternoon.
 
-The AI-generated background feature is what separates Pixelcut from plain background removers like Remove.bg. Instead of a transparent PNG you have to composite yourself, Pixelcut generates complete product scenes — a watch resting on a marble counter, a candle on a rustic wooden table, sneakers on a city street. The results in 2026 are genuinely convincing for marketplace standards; they won't fool a professional photographer examining at 100% zoom, but they look better than most amateur product photos and convert comparably in A/B tests.
+The AI-generated background feature is what separates Pixelcut from plain background removers like Remove.bg. Instead of a transparent PNG you have to composite yourself, Pixelcut generates complete product scenes — a watch resting on a marble counter, a candle on a rustic wooden table, sneakers on a city street. The results in 2026 are genuinely convincing for marketplace standards; they won't fool a professional photographer examining at 100% zoom, but they look better than most amateur product photos.
 
-Pixelcut is narrow but deep. It won't help you retouch a portrait or create a social media graphic (use Canva) or produce a print-ready magazine ad (use Photoshop). But for the specific job of turning smartphone product photos into marketplace-ready listings at scale, it's the best tool available. At $14.99/month for the Pro plan (unlimited exports, HD resolution, all templates), it pays for itself with the first product listing that converts better than your competitor's amateur photo.
+Pixelcut is narrow but deep. It won't help you retouch a portrait or create a social media graphic (use Canva) or produce a print-ready magazine ad (use Photoshop). But for the specific job of turning smartphone product photos into marketplace-ready listings at scale, it's the best tool available. At $14.99/month for the Pro plan (unlimited exports, HD resolution, all templates), it pays for itself with the first product listing that converts better than your competitor's amateur photo. Pricing checked August 8, 2026.

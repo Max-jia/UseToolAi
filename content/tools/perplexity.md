@@ -40,12 +40,8 @@ alternatives:
     slug: "gemini"
 ---
 
-Perplexity has carved out a unique position in the AI landscape: it's not trying to replace ChatGPT as a general-purpose assistant. Instead, it replaces the workflow of "open 5 tabs, read 3 articles, extract relevant parts by hand." Every answer comes with inline citations pointing to actual web sources.
+Perplexity does not want to be your writing assistant. It wants to replace the way you research: five open tabs, three articles, extracting the relevant parts by hand. You ask a question and get an answer with inline citations pointing at real sources, which no other major AI tool offers as its core feature.
 
-## 2026 Updates
+The 2026 additions pushed it well beyond search. Perplexity Computer is a cloud agent with 400+ tool integrations across Gmail, Slack, and GitHub. Comet is their AI-native browser, free. Model Council, on the Max tier, runs your query across GPT, Claude, and Gemini at once and synthesizes the results. That last one is a genuinely different idea, though Max costs $200 a month and only makes sense if you hit Pro limits constantly.
 
-The platform has expanded significantly beyond search, adding Perplexity Computer (a cloud-based agent with 400+ tool integrations), the Comet AI-native browser, and Model Council (which runs queries across Claude, GPT, and Gemini simultaneously and synthesizes the results). The Max tier at $200/month targets power researchers who need agentic features like Background Assistant and unlimited Labs access.
-
-## Who Should Use It
-
-Perplexity is best for users whose primary AI need is research with transparent sourcing. It's less suited for creative writing, coding, or tasks requiring deep analytical reasoning. Many professionals use Perplexity to gather sourced facts, then switch to ChatGPT or Claude to turn those facts into finished work.
+The honest caveat: citations make answers auditable, not infallible. It can still be wrong, just in a checkable way. And its reasoning runs shallower than ChatGPT or Claude, so it suits gathering facts, not deep analysis. Pro at $20 a month is the sweet spot for regular researchers. Pricing checked August 5, 2026.

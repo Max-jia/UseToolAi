@@ -40,12 +40,8 @@ alternatives:
     slug: "luma"
 ---
 
-Pika is the most accessible entry point for AI video creation — 2M+ Discord members, 30 free credits daily refreshed, and a focus on short-form, shareable content. Unlike Runway's cinematic ambitions, Pika is built for social media: animate a photo, add effects, export for TikTok.
+Pika is the social media option in AI video. Where Runway aims for cinema and Kling for narrative, Pika is built around a different question: how do I get a shareable clip in the next hour? Generation is the fastest among the majors, 12 to 90 seconds per clip, and its specialty is image-to-video, turning a still photo into something moving for TikTok, Reels, or Shorts.
 
-## Image-to-Video Specialist
+The free tier is the most generous in the category: 80 credits a month, no credit card, enough to decide whether it fits. Lip sync that works with any uploaded audio is rare and worth highlighting; competitors charge a lot more for it.
 
-Pika's standout feature is image-to-video — upload a still photo and describe the motion you want. The results are consistently better than competitors for this specific task. Lip-sync (upload a face + audio, get an animated talking head) is unique in the free tier.
-
-## Who Should Use It
-
-Social media creators who want to animate images for TikTok, Reels, or Shorts. The 30 daily free credits make it the most generous free tier in AI video. Skip it if you need cinematic, long-form AI video — Runway and Kling are stronger for those use cases.
+Now the fine print. Clips top out around 30 seconds, so this is not a long-form tool. Output maxes at 1080p. And the support reputation is a real concern: Trustpilot sits at 1.6/5 with recurring billing complaints, so pay attention to how you cancel. Standard runs $10 a month, or $8 billed annually. Pricing checked August 8, 2026.

@@ -40,12 +40,10 @@ alternatives:
     slug: "ideogram"
 ---
 
-Nano Banana is Google's AI image generation platform, built on the Gemini family of models. What makes it unique is real-time web search grounding — unlike Midjourney or DALL-E which generate from training data alone, Nano Banana can look up what real-world objects actually look like. This makes it particularly strong for factual accuracy, product visualization, and educational content.
+Nano Banana is Google's image generator, and the name is the least serious thing about it. Built on Gemini, it does something no competitor does: it grounds generations in real-time Google Search. Ask for the Eiffel Tower at sunset and it checks what the Eiffel Tower actually looks like instead of guessing from training data. That makes it the strongest tool for anything factual: product shots, landmarks, UI mockups, educational graphics.
 
-## Model Family
+## The model lineup
 
-Google offers a tiered lineup: **Nano Banana 2 Lite** (4-second generation, $0.034/image, best for rapid iteration), **Nano Banana 2** (balanced quality at $0.08/image, the workhorse), and **Nano Banana Pro** (premium quality with industry-leading text rendering at $0.134/image). The Lite model, released July 2026, is the fastest AI image generator among major competitors.
+The stack is a set of price tiers. Nano Banana 2 Lite generates in about 4 seconds, the fastest among major image tools, at $0.034 an image. Nano Banana 2 is the workhorse at $0.08. Pro pushes quality and text rendering further at around $0.134. 4K output runs $0.16 an image.
 
-## Ecosystem Advantage
-
-Nano Banana is deeply integrated into Google's ecosystem — available in the Gemini app, AI Studio for experimentation, Vertex AI for enterprise, and even Google Search AI Mode. For Google Workspace users, it's the natural image generation choice, much like Gemini is for text.
+The trade-offs are real. Artistic quality still trails Midjourney for fantasy and concept art. Complex poses can fail. And the naming is a mess: Nano Banana 1/2/Lite/Pro plus Gemini Flash Image all floating around, which even we had to untangle. Every output carries a SynthID watermark, a feature rather than a bug. Pricing checked August 8, 2026.

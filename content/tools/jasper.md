@@ -19,12 +19,12 @@ Jasper is the most expensive AI writing tool on the market — and the best at b
 
 ## Jasper vs The Field
 
-ChatGPT costs $20/month. Jasper starts at $49. Why pay 2.5x more? Brand voice. ChatGPT can approximate your style. Jasper learns it systematically — feeding on your existing content, internal docs, and style guides to produce output that passes as human-written, brand-aligned content. For teams where brand consistency is revenue-critical, the premium is justified.
+ChatGPT costs $20/month. Jasper starts at $69 a seat ($59 billed annually). Why pay more than three times as much? Brand voice. ChatGPT can approximate your style. Jasper learns it systematically — feeding on your existing content, internal docs, and style guides to produce output that passes as human-written, brand-aligned content. For teams where brand consistency is revenue-critical, the premium is justified.
 
 ## Who Should Use Jasper
 
-Marketing teams of 5+ people managing multiple brands. The campaign workflow (Kanban boards, approval processes, multi-channel coordination) is built for team workflows, not solo creators. If you're a solo creator, ChatGPT Plus or Claude Pro gives you 80% of Jasper's writing quality at 40% of the cost.
+Marketing teams of 5+ people managing multiple brands. The campaign workflow (Kanban boards, approval processes, multi-channel coordination) is built for team workflows, not solo creators. If you're a solo creator, ChatGPT Plus or Claude Pro covers most of what you need at a fraction of the cost.
 
 ## The Image Generation Bonus
 
-Jasper Art — built-in AI image generation — means your blog post and its hero image come from the same tool. No switching between ChatGPT and Midjourney. For content teams publishing at volume, this workflow consolidation is the feature that tips the ROI calculation.
+Jasper Art — built-in AI image generation — means your blog post and its hero image come from the same tool. No switching between ChatGPT and Midjourney. For content teams publishing at volume, this workflow consolidation is the feature that tips the ROI calculation. Pricing checked August 7, 2026.

@@ -33,18 +33,10 @@ alternatives:
     slug: "claude"
 ---
 
-## Overview
+This card covers the AI that lives inside Google Workspace: Gmail, Docs, Sheets, Slides, and Meet. It is not a separate product anymore. Since March 2025, Gemini is bundled into every paid Workspace plan, so the real question is how much of it your tier gets.
 
-Gemini for Workspace brings a fresh approach to the Productivity category, focusing on what users actually need rather than feature checklist competition. The result is a streamlined, effective tool that professionals can start using productively within minutes.
+## What each tier unlocks
 
-## What Makes It Different?
+Starter at $7 a user includes a limited version inside Gmail. Standard at $14 is where it becomes interesting: full Gemini across Docs, Sheets, Slides, and Meet. Draft a doc, summarize a thread, turn raw data into a chart with a prompt. Plus at $22 adds storage and security. Enterprise is custom pricing, and teams that need heavier AI limits can add Expanded Access for about $20 per user.
 
-Gemini for Workspace prioritizes user experience above all else. The interface is clean, the workflows are logical, and the AI features feel natural rather than forced. This design-first philosophy creates a tool that's genuinely pleasant to use day after day.
-
-## Real-World Use Cases
-
-Users across industries rely on Gemini for Workspace for daily tasks that require speed and accuracy. From quick creative iterations to structured professional output, the tool adapts to various working styles and needs.
-
-## The Bottom Line
-
-Gemini for Workspace is a well-crafted Productivity solution that deserves consideration. It may not have every feature of the market leaders, but its focus on usability and core functionality makes it a strong choice for professionals who value efficiency.
+The honest framing: this is not a standalone AI purchase. It only makes sense if you already pay for Workspace, and then it is the best deal in AI, because you already paid. If you are on free Gmail, just use the free Gemini app instead. The deepest value shows up in exactly one situation: a team that lives in Google apps and needs help inside them. Pricing checked August 8, 2026.

@@ -8,6 +8,9 @@ const GA_ID = "G-4DHWWJV4YK";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://usetoolai.com"),
+  verification: {
+    google: "PPBLd3i0M55H-WZuQ9gAEN50weCPfILuJ-k6_I4hSpA",
+  },
   title: "UseToolAI — Find the Best AI Tools in 2026",
   description:
     "Discover and compare 100+ hand-picked AI tools for writing, design, video, coding, audio, and productivity. Honest reviews, real pricing, and Reddit-verified comparisons.",

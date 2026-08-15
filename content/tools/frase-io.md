@@ -20,11 +20,11 @@ pros:
   - "Content scoring is pragmatic and actionable — tells you exactly which topics to add, not vague 'improve' advice"
   - "Question research surfaces genuine audience questions that keyword research tools miss"
   - "Google Search Console integration creates a data flywheel — optimize content based on real performance"
-  - "Solo plan ($14.99/month) is accessible for freelancers and small site owners"
+  - "Plan structure includes tiers for freelancers and small site owners"
 cons:
   - "AI writing quality is functional but not polished — content needs human editing for voice and style"
   - "SERP analysis focused on Google — limited data for YouTube, Amazon, or other platform-specific SEO"
-  - "Team plan ($114.99/month) is expensive — SurferSEO and NeuronWriter offer similar features for less"
+  - "Mid-tier pricing is expensive — SurferSEO and NeuronWriter offer similar features for less"
   - "Content scoring can incentivize keyword stuffing if followed too literally"
   - "No automated internal linking suggestions or technical SEO auditing"
 coreStrength: "The most detailed SERP content analysis in the SEO industry — tells you exactly what topics, questions, and structure Google's top-ranking pages use so you can strategically compete, not guess."
@@ -35,4 +35,6 @@ Frase.io won the SEO content optimization war by focusing obsessively on one que
 
 The workflow Frase enables is genuinely efficient. Research mode: analyze SERP for target keyword, identify all topics and questions top pages cover, understand the competitive landscape. Outline mode: Frase generates a content brief with recommended headings, questions to answer, and external links to include. Write mode: draft content while the optimization score tracks coverage, flagging missing topics before you publish. This turns SEO content creation from a multi-tool, multi-tab process (Ahrefs for keywords, Google for SERP review, Google Docs for writing) into a single-platform workflow.
 
-Frase isn't the cheapest or the most comprehensive. The Basic plan ($44.99/month, 30 document credits) is the minimum for professional use, and SurferSEO and NeuronWriter offer similar SERP analysis for less. Frase's AI writing is serviceable but won't replace a human writer — the content needs voice editing and strategic framing. The platform also doesn't cover technical SEO (crawl analysis, site speed, schema) or backlink analysis — pair it with Ahrefs or SEMrush for technical depth. For the specific job of competitive SEO content creation, Frase is the best data-to-draft pipeline available.
+Frase isn't the cheapest or the most comprehensive. The Starter plan ($49/month) is the minimum for professional use, and SurferSEO and NeuronWriter offer similar SERP analysis for less. Frase's AI writing is serviceable but won't replace a human writer — the content needs voice editing and strategic framing. The platform also doesn't cover technical SEO (crawl analysis, site speed, schema) or backlink analysis — pair it with Ahrefs or SEMrush for technical depth. For the specific job of competitive SEO content creation, Frase is the best data-to-draft pipeline available.
+
+Pricing checked August 8, 2026.

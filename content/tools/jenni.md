@@ -2,7 +2,7 @@
 name: "Jenni AI"
 description: "AI academic writing assistant for students and researchers. Helps with paper writing, citations, and overcoming writer's block. 50% student discount available."
 category: "Writing & Text"
-pricing: "Free / $20/mo Unlimited ($12 annual) / $29-30/mo Pro"
+pricing: "Free / $30/mo Unlimited ($12 annual) / $29/mo Pro"
 url: "https://jenni.ai"
 rating: 4
 updated: "2026-08-08"
@@ -27,4 +27,4 @@ Jenni's autocomplete feature suggests the next phrase when you're stuck — it d
 
 ## Who Should Use It
 
-Graduate students, researchers, and academics who write papers regularly. Jenni's citation management alone saves hours of manual formatting. Skip it if you write blog posts, marketing copy, or creative content — specialized tools exist for those use cases.
+Graduate students, researchers, and academics who write papers regularly. Jenni's citation management alone saves hours of manual formatting. Skip it if you write blog posts, marketing copy, or creative content — specialized tools exist for those use cases. Pricing checked August 8, 2026.

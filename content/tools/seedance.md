@@ -40,8 +40,6 @@ alternatives:
     slug: "pika"
 ---
 
-Seedance (即梦), developed by ByteDance (TikTok's parent company), leads international AI video benchmarks with the most aggressive pricing in the industry. Deep integration with CapCut — one of the world's most popular video editors — gives it a distribution advantage no competitor can match.
+Seedance is the price-performance answer in AI video, and that is a real position to hold. ByteDance ships it inside CapCut, the editor millions already use, and the Mini variant lands around 0.16 RMB per second, cheap enough that high-volume social content becomes an economic decision rather than a creative one. The benchmark rankings, first on VideoBench and VBench, back the quality claim better than most vendors' marketing.
 
-## Who Should Use It
-
-TikTok and Reels creators who already use CapCut. Seedance inside CapCut means AI video generation and editing in one workflow. The pricing is the cheapest in AI video. Skip it if you need cinematic, long-form video — Runway and Kling are stronger for those use cases.
+The caveats are specific, so we list them. Text rendering in generated frames is unreliable, real human faces are blocked as reference input (an anti-deepfake choice), and clips cap at 15 seconds, so longer narratives need manual stitching. The platform is also Chinese-first; the English UI and support trail the Chinese side. If you already live in CapCut and make short-form video at volume, the integration and price make it the obvious pick. If you need cinematic long-form, Runway and Kling fit better. Pricing checked August 8, 2026.

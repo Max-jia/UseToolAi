@@ -17,7 +17,7 @@ features:
   - "Subtitle generation with customizable styling and animated captions"
 pros:
   - "Fastest text-to-video workflow — paste a URL, get a video in under 2 minutes"
-  - "Voice quality rivals ElevenLabs at a lower price point ($28/mo vs $22/mo for basic)"
+  - "Voice quality rivals ElevenLabs at a lower price point"
   - "75+ language support is best-in-class — covers nearly every major and mid-tier language"
   - "Template library makes getting started zero-effort for non-designers"
   - "AI avatars look natural enough for social media, unlike robotic competitors from 2023"
@@ -35,4 +35,4 @@ Fliki solves a specific, high-value problem: turning text into watchable video w
 
 The voice quality in 2026 is a major selling point. Fliki's 2,000+ AI voices across 75+ languages aren't quite ElevenLabs quality — the emotional range is narrower, and tonal languages still show slight artifacts — but they're dramatically better than the robotic TTS of even 2023. For social media content where viewers are scrolling quickly, the difference between Fliki and a human voiceover is negligible. The AI avatar presenters (100+ options) are similarly acceptable for social media but would look out of place in a corporate training video or TV commercial.
 
-Fliki's main constraint is the credit system: 120 video minutes/month on the Standard plan ($28/month) and 600 minutes on Premium ($66/month). For a solo creator posting 3-4 short videos weekly, Standard is sufficient. For a marketing team producing daily content across multiple languages, Premium becomes necessary. The competitive landscape is crowded — Synthesia does better AI avatars, InVideo has stronger editing, and HeyGen excels at lip-synced translation. Fliki's differentiator is speed and language breadth: if you need to turn a blog post into a video in Vietnamese, Turkish, and Portuguese before lunch, Fliki is the tool that gets it done.
+Fliki's main constraint is the credit system: 120 video minutes/month on the Standard plan ($28/month) and 600 minutes on Premium ($66/month). For a solo creator posting 3-4 short videos weekly, Standard is sufficient. For a marketing team producing daily content across multiple languages, Premium becomes necessary. The competitive landscape is crowded — Synthesia does better AI avatars, InVideo has stronger editing, and HeyGen excels at lip-synced translation. Fliki's differentiator is speed and language breadth: if you need to turn a blog post into a video in Vietnamese, Turkish, and Portuguese before lunch, Fliki is the tool that gets it done. Pricing checked August 7, 2026.

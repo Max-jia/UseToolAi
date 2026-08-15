@@ -15,12 +15,10 @@ bestFor: "Notion AI is essential for teams already using Notion as their primary
 pricingDetails: "Free/Plus: 20 lifetime AI uses only. Business ($20/user/mo annual): Full AI suite included. Enterprise: Custom + admin controls. Custom Agents: $10/1,000 credits (separate billing). Old AI add-on ($10/mo) grandfathered for pre-May 2025 subscribers."
 alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Claude", slug: "claude"}, {name: "Microsoft Copilot", slug: "microsoft-copilot"}]
 ---
-Notion AI's killer feature is workspace-wide Q&A — ask a question and it searches every page, database, and document in your workspace. For teams using Notion as their knowledge hub, this contextual awareness beats standalone AI tools for work-specific queries.
+Notion AI answers the question that standalone chatbots cannot: "where did we say that?" Ask it something and it searches every page, database, and document in your workspace, then answers with context. For teams that run their company knowledge inside Notion, that is a genuinely different capability from ChatGPT, which can only see what you paste into it.
 
-## The Cost Reality
+## What changed in 2026
 
-Notion AI is not free — $10/month add-on on top of Notion. The free AI tier is a limited trial, not an ongoing benefit. For users who don't already live in Notion, there's no reason to adopt it just for the AI. ChatGPT or Claude offer comparable writing and Q&A capabilities at lower cost.
+The pricing moved and we updated the card to match. AI is now included in the Business plan at $20 per user per month, replacing the old $10 add-on (which grandfathered subscribers keep). Free and Plus users get 20 AI uses for life, which is a demo, not a working allowance. If you are on a team workspace this is worth checking; if you are solo, the numbers rarely add up.
 
-## Who Should Use It
-
-Heavy Notion users with large workspaces. If you have 500+ pages of company knowledge, Notion AI becomes a search engine for your brain. Skip it if you're not already committed to Notion as your primary workspace.
+Two more things before you decide. You get to pick the model per task, GPT, Claude, or Gemini, which is unusual. And AI Connectors can search Slack and Google Drive, not just Notion pages. But the tool only earns its keep if your work already lives in Notion. Pricing checked August 5, 2026.

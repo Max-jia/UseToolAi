@@ -172,7 +172,7 @@ export default async function ToolPage({
               <span className="text-xs font-medium px-3 py-1 rounded-full bg-indigo-100 text-indigo-700">{tool.category}</span>
               {bestForShort(tool.bestFor) && (
                 <span className="text-xs px-3 py-1 rounded-full bg-amber-100 text-amber-700" title={tool.bestFor}>
-                  🎯 {bestForShort(tool.bestFor)}
+                  {bestForShort(tool.bestFor)}
                 </span>
               )}
             </div>
@@ -195,7 +195,6 @@ export default async function ToolPage({
       {tool.coreStrength && (
         <div className="bg-[var(--color-card)] rounded-2xl p-6 md:p-8 border border-[var(--color-primary)]/20 mb-8">
           <div className="flex items-start gap-3">
-            <span className="text-2xl flex-shrink-0">💎</span>
             <div>
               <h2 className="text-sm font-bold uppercase tracking-wider text-[var(--color-primary)] mb-2">
                 What Makes {tool.name} Unique

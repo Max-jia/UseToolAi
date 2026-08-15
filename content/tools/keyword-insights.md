@@ -20,10 +20,10 @@ pros:
   - "SERP-based clustering is more accurate than pure semantic clustering — reflects what Google actually groups together"
   - "Search intent classification automates what used to be manual, keyword-by-keyword analysis"
   - "Data enrichment pulls from multiple sources — not locked into one data provider"
-  - "Agency plan ($198/month) supports unlimited users — good value for content agencies"
+  - "Top-tier plans include unlimited users — good value for content agencies"
 cons:
   - "No built-in keyword research — you must bring your own keyword lists from Ahrefs, SEMrush, or GSC"
-  - "Basic plan ($28/month) is limited to 5,000 keywords — insufficient for large sites"
+  - "Entry plan keyword limits are restrictive for large sites"
   - "Content briefs are functional but less detailed than Frase's or MarketMuse's"
   - "No rank tracking or ongoing content performance monitoring"
   - "UI is utilitarian — data-heavy and designed for SEO professionals, not marketers"
@@ -35,4 +35,6 @@ Keyword Insights solves a specific, painful SEO problem: keyword clustering. Whe
 
 The SERP-based clustering is what separates Keyword Insights from simpler tools that use cosine similarity on keyword strings. Those tools might group "apple pie recipe" with "apple watch review" because both contain the word "apple" — Keyword Insights knows they belong to completely different content topics because Google ranks different pages for each. This accuracy matters at scale: when you're building a content strategy around 50 topic clusters, getting the clusters right determines whether your content investments pay off or cannibalize each other.
 
-Keyword Insights is a middle-of-the-funnel tool. It doesn't do keyword research (you bring keyword lists from Ahrefs or SEMrush) and it doesn't produce final content (you take the clusters to Frase or NeuronWriter for page-level optimization). It does one thing — clustering and intent analysis — exceptionally well. At $28/month for Basic (5,000 keywords), it's accessible for freelancers. $78/month Pro (25,000 keywords) is the standard tier for professional SEOs. For content agencies and enterprises managing massive keyword datasets, the $198/month Agency plan (100,000 keywords, unlimited users) offers strong value. Pair it with Ahrefs for keyword discovery and Frase for content optimization to build a complete SEO content workflow.
+Keyword Insights is a middle-of-the-funnel tool. It doesn't do keyword research (you bring keyword lists from Ahrefs or SEMrush) and it doesn't produce final content (you take the clusters to Frase or NeuronWriter for page-level optimization). It does one thing — clustering and intent analysis — exceptionally well. At $58/month, the Basic plan is accessible for freelancers and small agencies. The Professional tier at $99/month is the standard choice for professional SEOs, and the Enterprise plans (roughly $290-495/month) serve content agencies and organizations managing massive keyword datasets. Pair it with Ahrefs for keyword discovery and Frase for content optimization to build a complete SEO content workflow.
+
+Pricing checked August 8, 2026.

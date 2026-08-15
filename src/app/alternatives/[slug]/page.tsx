@@ -92,7 +92,7 @@ export default async function AlternativesPage({
                 {alt.description}
               </p>
               {alt.coreStrength && (
-                <p className="text-xs text-[var(--color-primary)] mt-2">💎 {alt.coreStrength.split(".")[0]}.</p>
+                <p className="text-xs text-[var(--color-primary)] mt-2">{alt.coreStrength.split(".")[0]}.</p>
               )}
             </Link>
           ))}

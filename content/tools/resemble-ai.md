@@ -23,7 +23,7 @@ pros:
   - "PerTh Watermarker addresses a genuine industry need — content authentication at scale"
   - "Low-latency API (sub-250ms) enables real-time use cases like gaming NPCs and live dubbing"
 cons:
-  - "Expensive for individual creators — no free tier, $30/month for basic access"
+  - "No free tier — pay-as-you-go pricing assumes real usage volume"
   - "Emotion control API is powerful but complex — requires technical integration expertise"
   - "Voice quality is excellent but trails ElevenLabs' absolute top-tier for natural prosody"
   - "Enterprise focus means creator-friendly features (templates, social sharing) are deprioritized"
@@ -36,4 +36,4 @@ Resemble AI has positioned itself as the responsible enterprise alternative in v
 
 The emotion control API is Resemble's technical differentiator. Instead of generating a flat reading of a script, you can programmatically adjust emotional dimensions — happiness, sadness, anger, excitement, fear — in real time. For a video game where an NPC's emotional state changes based on player actions, this enables genuinely dynamic voice acting that pre-recorded lines can't match. The voice-to-voice feature adds another dimension: record a line reading with your own voice (capturing natural timing and emphasis), and Resemble converts it to the target voice while preserving your delivery. For directors used to coaching voice actors, this preserves creative control that text-to-speech alone can't replicate.
 
-Resemble isn't for everyone. At $30/month for the Creator plan (with usage limits), it's pricier than ElevenLabs' entry tier and lacks the consumer-friendly app experience. The API-first approach means you'll need engineering resources to get the most out of it. For individual podcasters or content creators who just need a good AI voiceover, ElevenLabs or Play.ht offers a simpler path. For enterprises where compliance, watermarking, and real-time performance are non-negotiable, Resemble is the clear choice.
+Resemble isn't for everyone. It moved to pay-as-you-go pricing in mid-2026 (no monthly subscriptions), which suits steady production volume but gives casual users no cheap entry point — and unlike ElevenLabs there's no consumer app experience to speak of. The API-first approach means you'll need engineering resources to get the most out of it. For individual podcasters or content creators who just need a good AI voiceover, ElevenLabs or Play.ht offers a simpler path. For enterprises where compliance, watermarking, and real-time performance are non-negotiable, Resemble is the clear choice. Pricing checked August 8, 2026.

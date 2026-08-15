@@ -15,12 +15,8 @@ bestFor: "Microsoft Copilot is essential for organizations deeply invested in Mi
 pricingDetails: "Free: web search, 15 images/day, basic code assistance. M365 Premium ($19.99/mo consumer): Copilot in Office apps, replaces old Copilot Pro. Copilot Business ($21/user/mo annual, $25 monthly): requires M365 Business Standard/Premium base license. M365 Copilot ($30/user/mo): enterprise add-on, Graph grounding, Agents, security compliance."
 alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Notion AI", slug: "notion-ai"}]
 ---
-Microsoft Copilot's killer advantage is Microsoft Graph — it accesses your emails, documents, meetings, and contacts for contextual AI that no standalone chatbot can match. For enterprises on Microsoft 365, it's the default choice.
+Microsoft Copilot's unfair advantage is that it sits inside the tools your company already pays for. It reads your emails, documents, and meetings through Microsoft Graph, so when you ask it to draft a reply, it knows what the thread is about. No standalone chatbot can do that, because none of them can see your data.
 
-## Free vs Paid
+The line between free and paid is clear. Free is web chat, useful but nothing special next to ChatGPT. The real product is Copilot in Word, Excel, and Teams, and for organizations that starts at $30 per user per month. The Excel integration is the easiest sell: describe what you want in plain language and it writes the formula or the pivot table, which alone can justify the price for finance and operations teams.
 
-Free tier covers web chat with the latest models. Full Office integration (Copilot in Excel, Word, Teams) requires Microsoft 365 Copilot at $30/user/month. The Excel integration alone — generating formulas and pivot tables from natural language — can justify the cost for finance and operations teams.
-
-## Who Should Use It
-
-Microsoft 365 enterprises. Copilot is woven into the tools your team already uses. Skip it if you're on Google Workspace — Gemini is your equivalent. Skip the paid tier if you only need AI chat, not Office integration.
+Who should buy it: teams already living in Microsoft 365. If you are on Google Workspace, skip it and look at Gemini, which does the same trick inside your stack. Pricing checked August 8, 2026.

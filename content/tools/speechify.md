@@ -22,7 +22,7 @@ pros:
   - "OCR scanning works surprisingly well — captures text from photos of physical books"
   - "Genuinely transformative for people with dyslexia, ADHD, and visual impairments"
 cons:
-  - "Premium plan is $139/year billed annually — expensive compared to NaturalReader ($99/year)"
+  - "Premium plan is $139/year billed annually — expensive for a text-to-speech subscription"
   - "Celebrity voice selection is limited (3-4 voices) and requires Premium"
   - "Voice quality trails ElevenLabs for natural prosody and emotional range"
   - "Heavy marketing — aggressive upsell tactics and prominent YouTuber sponsorships"
@@ -35,4 +35,4 @@ Speechify didn't invent text-to-speech, but it made it mainstream. With 20 milli
 
 The voice quality is good, not great. Speechify's 150+ voices are natural and listenable, but they don't match ElevenLabs' emotional range or prosodic nuance. For casual listening at 2-3x speed (which is what most Speechify users do), the difference is barely noticeable — at accelerated speeds, the voice quality differences between TTS engines compress significantly. The celebrity voices (Snoop Dogg, Gwyneth Paltrow) are a clever marketing differentiator — fun for novelty, but not a reason to choose the platform. The core value is the seamless cross-platform experience, which remains unmatched by any competitor.
 
-Speechify's accessibility impact is worth highlighting. For people with dyslexia, ADHD, or visual impairments, Speechify isn't a convenience tool — it's transformative. The ability to listen to textbooks, work documents, and personal reading at adjustable speeds removes barriers that traditional reading imposes. This is the user base that drives Speechify's most passionate advocacy, and it's the reason the company's aggressive marketing (prominent YouTuber sponsorships, in-app upsells) is often forgiven by users who find the tool genuinely life-changing.
+Speechify's accessibility impact is worth highlighting. For people with dyslexia, ADHD, or visual impairments, Speechify isn't a convenience tool — it's transformative. The ability to listen to textbooks, work documents, and personal reading at adjustable speeds removes barriers that traditional reading imposes. This is the user base that drives Speechify's most passionate advocacy, and it's the reason the company's aggressive marketing (prominent YouTuber sponsorships, in-app upsells) is often forgiven by users who find the tool genuinely life-changing. Pricing checked August 5, 2026.

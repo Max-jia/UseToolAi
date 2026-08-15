@@ -15,8 +15,10 @@ bestFor: "Fireflies is ideal for multilingual sales teams who need CRM-integrate
 pricingDetails: "Free: unlimited transcription, 400 mins storage. Pro ($18/seat/mo monthly, $10 annual): 8,000 mins/seat, video recording, AI Skills, voice agents. Business ($29/seat/mo monthly, $19 annual): multi-language mode, conversation intelligence, team analytics. Enterprise ($39/seat/mo annual): SSO/SCIM, HIPAA, audit logs."
 alternatives: [{name: "Otter.ai", slug: "otter"}]
 ---
-Fireflies.ai is a meeting intelligence platform, not just a transcription tool. It joins your Zoom, Google Meet, or Teams call as a silent participant — recording, transcribing, and summarizing everything. 100+ language support, deep CRM integrations, and AI-generated meeting summaries with action items make it indispensable for heavy meeting schedules.
+Fireflies.ai is a meeting assistant that sits in on your Zoom, Meet, or Teams calls as a silent participant, then hands you a transcript and a summary when it is over. The free tier is genuinely useful: unlimited transcription with 400 minutes of storage, no credit card.
 
-## Who Should Use It
+Two things stand out. First, 100+ language support, which matters for teams that work across markets. Second, the privacy stance: Fireflies states it does not train its AI on your data, which is rare enough in this category that we flagged it in the card.
 
-Anyone in more than 3 meetings per week. The free tier includes unlimited transcription — AI summaries and CRM integrations require Pro ($10/seat/month). The bot appearing in meetings can be awkward; give participants a heads-up. For live note-taking rather than post-meeting summaries, Otter is the better fit.
+The trade-offs are real, though. Transcription is post-meeting only, so if you need live captions while the call is happening, Otter does that better. And the Pro AI credit caps, 20 to 50 per month, are a known frustration for heavy users. Pro runs $18 per seat per month, or $10 if you pay annually.
+
+Best fit: sales teams who live in HubSpot or Salesforce and want every call logged and searchable automatically. Pricing checked August 7, 2026.

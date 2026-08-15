@@ -19,10 +19,12 @@ pros:
   - "7 paraphrasing modes cover every use case from casual to formal"
   - "Free tier is genuinely useful with Standard and Fluency modes"
 cons:
-  - "Premium ($9.95/mo) required for full features — unlimited paraphrasing, plagiarism checker"
+  - "Premium ($19.95/mo monthly, $8.33/mo annual) required for full features — unlimited paraphrasing, plagiarism checker"
   - "Creative writing paraphrasing can produce awkward phrasings"
   - "No AI content generation — rewriting only, not a writing tool like ChatGPT"
 coreStrength: "The gold standard for AI paraphrasing. 50M+ users trust Quillbot when they need to rewrite text clearly without changing meaning."
 bestFor: "Students rewriting essays, professionals polishing emails, content creators avoiding repetition. Best for: anyone who needs to say the same thing in a different way. Not for: generating new content from scratch."
 ---
-Quillbot is the most widely used AI paraphrasing tool, with over 50 million users. Unlike ChatGPT or Jasper which generate new text, Quillbot rewrites existing text — preserving meaning while changing phrasing. It's the tool you use when what you wrote is correct but doesn't sound right.
+Quillbot occupies a specific corner of AI writing: it does not generate text, it rewrites it. You paste a paragraph that says what you mean but reads awkwardly, pick one of seven modes (Standard, Fluency, Formal, Creative), and it rephrases without changing the meaning. The distinction matters. ChatGPT hands you a blank page to fill; Quillbot takes text that already exists and makes it sound better.
+
+That difference is why students, professionals, and content creators keep it bookmarked. The free tier is genuinely useful (Standard and Fluency modes work without paying), and the grammar checker and summarizer round out a tool that does one thing well. Two honest notes: the full feature set, including the plagiarism checker, sits behind Premium; and Creative mode occasionally produces phrasing you would never choose yourself, so a final read-through stays part of the workflow. The free tier caps how much you can rewrite, and the plagiarism checker only appears on Premium; for students that is usually when the paid plan starts to make sense. Pricing checked August 8, 2026.

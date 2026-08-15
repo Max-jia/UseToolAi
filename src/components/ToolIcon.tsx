@@ -5,10 +5,8 @@ import { useState } from "react";
 function getFaviconUrls(url: string): string[] {
   try {
     const u = new URL(url);
-    const domain = u.hostname;
     return [
-      `https://logo.clearbit.com/${domain}?size=120`,
-      `https://www.google.com/s2/favicons?domain=${domain}&sz=256`,
+      `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${encodeURIComponent(u.origin)}&size=256`,
     ];
   } catch {
     return [];

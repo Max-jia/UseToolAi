@@ -21,7 +21,7 @@ pros:
   - "Model flexibility: use the cheapest model for autocomplete and the smartest for chat"
   - "VS Code + JetBrains support is unique — Cursor is VS Code only, Copilot's JetBrains is weaker"
   - "Data stays where you want it — self-hosted models mean code never leaves your infrastructure"
-  - "Active open-source community (20K+ GitHub stars) with frequent updates and extensions"
+  - "Active open-source community with a wide extension ecosystem"
 cons:
   - "Not as polished as Cursor or Copilot — UI, autocomplete speed, and defaults trail commercial tools"
   - "Requires configuration — you need to set up model connections, prompts, and context rules"
@@ -36,4 +36,6 @@ Continue is the open-source answer to the question "what if I don't want to give
 
 The trade-off for this flexibility is polish. Continue's autocomplete isn't as fast or predictive as Cursor's — it feels more like a smart snippet tool than an AI that anticipates your next move. The chat interface is functional but lacks the deep integration of Cursor's inline Cmd+K or Claude Code's agentic capabilities. Setting up Continue requires explicit configuration: you need to know which models you want to use, obtain API keys, and define context rules. It rewards technical sophistication and punishes the "just make it work" expectation.
 
-Continue's ideal user is the developer who has been burned by AI tool pricing changes or privacy concerns. If you invested in Cursor's workflow only to find your favorite model moved behind a higher pricing tier, or if your company's security team rejected GitHub Copilot, Continue gives you an escape hatch. You can start with Claude API today ($3 per million input tokens), switch to a self-hosted Llama next month, and never change your workflow. For teams building internal AI coding infrastructure, Continue provides the UI layer you'd otherwise have to build from scratch. It's not the best AI coding experience — Cursor and Claude Code are better out of the box — but it's the most resilient and customizable one.
+Continue's ideal user is the developer who has been burned by AI tool pricing changes or privacy concerns. If you invested in Cursor's workflow only to find your favorite model moved behind a higher pricing tier, or if your company's security team rejected GitHub Copilot, Continue gives you an escape hatch. You can start with a cloud model API, switch to a self-hosted model next month, and never change your workflow. For teams building internal AI coding infrastructure, Continue provides the UI layer you'd otherwise have to build from scratch. It's not the best AI coding experience — Cursor and Claude Code are better out of the box — but it's the most resilient and customizable one. A caveat for 2026: after Cursor acquired the project, the extension still works but new development has largely stopped.
+
+Pricing checked August 8, 2026.

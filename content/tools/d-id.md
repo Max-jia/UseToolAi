@@ -17,12 +17,12 @@ features:
   - "Branded templates for consistent video styling across campaigns"
 pros:
   - "Magical first impression — watching a still photo come to life is genuinely impressive"
-  - "Lowest entry price in the AI avatar market: $5.99/month vs. $30/month for DeepBrain AI"
+  - "Lowest entry price in the AI avatar market — under $6/month to start"
   - "Real-time API enables interactive use cases (customer service avatars, virtual tutors)"
   - "Strong developer platform — used by MyHeritage's Deep Nostalgia, Warner Bros., and Mondelez"
   - "Photo-to-video quality is best-in-class — natural head movements, blinking, and micro-expressions"
 cons:
-  - "Lite plan ($5.99/month) is limited to 10 minutes of video — costs add up quickly"
+  - "Lite plan ($5.90/month) is limited to 10 minutes of video — costs add up quickly"
   - "Facial animation can drift on longer videos (2+ minutes) — lips lose sync over time"
   - "Creative use cases (art, education) are clearer than commercial use cases (ads, marketing)"
   - "Competing with HeyGen (better overall video production) and Synthesia (better presenter experience)"
@@ -36,3 +36,5 @@ D-ID is the company that popularized "living portraits" — the technology that 
 The 2026 version of D-ID is significantly more capable than its viral predecessor. The facial animation now includes micro-expressions — subtle eyebrow raises, slight head tilts, and natural eye movements — that make the effect more convincing and less uncanny. The real-time API is where D-ID differentiates from competitors: you can build applications where an AI avatar responds to user speech or text in real time, opening up use cases like AI-powered customer service agents, virtual tutors, and interactive museum exhibits. The ChatGPT integration allows these avatars to hold genuinely conversational interactions, not just deliver scripted monologues.
 
 D-ID's main challenge is market positioning. At $5.99/month for the Lite plan, it's the most affordable entry into AI avatar video, but that price gives you only 10 minutes of video — enough for experimentation, not production. The enterprise use cases (customer service avatars, personalized video at scale) are clear on paper but still emerging in practice. HeyGen and Synthesia offer more polished end-to-end video production experiences, while D-ID's strength is its developer platform and real-time capabilities. For organizations building custom AI avatar applications, D-ID's API is the most flexible option. For marketers who just want to create presenter videos, Synthesia or DeepBrain AI offer a smoother experience.
+
+Pricing checked August 7, 2026.

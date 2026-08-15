@@ -13,7 +13,7 @@ features:
   - "Pronunciation editor: fine-tune how the AI pronounces names, acronyms, and technical terms"
   - "Team collaboration: shared voice libraries, project folders, and approval workflows"
   - "API with batch rendering for high-volume content production (500+ hours)"
-  - "Avatars: pair AI voices with AI avatars for complete video production (2025 addition)"
+  - "Avatars: pair AI voices with AI avatars for complete video production"
   - "Brand voice training: fine-tune voices on your company's audio data for a custom voice"
 pros:
   - "Most consistent voice quality for long-form content — no drift or quality degradation over hours"
@@ -22,7 +22,7 @@ pros:
   - "Excellent customer support and enterprise onboarding"
   - "Ethical AI: consent-based voice creation, clear usage rights, no deceptive use cases"
 cons:
-  - "Expensive — $44/month minimum for 250 downloads, no free tier"
+  - "Expensive — paid plans start at $10/month with download caps, no free tier"
   - "Smaller voice library (50+) compared to ElevenLabs (100+) or Speechify (150+)"
   - "No emotion control API — voices sound professional but emotionally flat"
   - "US English dominance — multilingual support is limited compared to ElevenLabs"
@@ -35,4 +35,4 @@ WellSaid Labs has staked its reputation on one thing: consistency. In an industr
 
 The trade-off is creative range. WellSaid's 50+ voices are polished and professional, but they lack the emotional dynamism of ElevenLabs or the personality of Speechify's celebrity voices. You won't find a WellSaid voice that sounds genuinely excited, sad, or angry — they sound like professional voiceover artists delivering corporate content, and that's by design. The company has explicitly chosen to optimize for trustworthiness and professionalism over emotional range, and for their target market (corporate training, e-learning, product demos), that's the right call.
 
-At $44/month for the Maker plan (250 downloads) scaling to $179/month for Business (1,500 downloads, team features), WellSaid is priced for professional teams with production budgets. It's not for hobbyists or solo creators experimenting with AI voiceover — Speechify or ElevenLabs offer more accessible entry points. But for a training department that needs to produce 50 hours of narrated content a month with consistent quality and team collaboration, WellSaid is the most reliable choice available. The 2025 addition of AI avatars for complete video production is a smart expansion that brings WellSaid closer to competing with Synthesia for end-to-end corporate video production.
+At $10/month for Starter scaling to $160/user/month for Business (team features), WellSaid is priced for professional teams with production budgets. It's not for hobbyists or solo creators experimenting with AI voiceover — Speechify or ElevenLabs offer more accessible entry points. But for a training department that needs to produce hours of narrated content a month with consistent quality and team collaboration, WellSaid is the most reliable choice available. The addition of AI avatars for complete video production is a smart expansion that brings WellSaid closer to competing with Synthesia for end-to-end corporate video production. Pricing checked August 8, 2026.

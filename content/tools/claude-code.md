@@ -45,4 +45,4 @@ Cursor is an IDE with AI woven in. Copilot is autocomplete on steroids. Claude C
 
 ## Who Should Use It
 
-Senior engineers who spend most of their day coding and want an AI that handles the mechanical work. Open-source maintainers managing large codebases. Anyone doing heavy refactoring across dozens of files. Skip it if you want AI suggestions inside your editor — that's what Cursor and Copilot do.
+Senior engineers who spend most of their day coding and want an AI that handles the mechanical work. Open-source maintainers managing large codebases. Anyone doing heavy refactoring across dozens of files. Skip it if you want AI suggestions inside your editor — that's what Cursor and Copilot do. Pricing checked August 8, 2026.

@@ -51,4 +51,4 @@ Ahrefs' biggest 2026 move was the $29/month Starter plan, finally making real ba
 
 ## What Ahrefs Lacks
 
-Ahrefs has no equivalent to Semrush's AI Visibility Toolkit — the ability to track brand presence in ChatGPT, Gemini, and Perplexity answers. As AI search grows, this gap matters more. Ahrefs also lacks any PPC, social media, or white-label reporting features, making it a standalone SEO tool rather than an integrated marketing platform.
+Ahrefs has no equivalent to Semrush's AI Visibility Toolkit — the ability to track brand presence in ChatGPT, Gemini, and Perplexity answers. As AI search grows, this gap matters more. Ahrefs also lacks any PPC, social media, or white-label reporting features, making it a standalone SEO tool rather than an integrated marketing platform. Pricing checked August 8, 2026.

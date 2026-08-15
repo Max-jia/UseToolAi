@@ -23,7 +23,7 @@ pros:
   - "Clean, fast interface — feels lightweight despite the AI complexity underneath"
 cons:
   - "No offline access — entirely cloud-dependent, can't access notes without internet"
-  - "AI features require Mem X ($14.99/month) — free tier is basic note-taking without AI"
+  - "AI features require the paid Mem Pro tier — free plan is basic note-taking without AI"
   - "Limited export options — difficult to migrate notes out if you want to leave"
   - "Smaller user base than Notion or Obsidian — fewer templates, integrations, and community resources"
   - "AI auto-organization is impressive but not perfect — some connections are irrelevant, some missed"
@@ -35,4 +35,6 @@ Mem is betting that the future of note-taking is zero-organization. The radical 
 
 The killer feature is Mem Chat. Ask "what did we discuss about Q3 pricing in the meeting with Acme Corp?" and Mem searches across your notes — meeting transcripts, quick captures, email forwards — and synthesizes an answer with citations to specific notes. This is qualitatively different from keyword search in Notion or Evernote, where you need to remember the exact terms you used. Mem Chat understands intent: "the thing about pricing" will find notes about "revenue model" and "subscription tiers." For knowledge workers drowning in meeting notes, this is transformative.
 
-The downsides are dependency and lock-in. Mem is cloud-only — no offline access means no notes on a plane, in a subway, or during an internet outage. The AI features require the $14.99/month Mem X subscription; the free tier is essentially a plain text note app with search. And exporting your notes is difficult by design — Mem's value is in the AI connections between notes, which don't transfer to other tools. If you invest two years of notes into Mem, you're committed. For those willing to embrace the AI-first philosophy, Mem is the most innovative note-taking tool available. For traditionalists who want folder structures and manual control, Notion or Obsidian remain better fits.
+The downsides are dependency and lock-in. Mem is cloud-only — no offline access means no notes on a plane, in a subway, or during an internet outage. The AI features require the paid Mem Pro subscription; the free tier is essentially a plain text note app with search. And exporting your notes is difficult by design — Mem's value is in the AI connections between notes, which don't transfer to other tools. If you invest two years of notes into Mem, you're committed. For those willing to embrace the AI-first philosophy, Mem is the most innovative note-taking tool available. For traditionalists who want folder structures and manual control, Notion or Obsidian remain better fits.
+
+Pricing checked August 8, 2026.

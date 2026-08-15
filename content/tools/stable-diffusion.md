@@ -52,4 +52,4 @@ Midjourney produces more beautiful images out of the box. Stable Diffusion gives
 
 ## Who Should Use It
 
-AI artists who want to train their own models. Developers building image generation into products (cheapest API at $0.002/image). Privacy-conscious creators who don't want their images on someone else's server. Skip it if you want one-click generation. Midjourney or ChatGPT are better for that.
+AI artists who want to train their own models. Developers building image generation into products, with the cheapest API in the category. Privacy-conscious creators who don't want their images on someone else's server. Skip it if you want one-click generation. Midjourney or ChatGPT are better for that. Pricing checked August 5, 2026.

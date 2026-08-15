@@ -2,7 +2,7 @@
 name: "Clipdrop"
 description: "AI image editing suite by Stability AI. Background removal, image upscaling, relighting, and generative fill — powered by Stable Diffusion, free tier available."
 category: "Image & Design"
-pricing: "Free / $9/mo Pro / API pay-as-you-go"
+pricing: "Free / $12/mo Pro / API pay-as-you-go"
 url: "https://clipdrop.co"
 rating: 4
 updated: "2026-08-07"
@@ -35,4 +35,4 @@ Clipdrop is Stability AI's consumer-facing image editing suite, and it packs an 
 
 The standout feature is Relight — the ability to change lighting direction and color temperature on an existing photo after it's been taken. It's the kind of capability that feels like magic: take a flat-lit product photo, add dramatic side lighting, and suddenly it looks like a professional studio shot. Generative Fill is equally powerful for object removal and scene extension, producing results comparable to Adobe Photoshop's Generative Fill at a fraction of the cost. For designers who want AI image editing without committing to Adobe's ecosystem, Clipdrop is the strongest alternative.
 
-The downsides are real. At $12/month, it's pricier than single-purpose alternatives if you only need background removal (Remove.bg is cheaper). The watermark on the free tier is aggressive and limits practical use. And Stability AI's corporate instability — leadership changes, funding questions, and shifting priorities — means Clipdrop's long-term future isn't as certain as Adobe's. Still, for the price of a streaming subscription, you get a toolkit that would have required a professional studio and years of Photoshop experience just five years ago. That's a remarkable value proposition, even with the caveats.
+The downsides are real. At $12/month, it's pricier than single-purpose alternatives if you only need background removal (Remove.bg is cheaper). The watermark on the free tier is aggressive and limits practical use. And Stability AI's corporate instability — leadership changes, funding questions, and shifting priorities — means Clipdrop's long-term future isn't as certain as Adobe's. Still, for the price of a streaming subscription, you get a toolkit that would have required a professional studio and years of Photoshop experience just five years ago. That's a remarkable value proposition, even with the caveats. Pricing checked August 7, 2026.

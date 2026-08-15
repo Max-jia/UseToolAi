@@ -1,6 +1,6 @@
 ---
 name: "Phrase"
-description: "Specialized Marketing & SEO solution leveraging AI for better results. Designed for professionals who need reliable, high-quality output."
+description: "Enterprise localization platform for translating apps, websites, and content. AI-assisted translation keeps brand voice across 500+ language pairs."
 category: "Marketing & SEO"
 pricing: "$27/mo Freelancer / $525/mo Software UI/UX / Team $1,045+ / Business $4,395+ / Custom Enterprise"
 url: "https://phrase.com"
@@ -33,18 +33,8 @@ alternatives:
     slug: "claude"
 ---
 
-## Overview
+This card sits under Marketing & SEO, but Phrase is really a translation company's tool: a localization platform that helps software teams ship their apps, websites, and marketing content in many languages at once. Its core promise is that translations keep your brand voice across 500+ language pairs, and its AI layer speeds up translators rather than replacing them.
 
-Phrase fills a specific need in the Marketing & SEO ecosystem with a focused, well-executed product. Rather than competing with broad AI platforms, it provides deep functionality for its target use case, making it an essential tool for professionals in this space.
+The pricing makes it an enterprise purchase. Freelancer is $27 a month for one seat, self-serve. The Software UI/UX tier jumps to $525 a month for 15 seats and a million managed words. Team plans start around $1,045, and Business runs $4,395 a month. Two honest notes: the old $135 Starter plan was removed from public pricing in late 2025, and the bigger plans now require a sales conversation rather than a sign-up button.
 
-## What Makes It Different?
-
-The key differentiator is specialization. While general AI tools can handle Marketing & SEO tasks to some degree, Phrase is built from the ground up for this specific purpose. This focus results in better output quality, more relevant features, and a more efficient workflow.
-
-## Real-World Use Cases
-
-Professionals who work extensively in Marketing & SEO find that Phrase saves hours per week compared to using general-purpose AI tools. The specialized workflow and optimized algorithms produce better results with less manual tweaking.
-
-## The Bottom Line
-
-If Marketing & SEO is a core part of your work, Phrase is worth serious consideration. Its specialized approach delivers quality that general tools can't match, and the focused feature set means less time fighting the tool and more time getting results.
+Who should use it: product teams shipping to many markets with serious translation volume. If you occasionally need a paragraph translated, machine translation plus a native speaker review is a fraction of the cost. Pricing checked August 8, 2026.

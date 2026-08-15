@@ -36,12 +36,8 @@ alternatives:
     slug: "luma"
 ---
 
-Runway is the most respected name in AI video generation, with Gen-4 producing the most cinematic output of any tool. Unlike simple "text to video" generators, Runway is a full creative suite — generate, edit, composite, and refine video content in one platform. They're also the company behind the original Stable Diffusion research.
+Runway is the closest thing AI video has to a professional studio. Where most tools generate a clip and hand it to you, Runway does the whole job in one place: generate, edit, composite, color grade, export. The Gen-4 family of models currently sits at the top of AI video quality benchmarks, and the difference is visible: better lighting, steadier camera moves, characters that stay recognizable across shots.
 
-## Gen-4 Quality
+The free tier gives you 125 credits once, at 720p, enough to see what the tool can do but not to do real work. Real use starts at the $15 a month Standard plan, and heavy users land on Max at $95. That makes Runway the expensive option in this category, and it is honest about it.
 
-Gen-4 produces startlingly cinematic clips — lighting, camera movement, and subject consistency that competitors can't match. Prompt adherence is exceptional: "tracking shot through a rainy Tokyo alley at night" actually looks like that. The 125 one-time free credits are generous for evaluation but not for ongoing use.
-
-## Who Should Use It
-
-Filmmakers, concept artists, and creative professionals who need the best-looking AI video possible. The free tier is an evaluation tool — serious users need the $15/month Standard plan or $95/month Unlimited. Skip it if you need high-volume free generation; Pika or Kling offer more generous free tiers.
+Two more notes. Director Mode is the feature that separates it from the field, real control over camera and motion instead of just a prompt box. And character consistency across generations is still the weak spot, a problem every video tool is chasing. If you need the best-looking output and have a budget, this is it. Pricing checked August 4, 2026.
