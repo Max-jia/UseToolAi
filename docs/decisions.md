@@ -39,3 +39,11 @@
 - **停運產品**：Rows（2026-05 被 Superhuman 收購）、Phind（2026-01 關閉）保留歷史評價，正文明示停運事實；Continue 在正文補充被 Cursor 收購後開發停滯的現況。
 - **驗證**：腳本檢查 104 張卡的字數與驗證句日期，全數通過；`npx next build` 成功（5842 頁）；部署至 usetoolai.com（commit 5187b3c，`vercel --prod --yes`），生產環境已確認驗證句上線。
 - **待使用者操作**：Search Console 以 HTML 標籤驗證網域（content: PPBLd3i0M55H-WZuQ9gAEN50weCPfILuJ-k6_I4hSpA），然後在 AdSense 後台送出 Request review。
+
+## 2026-08-16 — 全站 em dash 與模板標題清零 + 8 月新品上線（commit 5bff748）
+
+- **背景**：上一輪人味化驗證只查字數與驗證句，未查標點。全量複查發現 76 張卡正文仍有 255 處 em dash、37 處「##」模板標題——是 AdSense「Low value content」的殘留風險。
+- **執行**：76 張卡全數清零。成對 em dash 改括號（「A — B — C」→「A（B），C」）、解釋性改冒號（「X — Y」→「X：Y」）、列舉改逗號；「##」標題一律刪除（其下段落本就通順）。frontmatter 內的 em dash 保留（有先例，非正文）。
+- **8 月新品**：新增 3 張卡（Grok Bot 8/11 beta、Kimi K3 7/18、DeepSeek Harness 8/14 開源），更新 DeepSeek 卡（V4-Pro 8/13 穩定版 + 8/17 高峰/非高峰調價，經東方財富核價）、Seedance 卡（2.5 版 30 秒上限，修正與正文矛盾）；新寫月報《August 2026 AI Launch Roundup》（1115 字，含 V4-Pro 發布烏龍）。
+- **事實核查**：所有數字來自可抓取來源（floatboat.ai、東方財富、澎湃、鈦媒體、潮湧AI）；查不到就回退（Grok Bot bot 專屬 URL → grok.com）。
+- **驗證**：腳本覆查 107 張卡——正文 0 em dash、0「##」、驗證句日期全對齊（seo-ai 的「Verified」順手統一為「Pricing checked」）、字數全過；`npx next build` 成功；commit 5bff748 已推 GitHub 並 `vercel --prod --yes` 部署，usetoolai.com 新頁面（kimi、grok-bot、deepseek-harness、月報）全部 200 確認上線。
