@@ -39,8 +39,8 @@ alternatives:
     slug: "perplexity"
 ---
 
-Gemini is Google's answer to ChatGPT, and its edge is not the model — it's the plumbing. It's the only major assistant where AI sits inside the tools you already use: ask it to find an email in Gmail, summarize a 2-hour YouTube video, or pull together a deck outline from your Drive files, and it reaches in and does it. For people who live in Google Workspace, that integration saves more time than any benchmark score.
+Gemini is Google's answer to ChatGPT, and its edge is not the model: it's the plumbing. It's the only major assistant where AI sits inside the tools you already use: ask it to find an email in Gmail, summarize a 2-hour YouTube video, or pull together a deck outline from your Drive files, and it reaches in and does it. For people who live in Google Workspace, that integration saves more time than any benchmark score.
 
-It started as Bard in early 2024, and Google has been shipping fast since — it's now a serious competitor with real multimodal ability: text, images, audio, and video in one session. The free tier is genuinely generous, which makes it easy to try before paying.
+It started as Bard in early 2024, and Google has been shipping fast since: it's now a serious competitor with real multimodal ability: text, images, audio, and video in one session. The free tier is genuinely generous, which makes it easy to try before paying.
 
 The honest limits: writing quality and nuance still lag Claude and ChatGPT for long-form work, some features need the Chrome browser or Google apps, and the deep data integration means your Google activity is the fuel. If you live in the Google ecosystem, it's the obvious pick; as a standalone assistant, Claude writes better and ChatGPT has more features. Pricing checked August 5, 2026.

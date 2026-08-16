@@ -44,6 +44,5 @@ HeyGen is the tool that finally made AI avatars watchable. Avatar IV, its curren
 
 Where it pays off: sales teams filming personalized outreach at scale, training teams producing the same video in 175+ languages with lip sync that holds up. Video Agent 2.0 goes further, turning a single prompt into a finished 1080p video, script and captions included, in a few minutes.
 
-## The fine print
 
 Free tier is 3 videos a month at 720p with a watermark, a demo rather than a trial. Credits expire monthly with no rollover, and heavy users report burning through them in two weeks. Creator runs $24 a month. Pricing checked August 5, 2026.

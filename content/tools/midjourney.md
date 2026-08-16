@@ -42,14 +42,11 @@ alternatives:
 
 Midjourney remains the artistic gold standard in AI image generation, maintaining its lead through a relentless focus on aesthetic quality rather than feature breadth. The V7 model was a ground-up rebuild that improved image quality by 30-40% while adding long-requested features like a web editor and character references.
 
-## The V7 Difference
 
-V7's combination of diffusion models and transformer components produces images with noticeably better composition, lighting, and coherence than competitors. Fantasy and concept art achieve a 90% "keeper rate" — meaning 9 out of 10 generations are usable without extensive editing. However, text rendering remains the platform's Achilles' heel at just 10% reliability, and portrait/product photography quality trails the artistic categories significantly.
+V7's combination of diffusion models and transformer components produces images with noticeably better composition, lighting, and coherence than competitors. Fantasy and concept art achieve a 90% "keeper rate", meaning 9 out of 10 generations are usable without extensive editing. However, text rendering remains the platform's Achilles' heel at just 10% reliability, and portrait/product photography quality trails the artistic categories significantly.
 
-## Practical Considerations
 
-Midjourney operates on a GPU-hour credit system rather than per-image pricing. The Standard plan ($30/month, 15 hours of fast GPU) is the recommended tier — Relax Mode provides unlimited generations at slower speeds. There is no free tier, and no public API, though third-party resellers offer per-request access. For commercial work, the Pro plan ($60/month) adds Stealth Mode for private generations.
+Midjourney operates on a GPU-hour credit system rather than per-image pricing. The Standard plan ($30/month, 15 hours of fast GPU) is the recommended tier: Relax Mode provides unlimited generations at slower speeds. There is no free tier, and no public API, though third-party resellers offer per-request access. For commercial work, the Pro plan ($60/month) adds Stealth Mode for private generations.
 
-## The Bottom Line
 
 If visual quality and artistic expression are your priorities, Midjourney has no equal. For text-heavy designs, precise prompt following, or budget constraints, consider DALL-E (included with ChatGPT Plus) or Adobe Firefly ($4.99/month). Pricing checked August 4, 2026.

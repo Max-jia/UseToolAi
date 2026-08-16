@@ -17,14 +17,11 @@ alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Grammarly", slug: "gr
 ---
 Jenni AI is the only AI writing tool purpose-built for academic work. Unlike general AI writers (ChatGPT, Claude) or marketing tools (Jasper, Copy.ai), Jenni understands scholarly tone, citation formats, and the research workflow. For students and researchers, this specialization matters.
 
-## Academic Integrity by Design
 
-Jenni's autocomplete feature suggests the next phrase when you're stuck — it doesn't write entire papers. This distinguishes it from tools that generate full essays from prompts. The built-in citation management (APA, MLA, Chicago, Harvard) and plagiarism checker reinforce the academic integrity focus. Jenni helps you write your own work, not outsource it.
+Jenni's autocomplete feature suggests the next phrase when you're stuck: it doesn't write entire papers. This distinguishes it from tools that generate full essays from prompts. The built-in citation management (APA, MLA, Chicago, Harvard) and plagiarism checker reinforce the academic integrity focus. Jenni helps you write your own work, not outsource it.
 
-## The Free Tier Reality
 
-200 words per day on the free tier is tight — fine for daily writing sessions, insufficient for marathon paper-writing. The annual Unlimited plan at $12/month is the best value for serious academic writers. At that price, Jenni costs less than a single textbook.
+200 words per day on the free tier is tight, fine for daily writing sessions, insufficient for marathon paper-writing. The annual Unlimited plan at $12/month is the best value for serious academic writers. At that price, Jenni costs less than a single textbook.
 
-## Who Should Use It
 
-Graduate students, researchers, and academics who write papers regularly. Jenni's citation management alone saves hours of manual formatting. Skip it if you write blog posts, marketing copy, or creative content — specialized tools exist for those use cases. Pricing checked August 8, 2026.
+Graduate students, researchers, and academics who write papers regularly. Jenni's citation management alone saves hours of manual formatting. Skip it if you write blog posts, marketing copy, or creative content, specialized tools exist for those use cases. Pricing checked August 8, 2026.

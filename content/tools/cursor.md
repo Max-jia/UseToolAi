@@ -42,10 +42,8 @@ alternatives:
 
 Cursor has become the editor of choice for AI-native developers by embedding AI so deeply into the coding experience that it feels like pair programming with a senior engineer. Unlike GitHub Copilot (which bolts AI onto an existing editor) or Claude Code (which operates in the terminal), Cursor is built from the ground up as an AI-first IDE.
 
-## What Sets It Apart
 
-The tab completion is the differentiator — it predicts entire edits across multiple files, not just the next token. Agent Mode handles complex multi-file refactoring with visual diff review. Background Agents clone your repo to cloud VMs and work asynchronously, pushing PRs when done. Many developers use Cursor for interactive daily coding + Claude Code for heavy autonomous background tasks.
+The tab completion is the differentiator: it predicts entire edits across multiple files, not just the next token. Agent Mode handles complex multi-file refactoring with visual diff review. Background Agents clone your repo to cloud VMs and work asynchronously, pushing PRs when done. Many developers use Cursor for interactive daily coding + Claude Code for heavy autonomous background tasks.
 
-## Should You Pay $20 a Month?
 
 At $20/month, Cursor is the gold standard for AI-native IDE integration. It's best for developers who code daily on multi-file projects and want AI woven into their editor rather than accessed through a chat sidebar. The main trade-offs are editor lock-in (VS Code fork only) and the credit system for premium models. Pricing checked August 4, 2026.

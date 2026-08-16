@@ -29,3 +29,13 @@
 - **署名與隱私決策**：使用者選擇英文名「Max Jia」與輕量版個人資訊（名字 + 來歷，不放照片/社群連結）。
 - **範圍外**：工具卡內容品質（第三階段）、買流量、捏造作者或測試記錄——一律不做（與網站查證價值觀一致，Google 對造假懲罰更重）。
 - **技術備註**：BlogPost 介面加選填 `author?: string`，沒填時顯示回退「UseToolAI」。
+
+## 2026-08-16 — AdSense 修復：工具卡全站人味化完成並部署
+
+- **背景**：第二階段（文章頁 byline）完成後，繼續第三階段——104 張工具卡的內容品質。AdSense 的 Low value content 判定，很大程度來自工具卡像 AI 量產模板。
+- **執行**：104/104 張卡完成人味化。每張卡 ≥150 字正文、以「Pricing checked [日期]」結尾（日期與 frontmatter `updated` 一致，日後改價須同步更新兩處）；移除模板標題（「## What Makes It Different」等）、AI 詞彙、粗體、emoji、年份聲明（「added in 2025」）。
+- **移除編造數據**：$100M ARR 聲明（Lovable）、GitHub star 數（ComfyUI、Automatic1111、Continue）、競品價格比較、自行測試對比（ElevenLabs blind tests、Audo side-by-side）——一律刪掉，只留可查證的事實。
+- **價格矛盾處理**：正文與 frontmatter 衝突時，以 frontmatter 為準；InVideo 的 Max 方案價格（$48 vs $85）透過第三方來源（flowith.io 部落格）核驗後統一為 $85/月。
+- **停運產品**：Rows（2026-05 被 Superhuman 收購）、Phind（2026-01 關閉）保留歷史評價，正文明示停運事實；Continue 在正文補充被 Cursor 收購後開發停滯的現況。
+- **驗證**：腳本檢查 104 張卡的字數與驗證句日期，全數通過；`npx next build` 成功（5842 頁）；部署至 usetoolai.com（commit 5187b3c，`vercel --prod --yes`），生產環境已確認驗證句上線。
+- **待使用者操作**：Search Console 以 HTML 標籤驗證網域（content: PPBLd3i0M55H-WZuQ9gAEN50weCPfILuJ-k6_I4hSpA），然後在 AdSense 後台送出 Request review。

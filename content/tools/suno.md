@@ -34,6 +34,5 @@ alternatives:
 
 Suno made songwriting into a prompt. Type a description, and within a minute you get a complete song, vocals and production included, no musical training required. For content creators, indie game developers, and anyone who has hummed an idea they could not play, that is the actual product: the gap between imagining a song and hearing it. The quality lands closer to radio than to demo tape, which is remarkable, though vocal quality varies by genre and language, and control over arrangements stays limited.
 
-## The Copyright Question
 
 Suno is in litigation with the major labels over its training data. For personal, non-commercial use, this does not change anything today. For commercial use, YouTube videos, podcasts, ads, the legal status of AI-generated music is unsettled, and that is why this card points to Udio and its Universal Music licensing as the safer commercial choice. None of this takes away from the creative magic; it changes what you should build on top of it. Pricing verified August 4, 2026.

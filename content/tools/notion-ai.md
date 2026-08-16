@@ -17,7 +17,6 @@ alternatives: [{name: "ChatGPT", slug: "chatgpt"}, {name: "Claude", slug: "claud
 ---
 Notion AI answers the question that standalone chatbots cannot: "where did we say that?" Ask it something and it searches every page, database, and document in your workspace, then answers with context. For teams that run their company knowledge inside Notion, that is a genuinely different capability from ChatGPT, which can only see what you paste into it.
 
-## What changed in 2026
 
 The pricing moved and we updated the card to match. AI is now included in the Business plan at $20 per user per month, replacing the old $10 add-on (which grandfathered subscribers keep). Free and Plus users get 20 AI uses for life, which is a demo, not a working allowance. If you are on a team workspace this is worth checking; if you are solo, the numbers rarely add up.
 

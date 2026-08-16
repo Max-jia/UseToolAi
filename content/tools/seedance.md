@@ -5,7 +5,7 @@ category: "Video & Animation"
 pricing: "Free daily credits / Jimeng membership from ¥41/mo / API: Seedance 2.0 ¥46/M tokens, mini ¥23/M"
 url: "https://jimeng.jianying.com"
 rating: 4
-updated: "2026-08-08"
+updated: "2026-08-16"
 tags: ["video-generation", "chinese-ai", "bytedance", "cost-leader", "audio"]
 features:
   - "Seedance 2.0: ranked #1 on VideoBench & VBench international benchmarks"
@@ -25,7 +25,7 @@ pros:
 cons:
   - "Text rendering unreliable — garbled text and subtitle sync issues in testing"
   - "Real human faces blocked for reference input (anti-deepfake security)"
-  - "15-second cap — longer narratives require manual stitching"
+  - "30-second cap on single generations — longer narratives require manual stitching"
   - "Chinese-first platform — English UI and support less polished"
   - "Multiple platforms (Jimeng, CapCut, Volcengine) with different pricing — confusing for newcomers"
 bestFor: "Seedance is the best choice for cost-conscious video creators who need high volume output. Best for: social media content at scale, short-form video production, CapCut users wanting integrated AI video, and anyone prioritizing budget over absolute maximum quality."
@@ -42,4 +42,4 @@ alternatives:
 
 Seedance is the price-performance answer in AI video, and that is a real position to hold. ByteDance ships it inside CapCut, the editor millions already use, and the Mini variant lands around 0.16 RMB per second, cheap enough that high-volume social content becomes an economic decision rather than a creative one. The benchmark rankings, first on VideoBench and VBench, back the quality claim better than most vendors' marketing.
 
-The caveats are specific, so we list them. Text rendering in generated frames is unreliable, real human faces are blocked as reference input (an anti-deepfake choice), and clips cap at 15 seconds, so longer narratives need manual stitching. The platform is also Chinese-first; the English UI and support trail the Chinese side. If you already live in CapCut and make short-form video at volume, the integration and price make it the obvious pick. If you need cinematic long-form, Runway and Kling fit better. Pricing checked August 8, 2026.
+The July 2026 2.5 update stretched single generations to 30 seconds and kept the Mini variant's cost edge, which moves the value math further in ByteDance's favor. The caveats are specific, so we list them. Text rendering in generated frames is unreliable, real human faces are blocked as reference input (an anti-deepfake choice), and clips cap at 30 seconds, so longer narratives still need manual stitching. The platform is also Chinese-first; the English UI and support trail the Chinese side. If you already live in CapCut and make short-form video at volume, the integration and price make it the obvious pick. If you need cinematic long-form, Runway and Kling fit better. Pricing checked August 16, 2026.

@@ -42,7 +42,6 @@ alternatives:
 
 Nano Banana is Google's image generator, and the name is the least serious thing about it. Built on Gemini, it does something no competitor does: it grounds generations in real-time Google Search. Ask for the Eiffel Tower at sunset and it checks what the Eiffel Tower actually looks like instead of guessing from training data. That makes it the strongest tool for anything factual: product shots, landmarks, UI mockups, educational graphics.
 
-## The model lineup
 
 The stack is a set of price tiers. Nano Banana 2 Lite generates in about 4 seconds, the fastest among major image tools, at $0.034 an image. Nano Banana 2 is the workhorse at $0.08. Pro pushes quality and text rendering further at around $0.134. 4K output runs $0.16 an image.
 

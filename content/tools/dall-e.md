@@ -39,7 +39,7 @@ alternatives:
     slug: "ideogram"
 ---
 
-GPT Image 2 is the model you actually get in ChatGPT today, and the direct successor to the DALL-E series, which OpenAI has now fully retired. Calling it a successor undersells the change: it's a complete rebuild — autoregressive rather than diffusion-based, with built-in reasoning that plans and checks a layout before drawing. If you landed on this page looking for DALL-E, this is what replaced it.
+GPT Image 2 is the model you actually get in ChatGPT today, and the direct successor to the DALL-E series, which OpenAI has now fully retired. Calling it a successor undersells the change: it's a complete rebuild: autoregressive rather than diffusion-based, with built-in reasoning that plans and checks a layout before drawing. If you landed on this page looking for DALL-E, this is what replaced it.
 
 The headline capability is text rendering. OpenAI claims roughly 99% accuracy for English text in images and above 90% for Chinese, Japanese, Korean, Hindi, Bengali, and Arabic. Those are vendor claims, but the improvement over earlier models is obvious in practice: logos, posters, and diagrams come out with words that actually read correctly. That is the difference between a useful tool and a toy for marketing teams.
 

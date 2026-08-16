@@ -35,7 +35,6 @@ alternatives:
 
 This card covers the AI that lives inside Google Workspace: Gmail, Docs, Sheets, Slides, and Meet. It is not a separate product anymore. Since March 2025, Gemini is bundled into every paid Workspace plan, so the real question is how much of it your tier gets.
 
-## What each tier unlocks
 
 Starter at $7 a user includes a limited version inside Gmail. Standard at $14 is where it becomes interesting: full Gemini across Docs, Sheets, Slides, and Meet. Draft a doc, summarize a thread, turn raw data into a chart with a prompt. Plus at $22 adds storage and security. Enterprise is custom pricing, and teams that need heavier AI limits can add Expanded Access for about $20 per user.
 
