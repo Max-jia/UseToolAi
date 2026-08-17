@@ -5,7 +5,7 @@ category: "Writing & Text"
 pricing: "Free chat (no paid tier) / API from ¥1.5/M input (off-peak, cache miss; new rates Aug 17)"
 url: "https://chat.deepseek.com"
 rating: 5
-updated: "2026-08-16"
+updated: "2026-08-17"
 tags: ["writing", "coding", "assistant", "open-source", "free", "reasoning"]
 features:
   - "V4-Pro (stable release August 13, 2026): 1.6 trillion parameter MoE model, largest open-weight model in the world"
@@ -16,6 +16,7 @@ features:
   - "Hybrid attention architecture (CSA + HCA) for efficient long-context processing"
   - "Distilled versions run locally on smartphones (1.2-2.5GB)"
   - "Peak/off-peak API pricing since August 17, 2026, with peak-hour rates double the off-peak rates"
+  - "384K maximum output tokens: full-length code and document generation in one call"
 pros:
   - "Completely free — no subscription, no ads, no in-app purchases"
   - "Open-source (MIT) — can self-host and fine-tune; unmatched by proprietary alternatives"
@@ -43,8 +44,8 @@ alternatives:
 
 DeepSeek is the free option in 2026 that every paid AI company is watching: a completely free, open-source model that matches closed-source alternatives on coding and reasoning benchmarks. No credit card. No subscription tier. No ads. The V4-Pro model at 1.6 trillion parameters is the largest open-weight model ever released under the MIT license, and it went stable on August 13, 2026 with a big jump in agent capabilities.
 
-What the MIT license gets you: self-hosting, fine-tuning on your own data, and commercial products on top, with no revenue sharing and no permission required. That fundamentally changes the economics of AI development, even after the August 2026 price change. On August 17, DeepSeek moved API pricing to a peak/off-peak model (Beijing peak hours 9:00-12:00 and 14:00-18:00 cost double). Peak-hour output on V4-Pro rose to ¥27 per million tokens, 4.5x the old rate, cache-hit input went up roughly 12x, and the era of quoting DeepSeek at 1/10th of Western prices is over for peak usage. Off-peak and cache-hit rates still undercut Western frontier APIs by a wide margin.
+What the MIT license gets you: self-hosting, fine-tuning on your own data, and commercial products on top, with no revenue sharing and no permission required. That fundamentally changes the economics of AI development, even after the August 2026 price change. On August 17, DeepSeek moved API pricing to a peak/off-peak model (Beijing peak hours 9:00-12:00 and 14:00-18:00 cost double), the same day V4-Pro became fully commercial. Peak-hour output on V4-Pro rose to ¥27 per million tokens, 4.5x the old rate, cache-hit input went up roughly 12x, and the era of quoting DeepSeek at 1/10th of Western prices is over for peak usage. Off-peak and cache-hit rates still undercut Western frontier APIs by a wide margin.
 
 Chinese content moderation is the #1 complaint from Western users. Politically sensitive topics are filtered. Data is stored on Chinese servers. For non-political tasks like coding, writing, and analysis, these restrictions don't matter. For enterprise compliance or politically sensitive work, Western alternatives remain safer choices.
 
-Who should use DeepSeek: developers who want a cheap capable API, cost-conscious users who refuse to pay for AI, and organizations that want to self-host open-source models. It is also the best option in regions where Western AI tools are unavailable or unaffordable. Skip it if you need enterprise compliance certifications or handle politically sensitive content. Pricing checked August 16, 2026.
+Who should use DeepSeek: developers who want a cheap capable API, cost-conscious users who refuse to pay for AI, and organizations that want to self-host open-source models. It is also the best option in regions where Western AI tools are unavailable or unaffordable. Skip it if you need enterprise compliance certifications or handle politically sensitive content. Pricing checked August 17, 2026.
