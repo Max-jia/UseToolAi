@@ -47,3 +47,10 @@
 - **8 月新品**：新增 3 張卡（Grok Bot 8/11 beta、Kimi K3 7/18、DeepSeek Harness 8/14 開源），更新 DeepSeek 卡（V4-Pro 8/13 穩定版 + 8/17 高峰/非高峰調價，經東方財富核價）、Seedance 卡（2.5 版 30 秒上限，修正與正文矛盾）；新寫月報《August 2026 AI Launch Roundup》（1115 字，含 V4-Pro 發布烏龍）。
 - **事實核查**：所有數字來自可抓取來源（floatboat.ai、東方財富、澎湃、鈦媒體、潮湧AI）；查不到就回退（Grok Bot bot 專屬 URL → grok.com）。
 - **驗證**：腳本覆查 107 張卡——正文 0 em dash、0「##」、驗證句日期全對齊（seo-ai 的「Verified」順手統一為「Pricing checked」）、字數全過；`npx next build` 成功；commit 5bff748 已推 GitHub 並 `vercel --prod --yes` 部署，usetoolai.com 新頁面（kimi、grok-bot、deepseek-harness、月報）全部 200 確認上線。
+
+## 2026-08-17 — DeepSeek 調價生效日：卡片確認 + 漲價解讀 blog（commit 26bb4a7）
+
+- **背景**：8/16 預寫的 DeepSeek 卡價格（高峰/非高峰、Flash/Pro 全表）今日 0 點生效，需在生效日覆核官方價格頁（api-docs.deepseek.com）與新聞（新浪、騰訊、TechWeb、21 財經）。
+- **覆核結果**：卡內數字與官方頁完全一致（美元 $0.007-3.96 表 / 人民幣 ¥0.05-27 表），高峰時段定義（北京 9-12、14-18）正確，無需改價；只需：`updated` 與驗證句 8/16→8/17、補「V4-Pro 今日正式商用」與「384K 最大輸出」。
+- **Blog**：《DeepSeek Raised Prices Today. Here's the Real Bill.》（709 詞）——實操帳本向，與 8/16 月報的「新聞綜述」錯開：完整價格表、「11 倍」拆解（漲最狠僅為緩存命中輸入 ~12x，輸出 4.5x）、對比 Claude Fable 5（高峰仍便宜 ~13x、非高峰 ~25x）、3 個省錢辦法（錯峰/緩存/選模型）。
+- **驗證**：107 卡全量 ALL OK；blog 0 em dash；`npx next build` 成功；commit 26bb4a7 已推 GitHub 並 `vercel --prod --yes` 部署，blog 與卡片驗證句（August 17, 2026）已確認上線。
