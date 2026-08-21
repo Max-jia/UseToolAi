@@ -53,7 +53,9 @@ export default function NewsletterSignup() {
             <p className="text-sm text-red-600 mb-4">Something went wrong. Please try again or email us directly.</p>
           )}
           <form onSubmit={handleSubmit} className="flex gap-3 max-w-md mx-auto">
+            <label htmlFor="newsletter-email" className="sr-only">Email address</label>
             <input
+              id="newsletter-email"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}

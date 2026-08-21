@@ -350,7 +350,7 @@ export default async function ToolPage({
               <div>
                 <span className="text-xs text-[var(--color-text-muted)] block mb-1">Last Verified</span>
                 {tool.updated ? (
-                  <Link href="/how-we-verify" className="text-xs text-emerald-600 font-medium hover:underline">
+                  <Link href="/how-we-verify" className="text-xs text-emerald-700 font-medium hover:underline">
                     ✓ {formatHumanDate(tool.updated)}
                   </Link>
                 ) : (

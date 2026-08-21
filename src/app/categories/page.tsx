@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { PenLine, Palette, Clapperboard, Terminal, Zap, Mic, TrendingUp, BarChart3, Wrench, type LucideIcon } from "lucide-react";
 import { getAllCategories, getToolsByCategory } from "@/lib/tools";
+import { categoryIcons, fallbackCategoryIcon } from "@/lib/categoryIcons";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,17 +8,6 @@ export const metadata: Metadata = {
   description:
     "Browse every AI tool category: writing, design, video, coding, audio, productivity, automation, marketing, and data analysis. Compare top tools in each category.",
   alternates: { canonical: "/categories" },
-};
-
-const categoryIcons: Record<string, LucideIcon> = {
-  "Writing & Text": PenLine,
-  "Image & Design": Palette,
-  "Video & Animation": Clapperboard,
-  "Productivity": Zap,
-  "Code & Development": Terminal,
-  "Audio & Voice": Mic,
-  "Marketing & SEO": TrendingUp,
-  "Data & Analytics": BarChart3,
 };
 
 export default function CategoriesPage() {
@@ -41,7 +30,7 @@ export default function CategoriesPage() {
         {categories.map((cat) => {
           const tools = getToolsByCategory(cat);
           const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
-          const CategoryIcon = categoryIcons[cat] ?? Wrench;
+          const CategoryIcon = categoryIcons[cat] ?? fallbackCategoryIcon;
           return (
             <Link
               key={cat}

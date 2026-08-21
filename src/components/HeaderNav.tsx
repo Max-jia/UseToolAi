@@ -45,7 +45,7 @@ export default function HeaderNav() {
         <div className="relative flex-shrink-0" ref={ref}>
           <button
             onClick={() => setOpen(!open)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
               open
                 ? "bg-[var(--color-surface)] text-[var(--color-primary)]"
                 : "text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)]"
@@ -79,13 +79,13 @@ export default function HeaderNav() {
 
         {/* Right nav */}
         <div className="flex items-center gap-1 text-sm flex-shrink-0">
-          <Link href="/compare" className="px-2.5 py-1.5 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
+          <Link href="/compare" className="px-2.5 py-2 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
             Compare
           </Link>
-          <Link href="/new" className="px-2.5 py-1.5 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
+          <Link href="/new" className="px-2.5 py-2 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
             New
           </Link>
-          <Link href="/blog" className="px-2.5 py-1.5 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
+          <Link href="/blog" className="px-2.5 py-2 rounded-lg text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface)] transition-colors font-medium">
             Blog
           </Link>
           <div className="ml-1">

@@ -55,7 +55,7 @@ export default function HowWeVerifyPage() {
           Verification is done tool by tool, against the official website or primary documentation. Nothing is automated, and no date is ever backfilled. If we haven't actually re-checked a tool, it honestly shows <em>Not yet verified</em> instead of a fake date.
         </p>
         <p>
-          Every tool page carries a <strong>Last Verified</strong> date — the day we actually checked its pricing and features. When you see <span className="text-emerald-600 font-medium">✓ August 8, 2026</span>, that means someone went to the source that day. Not last year. Not "sometime."
+          Every tool page carries a <strong>Last Verified</strong> date — the day we actually checked its pricing and features. When you see <span className="text-emerald-700 font-medium">✓ August 8, 2026</span>, that means someone went to the source that day. Not last year. Not "sometime."
         </p>
 
         <h2 className="text-xl font-bold text-[var(--color-text)]">What We Found in August 2026</h2>

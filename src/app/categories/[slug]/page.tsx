@@ -172,7 +172,7 @@ export default async function CategoryPage({
                 </Link>
                 <p className="mt-1.5 text-xs">
                   {tool.updated ? (
-                    <Link href="/how-we-verify" className="text-emerald-600 font-medium hover:underline">
+                    <Link href="/how-we-verify" className="text-emerald-700 font-medium hover:underline">
                       ✓ Verified {formatHumanDate(tool.updated)}
                     </Link>
                   ) : (

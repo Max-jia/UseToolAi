@@ -18,7 +18,9 @@ export default function HeroSearch() {
       className="max-w-md mx-auto mb-8"
     >
       <div className="flex gap-2">
+        <label htmlFor="hero-search" className="sr-only">Search AI tools</label>
         <input
+          id="hero-search"
           name="q"
           type="text"
           placeholder="Search 100+ AI tools..."

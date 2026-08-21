@@ -53,7 +53,9 @@ export default function SearchFilter({ tools, categories }: Props) {
       {/* Search & Filter Bar */}
       <div className="bg-white rounded-xl p-4 md:p-5 border border-[var(--color-border)] mb-6">
         <div className="relative mb-3">
+          <label htmlFor="filter-search" className="sr-only">Search tools</label>
           <input
+            id="filter-search"
             type="text"
             placeholder='Search tools... (e.g. "video generator", "free coding", "voice cloning")'
             value={search}
@@ -131,13 +133,13 @@ export default function SearchFilter({ tools, categories }: Props) {
                 <div className="flex items-center gap-2 mt-2 text-xs">
                   <span className="text-[var(--color-text-dim)]">{tool.pricing.split(" / ")[0]}</span>
                   {tool.pricing.toLowerCase().startsWith("free") && (
-                    <span className="text-green-600 font-medium bg-green-50 px-2 py-0.5 rounded-full">Free</span>
+                    <span className="text-green-700 font-medium bg-green-50 px-2 py-0.5 rounded-full">Free</span>
                   )}
                 </div>
               </Link>
               <div className="mt-1.5 text-xs">
                 {tool.updated ? (
-                  <Link href="/how-we-verify" className="text-emerald-600 font-medium hover:underline">
+                  <Link href="/how-we-verify" className="text-emerald-700 font-medium hover:underline">
                     ✓ Verified {formatHumanDate(tool.updated)}
                   </Link>
                 ) : (

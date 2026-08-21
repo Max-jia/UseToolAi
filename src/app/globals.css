@@ -5,7 +5,7 @@
   --color-primary: #6366F1;
   --color-primary-dark: #4F46E5;
   --color-primary-light: #A5B4FC;
-  --color-accent: #059669;
+  --color-accent: #047857;
   --color-accent-warm: #F59E0B;
   --color-bg: #F5F3FF;
   --color-surface: #F1F0FF;
@@ -13,7 +13,7 @@
   --color-card-hover: #F5F3FF;
   --color-text: #1E1B4B;
   --color-text-muted: #64748B;
-  --color-text-dim: #94A3B8;
+  --color-text-dim: #64748B;
   --color-border: #E0E7FF;
   --color-border-light: #EEF2FF;
   --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
@@ -147,4 +147,14 @@ body {
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: 8px;
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

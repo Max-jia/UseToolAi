@@ -222,7 +222,7 @@ export default async function ComparePage({
             </h3>
             {tool.pros && (
               <div className="mb-3">
-                <h4 className="text-xs font-semibold text-green-600 uppercase tracking-wide mb-2">Pros</h4>
+                <h4 className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">Pros</h4>
                 <ul className="space-y-1">
                   {tool.pros.slice(0, 3).map((p, i) => (
                     <li key={i} className="text-xs text-[var(--color-text-muted)]">+ {p}</li>

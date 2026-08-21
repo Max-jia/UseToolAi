@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { PenLine, Palette, Clapperboard, Terminal, FlaskConical, Zap } from "lucide-react";
 import { getAllTools, getAllCategories, getToolsByCategory } from "@/lib/tools";
+import { categoryIcons, fallbackCategoryIcon } from "@/lib/categoryIcons";
 import { SearchProvider } from "@/components/SearchContext";
 import SearchFilter from "@/components/SearchFilter";
 import HeroSearch from "@/components/HeroSearch";
@@ -130,7 +131,7 @@ export default function HomePage() {
               </Link>
               <p className="mt-1.5 text-xs">
                 {tool.updated ? (
-                  <Link href="/how-we-verify" className="text-emerald-600 font-medium hover:underline">
+                  <Link href="/how-we-verify" className="text-emerald-700 font-medium hover:underline">
                     ✓ Verified {formatHumanDate(tool.updated)}
                   </Link>
                 ) : (
@@ -148,47 +149,28 @@ export default function HomePage() {
       {/* Browse by Category */}
       <section className="max-w-6xl mx-auto px-6 pb-12">
         <h2 className="text-lg font-bold mb-6">Browse by Category</h2>
-        {categories.map((cat) => {
-          const catTools = getToolsByCategory(cat);
-          const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
-          return (
-            <div key={cat} className="mb-8">
-              <div className="flex items-center gap-3 mb-3">
-                <Link
-                  href={`/categories/${slug}`}
-                  className="font-semibold text-sm text-[var(--color-text)] hover:text-[var(--color-primary)] transition-colors"
-                >
-                  {cat}
-                </Link>
-                <span className="text-xs text-[var(--color-text-dim)]">{catTools.length} tools</span>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {catTools.slice(0, 3).map((tool) => (
-                  <Link
-                    key={tool.slug}
-                    href={`/tools/${tool.slug}`}
-                    className="group bg-white rounded-lg p-3 border border-[var(--color-border)] hover:border-[var(--color-primary-light)] card-lift flex items-center gap-2.5"
-                  >
-                    <ToolIcon url={tool.url} name={tool.name} size={24} />
-                    <div className="flex-1 min-w-0">
-                      <h4 className="font-medium text-xs truncate group-hover:text-[var(--color-primary)] transition-colors">
-                        {tool.name}
-                      </h4>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-              {catTools.length > 3 && (
-                <Link
-                  href={`/categories/${slug}`}
-                  className="inline-block mt-2 text-xs text-[var(--color-primary)] hover:underline"
-                >
-                  View all {catTools.length} tools →
-                </Link>
-              )}
-            </div>
-          );
-        })}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+          {categories.slice(0, 9).map((cat) => {
+            const catTools = getToolsByCategory(cat);
+            const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
+            const CategoryIcon = categoryIcons[cat] ?? fallbackCategoryIcon;
+            return (
+              <Link
+                key={cat}
+                href={`/categories/${slug}`}
+                className="group bg-white rounded-xl p-4 border border-[var(--color-border)] hover:border-[var(--color-primary-light)] card-lift flex items-center gap-3"
+              >
+                <CategoryIcon className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0" strokeWidth={1.5} />
+                <div className="min-w-0">
+                  <div className="font-semibold text-sm truncate group-hover:text-[var(--color-primary)] transition-colors">
+                    {cat}
+                  </div>
+                  <div className="text-xs text-[var(--color-text-muted)]">{catTools.length} tools</div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
       {/* All tools with search */}
