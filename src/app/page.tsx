@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { PenLine, Palette, Clapperboard, Terminal, FlaskConical, Zap } from "lucide-react";
 import { getAllTools, getAllCategories, getToolsByCategory } from "@/lib/tools";
+import { SearchProvider } from "@/components/SearchContext";
 import SearchFilter from "@/components/SearchFilter";
+import HeroSearch from "@/components/HeroSearch";
 import ToolIcon from "@/components/ToolIcon";
 import NewsletterSignup from "@/components/NewsletterSignup";
-import HeroSearch from "@/components/HeroSearch";
+import { formatHumanDate } from "@/lib/dates";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -40,21 +43,22 @@ function HomepageSchemas({ tools }: { tools: { name: string; slug: string; descr
 }
 
 const TASKS = [
-  { emoji: "✍️", label: "Write content", desc: "AI writing, editing & SEO", href: "/categories/writing-and-text" },
-  { emoji: "🎨", label: "Generate images", desc: "Text-to-image, logos & design", href: "/categories/image-and-design" },
-  { emoji: "🎬", label: "Create videos", desc: "AI video generation & editing", href: "/categories/video-and-animation" },
-  { emoji: "💻", label: "Build with code", desc: "AI coding assistants & agents", href: "/categories/code-and-development" },
-  { emoji: "🔬", label: "Research & analyze", desc: "Deep research, data & facts", href: "/categories/data-and-analysis" },
-  { emoji: "⚡", label: "Boost productivity", desc: "Meetings, notes & workflows", href: "/categories/productivity" },
+  { icon: PenLine, label: "Write content", desc: "AI writing, editing & SEO", href: "/categories/writing-and-text" },
+  { icon: Palette, label: "Generate images", desc: "Text-to-image, logos & design", href: "/categories/image-and-design" },
+  { icon: Clapperboard, label: "Create videos", desc: "AI video generation & editing", href: "/categories/video-and-animation" },
+  { icon: Terminal, label: "Build with code", desc: "AI coding assistants & agents", href: "/categories/code-and-development" },
+  { icon: FlaskConical, label: "Research & analyze", desc: "Deep research, data & facts", href: "/categories/data-and-analytics" },
+  { icon: Zap, label: "Boost productivity", desc: "Meetings, notes & workflows", href: "/categories/productivity" },
 ];
 
 export default function HomePage() {
   const tools = getAllTools();
   const categories = getAllCategories();
-  const topTools = tools.filter((t) => t.rating >= 4.5).slice(0, 9);
+  const topTools = tools.filter((t) => t.rating >= 4.5 && t.updated).slice(0, 9);
 
   return (
-    <div>
+    <SearchProvider>
+      <div>
       <HomepageSchemas tools={topTools} />
       {/* Hero — task-oriented */}
       <section className="bg-white border-b border-[var(--color-border)] relative overflow-hidden">
@@ -82,7 +86,9 @@ export default function HomePage() {
                 href={task.href}
                 className="group bg-white rounded-xl p-4 border border-[var(--color-border)] hover:border-[var(--color-primary-light)] card-lift text-center"
               >
-                <div className="text-2xl mb-2">{task.emoji}</div>
+                <div className="mb-2 flex justify-center">
+                  <task.icon className="w-6 h-6 text-[var(--color-primary)]" strokeWidth={1.5} />
+                </div>
                 <div className="font-semibold text-sm text-[var(--color-text)] group-hover:text-[var(--color-primary)] transition-colors">
                   {task.label}
                 </div>
@@ -100,28 +106,38 @@ export default function HomePage() {
         <h2 className="text-lg font-bold mb-6">Featured Tools</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {topTools.map((tool) => (
-            <Link
+            <div
               key={tool.slug}
-              href={`/tools/${tool.slug}`}
               className="group bg-white rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary-light)] card-lift"
             >
-              <div className="flex items-center gap-3 mb-1.5">
-                <ToolIcon url={tool.url} name={tool.name} size={28} />
-                <h3 className="font-semibold text-sm group-hover:text-[var(--color-primary)] transition-colors">
-                  {tool.name}
-                </h3>
-              </div>
-              <p className="text-xs text-[var(--color-text-muted)] leading-relaxed line-clamp-2">
-                {tool.description}
-              </p>
+              <Link href={`/tools/${tool.slug}`} className="block">
+                <div className="flex items-center gap-3 mb-1.5">
+                  <ToolIcon url={tool.url} name={tool.name} size={28} />
+                  <h3 className="font-semibold text-sm group-hover:text-[var(--color-primary)] transition-colors">
+                    {tool.name}
+                  </h3>
+                </div>
+                <p className="text-xs text-[var(--color-text-muted)] leading-relaxed line-clamp-2">
+                  {tool.description}
+                </p>
+                <div className="mt-1.5 flex items-center gap-2 text-xs">
+                  <span className="text-[var(--color-text-dim)]">{tool.pricing.split(" / ")[0]}</span>
+                  <span className="stars text-xs tracking-wider">
+                    {"★".repeat(Math.floor(tool.rating))}
+                    {"☆".repeat(5 - Math.floor(tool.rating))}
+                  </span>
+                </div>
+              </Link>
               <p className="mt-1.5 text-xs">
                 {tool.updated ? (
-                  <span className="text-emerald-600 font-medium">✓ Verified {tool.updated}</span>
+                  <Link href="/how-we-verify" className="text-emerald-600 font-medium hover:underline">
+                    ✓ Verified {formatHumanDate(tool.updated)}
+                  </Link>
                 ) : (
                   <span className="text-[var(--color-text-dim)]">Not yet verified</span>
                 )}
               </p>
-            </Link>
+            </div>
           ))}
         </div>
       </section>
@@ -176,10 +192,11 @@ export default function HomePage() {
       </section>
 
       {/* All tools with search */}
-      <section className="max-w-6xl mx-auto px-6 pb-20">
+      <section id="all-tools" className="max-w-6xl mx-auto px-6 pb-20">
         <h2 className="text-lg font-bold mb-6">All Tools</h2>
         <SearchFilter tools={tools} categories={categories} />
       </section>
     </div>
+    </SearchProvider>
   );
 }

@@ -1,12 +1,17 @@
 "use client";
 
+import { useSearch } from "@/components/SearchContext";
+
 export default function HeroSearch() {
+  const { setQuery } = useSearch();
+
   return (
     <form
       onSubmit={(e) => {
         e.preventDefault();
         const input = (e.currentTarget.elements.namedItem("q") as HTMLInputElement);
-        if (input?.value) {
+        if (input?.value.trim()) {
+          setQuery(input.value.trim());
           document.getElementById("all-tools")?.scrollIntoView({ behavior: "smooth" });
         }
       }}

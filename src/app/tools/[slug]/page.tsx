@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import ReactMarkdown from "./MarkdownContent";
 import AdSlot from "@/components/AdSlot";
 import ToolIcon from "@/components/ToolIcon";
+import { formatHumanDate } from "@/lib/dates";
 
 export function generateStaticParams() {
   return getAllTools().map((tool) => ({ slug: tool.slug }));
@@ -245,7 +246,7 @@ export default async function ToolPage({
                 {tool.pros && tool.pros.length > 0 && (
                   <div>
                     <h3 className="font-semibold text-green-700 mb-3 text-sm uppercase tracking-wide">
-                      ✅ Pros
+                      ✓ Pros
                     </h3>
                     <ul className="space-y-2">
                       {tool.pros.map((p, i) => (
@@ -260,7 +261,7 @@ export default async function ToolPage({
                 {tool.cons && tool.cons.length > 0 && (
                   <div>
                     <h3 className="font-semibold text-red-600 mb-3 text-sm uppercase tracking-wide">
-                      ❌ Cons
+                      ✗ Cons
                     </h3>
                     <ul className="space-y-2">
                       {tool.cons.map((c, i) => (
@@ -349,7 +350,9 @@ export default async function ToolPage({
               <div>
                 <span className="text-xs text-[var(--color-text-muted)] block mb-1">Last Verified</span>
                 {tool.updated ? (
-                  <span className="text-xs text-emerald-600 font-medium">✓ {tool.updated}</span>
+                  <Link href="/how-we-verify" className="text-xs text-emerald-600 font-medium hover:underline">
+                    ✓ {formatHumanDate(tool.updated)}
+                  </Link>
                 ) : (
                   <span className="text-xs text-[var(--color-text-dim)]">Not yet verified</span>
                 )}

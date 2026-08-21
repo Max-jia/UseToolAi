@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PenLine, Palette, Clapperboard, Terminal, Zap, Mic, TrendingUp, BarChart3, Wrench, type LucideIcon } from "lucide-react";
 import { getAllCategories, getToolsByCategory } from "@/lib/tools";
 import type { Metadata } from "next";
 
@@ -9,15 +10,15 @@ export const metadata: Metadata = {
   alternates: { canonical: "/categories" },
 };
 
-const categoryIcons: Record<string, string> = {
-  "Writing & Text": "✍️",
-  "Image & Design": "🎨",
-  "Video & Animation": "🎬",
-  "Productivity": "⚡",
-  "Code & Development": "💻",
-  "Audio & Voice": "🎵",
-  "Marketing & SEO": "📈",
-  "Data & Analytics": "📊",
+const categoryIcons: Record<string, LucideIcon> = {
+  "Writing & Text": PenLine,
+  "Image & Design": Palette,
+  "Video & Animation": Clapperboard,
+  "Productivity": Zap,
+  "Code & Development": Terminal,
+  "Audio & Voice": Mic,
+  "Marketing & SEO": TrendingUp,
+  "Data & Analytics": BarChart3,
 };
 
 export default function CategoriesPage() {
@@ -40,13 +41,16 @@ export default function CategoriesPage() {
         {categories.map((cat) => {
           const tools = getToolsByCategory(cat);
           const slug = cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and");
+          const CategoryIcon = categoryIcons[cat] ?? Wrench;
           return (
             <Link
               key={cat}
               href={`/categories/${slug}`}
               className="bg-[var(--color-card)] rounded-2xl p-6 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-md transition-all group flex items-start gap-5"
             >
-              <div className="text-4xl flex-shrink-0 mt-1">{categoryIcons[cat] || "🔧"}</div>
+              <div className="flex-shrink-0 mt-1">
+                <CategoryIcon className="w-9 h-9 text-[var(--color-primary)]" strokeWidth={1.5} />
+              </div>
               <div>
                 <h3 className="font-bold text-lg mb-1 group-hover:text-[var(--color-primary)] transition-colors">
                   {cat}

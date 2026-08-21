@@ -5,6 +5,7 @@ import { getCategoryContent } from "@/lib/categoryContent";
 import type { Metadata } from "next";
 import ToolIcon from "@/components/ToolIcon";
 import ToolCardGrid from "@/components/ToolCardGrid";
+import { formatHumanDate } from "@/lib/dates";
 
 export function generateStaticParams() {
   const cats = getAllCategories();
@@ -150,32 +151,35 @@ export default async function CategoryPage({
           <h2 className="text-lg font-bold mb-4">Top rated in {category}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {topTools.map((tool) => (
-              <Link
+              <div
                 key={tool.slug}
-                href={`/tools/${tool.slug}`}
                 className="group bg-[var(--color-card)] rounded-xl p-5 border border-[var(--color-border)] hover:border-[var(--color-primary)] hover:shadow-sm transition-all"
               >
-                <div className="flex items-center gap-3 mb-2">
-                  <ToolIcon url={tool.url} name={tool.name} size={32} />
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-sm group-hover:text-[var(--color-primary)] transition-colors truncate">
-                      {tool.name}
-                    </h3>
-                    <span className="stars text-xs tracking-wider">
-                      {"★".repeat(Math.floor(tool.rating))}
-                      {"☆".repeat(5 - Math.floor(tool.rating))}
-                    </span>
+                <Link href={`/tools/${tool.slug}`} className="block">
+                  <div className="flex items-center gap-3 mb-2">
+                    <ToolIcon url={tool.url} name={tool.name} size={32} />
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-semibold text-sm group-hover:text-[var(--color-primary)] transition-colors truncate">
+                        {tool.name}
+                      </h3>
+                      <span className="stars text-xs tracking-wider">
+                        {"★".repeat(Math.floor(tool.rating))}
+                        {"☆".repeat(5 - Math.floor(tool.rating))}
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <p className="text-xs text-[var(--color-text-muted)] line-clamp-2">{tool.description}</p>
+                  <p className="text-xs text-[var(--color-text-muted)] line-clamp-2">{tool.description}</p>
+                </Link>
                 <p className="mt-1.5 text-xs">
                   {tool.updated ? (
-                    <span className="text-emerald-600 font-medium">✓ Verified {tool.updated}</span>
+                    <Link href="/how-we-verify" className="text-emerald-600 font-medium hover:underline">
+                      ✓ Verified {formatHumanDate(tool.updated)}
+                    </Link>
                   ) : (
                     <span className="text-[var(--color-text-dim)]">Not yet verified</span>
                   )}
                 </p>
-              </Link>
+              </div>
             ))}
           </div>
         </section>

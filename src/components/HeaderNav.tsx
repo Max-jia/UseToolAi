@@ -2,17 +2,18 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { PenLine, Palette, Clapperboard, Terminal, Zap, Mic, TrendingUp, BarChart3 } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const categories = [
-  { name: "Writing & Text", icon: "✍️" },
-  { name: "Image & Design", icon: "🎨" },
-  { name: "Video & Animation", icon: "🎬" },
-  { name: "Code & Development", icon: "💻" },
-  { name: "Productivity", icon: "⚡" },
-  { name: "Audio & Voice", icon: "🎙️" },
-  { name: "Marketing & SEO", icon: "📈" },
-  { name: "Data & Analysis", icon: "📊" },
+  { name: "Writing & Text", icon: PenLine },
+  { name: "Image & Design", icon: Palette },
+  { name: "Video & Animation", icon: Clapperboard },
+  { name: "Code & Development", icon: Terminal },
+  { name: "Productivity", icon: Zap },
+  { name: "Audio & Voice", icon: Mic },
+  { name: "Marketing & SEO", icon: TrendingUp },
+  { name: "Data & Analytics", icon: BarChart3 },
 ];
 
 export default function HeaderNav() {
@@ -65,7 +66,7 @@ export default function HeaderNav() {
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 px-4 py-2.5 hover:bg-[var(--color-surface)] transition-colors text-sm"
                 >
-                  <span className="text-base">{cat.icon}</span>
+                  <cat.icon className="w-4 h-4 text-[var(--color-text-muted)]" strokeWidth={1.75} />
                   <span className="font-medium text-[var(--color-text)]">{cat.name}</span>
                 </Link>
               ))}
