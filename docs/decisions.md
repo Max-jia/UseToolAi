@@ -54,3 +54,9 @@
 - **覆核結果**：卡內數字與官方頁完全一致（美元 $0.007-3.96 表 / 人民幣 ¥0.05-27 表），高峰時段定義（北京 9-12、14-18）正確，無需改價；只需：`updated` 與驗證句 8/16→8/17、補「V4-Pro 今日正式商用」與「384K 最大輸出」。
 - **Blog**：《DeepSeek Raised Prices Today. Here's the Real Bill.》（709 詞）——實操帳本向，與 8/16 月報的「新聞綜述」錯開：完整價格表、「11 倍」拆解（漲最狠僅為緩存命中輸入 ~12x，輸出 4.5x）、對比 Claude Fable 5（高峰仍便宜 ~13x、非高峰 ~25x）、3 個省錢辦法（錯峰/緩存/選模型）。
 - **驗證**：107 卡全量 ALL OK；blog 0 em dash；`npx next build` 成功；commit 26bb4a7 已推 GitHub 並 `vercel --prod --yes` 部署，blog 與卡片驗證句（August 17, 2026）已確認上線。
+
+## 2026-08-22 — 首页体检修复 + 全站图标升级（commit fed30db）
+
+- **背景**：impeccable critique 体检（19/32 分，模板级设计）。用户决策：P0+P1 全修、不碰视觉、emoji 换 Lucide 线性图标（保留 ✓ 核实标记与 ★☆ 星级文本符号）。
+- **修复**：① 搜索 bug——HeroSearch 提交后 scrollIntoView 到不存在的 #all-tools 且查询词不传递；新增 SearchContext（client Provider 包全页），hero 提交 → 写入 context → 底部 SearchFilter 同步；补 #all-tools 锚点。② 首页精选卡新增首档价格 + 星级行；未验证卡（缺 updated）撤出精选。③ 信任系统——新增 formatHumanDate（纯字符串，无时区坑），全站徽章日期 ISO→「August 17, 2026」；徽章全部链到 /how-we-verify（卡片拆为两段链接，规避 <a> 嵌套）；how-we-verify 页示例日期同步。④ 双死链——首页任务卡 data-and-analysis→data-and-analytics，导航「Data & Analysis」改「Data & Analytics」（原 slug 亦 404）。⑤ 全站彩色 emoji→Lucide（任务卡/导航/分类页/搜索区放大镜/✅❌→✓✗/☀🌙→Sun Moon）。
+- **验证**：npm run build 通过；本地 3001 抽查——首页 200、新分类路径 200、旧路径 404、#all-tools 存在、徽章链接与「August 17, 2026」渲染正确、全站 0 彩色 emoji；commit fed30db 已提交（部署待授权）。
