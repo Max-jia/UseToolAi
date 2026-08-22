@@ -60,3 +60,9 @@
 - **背景**：impeccable critique 体检（19/32 分，模板级设计）。用户决策：P0+P1 全修、不碰视觉、emoji 换 Lucide 线性图标（保留 ✓ 核实标记与 ★☆ 星级文本符号）。
 - **修复**：① 搜索 bug——HeroSearch 提交后 scrollIntoView 到不存在的 #all-tools 且查询词不传递；新增 SearchContext（client Provider 包全页），hero 提交 → 写入 context → 底部 SearchFilter 同步；补 #all-tools 锚点。② 首页精选卡新增首档价格 + 星级行；未验证卡（缺 updated）撤出精选。③ 信任系统——新增 formatHumanDate（纯字符串，无时区坑），全站徽章日期 ISO→「August 17, 2026」；徽章全部链到 /how-we-verify（卡片拆为两段链接，规避 <a> 嵌套）；how-we-verify 页示例日期同步。④ 双死链——首页任务卡 data-and-analysis→data-and-analytics，导航「Data & Analysis」改「Data & Analytics」（原 slug 亦 404）。⑤ 全站彩色 emoji→Lucide（任务卡/导航/分类页/搜索区放大镜/✅❌→✓✗/☀🌙→Sun Moon）。
 - **验证**：npm run build 通过；本地 3001 抽查——首页 200、新分类路径 200、旧路径 404、#all-tools 存在、徽章链接与「August 17, 2026」渲染正确、全站 0 彩色 emoji；commit fed30db 已提交（部署待授权）。
+
+## 2026-08-22 — 首页瘦身 + 无障碍修复（commit c090834）
+
+- **背景**：impeccable audit 技术审计（14/20 分；A11y 2/4、Perf 3/4、Theming 3/4、Responsive 3/4、Integrity 3/4）。用户决策：先 audit 再动工，合并「首页瘦身 + 无障碍」一次做完。
+- **修复**：① 首页分类墙 45 大卡 → 9 徽章网格（grid-cols-2/3/5，图标+分类名+工具数，顶 9 个分类）；共享 categoryIcons.tsx 供首页与 /categories 复用。② 无障碍——3 个表单（hero 搜索、筛选搜索、订阅邮箱）补 sr-only label；导航触摸目标加高至 44px；globals.css 加 prefers-reduced-motion 全局开关（动画/过渡/平滑滚动全部归零）。③ 对比度——浅色模式 --color-text-dim #94A3B8→#64748B（2.6:1→4.7:1）、--color-accent #059669→#047857（3.8:1→5.5:1）；全站 5 处 text-emerald-600→emerald-700；SearchFilter Free 徽章、compare 页 Pros 标题 green-600→green-700。红色系 #DC2626（4.8:1）达标未动。
+- **验证**：npm run build 零报错；本地 3001 抽查（9 徽章、3 label、py-2、reduced-motion 进编译 CSS、新色值）；部署后线上复检——分类链接 unique=9、sr-only=3、emerald-700×125、reduced-motion 在线上 CSS；commit c090834 已部署生产。
