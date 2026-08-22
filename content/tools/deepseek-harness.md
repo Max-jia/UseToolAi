@@ -5,7 +5,7 @@ category: "Code & Development"
 pricing: "Free, open-source — run cost is the API fees of the models you plug in"
 url: "https://www.deepseek.com/harness/"
 rating: 4
-updated: "2026-08-16"
+updated: "2026-08-22"
 tags: ["agent", "open-source", "framework", "developer", "plugin", "deepseek"]
 features:
   - "Everything is a plugin: tasks load only the components they need and unload them when done"
@@ -14,7 +14,10 @@ features:
   - "Four execution modes: direct tasks, Goal mode for long multi-round jobs, background sub-agents, and Workflow mode that orchestrates many agents via JavaScript"
   - "Ralph Loop: each round spawns a fresh memory-less agent that keeps long-term memory only through a shared workspace"
   - "PTC mode (programmatic tool calling): compresses five model round-trips into one"
-  - "28K GitHub stars on launch day"
+  - "Multimodal input: /goal and /plan accept images, and the @ menu references files and sessions (v0.1.0-rc.8)"
+  - "The DeepSeek adapter runs the V4-Flash-Vision-Exp visual model (v0.1.1-rc.1)"
+  - "Claude Code and Codex subagents installable as plugins on demand (Profile Bundles, v0.1.0-rc.8)"
+  - "28K GitHub stars on launch day — over 183K within its first week"
 pros:
   - "Extreme token savings: the same task cost about ¥0.59 with DSH plus V4 Pro versus roughly ¥70 for Claude Fable 5 (about 120x cheaper), with cache hit rates reported up to 99%"
   - "Plugin architecture lets components evolve independently — DeepSeek's pitch is a framework that can modify itself"
@@ -27,7 +30,7 @@ cons:
   - "Early-stage: closed beta with signed NDAs until mid-August, and the plugin ecosystem is young"
 coreStrength: "An agent framework where every component is a removable plugin with reversible effects — built to squeeze maximum work from every token and to keep improving its own architecture."
 bestFor: "Developers and agent builders who are comfortable with the command line. Best for: custom agent workflows, high-volume token tasks, teams that want agent infrastructure on their own machines. Not for: non-developers or anyone expecting a click-to-install tool."
-pricingDetails: "Free and open-source. Costs come from the model APIs you plug in; DeepSeek's V4 Pro pairs best, and the caching architecture (up to 99% hit rates in testing) is where the savings come from. Note: DeepSeek API prices rose on August 17, 2026 with peak/off-peak tiers."
+pricingDetails: "Free and open-source. Costs come from the model APIs you plug in; DeepSeek's V4 Pro pairs best, and the caching architecture (up to 99% hit rates in testing) is where the savings come from. Official prices after the August 17, 2026 increase (per 1M tokens): V4 Flash cache-hit input from $0.007 and output from $0.66 (off-peak, halved from peak; peak hours are 01:00–04:00 and 06:00–10:00 UTC). The 120x savings figure from launch reviews was measured against pre-August-17 pricing."
 alternatives:
   - name: "Claude Code"
     slug: "claude-code"
@@ -39,4 +42,4 @@ alternatives:
 
 DeepSeek Harness (DSH) and Grok Bot launched within days of each other in August 2026, and they could hardly disagree more about where an agent should live. Grok Bot gives you a managed teammate whose computer the vendor controls. DSH says the computer is yours: it is an open-source framework where every component, including the model and the agent loop itself, is a removable plugin. The design comes from a paper co-authored with Peking University on spatiotemporal composability, and the practical consequence is two features that matter: reversible effects, so uninstalling a plugin rolls back every change it made, and hot module replacement, so you swap plugins live without restarting the whole system.
 
-The numbers in the launch reviews are the real story. The same task that cost about $9.80 in Claude Fable 5 tokens ran for roughly ¥0.59 on DSH paired with DeepSeek V4 Pro, about 120x cheaper, helped by cache hit rates that testers measured as high as 99%. That is the honest reason to look at DSH even after DeepSeek's August price increase: it does not make the model cheap, it makes the model spend nothing on waste. The trade-offs are equally real. Installation needs Node.js and npm from GitHub, there is no double-click installer, and the web-based UI is a deliberate break from desktop agent tools. It is also early: the beta required an application and an NDA until mid-August, and the plugin ecosystem is thin. For a developer who wants agent infrastructure on their own machines, this is currently the most interesting open option. For everyone else, Grok Bot or Claude Code remain the easier doors in. Pricing checked August 16, 2026.
+The numbers in the launch reviews are the real story. The same task that cost about $9.80 in Claude Fable 5 tokens ran for roughly ¥0.59 on DSH paired with DeepSeek V4 Pro, about 120x cheaper, helped by cache hit rates that testers measured as high as 99% — measured against DeepSeek's pre-August-17 pricing. That is the honest reason to look at DSH even after the price increase: it does not make the model cheap, it makes the model spend nothing on waste. Current official rates start at $0.007 per 1M cache-hit input tokens for V4 Flash (off-peak), so the caching bet still pays. The trade-offs are equally real. Installation needs Node.js and npm from GitHub, there is no double-click installer, and the web-based UI is a deliberate break from desktop agent tools. It is also early: the beta required an application and an NDA until mid-August, and the plugin ecosystem is thin. For a developer who wants agent infrastructure on their own machines, this is currently the most interesting open option. For everyone else, Grok Bot or Claude Code remain the easier doors in. Pricing checked August 22, 2026.
