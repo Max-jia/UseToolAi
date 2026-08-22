@@ -66,3 +66,10 @@
 - **背景**：impeccable audit 技术审计（14/20 分；A11y 2/4、Perf 3/4、Theming 3/4、Responsive 3/4、Integrity 3/4）。用户决策：先 audit 再动工，合并「首页瘦身 + 无障碍」一次做完。
 - **修复**：① 首页分类墙 45 大卡 → 9 徽章网格（grid-cols-2/3/5，图标+分类名+工具数，顶 9 个分类）；共享 categoryIcons.tsx 供首页与 /categories 复用。② 无障碍——3 个表单（hero 搜索、筛选搜索、订阅邮箱）补 sr-only label；导航触摸目标加高至 44px；globals.css 加 prefers-reduced-motion 全局开关（动画/过渡/平滑滚动全部归零）。③ 对比度——浅色模式 --color-text-dim #94A3B8→#64748B（2.6:1→4.7:1）、--color-accent #059669→#047857（3.8:1→5.5:1）；全站 5 处 text-emerald-600→emerald-700；SearchFilter Free 徽章、compare 页 Pros 标题 green-600→green-700。红色系 #DC2626（4.8:1）达标未动。
 - **验证**：npm run build 零报错；本地 3001 抽查（9 徽章、3 label、py-2、reduced-motion 进编译 CSS、新色值）；部署后线上复检——分类链接 unique=9、sr-only=3、emerald-700×125、reduced-motion 在线上 CSS；commit c090834 已部署生产。
+
+## 2026-08-23 — 4 篇新内容页 + DeepSeek Harness 卡更新（commit f82c17a）
+
+- **背景**：用户要求「查最近新 AI 工具，是否有值得写的内容」，评估后确认 4 个选题；工作流走完需求确认→计划批准→编写→自检→部署授权。
+- **内容**：① 周报《August 2026 Launch Roundup, Part 2》（8/15-21：Wizstar 319 票登顶、fx 8 MiB 可嵌入、Harness 三天三版、Astute/Clara B2B 路线）；② MiniMax Design 评测（15 秒 H3→3 分钟成片的编排层思路；定价未公布，诚实不写）；③ DeepSeek V4-Flash-Vision-Exp 评测（¥1/¥2/¥0.02、384 token/图封顶≈¥0.000384，官方价格页核实）；④ 观点文《AI Quit Building Its Own Apps》（dev.to 6 月素材 + 8 月证据）。全部英文、无 em dash、验证句与 frontmatter 日期对齐。
+- **自检修正（审阅者视角）**：工具卡多模态归属 v0.1.1-rc.1→实为 v0.1.0-rc.8（GitHub release notes 复核）；周报 rc.8→rc.1→rc.2 补全版本前缀防倒退误读；删除未核实的「本月 top3」断言；删除素材外编造的帖子作者名与标题（不造假底线）；结尾来源声明措辞修正。
+- **验证**：next build 零报错；本地 5 页 200；线上 usetoolai.com 5 页 200 且内容为修正版（rc 归属 ×4/×2、完整版号、无残留）；commit f82c17a 已推 GitHub 并 `vercel --prod --yes` 部署生产。
